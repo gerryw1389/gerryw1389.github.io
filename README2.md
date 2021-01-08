@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Site
 Migration from self-hosted Wordpress => Jeykll on Github Pages
 
@@ -107,3 +108,7 @@ Migration from self-hosted Wordpress => Jeykll on Github Pages
 
 ### DISCLAIMER 
 See [Parent Theme](https://github.com/mmistakes/minimal-mistakes) for any licenses with anything outside of `_posts`. Please see the MIT [license](./LICENSE) for licensing for my content inside `_posts`. 
+=======
+# gerryw1389.github.io
+Github Pages Site
+>>>>>>> 7ea071da47ddc93e01a73ec9d312a0e5c8285b0b
