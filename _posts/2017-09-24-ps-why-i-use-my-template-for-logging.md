@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-Logging is an essential function for scripting because it not only can display text to a screen, but it records times that scripts have ran and their associated output. I found a couple examples from the Microsoft Script Center and have since incorporated them into my [PS Template Script](https://github.com/gerryw1389/powershell/blob/master/Other/templates/_current-template-w-logging.ps1).
+Logging is an essential function for scripting because it not only can display text to a screen, but it records times that scripts have ran and their associated output. I found a couple examples from the Microsoft Script Center and have since incorporated them into my [PS Template Script](https://github.com/gerryw1389/powershell/blob/main/Other/templates/_current-template-w-logging.ps1).
 
 ### To Resolve:
 

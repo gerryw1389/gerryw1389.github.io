@@ -792,4 +792,4 @@ This script is used to generate random passwords.
    Generateform
    ```
 
-2. Source is maintained under [gwSecurity](https://github.com/gerryw1389/powershell/blob/master/gwSecurity/Public/Invoke-Password.ps1)
+2. Source is maintained under [gwSecurity](https://github.com/gerryw1389/powershell/blob/main/gwSecurity/Public/Invoke-Password.ps1)

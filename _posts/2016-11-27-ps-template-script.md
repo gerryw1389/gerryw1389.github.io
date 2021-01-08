@@ -19,9 +19,9 @@ When writing PS Scripts, I find it helpful to come up with a template type syste
 
 ### To Resolve:
 
-1. These have been moved to my [Github](https://github.com/gerryw1389/powershell/tree/master/Other/templates)
+1. These have been moved to my [Github](https://github.com/gerryw1389/powershell/tree/main/Other/templates)
 
-2. [My current script](https://github.com/gerryw1389/powershell/blob/master/Other/templates/_current-template-w-logging.ps1) will create a folder in the script's running directory called `PSLogs` and will have a `2019-01-01-function-name.log` file associated with it. The good thing about this setup is that since it uses `Start-Transcript`, it will record any errors that would normally show on the console. This has been my template for the last two years!
+2. [My current script](https://github.com/gerryw1389/powershell/blob/main/Other/templates/_current-template-w-logging.ps1) will create a folder in the script's running directory called `PSLogs` and will have a `2019-01-01-function-name.log` file associated with it. The good thing about this setup is that since it uses `Start-Transcript`, it will record any errors that would normally show on the console. This has been my template for the last two years!
  
 3. Older scripts like the one that writes to the Event Viewer may be more practical for you, what they do is:
    - It creates a file at `c:\scripts\scriptname` automatically for each script.

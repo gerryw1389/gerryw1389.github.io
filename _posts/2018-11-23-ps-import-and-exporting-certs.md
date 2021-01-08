@@ -19,7 +19,7 @@ So as part of the provisioning process, many companies will have their servers i
 
 ### To Resolve:
 
-1. Go to my [gwSecurity](https://github.com/gerryw1389/powershell/tree/master/gwSecurity/Public) section on Github and run the scripts for importing and exporting certificates.
+1. Go to my [gwSecurity](https://github.com/gerryw1389/powershell/tree/main/gwSecurity/Public) section on Github and run the scripts for importing and exporting certificates.
 
    - The `Request-NewCert` will create a CSR that you can run through a third party CA and get the .cer file to import.
 

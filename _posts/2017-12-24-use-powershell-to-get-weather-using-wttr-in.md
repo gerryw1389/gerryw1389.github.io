@@ -24,4 +24,4 @@ Note: This doesn't always play well with the ISE, it's best to just put it in a 
 
 ### To Resolve:
 
-1. Function - [Get-Weather](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Get-Weather.ps1)
+1. Function - [Get-Weather](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Get-Weather.ps1)

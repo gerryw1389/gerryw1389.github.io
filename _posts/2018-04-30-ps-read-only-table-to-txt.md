@@ -26,7 +26,7 @@ So the other day I was going through a web GUI for our Exchange and needed to ed
 
    <img class="alignnone size-full wp-image-5409" src="https://automationadmin.com/assets/images/uploads/2018/04/2.png" alt="" width="1416" height="478" srcset="https://automationadmin.com/assets/images/uploads/2018/04/2.png 1416w, https://automationadmin.com/assets/images/uploads/2018/04/2-300x101.png 300w, https://automationadmin.com/assets/images/uploads/2018/04/2-768x259.png 768w, https://automationadmin.com/assets/images/uploads/2018/04/2-1024x346.png 1024w" sizes="(max-width: 1416px) 100vw, 1416px" /> 
 
-3. Paste that into a text file. Now just run my [Get-ExtractedEmailAddresses](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Get-ExtractedEmailAddresses.ps1) script so I can get only the emails from this block of HTML. Result:
+3. Paste that into a text file. Now just run my [Get-ExtractedEmailAddresses](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Get-ExtractedEmailAddresses.ps1) script so I can get only the emails from this block of HTML. Result:
 
    <img class="alignnone size-full wp-image-5410" src="https://automationadmin.com/assets/images/uploads/2018/04/3.jpg" alt="" width="265" height="656" srcset="https://automationadmin.com/assets/images/uploads/2018/04/3.jpg 265w, https://automationadmin.com/assets/images/uploads/2018/04/3-121x300.jpg 121w" sizes="(max-width: 265px) 100vw, 265px" /> 
 

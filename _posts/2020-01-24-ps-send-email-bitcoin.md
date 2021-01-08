@@ -18,4 +18,4 @@ I have the following scheduled tasks set to run hourly.
 
 ### To Resolve
 
-1. [This function](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Get-BitcoinPrice.ps1) will run hourly and send me an email if bitcoin goes below a certain threshold.
+1. [This function](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Get-BitcoinPrice.ps1) will run hourly and send me an email if bitcoin goes below a certain threshold.

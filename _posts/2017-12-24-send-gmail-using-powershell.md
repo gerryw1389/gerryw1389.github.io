@@ -43,4 +43,4 @@ This script template will allow you to send emails from a Powershell script.
      -Credential (Get-Credential -Credential "from@gmail.com")
    ```
 
-2. Source is maintained under [gwNetworking](https://github.com/gerryw1389/powershell/blob/master/gwNetworking/Public/Send-Gmail.ps1)
+2. Source is maintained under [gwNetworking](https://github.com/gerryw1389/powershell/blob/main/gwNetworking/Public/Send-Gmail.ps1)

@@ -21,6 +21,6 @@ AD health checks are a must have task for Windows Systems Administrators. I set 
 
 1. Copy and paste these scripts to your domain controller. Set as .ps1 files and setup scheduled tasks with them.
 
-   - [Send-ADDCDiagReport](https://github.com/gerryw1389/powershell/blob/master/gwActiveDirectory/Public/Send-ADDCDiagReport.ps1)
-   - [Send-ADHealthReport](https://github.com/gerryw1389/powershell/blob/master/gwActiveDirectory/Public/Send-ADHealthReport.ps1)
-   - [Watch-ADReplicationStatus](https://github.com/gerryw1389/powershell/blob/master/gwActiveDirectory/Public/Watch-ADReplicationStatus.ps1)
+   - [Send-ADDCDiagReport](https://github.com/gerryw1389/powershell/blob/main/gwActiveDirectory/Public/Send-ADDCDiagReport.ps1)
+   - [Send-ADHealthReport](https://github.com/gerryw1389/powershell/blob/main/gwActiveDirectory/Public/Send-ADHealthReport.ps1)
+   - [Watch-ADReplicationStatus](https://github.com/gerryw1389/powershell/blob/main/gwActiveDirectory/Public/Watch-ADReplicationStatus.ps1)

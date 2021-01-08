@@ -18,4 +18,4 @@ I have this scheduled task set to the following schedule: Start at 9AM M-F, repe
 
 ### To Resolve
 
-1. [This function](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Start-TimeTracker.ps1) pops up a window and asks you what you are working on, it then records the answer to a log file. I used to use this often but have since disabled it, just posting in case anyone finds it useful.
+1. [This function](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Start-TimeTracker.ps1) pops up a window and asks you what you are working on, it then records the answer to a log file. I used to use this often but have since disabled it, just posting in case anyone finds it useful.

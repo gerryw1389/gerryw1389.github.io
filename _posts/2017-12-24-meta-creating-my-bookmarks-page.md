@@ -63,4 +63,4 @@ Essentially:
    $a | Out-File '.\Completed.html'
    ```
 
-2. Source is maintained under [gwNetworking](https://github.com/gerryw1389/powershell/blob/master/gwNetworking/Public/Convert-Bookmarks.ps1)
+2. Source is maintained under [gwNetworking](https://github.com/gerryw1389/powershell/blob/main/gwNetworking/Public/Convert-Bookmarks.ps1)

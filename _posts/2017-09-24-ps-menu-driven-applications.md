@@ -581,4 +581,4 @@ Essentially, the three types of applications I have made with Powershell are eit
    }
    ```
 
-5. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Invoke-CustomMenu.ps1)
+5. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Invoke-CustomMenu.ps1)

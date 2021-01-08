@@ -95,4 +95,4 @@ Sends common Ascii commands to your clipboard.
    }
    ```
 
-2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Send-AsciiToClipboard.ps1)
+2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Send-AsciiToClipboard.ps1)

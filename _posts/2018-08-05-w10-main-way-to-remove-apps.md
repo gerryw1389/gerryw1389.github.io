@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-So I Have my [Set-Template](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-Template.ps1) script that I use to provision OEM machines to a default &#8220;standard&#8221;. Here is a way to run it once on the default profile and not have to worry about new users getting those pesky cloud apps.
+So I Have my [Set-Template](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-Template.ps1) script that I use to provision OEM machines to a default &#8220;standard&#8221;. Here is a way to run it once on the default profile and not have to worry about new users getting those pesky cloud apps.
 
 ### To Resolve:
 

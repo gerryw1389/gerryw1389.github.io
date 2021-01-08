@@ -18,13 +18,13 @@ Logging is essential for anyone who is into scripting. Below are common ways to 
 
 ### To Resolve:
 
-1. Use `Start-Transcript` in your `Begin {}` and `Stop-Transcript` in your `End {}`. This is my preferred method. See my current [Template script](https://github.com/gerryw1389/powershell/blob/master/Other/templates/_current-template-w-logging.ps1). Description [here](https://automationadmin.com/2017/09/ps-why-I-use-my-template-for-logging/).
+1. Use `Start-Transcript` in your `Begin {}` and `Stop-Transcript` in your `End {}`. This is my preferred method. See my current [Template script](https://github.com/gerryw1389/powershell/blob/main/Other/templates/_current-template-w-logging.ps1). Description [here](https://automationadmin.com/2017/09/ps-why-I-use-my-template-for-logging/).
 
 2. Skip logging by doing `yourScript.ps1 > c:\scripts\log.log`
 
 3. Use multiple `Write-Output "Doing action" | Out-File "c:\scripts\log.log" -Append -Encoding ASCII` but make sure it exists first.
 
-4. Log to the Windows Event Viewer. I used to use this so look at my older module [Event Viewer logging](https://github.com/gerryw1389/powershell/blob/master/Other/templates/old-helpers-w-eventlog.psm1). Assuming you have copied my functions and wanted to write to the eventlog, you would:
+4. Log to the Windows Event Viewer. I used to use this so look at my older module [Event Viewer logging](https://github.com/gerryw1389/powershell/blob/main/Other/templates/old-helpers-w-eventlog.psm1). Assuming you have copied my functions and wanted to write to the eventlog, you would:
     
    - Run your function calling my module in your `Begin {}` block. 
    - You could then run the following to see what was ran:
@@ -53,7 +53,7 @@ Logging is essential for anyone who is into scripting. Below are common ways to 
    $Events | Sort -Property Index
    ```
 
-   - The problem with this method was that the event viewer would have issues with certain things. So the Event Viewer doesn't store variables as well as logging does so you have to be creative when you log. For example (assuming you are using the functions in the module [Event Viewer logging](https://github.com/gerryw1389/powershell/blob/master/Other/templates/old-helpers-w-eventlog.psm1):
+   - The problem with this method was that the event viewer would have issues with certain things. So the Event Viewer doesn't store variables as well as logging does so you have to be creative when you log. For example (assuming you are using the functions in the module [Event Viewer logging](https://github.com/gerryw1389/powershell/blob/main/Other/templates/old-helpers-w-eventlog.psm1):
 
    ```powershell
    $A = Get-Process

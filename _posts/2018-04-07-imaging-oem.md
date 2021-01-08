@@ -20,7 +20,7 @@ I know these are the words SysAdmins snear at, but sometimes you have no choice 
 
 ### To Resolve:
 
-1. Run a generic [template script](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-Template.ps1).
+1. Run a generic [template script](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-Template.ps1).
 
    - 2018-04: Place this in your script to download and run my template script on any W10 Machine:
 
@@ -64,7 +64,7 @@ I know these are the words SysAdmins snear at, but sometimes you have no choice 
    Start-Process $Batch -Verb Runas
    ```
 
-2. Install [Chocolatey](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Install-Choco.ps1):
+2. Install [Chocolatey](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Install-Choco.ps1):
 
 3. Uninstall [pre-installed Office](https://automationadmin.com/2018/03/office-install-tasks/).
 

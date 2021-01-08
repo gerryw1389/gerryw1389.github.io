@@ -19,7 +19,7 @@ To help with keeping passwords local to servers, one approach you can use is to 
 
 ### To Resolve
 
-1. [This script](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Get-SystemEnvVars.ps1) creates a scheduled task that is to be ran by the user 'NT Authority\System' that sets the variable TEMP_VAR with `pa55word1`. Later, you can have another script access that variable as a way to pass a password around securely.
+1. [This script](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Get-SystemEnvVars.ps1) creates a scheduled task that is to be ran by the user 'NT Authority\System' that sets the variable TEMP_VAR with `pa55word1`. Later, you can have another script access that variable as a way to pass a password around securely.
 
    ```powershell
    If ( -not ( Test-Path "c:\scripts") )
@@ -72,7 +72,7 @@ To help with keeping passwords local to servers, one approach you can use is to 
    ```
 
 
-2. Here is [another script](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-SystemEnvVars.ps1) that you can run that dumps all 'NT Authority\System' environmental vars to `c:\scripts\temp2.txt`
+2. Here is [another script](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-SystemEnvVars.ps1) that you can run that dumps all 'NT Authority\System' environmental vars to `c:\scripts\temp2.txt`
 
    ```powershell
    If ( -not ( Test-Path "c:\scripts") )

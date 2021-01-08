@@ -60,4 +60,4 @@ I was wanting a way to view the resolution of each of my video files. Here is th
          $Filelist | Format-Table
    ```
 
-2. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Get-VideoFileInfo.ps1)
+2. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Get-VideoFileInfo.ps1)

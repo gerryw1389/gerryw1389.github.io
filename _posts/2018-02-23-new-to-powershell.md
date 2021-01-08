@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-A lot of times someone will say, "Hey Gerry I'm just now learning Powershell but I don't know what I can test it on?". I know for me, I first got hooked with powershell once I realized that you can run a single script and it could [set hundreds or thousands of settings to configure your Windows install](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-Template.ps1) and [part 2](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-HomePC.ps1). It just blew my mind that I could take a fresh Windows install and set all the things I used to do manually in the GUI (slow/error prone). It was that moment that I realized I would probably never want to use the GUI again if I had a choice! Anyhow, here is my common response:
+A lot of times someone will say, "Hey Gerry I'm just now learning Powershell but I don't know what I can test it on?". I know for me, I first got hooked with powershell once I realized that you can run a single script and it could [set hundreds or thousands of settings to configure your Windows install](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-Template.ps1) and [part 2](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-HomePC.ps1). It just blew my mind that I could take a fresh Windows install and set all the things I used to do manually in the GUI (slow/error prone). It was that moment that I realized I would probably never want to use the GUI again if I had a choice! Anyhow, here is my common response:
 
 ### To Resolve:
 
@@ -111,6 +111,6 @@ A lot of times someone will say, "Hey Gerry I'm just now learning Powershell but
    - A script that filters an Excel spreadsheet containing print job history to see what printers are being used most often as well as what users are printing to them.  
    - A script to re-create the assigned ports for printers on our old print server that were set up to use WSD ports => it assigns a TCP/IP port using the IP address gathered from the WSD port configuration.  
    - Various other small one-off scripts to automate manual data evaluation that would otherwise take a significant amount of time.
-   - **The list is virtually unlimited.. Powershell can have a Windows system do just about anything. Be sure to check out my [Github](https://github.com/gerryw1389/master) for any scripts that may be useful in your environment!**
+   - **The list is virtually unlimited.. Powershell can have a Windows system do just about anything. Be sure to check out my [Github](https://github.com/gerryw1389) for any scripts that may be useful in your environment!**
 
 4. As a shameless self promotion, [this site](https://automationadmin.com/tags/#scripting-powershell) is great for powershell examples as well!

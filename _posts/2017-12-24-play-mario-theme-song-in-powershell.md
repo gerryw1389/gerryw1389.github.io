@@ -158,4 +158,4 @@ Why? Because Powershell can!
       }
    ```
 
-2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Start-MarioThemeSong.ps1)
+2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Start-MarioThemeSong.ps1)

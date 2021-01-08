@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a long time, but recently wanted to try out VSCode for everyday note taking. Here is where I will keep my VSCode Settings over time. I exported all notes to a directory. Then used powershell to bulk rename all `.txt` to `.md` - [see here](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Rename-Items.ps1). After moving to VScode, I only needed to [fix the themes for Markdown](https://automationadmin.com/2019/12/modify-vscode-markdown-theme/) and I was good to go!
+So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a long time, but recently wanted to try out VSCode for everyday note taking. Here is where I will keep my VSCode Settings over time. I exported all notes to a directory. Then used powershell to bulk rename all `.txt` to `.md` - [see here](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Rename-Items.ps1). After moving to VScode, I only needed to [fix the themes for Markdown](https://automationadmin.com/2019/12/modify-vscode-markdown-theme/) and I was good to go!
 
 
 

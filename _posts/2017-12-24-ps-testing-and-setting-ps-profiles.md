@@ -18,4 +18,4 @@ So as you may or may not know, PS (powershell) [uses six profiles](https://blogs
 
 ### To Resolve:
 
-1. This script will test to see if they exists and if not, create them: [Test-PSProfiles](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Test-PSProfiles.ps1)
+1. This script will test to see if they exists and if not, create them: [Test-PSProfiles](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Test-PSProfiles.ps1)

@@ -64,7 +64,7 @@ So as I'm going through scripts and adding them to my GitHub repo, I'm seeing qu
    (Get-CIMClass win32_operatingsystem).CimClassMethods
    ```
 
-   For example, this finds the same Win32Shutdown method that WMI has and tells me it needs an argument called &#8220;@{ Flags = [int] }&#8221;. So from here, I just sub in my $_action variable for my [Restart-ComputerWin32](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Restart-ComputerWin32.ps1) script.
+   For example, this finds the same Win32Shutdown method that WMI has and tells me it needs an argument called &#8220;@{ Flags = [int] }&#8221;. So from here, I just sub in my $_action variable for my [Restart-ComputerWin32](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Restart-ComputerWin32.ps1) script.
 
 1. One thing you can place in your scripts is:
 

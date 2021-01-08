@@ -19,4 +19,4 @@ This simple one liner script helps me change extensions from one to another for 
 
 ### To Resolve:
 
-1. Function - [Rename-Items](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Rename-Items.ps1)
+1. Function - [Rename-Items](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Rename-Items.ps1)

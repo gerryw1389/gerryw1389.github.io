@@ -121,4 +121,4 @@ Here is the updated function (to [this](https://automationadmin.com/2020/01/ps-s
    }
    ```
 
-2. This can be found on my [gwMisc](https://github.com/gerryw1389/powershell/tree/master/gwMisc) section on my Github
+2. This can be found on my [gwMisc](https://github.com/gerryw1389/powershell/tree/main/gwMisc) section on my Github

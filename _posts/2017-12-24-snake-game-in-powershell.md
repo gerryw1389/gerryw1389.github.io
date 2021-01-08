@@ -22,4 +22,4 @@ Remember the old snake game you used to play on your flip phone? I found a post 
 
    <img class="alignnone size-full wp-image-4909" src="https://automationadmin.com/assets/images/uploads/2017/12/snake.jpg" alt="" width="621" height="523" srcset="https://automationadmin.com/assets/images/uploads/2017/12/snake.jpg 621w, https://automationadmin.com/assets/images/uploads/2017/12/snake-300x253.jpg 300w" sizes="(max-width: 621px) 100vw, 621px" /> 
 
-2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Start-SnakeGame.ps1)
+2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Start-SnakeGame.ps1)

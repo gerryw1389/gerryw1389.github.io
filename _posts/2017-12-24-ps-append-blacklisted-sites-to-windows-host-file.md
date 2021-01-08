@@ -18,4 +18,4 @@ Let me start by saying first and foremost, I am a SysAdmin and not a &#8220;comp
 
 ### To Resolve:
 
-1. Function - [Set-AppendedHostFile](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-AppendedHostFile.ps1)
+1. Function - [Set-AppendedHostFile](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-AppendedHostFile.ps1)

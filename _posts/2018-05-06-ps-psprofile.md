@@ -18,8 +18,8 @@ This will serve as my documentation page for my current PS Profile. You can lear
 
 ### To Resolve:
 
-1. [Profile](https://github.com/gerryw1389/powershell/blob/master/Other/psprofile.ps1)
+1. [Profile](https://github.com/gerryw1389/powershell/blob/main/Other/psprofile.ps1)
 
-2. You can use my [Test-PSProfiles](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Test-PSProfiles.ps1) script to pre-create the 6 files.
+2. You can use my [Test-PSProfiles](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Test-PSProfiles.ps1) script to pre-create the 6 files.
 
-3. You can use my [Set-PSProfile](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-PSProfile.ps1) script to set it as well.
+3. You can use my [Set-PSProfile](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-PSProfile.ps1) script to set it as well.

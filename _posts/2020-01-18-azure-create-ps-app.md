@@ -115,5 +115,5 @@ In order to have a powershell script connect to Azure and perform a task, you mu
    # where user_id - user object id
    ```
 
-6. [Here](https://github.com/gerryw1389/powershell/blob/master/gwNetworking/Public/Add-AzUserToAzGroup.ps1) is a function I have recently used this with.
+6. [Here](https://github.com/gerryw1389/powershell/blob/main/gwNetworking/Public/Add-AzUserToAzGroup.ps1) is a function I have recently used this with.
 

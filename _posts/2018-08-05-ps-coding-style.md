@@ -59,4 +59,4 @@ When it comes to Powershell, there are two main styles that people will follow (
 ### References
 
 ["Where to put braces #24"](https://github.com/PoshCode/PowerShellPracticeAndStyle/issues/24)  
-["PowerShellPracticeAndStyle"](https://github.com/PoshCode/PowerShellPracticeAndStyle/blob/master/Style-Guide/Code-Layout-and-Formatting.md)
+["PowerShellPracticeAndStyle"](https://github.com/PoshCode/PowerShellPracticeAndStyle/blob/main/Style-Guide/Code-Layout-and-Formatting.md)

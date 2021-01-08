@@ -62,4 +62,4 @@ NOTE: These steps require you download and install [PSCX](https://pscx.codeplex.
    - `Import-Module "C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWSPowerShell.psd1"`  
    - Save the notepad document in the location from step A. If the directory doesn't exist, create it exactly named as so.
 
-6. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Backup-ToAmazon.ps1)
+6. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Backup-ToAmazon.ps1)

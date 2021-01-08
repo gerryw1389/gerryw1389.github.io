@@ -24,7 +24,7 @@ So I've been watching the 90 part Don Jones series on CBT Nuggets on Powershell 
 
 2. This should fix most scripts, but you might have to see if `-Color` was ever passed as I sometimes use that as well.
 
-3. If you wanted to make logging optional like [here](https://github.com/gerryw1389/powershell/blob/master/Other/templates/old-template-w-logging-optional.ps1), you would have to do something like:
+3. If you wanted to make logging optional like [here](https://github.com/gerryw1389/powershell/blob/main/Other/templates/old-template-w-logging-optional.ps1), you would have to do something like:
 
    ```powershell
    Begin

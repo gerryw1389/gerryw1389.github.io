@@ -19,4 +19,4 @@ With programs like CCleaner and, my go to: Bleachbit, being common for disk clea
 
 ### To Resolve:
 
-1. Function - [Clear-TempFiles](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Clear-TempFiles.ps1)
+1. Function - [Clear-TempFiles](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Clear-TempFiles.ps1)

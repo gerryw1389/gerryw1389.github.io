@@ -19,7 +19,7 @@ So in one of the first steps to convert powershell functions to python functions
 
 ### To Resolve:
 
-1. Scripts will be maintained [on Github](https://github.com/gerryw1389/python/tree/master/scripts/azure-function-template), but mainly if I send:
+1. Scripts will be maintained [on Github](https://github.com/gerryw1389/python/tree/main/scripts/azure-function-template), but mainly if I send:
 
    ```json
    {

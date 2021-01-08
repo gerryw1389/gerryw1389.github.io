@@ -95,4 +95,4 @@ Run this script to replace Notepad with Notepad++
    <#######</Script>#######>
    ```
 
-2. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Switch-NotepadInstall.ps1)
+2. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Switch-NotepadInstall.ps1)

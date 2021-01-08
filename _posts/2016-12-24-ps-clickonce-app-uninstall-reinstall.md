@@ -18,4 +18,4 @@ Use the following PS Script to uninstall and the reinstall a Click Once applicat
 
 ### To Resolve:
 
-1. Copy and paste the following in notepad and then save as *.ps1 - [Install-ClickOnceApplication](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Install-ClickOnceApplication.ps1)
+1. Copy and paste the following in notepad and then save as *.ps1 - [Install-ClickOnceApplication](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Install-ClickOnceApplication.ps1)

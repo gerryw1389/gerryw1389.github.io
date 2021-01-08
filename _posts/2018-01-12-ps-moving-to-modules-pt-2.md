@@ -19,7 +19,7 @@ tags:
 This is a continuation post of [Moving to Modules](https://automationadmin.com/2017/12/ps-moving-to-modules/) I posted earlier. Main thing, I just wanted to go over design in this post. Here is a typical module:  
 <img class="alignnone size-full wp-image-4925" src="https://automationadmin.com/assets/images/uploads/2018/01/template.jpg" alt="" width="137" height="226" /> 
 
-A good way to see this is to download one of my Modules off [Github](https://github.com/gerryw1389/master). From here you can see the folder structure and how I use the modules in a portable fashion (explained below).
+A good way to see this is to download one of my Modules off [Github](https://github.com/gerryw1389). From here you can see the folder structure and how I use the modules in a portable fashion (explained below).
 
 ### To Resolve:
 
@@ -184,7 +184,7 @@ A good way to see this is to download one of my Modules off [Github](https://git
      - They will import your module and then just call the function that way => preferred.  
      - For one offs, they can navigate to your Public folder in powershell or Windows Explorer and dot source your script and then call the function from within it.
 
-5. Lastly, in the Public folder, you create functions that use a setup like in [my current Template script](https://github.com/gerryw1389/powershell/blob/master/Other/templates/_current-template-w-logging.ps1)
+5. Lastly, in the Public folder, you create functions that use a setup like in [my current Template script](https://github.com/gerryw1389/powershell/blob/main/Other/templates/_current-template-w-logging.ps1)
 
 6. 2018-09-22: Just wanted to add that setting them up this way allows me to pull from Github pretty easily:
 

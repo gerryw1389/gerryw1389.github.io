@@ -18,4 +18,4 @@ This schedule tasks runs nightly. It uses Powershell with the WinSCP software to
 
 ### To Resolve
 
-1. [This function](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Set-FileViaSFTP.ps1) will upload a CSV to a vendor on a schedule and will email if the function fails.
+1. [This function](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Set-FileViaSFTP.ps1) will upload a CSV to a vendor on a schedule and will email if the function fails.

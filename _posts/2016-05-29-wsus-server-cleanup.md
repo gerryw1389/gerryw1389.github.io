@@ -35,7 +35,7 @@ Update 2017-10: I don't bother with native Windows WSUS cleanup as it doesn't do
 
 6. Now type: &#8220;Set-Executionpolicy RemoteSigned&#8221;
 
-   - For an ad hoc clean, I usually run something like my script [here](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Invoke-WSUSCleanup.ps1).
+   - For an ad hoc clean, I usually run something like my script [here](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Invoke-WSUSCleanup.ps1).
 
 ---
 

@@ -96,4 +96,4 @@ The generic code can be found below but the gist of it is that you would then us
    Write-Output $sysAdmin
    ```
 
-4. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Read-MultiLineInputBox.ps1).
+4. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Read-MultiLineInputBox.ps1).

@@ -62,4 +62,4 @@ So like many other scripters, I find that I often want my PS files to follow a c
 
 2. At first I couldn't get this to work unless I moved the files to a new directory, but after a couple hours of research, I can say this does work. It will keep the original files in their current folders.
 
-3. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Set-PreformattedContent.ps1)
+3. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Set-PreformattedContent.ps1)

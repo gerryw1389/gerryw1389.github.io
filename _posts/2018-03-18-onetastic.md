@@ -19,7 +19,7 @@ tags:
 
 ### To Resolve:
 
-1. Download my zip folder [here](https://github.com/gerryw1389/powershell/blob/master/Other/misc/onetastic.zip).
+1. Download my zip folder [here](https://github.com/gerryw1389/powershell/blob/main/Other/misc/onetastic.zip).
 
 2. Install the latest version of Onetastic
 

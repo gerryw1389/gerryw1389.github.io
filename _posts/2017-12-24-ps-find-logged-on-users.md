@@ -18,4 +18,4 @@ Powershell script to find currently logged on users for a machine.
 
 ### To Resolve:
 
-1. Function - [Find-LoggedOnUsers](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Find-LoggedOnUsers.ps1)
+1. Function - [Find-LoggedOnUsers](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Find-LoggedOnUsers.ps1)

@@ -32,8 +32,8 @@ You place that in the `Begin {}` block of your functions to call helper function
 
 ### To Resolve:
 
-1. I have made a couple of these over the years but have since just placed these functions into my [template](https://github.com/gerryw1389/powershell/blob/master/Other/templates/_current-template-w-logging.ps1) since I don't always distribute modules completely and instead usually prefer self-contained scripts.
+1. I have made a couple of these over the years but have since just placed these functions into my [template](https://github.com/gerryw1389/powershell/blob/main/Other/templates/_current-template-w-logging.ps1) since I don't always distribute modules completely and instead usually prefer self-contained scripts.
 
-2. [Older helper function with logging functions](https://github.com/gerryw1389/powershell/blob/master/Other/templates/old-helpers-w-logging.psm1)
+2. [Older helper function with logging functions](https://github.com/gerryw1389/powershell/blob/main/Other/templates/old-helpers-w-logging.psm1)
 
-3. [Older helper function with Event log logging functions](https://github.com/gerryw1389/powershell/blob/master/Other/templates/old-helpers-w-eventlog.psm1)
+3. [Older helper function with Event log logging functions](https://github.com/gerryw1389/powershell/blob/main/Other/templates/old-helpers-w-eventlog.psm1)

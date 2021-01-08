@@ -129,4 +129,4 @@ $1 = @{ First = "Todd"; Last = "Parker" }
         }
 ```
 
-3. Source is maintained under [gwActiveDirectory](https://github.com/gerryw1389/powershell/tree/master/gwActiveDirectory/Public)
+3. Source is maintained under [gwActiveDirectory](https://github.com/gerryw1389/powershell/tree/main/gwActiveDirectory/Public)

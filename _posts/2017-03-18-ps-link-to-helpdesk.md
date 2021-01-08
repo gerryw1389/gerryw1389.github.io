@@ -41,4 +41,4 @@ As part of my initial install script, I like to put a link to our helpdesk on th
    $Shortcut.Save()
    ```
 
-2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Send-LinkToHelpdesk.ps1)
+2. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Send-LinkToHelpdesk.ps1)

@@ -180,4 +180,4 @@ This will create a form like the screenshot below that will launch the form and 
    Invoke-Form
    ```
 
-2. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Invoke-CustomMenuGUI.ps1)
+2. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Invoke-CustomMenuGUI.ps1)

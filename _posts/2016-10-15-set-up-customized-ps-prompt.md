@@ -91,5 +91,5 @@ Follow this post to setup a customized PS Prompt. Most of this comes from [this]
    - An Admin prompt will look the same but will have a green [ADMIN] in front.
    - More info on customizing your prompt can be found [here](https://technet.microsoft.com/en-us/library/hh847739.aspx).
 
-2. Update 2018-03: My current prompt looks like [PSProfile](https://github.com/gerryw1389/powershell/blob/master/Other/psprofile.ps1)
+2. Update 2018-03: My current prompt looks like [PSProfile](https://github.com/gerryw1389/powershell/blob/main/Other/psprofile.ps1)
 

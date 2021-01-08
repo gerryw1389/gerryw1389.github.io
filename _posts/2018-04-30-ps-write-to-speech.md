@@ -82,4 +82,4 @@ Use Powershell to get your computer to talk
 
 3. I tested the following code in my lab and it worked! It takes a while to run, but it does work! I wouldn't ever do this though because it would unprofessional. Cool to learn though.
 
-4. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Write-ToSpeech.ps1).
+4. Source is maintained under [gwMisc](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Write-ToSpeech.ps1).

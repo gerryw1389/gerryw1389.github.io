@@ -33,7 +33,7 @@ I'm finally at a point with Powershell that I can write scripts that take longer
 3. Overview:  
    - This script will take today's date, along with your current balance, and calculate in future bills and send you an email daily with how much you have left over until the next payday. For example, if today is the 20th: It will take today's current balance, say $1000 which is derived from both my credit cards and add in $473. The $473 comes from bills that will be charged automatically before my next payday. The script adjusts day by day until it finally gets to adding $0 amounts (because you have no bills left to pay and you pay your credit cards off, thus restarting the cycle). What's neat is you can hard code a budget. I use $2400 but you may use whatever you see fit. Anyways, it takes your budget, $2400 and removes your current balance + future bills and sends you THAT amount daily. This is good because it tells my wife and I when we can afford to splurge and when to cut back.
 
-4. This is what it ends up looking like (Script is maintained [here](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Send-CreditBalance.ps1)):
+4. This is what it ends up looking like (Script is maintained [here](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Send-CreditBalance.ps1)):
 
    <img class="alignnone size-full wp-image-4994" src="https://automationadmin.com/assets/images/uploads/2018/02/credit-card.png" alt="" width="310" height="628" srcset="https://automationadmin.com/assets/images/uploads/2018/02/credit-card.png 310w, https://automationadmin.com/assets/images/uploads/2018/02/credit-card-148x300.png 148w" sizes="(max-width: 310px) 100vw, 310px" /> 
 

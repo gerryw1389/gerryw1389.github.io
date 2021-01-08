@@ -21,7 +21,7 @@ One of the main things you will do with powershell is this workflow:
 - Run this process on each of them remotely and give me the results
 - Results should be put in a CSV or ran as jobs (this will have to be a different post)
 
-For this post you may want to pull up [Test-PSRemoting](https://github.com/gerryw1389/powershell/blob/master/gwNetworking/Public/Test-PSRemoting.ps1) to see what I'm talking about. This is how you go about doing this:
+For this post you may want to pull up [Test-PSRemoting](https://github.com/gerryw1389/powershell/blob/main/gwNetworking/Public/Test-PSRemoting.ps1) to see what I'm talking about. This is how you go about doing this:
 
 ### To Resolve:
  

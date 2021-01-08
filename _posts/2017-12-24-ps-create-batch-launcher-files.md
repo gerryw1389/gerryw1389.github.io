@@ -58,4 +58,4 @@ So the use case would be something like this:
          }
    ```
 
-2. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/New-BatLaunchers.ps1)
+2. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/New-BatLaunchers.ps1)

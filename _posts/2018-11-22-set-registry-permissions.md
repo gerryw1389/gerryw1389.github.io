@@ -26,4 +26,4 @@ This function will take ownership of a registry key as a specified user and set 
 
    <img class="alignnone size-full wp-image-5594" src="https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2.png" alt="" width="1152" height="582" srcset="https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2.png 1152w, https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2-300x152.png 300w, https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2-768x388.png 768w, https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2-1024x517.png 1024w" sizes="(max-width: 1152px) 100vw, 1152px" /> 
 
-3. Source is maintained under [gwConfiguration](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-RegistryPermission.ps1)
+3. Source is maintained under [gwConfiguration](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-RegistryPermission.ps1)

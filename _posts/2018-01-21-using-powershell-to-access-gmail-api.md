@@ -34,7 +34,7 @@ Follow this guide to connect to Gmail API using OAuthv2 working as of 2020-08-26
    - Click the gear in the right-hand corner and select `Use your own OAuth credentials`
    - Choose `Gmail API v1` and copy the `refresh_token` and `access_token` to notepad
 
-2. Now in my [Gmail API script](https://github.com/gerryw1389/powershell/blob/master/gwMisc/Public/Send-CreditBalance.ps1) I just use the following snippet to connect to Gmail and read/delete my messages:
+2. Now in my [Gmail API script](https://github.com/gerryw1389/powershell/blob/main/gwMisc/Public/Send-CreditBalance.ps1) I just use the following snippet to connect to Gmail and read/delete my messages:
 
    ```powershell
    $clientId = "31262ipuu5.apps.googleusercontent.com"

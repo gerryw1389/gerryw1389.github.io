@@ -38,7 +38,7 @@ This is a general idea of how to go about creating scripts in Powershell.
 
 4. The first steps will be fine enough on their own, but sometimes you want to put each iteration into a table and then return that at the end:
 
-   - This is part of my [Get-ComputerInfo](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Get-ComputerInfo.ps1) info script
+   - This is part of my [Get-ComputerInfo](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Get-ComputerInfo.ps1) info script
 
    ```powershell
    Foreach ($Computer in $ComputerName)

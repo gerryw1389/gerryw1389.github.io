@@ -78,4 +78,4 @@ NOTE: In this example, I wanted to move all files older than a year to another l
 
 4. That's it! Run the second script on a file server of your choice using the parameters you want.
 
-5. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Move-FilesToArchive.ps1) and [here](https://github.com/gerryw1389/powershell/blob/master/gwFilesystem/Public/Set-FileTimeStamps.ps1)
+5. Source is maintained under [gwFileSystem](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Move-FilesToArchive.ps1) and [here](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Set-FileTimeStamps.ps1)

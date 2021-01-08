@@ -69,4 +69,4 @@ To add on to my previous post [here](https://automationadmin.com/2016/05/ps-pack
 
 2. Adobe reader wasn't working when I tried this so I just manually went to get.adobe.com/reader and installed. It still got most of the software. Now, all I have to do is run &#8220;cup all&#8221; from an admin PS Prompt to update each of these &#8220;packages&#8221;.
 
-3. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Install-Choco.ps1)
+3. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Install-Choco.ps1)

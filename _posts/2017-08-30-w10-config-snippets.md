@@ -752,6 +752,6 @@ Use the following snippets are part of your W10 config scripts if you want:
 
 ### References:
 
-1. Please be sure to check out my [gwConfiguration section](https://github.com/gerryw1389/powershell/tree/master/gwConfiguration/Public) for W10 Config scripts 
-   - [Set-Template](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-Template.ps1)
-   - [Set-HomePC](https://github.com/gerryw1389/powershell/blob/master/gwConfiguration/Public/Set-HomePC.ps1)
+1. Please be sure to check out my [gwConfiguration section](https://github.com/gerryw1389/powershell/tree/main/gwConfiguration/Public) for W10 Config scripts 
+   - [Set-Template](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-Template.ps1)
+   - [Set-HomePC](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-HomePC.ps1)

@@ -76,4 +76,4 @@ I used the following scripts to start/stop replications for Veeam so that we can
 
 3. Set these as a scheduled task to run with your backups.
 
-4. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Start-VeeamReplications.ps1) and [gwApplications](https://github.com/gerryw1389/powershell/blob/master/gwApplications/Public/Stop-VeeamReplications.ps1)
+4. Source is maintained under [gwApplications](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Start-VeeamReplications.ps1) and [gwApplications](https://github.com/gerryw1389/powershell/blob/main/gwApplications/Public/Stop-VeeamReplications.ps1)
