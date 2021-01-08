@@ -1,0 +1,35 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+
+categories:
+  - title: Home
+    children:
+      - title: "<= Back To Home"
+        url: https://automationadmin.com
+  - title: Donate
+    children:
+      - title: "Buy me a coffee ❤"
+        url: https://www.paypal.com/paypalme2/gerryw1389
+  - title: Popular Categories
+    children:
+      - title: "Linux"
+        url: https://automationadmin.com/categories/#linux
+      - title: "SysAdmin"
+        url: https://automationadmin.com/categories/#sysadmin
+      - title: "WindowsServer"
+        url: https://automationadmin.com/categories/#windowsserver
+  - title: Popular Tags
+    children:
+      - title: "Powershell"
+        url: https://automationadmin.com/tags/#scripting-powershell
+      - title: "Cloud"
+        url: https://automationadmin.com/tags/#cloud
+      - title: "VersionControl"
+        url: https://automationadmin.com/tags/#versioncontrol
