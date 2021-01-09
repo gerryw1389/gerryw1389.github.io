@@ -19,7 +19,7 @@ email: admin@automationadmin.com
 description: A blog on engineering and administering various Automation technologies
 github_username: gerryw1389
 github_repository: https://github.com/gerryw1389/gerryw1389.github.io
-minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 comments:
   provider: "disqus"

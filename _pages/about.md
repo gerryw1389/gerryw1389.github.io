@@ -5,46 +5,66 @@ layout: single
 classes: wide
 ---
 
-Hello, my name is Gerry and I currently work as a Senior Automation Engineer at an enterprise company in the DFW Area (TX). My current focus is on automation using enterprise software applications and workflows. In my free time I like to research/implement current technologies I read about on [SysAdmin](https://reddit.com/r/sysadmin) or [Self-Hosted](https://github.com/Kickball/awesome-selfhosted). I encourage readers to connect with me on LinkedIn for communications in general or use the 'suggest an edit' link for each post if you see a correction that needs to be made. If you found an article helpful and you would like to donate some spare change, feel free to use the links in the post sidebar or at the bottom of the post. Thanks for stopping by!
+Hello, my name is Gerry and I currently work as a Senior Automation Engineer at an enterprise company in the DFW Area (TX). My current focus is on automation using enterprise software applications and workflows. This blog serves as a place to store and search my lessons learned over time.
 
-### More Ramblings:
+### My Interests Over Time:
 
-*This used to be its own page on my old site but I'm placing here for brevity*
+1. Automation Engineer (current):
+   - Azure, Github, Docker, Python, Ansible
+   - I'm trying to be serverless as much as possible so I use Azure Functions and Azure Containers when possible
+      - See my [Azure](https://automationadmin.com/categories/#azure) category and [cloud](https://automationadmin.com/tags/#cloud) tag for example 
+   - Try to check the skills in: [How to be a Cloud SysAdmin](https://automationadmin.com/2018/11/aws-sysadmin-guide/)
+   - Must read [post](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/)
 
-The way I learned IT was the same as learning any other subject, you start with broad categories and narrow your way down as your career progresses. In general, the majority of IT can fit into a combination of 3 categories:
+2. Systems Administrator:
+   - Powershell, Windows Server
+   - I was a Windows SysAdmin but tried at every job to use Linux instead (where it makes sense (not for Active Directory for example)):
+      - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
+      - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/) 
 
-Hardware - The physical devices themselves. This is routers, switches, servers, workstations, ect.
+3. Remote Support Tech:
+   - Mostly break fix and learning to script
+   - Learn to troubleshoot
 
-Software - This is the code that runs on the hardware. By far the broadest category.
+4. How to Advance:
+   - Look for a new demanding job once you feel you have learned all you can and you don't see upwards mobility
+     - Make sure to [interview them](https://automationadmin.com/2016/04/interview-questions/) more than they interview you :)
+     - Try to give your current position 3 years, it can look bad if you jump ship too often.
+   - Try to never be the smartest person the room
+   - Be a tinker by nature:
+     - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. Drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://gist.github.com/gerryw1389/ad275818cb8ffc3a7efb8795a85e7080#file-vscode-settings-json).
+     - Do you regularly go out of your way to learn how $x works? See [this list](https://github.com/Kickball/awesome-selfhosted) of things you can install in your [homelab](https://automationadmin.com/tags/#test-lab)
+       - See my [setup](https://automationadmin.com/tags/#setup) tag for example
+       - After you stand something up, take notes of each step and then post them on [a blog](https://automationadmin.com/2019/06/wordpress-to-jekyll/) so you can showcase your skills.
+         - This can be a self hosted Wordpress instance or preferably, Github Pages with many blog links pointing to your Github repos.
+     - Last but not least, focus mostly on [scripting](https://automationadmin.com/2020/02/importance-of-learning-scripting/). I would do powershell for Windows and bash/python for linux servers.
+       - I always explain scripting to be like legos - Super small chunks of things that you learn that build the foundation for any kind of automation you can think of. For example, see [this post](https://automationadmin.com/2018/02/new-to-powershell/)
+       - You will never not have an in-demand job if you know how to write scripts, especially if built on a SysAdmin foundational knowledge (how to build servers, how to [picture networking](https://automationadmin.com/2020/08/basic-network-troubleshooting), how to use [orchestration tools](https://automationadmin.com/tags/#orchestration) for example)
 
-Networking - How these devices "talk" to one another. Mainly learning protocols and addressing schemas.
+### My Certs:
 
-Early in your career it is best to learn how to troubleshoot properly. This may seem like an easy skill to acquire, but it usually takes people over two years of solid experience to get this down correctly, and some go their whole careers not learning. Troubleshooting falls into a category of "break/fix" where you have an issue at hand and you fix it, nothing really beyond that (such as preventing the issue from happening again or implementing a solution that would negate the issue altogether).
+1. 2020-05-16: Azure Administrator (AZ103)
+   - ![AZ103](https://automationadmin.com/assets/images/uploads/2020/05/az103.png){:class="img-responsive"}
+   - Cert ID: H418-5344
 
-Next is administration. This is a "background" side of IT where you are more of a decision maker than a break/fix type of person. Here, IT professionals layout policies for the network, what software is to be installed on what machine, which ports are to be open on which servers/switches/routers, ect. This is point where you control the network on the highest level.
+2. 2019-11-19: Azure Fundamentals (AZ900)
+   - ![AZ900](https://automationadmin.com/assets/images/uploads/2020/05/az900.png){:class="img-responsive"}
+   - Cert ID: H277-2867
 
-Feel free to browse whichever posts interest you, but I would suggest starting with:
+3. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
+   - ![CCNA](https://automationadmin.com/assets/images/uploads/2020/05/ccna.png){:class="img-responsive"}
+   - Cisco ID: CSCO13070656
+   - Cert Verification Number: 426314170923JMVF
+   - [check](https://cisco.com/go/verifycertificate)
 
-[How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
-or  
-[How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/)  
+4. 2015-05-02: Testout Network Pro (Undergrad)
+   - ![TestOut Network Pro](https://automationadmin.com/assets/images/uploads/2020/05/testout.png){:class="img-responsive"}
+   - Candidate ID: UNW4
+   - Certificate ID: CSX8
+   - 2019-12-08: Testout Network Pro (Graduate School)
+   - Candidate ID: U37X8
+   - Certificate ID: C4AWN
+   - Yes, I had to do this twice as it was part of courses I've taken :/
 
-### Passion:
 
-Added recently because over the years I have met a couple professionals that work in IT because "it's just means to an end" or "to collect a paycheck". The problem with individuals like this is they need to have passion or they will get left behind. "So what do you mean by passion?" you may ask. Well, there's a difference between going to school and getting and IT degree and just "going through the motions" compared to those who want to find out "how does this work underneath?". For example, if you look at my [tweaks tag](https://automationadmin.com/tags/#tweaks) and [setup tag](https://automationadmin.com/tags/#setup) on this site, you will see that what I'm usually doing is:
-
-  1. Installing something as it is intended to be installed.
-  2. Finding out how I would create the program if I were to be the distributor or creator by looking at how it works underneath.
-  3. Tweaking it for PERSONAL learning and then deleting my final product.
-
-I capitalize PERSONAL because it is almost certainly against TOS (Terms of Service) to alter and distribute a program. So what I do is alter and not distribute programs that I tweak. Instead, I just tweak them to learn them. In other words, when I see something, one of the first things I ask is "how did they create this? Visual Studio? INI files? Powershell script?" and then proceed to try. Many times I give up and abandon a project, but other times I set them up and keep them. I highly advise in order to really get into how stuff works that you will:
-
-  1. [Install Virtual Machines](https://automationadmin.com/tags/#test-lab) using Linux distros / Windows
-  2. Pick and choose many of the options off [this list](https://github.com/Kickball/awesome-selfhosted) and go by and start self hosting!
-  3. As you install something, jot down the steps you took as you do it.
-  4. After the server is stood up and the application is running, organize your documentation and make a blog post on it. I highly recommend using [Jekyll with Github pages](https://automationadmin.com/2019/06/wordpress-to-jekyll/) as it's completely free hosting!
-  5. Combine the tweaking software from above, with documenting software installs from above, with some kind of scripting language and you should have plenty to talk about in your next SysAdmin interview!
-
-### Update 2019:
-
-Have you ever read something and it changed where you want to go in life? Well [I did](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/) the other day on /r/sysadmin and it was like a true calling. I have already been the go-to Powershell guy in my last few jobs, but I'm ready to take it to a next level after reading this. So from here on out I will be focusing more on [Orchestration tools](https://automationadmin.com/tags/#orchestration), [config management](https://automationadmin.com/tags/#configmanagement), and of course [my roots](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) in scripting: javascript, powershell, and soon hopefully python!
+Looking for the older version of this page? Check [here](https://automationadmin.com/2016/01/archived-about-me)

@@ -19,17 +19,17 @@ categories:
         url: https://www.paypal.com/paypalme2/gerryw1389
   - title: Popular Categories
     children:
+      - title: "Azure"
+        url: https://automationadmin.com/categories/#azure
       - title: "Linux"
         url: https://automationadmin.com/categories/#linux
       - title: "SysAdmin"
         url: https://automationadmin.com/categories/#sysadmin
-      - title: "WindowsServer"
-        url: https://automationadmin.com/categories/#windowsserver
   - title: Popular Tags
     children:
-      - title: "Powershell"
-        url: https://automationadmin.com/tags/#scripting-powershell
       - title: "Cloud"
         url: https://automationadmin.com/tags/#cloud
       - title: "VersionControl"
         url: https://automationadmin.com/tags/#versioncontrol
+      - title: "Powershell"
+        url: https://automationadmin.com/tags/#scripting-powershell
