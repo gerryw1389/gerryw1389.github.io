@@ -21,10 +21,12 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
    - I was a Windows SysAdmin but tried at every job to use Linux instead (where it makes sense (not for Active Directory for example)):
       - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
       - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/) 
+   - Having trouble breaking in? See [this post](https://automationadmin.com/2016/05/breaking-into-sa-jobs/)
 
 3. Remote Support Tech:
    - Mostly break fix and learning to script
    - Learn to troubleshoot
+   - Everyone should read this at [the beginning of your career](http://www.catb.org/esr/faqs/smart-questions.html) and really understand what it is saying. This is not to be condescending, but I refuse to help people who do not try to help themselves. 80% of people who ask me questions about something are doing it out of sheer laziness - no more, redirect them to this page and ask them "show me where you got stuck..."
 
 4. How to Advance:
    - Look for a [new demanding job](https://thedailywtf.com/articles/Up-or-Out-Solving-the-IT-Turnover-Crisis) once you feel you have learned all you can and you don't see upwards mobility
@@ -40,6 +42,8 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
      - Last but not least, focus mostly on [scripting](https://automationadmin.com/2020/02/importance-of-learning-scripting/). I would do powershell for Windows and bash/python for linux servers.
        - I always explain scripting to be like legos - Super small chunks of things that you learn that build the foundation for any kind of automation you can think of. For example, see [this post](https://automationadmin.com/2018/02/new-to-powershell/)
        - You will never not have an in-demand job if you know how to write scripts, especially if built on a SysAdmin foundational knowledge (how to build servers, how to [picture networking](https://automationadmin.com/2020/08/basic-network-troubleshooting), how to use [orchestration tools](https://automationadmin.com/tags/#orchestration) for example)
+   - Work on your [people skills](https://automationadmin.com/2016/05/people-skills/) yo!
+
 
 ### My Certs:
 
