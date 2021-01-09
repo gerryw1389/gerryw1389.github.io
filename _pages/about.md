@@ -27,7 +27,7 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
    - Learn to troubleshoot
 
 4. How to Advance:
-   - Look for a new demanding job once you feel you have learned all you can and you don't see upwards mobility
+   - Look for a [new demanding job](https://thedailywtf.com/articles/Up-or-Out-Solving-the-IT-Turnover-Crisis) once you feel you have learned all you can and you don't see upwards mobility
      - Make sure to [interview them](https://automationadmin.com/2016/04/interview-questions/) more than they interview you :)
      - Try to give your current position 3 years, it can look bad if you jump ship too often.
    - Try to never be the smartest person the room
