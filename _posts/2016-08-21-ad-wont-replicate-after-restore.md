@@ -1,5 +1,5 @@
 ---
-title: 'AD Won't Replicate After Restore'
+title: 'AD Wont Replicate After Restore'
 date: 2016-08-21T16:53:00+00:00
 author: gerryw1389
 layout: single

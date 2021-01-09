@@ -1,5 +1,5 @@
 ---
-title: 'Differences In 32b and 64b OS's'
+title: 'Differences In 32b and 64b OSs'
 date: 2016-05-26T21:35:00+00:00
 author: gerryw1389
 layout: single

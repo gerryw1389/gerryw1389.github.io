@@ -1,5 +1,5 @@
 ---
-title: 'This App Can't Open Error'
+title: 'This App Cant Open Error'
 date: 2016-05-26T22:49:00+00:00
 author: gerryw1389
 layout: single

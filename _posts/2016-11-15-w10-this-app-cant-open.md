@@ -1,5 +1,5 @@
 ---
-title: 'W10: This App Can't Open'
+title: 'W10: This App Cant Open'
 date: 2016-11-15T03:21:12+00:00
 author: gerryw1389
 layout: single

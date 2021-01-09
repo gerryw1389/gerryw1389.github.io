@@ -1,5 +1,5 @@
 ---
-title: 'Resetting A Domain User's Password'
+title: 'Resetting A Domain Users Password'
 date: 2016-05-29T04:06:00+00:00
 author: gerryw1389
 layout: single

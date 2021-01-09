@@ -1,5 +1,5 @@
 ---
-title: 'Linux Live CD's'
+title: 'Linux Live CDs'
 date: 2016-05-28T06:27:00+00:00
 author: gerryw1389
 layout: single
