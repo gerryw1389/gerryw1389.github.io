@@ -1,5 +1,5 @@
 ---
-title: 'Find IP Of A Printer That's Using A WSD Port'
+title: 'Find IP Of A Printer Thats Using A WSD Port'
 date: 2016-05-28T06:35:00+00:00
 author: gerryw1389
 layout: single
