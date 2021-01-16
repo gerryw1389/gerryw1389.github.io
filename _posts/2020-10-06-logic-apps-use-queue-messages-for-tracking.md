@@ -36,3 +36,12 @@ So if you have a chain of Logic Apps and you want to be able to track where they
 	   - True: Terminate
 	   - False: Empty
 
+1. Source code is [here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/logic-apps/queue-storage.json)
+
+2. Be sure to find/replace for `{{` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
+
+3. Pics
+
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/queue1.jpg){:class="img-responsive"}
+
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/queue2.jpg){:class="img-responsive"}

@@ -49,7 +49,7 @@
                     "path": "/datasets/default/files",
                     "queries": {
                         "folderPath": "/testing-logic-apps",
-                        "name": "williamsg_booking_test.json",
+                        "name": "booking_test.json",
                         "queryParametersSingleEncoded": true
                     }
                 },

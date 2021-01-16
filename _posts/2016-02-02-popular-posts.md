@@ -12,7 +12,12 @@ categories:
 
 #### Posts:
 
-1. Powershell:
+1. Python:
+   - [New To Python](https://automationadmin.com/2020/11/new-to-python)
+   - [Running Python On Windows](https://automationadmin.com/2020/02/setup-portable-python-scripts-on-windows)
+   - [Intermediate Snippets](https://automationadmin.com/2020/06/python-intermediate-snippets)
+
+2. Powershell:
    - [New To Powershell?](https://automationadmin.com/2018/02/new-to-powershell/)
    - [Template](https://automationadmin.com/2016/11/ps-template-script/)
    - [Logging](https://automationadmin.com/2017/09/ps-why-I-use-my-template-for-logging/)
@@ -21,7 +26,7 @@ categories:
    - [Single Commands](https://automationadmin.com/tags/#ps-one-liners)
    - [Using Passwords In Scripts](https://automationadmin.com/2016/05/using-passwords-with-powershell/)
 
-2. General:
+3. General:
    - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/) 
    - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/) 
    - [3 Part Quiz](https://automationadmin.com/2018/05/general-knowledge-quiz/)
@@ -29,7 +34,7 @@ categories:
    - [Setup A New Computer](https://automationadmin.com/2020/07/chocolatey-computer-refresh)
    - [Connecting To Private Github Repo](https://automationadmin.com/2018/02/connect-to-github-private-repo/)
 
-3. Actions to know how to do:
+4. Actions to know how to do:
    - [Breaking Into SA Jobs](https://automationadmin.com/2016/05/breaking-into-sa-jobs/)
    - [PS: Get Emails From All Users On A Share](https://automationadmin.com/2018/11/common-workflow-get-email-addresses-for-all-users-on-a-share/)
    - [PS: Servers List To CSV](https://automationadmin.com/2019/06/servers-list-to-csv/)
@@ -37,7 +42,7 @@ categories:
    - [Regex Examples](https://automationadmin.com/2017/02/regex-examples/)
 
 
-4. Other:
+5. Other:
    - [Top Xkcd's](https://automationadmin.com/2018/08/top-xkcds/)
    - [Meta - Categories and Tags for this site](https://automationadmin.com/2016/01/categories-tags/)
 
