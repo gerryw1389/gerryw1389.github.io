@@ -7,9 +7,10 @@
       "editor.renderWhitespace": "boundary",
       "editor.tabSize": 4,
       "editor.rulers": [
-             79,120
-           ],
-           "editor.defaultFormatter": "ms-python.python"
+         79,
+         120
+      ],
+      "editor.defaultFormatter": "ms-python.python"
    },
    "breadcrumbs.enabled": false,
    "cSpell.enabledLanguageIds": [
@@ -98,10 +99,10 @@
    "insertDateString.formatDate": "YYYY-MM-DD",
    "powershell.codeFormatting.autoCorrectAliases": true,
    "powershell.codeFormatting.preset": "Allman",
-   "python.analysis.logLevel": "Warning",   
+   "python.analysis.logLevel": "Warning",
    "python.formatting.provider": "yapf",
    "python.linting.pylintEnabled": true,
-   "python.linting.enabled": true,    
+   "python.linting.enabled": true,
    "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
    "terminal.integrated.cursorStyle": "underline",
    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -116,11 +117,11 @@
    "window.title": "${rootName}",
    "window.zoomLevel": 0,
    "workbench.colorCustomizations": {
-     "[Monokai Dimmed]": {
-        "list.inactiveSelectionBackground": "#2D4D36",
-          "list.inactiveSelectionForeground": "#9E9E9E",
-          "list.activeSelectionBackground": "#2D4D36",
-          "list.activeSelectionForeground": "#9E9E9E"
+      "[Monokai Dimmed]": {
+         "list.inactiveSelectionBackground": "#2D4D36",
+         "list.inactiveSelectionForeground": "#9E9E9E",
+         "list.activeSelectionBackground": "#2D4D36",
+         "list.activeSelectionForeground": "#9E9E9E"
       },
       "editorCursor.foreground": "#9AA83A",
       "editorRuler.foreground": "#001A0D",

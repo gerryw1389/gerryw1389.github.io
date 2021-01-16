@@ -1,0 +1,116 @@
+{
+   "[markdown]": {
+       "files.trimTrailingWhitespace": false
+   },
+   "[python]": {
+       "editor.renderWhitespace": "boundary",
+       "editor.tabSize": 4
+   },
+   "[shellscript]": {
+       "editor.defaultFormatter": "foxundermoon.shell-format"
+   },
+   "breadcrumbs.enabled": false,
+   "cSpell.enabledLanguageIds": [
+       "asciidoc",
+       "cpp",
+       "latex",
+       "markdown",
+       "plaintext",
+       "text"
+   ],
+   "editor.acceptSuggestionOnEnter": "off",
+   "editor.autoClosingBrackets": "never",
+   "editor.codeLens": false,
+   "editor.cursorStyle": "line",
+   "editor.detectIndentation": false,
+   "editor.foldingStrategy": "indentation",
+   "editor.renderControlCharacters": false,
+   "editor.tabSize": 3,
+   "editor.tokenColorCustomizations": {
+       "comments": "#9E9E9E",
+       "textMateRules": [
+           {
+               "scope": "meta.paragraph.markdown", // regular text
+               "settings": {
+                   "foreground": "#9E9E9E"
+               }
+           },
+           {
+               "scope": [
+                   "markup.inline.raw", // inline code
+                   "markup.fenced_code.block.markdown", // code blocks and everything between them
+               ],
+               "settings": {
+                   "foreground": "#9AA83A"
+               }
+           },
+           {
+               "scope": [
+                   "markup.heading.markdown", // All headings and their text
+                   "entity.name.tag", // special phrases
+                   "meta.link.inline.markdown", //
+                   "markup.underline", // links I think
+                   "markup.bold",
+                   "markup.italic",
+                   "markup.list", //Just the hypens and numbers, not the text
+                   "meta.separator.markdown", // horizontal lines
+                   "meta.link.reference.def.markdown",
+               ],
+               "settings": {
+                   "foreground": "#9AA83A" // was #C7444A
+               }
+           },
+           {
+               "scope": [
+                   "markup.raw.block.markdown", // For text with two leading tabs
+                   "constant.character.escape.markdown", // escape characters outside of code fences
+                   "markup.inserted.math.inline.markdown", // code outside of code fences
+               ],
+               "settings": {
+                   "foreground": "#9B0000"
+               }
+           }
+       ]
+   },
+   "editor.wordWrap": "on",
+   "explorer.autoReveal": false,
+   "explorer.confirmDelete": false,
+   "explorer.confirmDragAndDrop": false,
+   "extensions.ignoreRecommendations": true,
+   "fileheader.Author": "Gerry Williams",
+   "fileheader.LastModifiedBy": "Gerry Williams",
+   "fileheader.tpl": "---\n@Author: {author}\n@Date Created: {createTime}\n---\n\n",
+   "files.autoSave": "afterDelay",
+   "files.autoSaveDelay": 2000,
+   "files.eol": "\n",
+   "files.exclude": {
+       "repo/": true
+   },
+   "files.hotExit": "off",
+   "git.autofetch": true,
+   "git.confirmSync": false,
+   "git.enableSmartCommit": true,
+   "git.fetchOnPull": true,
+   "insertDateString.format": "YYYY-MM-DDThh:mm:ssZZZ",
+   "insertDateString.formatDate": "YYYY-MM-DD",
+   "powershell.codeFormatting.preset": "Allman",
+   "puppet.titleBar.pdkNewModule.enable": false,
+   "python.formatting.provider": "yapf",
+   "python.linting.enabled": true,
+   "python.linting.pylintEnabled": true,
+   "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
+   "terminal.integrated.cursorStyle": "underline",
+   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "vsicons.dontShowNewVersionMessage": true,
+   "window.newWindowDimensions": "maximized",
+   "window.restoreWindows": "none",
+   "window.title": "${rootName}",
+   "window.zoomLevel": 0,
+   "workbench.iconTheme": "vscode-icons",
+   "workbench.sideBar.location": "left",
+   "workbench.tree.renderIndentGuides": "always",
+   "workbench.colorCustomizations": {
+       "editorCursor.foreground": "#9AA83A"
+   },
+   "workbench.colorTheme": "Monokai Dimmed",
+}

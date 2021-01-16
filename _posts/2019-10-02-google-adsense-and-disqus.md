@@ -63,7 +63,7 @@ This post describes how I added Google Adsense and Disqus to the Github Pages ho
    comments:
    provider: "disqus"
    disqus:
-      shortname: "gerrywilliams-net"
+      shortname: "automationadmin-com"
 
    # Down below, in post settings, add
    comments: true

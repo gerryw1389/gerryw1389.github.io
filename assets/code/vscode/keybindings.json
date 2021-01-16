@@ -1,0 +1,21 @@
+[
+   {
+      "key": "ctrl+n",
+      "command": "explorer.newFile",
+      "when": "explorerViewletFocus"
+   },
+   {
+      "key": "ctrl+shift+i",
+      "command": "-workbench.action.toggleDevTools",
+      "when": "isDevelopment"
+   },
+   {
+      "key": "ctrl+shift+i",
+      "command": "-insertDateString.insertDateTime",
+      "when": "editorTextFocus"
+   },
+   {
+      "key": "ctrl+shift+i",
+      "command": "insertDateString.insertDate"
+   }
+]

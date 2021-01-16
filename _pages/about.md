@@ -15,7 +15,7 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
       - See my [Azure](https://automationadmin.com/categories/#azure) category and [cloud](https://automationadmin.com/tags/#cloud) tag for example 
    - Try to check the skills in: [How to be a Cloud SysAdmin](https://automationadmin.com/2018/11/aws-sysadmin-guide/)
    - Must read [post](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/)
-   - Trying to [break in?](https://roadmap.sh/devops) Get to learning. More info can be found on [this reoccurring thread](https://www.reddit.com/r/devops/comments/koijyu/monthly_getting_into_devops_thread_202101/)
+   - Trying to [break in?](https://roadmap.sh/devops) Get to learning. More info can be found on [this recurring thread](https://www.reddit.com/r/devops/comments/koijyu/monthly_getting_into_devops_thread_202101/)
 
 2. Systems Administrator:
    - Powershell, Windows Server
@@ -37,7 +37,7 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
    - Try to never be the smartest person the room
      - I'm a fan of skills checklists so that I'm always learning something new, see above.
    - Be a tinker by nature:
-     - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. Drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://gist.github.com/gerryw1389/ad275818cb8ffc3a7efb8795a85e7080#file-vscode-settings-json).
+     - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. Drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json).
      - Do you regularly go out of your way to learn how $x works? See [this list](https://github.com/Kickball/awesome-selfhosted) of things you can install in your [homelab](https://automationadmin.com/tags/#test-lab)
        - See my [setup](https://automationadmin.com/tags/#setup) tag for example
        - After you stand something up, take notes of each step and then post them on [a blog](https://automationadmin.com/2019/06/wordpress-to-jekyll/) so you can showcase your skills.

@@ -48,7 +48,7 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
    | project LogicApp_Count
    ```
 
-3. Get Reoccurance triggers:
+3. Get Recurrence triggers:
 
    ```escape
    AzureDiagnostics

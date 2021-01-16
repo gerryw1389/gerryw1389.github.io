@@ -20,7 +20,7 @@ So while working with Service Now developers to move to [an Event Based setup](h
 
 ### To Resolve:
 
-1. Trigger => Reoccurrence set to `1 week`, then `M-F` every minute between `8am and 5pm`
+1. Trigger => Recurrence set to `1 week`, then `M-F` every minute between `8am and 5pm`
 
 2. HTTP Action:
    - Method: GET
