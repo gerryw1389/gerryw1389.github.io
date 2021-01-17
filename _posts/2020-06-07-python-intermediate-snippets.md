@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-Here are some snippets I have been using lately:
+Here are some snippets I have been using lately. Latest versions of these will be maintained on my [Github](https://github.com/gerryw1389/python/tree/main/learning):
 
 ### To Resolve:
 
