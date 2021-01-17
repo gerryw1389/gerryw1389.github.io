@@ -25,7 +25,7 @@ So I borked my Plex install on Centos 7 with Virtualbox because I kept shutting 
    - Get the [correct timezone string](https://docs.diladele.com/docker/timezones.html) - America/Chicago
    - Get a [claim token](https://www.plex.tv/claim)
    - Ensure my user has rights to read/write to certain directories on a different drive letter in Windows (see below)
-   -  So after getting the information I needed, I opened up VSCode and ensured that the `Remote Development` extension was working with WSL2 by typing `wsl` followed by `code .` which will launch vscode from the remote environment. While in the remote-wsl, I also ran `docker --help` and ensured that it could run docker commands. Lastly, I simply ran two commands to pull down the docker container and set it up as I wanted:
+   - So after getting the information I needed, I opened up VSCode and ensured that the `Remote Development` extension was working with WSL2 by typing `wsl` followed by `code .` which will launch vscode from the remote environment. While in the remote-wsl, I also ran `docker --help` and ensured that it could run docker commands. Lastly, I simply ran two commands to pull down the docker container and set it up as I wanted:
 
    ```shell
    # make sure my user is in correct group
@@ -54,8 +54,8 @@ So I borked my Plex install on Centos 7 with Virtualbox because I kept shutting 
 
 2. So before this, I had folders under my `s:\` in Windows that I shared to my Centos 7 VM that would mount them on boot and use those to read into the Plex library. Now I get to point it locally!. But I had a problem... all my directory permissions were read/execute only even though I had `computername\Adminstrators` as full control to the root of the `S:\` with inheritance enabled.
 
-   - So I was able to create folders if I launched powershell as administrator, then typed `wsl` and then `cd /mnt/s/somefolder` and `mkdir whatever`. 
-   - But I didn't want to launch PS as admin every time....
+   - So I was able to create folders if I launched powershell as administrator, then typed `wsl` and then `cd /mnt/s/somefolder` and `mkdir whatever`.
+   - But I didn't want to launch PS as admin every time...
    - Found the fix was just to add my user explicitly to root of `S:\` NTFS Security and then run `wsl` again and it would pick up that my user had permissions!
 
 3. So after I got permissions sorted and the container running, I went to `localhost:32400` in my browser and Plex was running! I signed in and removed my old server and pointed to this server. Now, I just need to run `wsl -e docker start plex` in my startup script to start my container instead of [launching vbox](https://automationadmin.com/2019/09/virtualbox-startup-changes/).
@@ -93,7 +93,6 @@ So I borked my Plex install on Centos 7 with Virtualbox because I kept shutting 
    - On my host Windows machine, created `Data` and `Vids` shares to be used by Plex VM.
 
    - I then mounted CIFS like my old Plex server:
-
 
    ```shell
    # Test smb stuffs

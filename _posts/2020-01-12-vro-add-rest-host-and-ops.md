@@ -21,9 +21,9 @@ Update: Here is a post I did on basic [Javascript syntax in VRO](https://automat
 
 ### To Resolve
 
-1. The first thing you start to do when you work with VRO is add hosts in its inventory as REST Hosts. 
+1. The first thing you start to do when you work with VRO is add hosts in its inventory as REST Hosts.
 
-   - What this allows you to do is to then call actions on these hosts like: 
+   - What this allows you to do is to then call actions on these hosts like:
 
    ```javascript
    function getOauthToken() {
@@ -32,8 +32,8 @@ Update: Here is a post I did on basic [Javascript syntax in VRO](https://automat
          "grant_type": "password",
          "username": "myUser",
          "password": "pa55word",
-         "client_id": "asdfoaksdfmaksdfjalsdfkjl",
-         "client_secret": "asdfoaksdfmaksdfjalsdfkjl"
+         "client_id": "someClientID",
+         "client_secret": "someSecret"
       }
       var formBody = []
       for (var property in content1) {
@@ -72,7 +72,7 @@ Update: Here is a post I did on basic [Javascript syntax in VRO](https://automat
    - I then go to the Workflows tab and run one called `Add A Rest Operation`. See my [previous post](https://automationadmin.com/2019/12/vro-run-jenkins-ps/) for an example. The gist is that you point to your host and then you add as many GET, POST, PUT's or whatever that you will ever need to use in Workflows. Give them good names, for example I always put the operation as the first part of the word. For example "postToken", "getUser", "putSNTicket", ect.
    - I then create a blank workflow and add a new input variable in 2 places `<= pay attention`. First, on the variables screen as a data type `REST:RestOperation` and then on the schema tab under the scriptable task element under 'inputs'.
    - Now, when I put the code above in the script - VRO knows about the host to reach out to and the operation to perform just by the variable in the script.
-   - In that same script, you would then have other operations and calls to that host where you attach the Oauth Token as a header. For example: 
+   - In that same script, you would then have other operations and calls to that host where you attach the Oauth Token as a header. For example:
 
    ```javascript
    var primaryToken = getOauthToken()

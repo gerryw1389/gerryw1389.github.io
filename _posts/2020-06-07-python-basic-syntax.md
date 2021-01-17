@@ -14,43 +14,41 @@ tags:
 
 ### Top
 
-   - [Top](#top)
-   - [Version](#version)
-   - [Naming](#naming)
-   - [Modules](#modules)
-   - [Variables](#variables)
-   - [Functions](#functions)
-   - [Strings](#strings)
-   - [Conditionals](#conditionals)
-   - [Loops](#loops)
-   - [Collections and Arrays](#collections-and-arrays)
-   - [Dictionaries](#dictionaries)
-   - [Date and Time](#date-and-time)
-   - [Misc](#misc)
+- [Top](#top)
+- [Version](#version)
+- [Naming](#naming)
+- [Modules](#modules)
+- [Variables](#variables)
+- [Functions](#functions)
+- [Strings](#strings)
+- [Conditionals](#conditionals)
+- [Loops](#loops)
+- [Collections and Arrays](#collections-and-arrays)
+- [Dictionaries](#dictionaries)
+- [Date and Time](#date-and-time)
+- [Misc](#misc)
 
 ### Version
 
 I usually assume v3.5 so I will put this after import statements:
 
-   ```python
-   import sys
-   # require Python interpreter > v.3.5
-   assert sys.version_info >= (3, 5)
-   ```
+```python
+import sys
+# require Python interpreter > v.3.5
+assert sys.version_info >= (3, 5)
+```
 
-   - [Back to top](#top)
-
+- [Back to top](#top)
 
 ### Naming
 
 If you get the error `module $module has no $method attribute`, for example: `module csv has no reader attribute` when [it clearly does](https://docs.python.org/3/library/csv.html) then this is because I named my file `csv.py`. Once renamed to `monitorcsv.py`, everything worked. Had the same thing happen with `email.py`.
 
-   - [Back to top](#top)
-
+- [Back to top](#top)
 
 ### Modules
 
-   - See [docs](https://docs.python.org/3/reference/import.html)
+- See [docs](https://docs.python.org/3/reference/import.html)
 
    ```python
    # Placed at top of file under the shebang
@@ -58,8 +56,7 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    from random import shuffle # from module import submodule
    ```
 
-   - [Back to top](#top)
-
+- [Back to top](#top)
 
 ### Variables and Comments and Inspections
 
@@ -168,8 +165,7 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    >>>
    ```
 
-   - [Back to top](#top)
-
+- [Back to top](#top)
 
 ### Functions
 
@@ -255,8 +251,8 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    
    ```
 
-   - [Back to top](#top)
-   
+- [Back to top](#top)
+
 ### Strings
 
    ```python
@@ -387,8 +383,7 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    print('Hello'.center(30, '_'))
    ```
 
-   - [Back to top](#top)
-
+- [Back to top](#top)
 
 ### Conditionals
 
@@ -409,10 +404,9 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    # python doesn't have switch cases, I pretty much just use if, elif, else instead
    ```
 
-   - [Back to top](#top)
+- [Back to top](#top)
 
-
- ### Loops
+### Loops
 
    ```python
      ## Loops ##
@@ -526,8 +520,7 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    '''
    ```
 
-   - [Back to top](#top)
-
+- [Back to top](#top)
 
 ### Collections and Arrays
 
@@ -691,7 +684,7 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    print(x ^ y) # Elements in x or y but not in both
    ```
 
-   - [Back to top](#top)
+- [Back to top](#top)
 
 ### Dictionaries
 
@@ -791,7 +784,7 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    dict(sorted(numbers.items(),reverse=True)) # descending order
    ```
 
-   - [Back to top](#top)
+- [Back to top](#top)
 
 ### Date and Time
 
@@ -837,22 +830,21 @@ If you get the error `module $module has no $method attribute`, for example: `mo
    '{:%d-%b-%Y %I:%M:%S %p}'.format(pastdate)
    ```
 
-   - [Back to top](#top)
+- [Back to top](#top)
 
 ### Misc
 
-   - Sleep
+- Sleep
 
    ```python
    import time
    time.sleep(2) # sleeps for 2 seconds
    ```
 
-   - Do nothing
+- Do nothing
 
    ```python
    pass
    ```
 
-   - [Back to top](#top)
-
+- [Back to top](#top)

@@ -22,7 +22,7 @@ So I like to use an Azure Files (from an Azure Storage Account) that mounts to h
 
 1. Source code is [here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/logic-apps/mirror-onedrive-to-azure-files.json)
 
-2. Be sure to find/replace for `{{ some text }}` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
+2. Be sure to find/replace for `double open brackets` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
 
 3. Pics
 
@@ -31,4 +31,3 @@ So I like to use an Azure Files (from an Azure Storage Account) that mounts to h
    - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/mirror2.jpg){:class="img-responsive"}
 
 4. What makes this Logic App especially useful is that you have an array of folder names, and for each of them you loop through and move the files to the storage account!
-

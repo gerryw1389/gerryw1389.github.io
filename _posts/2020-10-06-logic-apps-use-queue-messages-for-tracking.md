@@ -19,28 +19,11 @@ So if you have a chain of Logic Apps and you want to be able to track where they
 
 ### To Resolve:
 
-1. As stated, have each Logic App [add a message](https://docs.microsoft.com/en-us/connectors/azurequeues/#put-a-message-on-a-queue)
-   - Ensure value is `completed`
+1. Source code is [here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/logic-apps/queue-storage.json)
 
-2. Add a new Logic App as the last step in the chain that looks like:
-   - Trigger: When HTTP Request is Received
-   - Response: 200 code
-   - [Get Messages](https://docs.microsoft.com/en-us/connectors/azurequeues/#get-messages) Max is 32
-   - Initialize Variable - boolTerminate to 'false' (data type is boolean)
-   - For Each 
-	   - QueueMessage
-	   - If Message contains 'completed'
-		   - True: Delete Message
-  		   - False: Set Variable boolTerminate to 'true'
-	- If Variable boolTerminate is equal to 'true'
-	   - True: Terminate
-	   - False: Empty
+2. Be sure to find/replace for `double open brackets` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
 
-3. Source code is [here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/logic-apps/queue-storage.json)
-
-4. Be sure to find/replace for `{{ some text }}` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
-
-5. Pics
+3. Pics
 
    - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/queue1.jpg){:class="img-responsive"}
 

@@ -24,11 +24,10 @@ This is how I was finally able to get [tracked properties](https://docs.microsof
    - Create an 'Initialize Variable' action after you have a variable you want captured in logs.
    - Data Type string
    - Value `$myvar` where myvar is the variable you want to capture
-   - Click on the elipses on the right for the 'Initialize Variable' action and go to Settings
+   - Click on the ellipsis on the right for the 'Initialize Variable' action and go to Settings
      - Tracked Properties section:
      - Name: Whatever you want it to show up as in Log Analytics
      - Value: `"@action().inputs.variables[0].value"`
-
 
 2. Let it run a couple times and you should be able to query for it now:
 

@@ -99,18 +99,6 @@ So I needed an event based way to monitor `/csv` for specific csv file patterns.
    journalctl -u monitorcsv.path
    ```
 
-
 ### References:
 
 ["Systemd Path Units"](https://www.putorius.net/systemd-path-units.html)
-
-
-
-
-
-
-
-
-
-
-

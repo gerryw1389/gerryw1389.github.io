@@ -38,17 +38,17 @@ This post is meant to consolidate the different email securities that are common
 
 3. **DKIM** => DomainKeys Identified Mail ([DKIM](https://wiki.zimbra.com/wiki/Best_Practices_on_Email_Protection:_SPF,_DKIM_and_DMARC)), is a method to associate the domain name and the email, allowing to a person or company assume the responsibility of the email. Follow [this](https://support.rackspace.com/how-to/create-a-dkim-txt-record/) guide for an example setup.
 
-   - DKIM Record Setup Example: `v=DKIM1;k=rsa;p=a;sfklasl;fjasl;dfja;lsfjd;`
+   - DKIM Record Setup Example: `v=DKIM1;k=rsa;p=randChars`
    - `V=DKIM1` = Means it's defining a DKIM record  
    - `K=rsa` = Encryption type  
    - `P= (key)` = Your public key
    - DKIM Record Implementation: On your DNS provider interface (or local server if you don't have an external DNS provider), create a TXT file similar to:
 
    ```escape
-   Name = easd;fljasd;jfaslk;dfjaslasdf_domainkey  
+   Name = randChars_domainkey  
    TTL = 14400  
    Type = TXT  
-   Data = "v=DKIM1;k=rsa;p=a;sfklasl;fjasl;dfja;lsfjd;"
+   Data = "v=DKIM1;k=rsa;p=randChars"
    ```
 
 4. **FCrDNS** is used to [make sure that PTR/A records match for a domain](http://www.itworld.com/article/2833006/networking/how-to-setup-reverse-dns-and-ptr-records.html).
@@ -84,5 +84,3 @@ This post is meant to consolidate the different email securities that are common
    Type = TXT  
    Data = "v=DMARC1; p=quarantine; sp=none; ruf=mailto:tech@domain.com; rf=afrf; pct=100; ri=86400"
    ```
-
-

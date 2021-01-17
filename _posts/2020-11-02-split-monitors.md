@@ -22,4 +22,3 @@ I had an issue where my Dell U3419W monitor would show windows side by side easi
    - Download/Run Dell Display Manager
      - Go to input - Main Window #1 = USB-C / Sub Window #2 = HDMI#1
    - In addition, use Intel HD Graphics Control panel to set each window to `1720*1440` and `Scale Full Screen` (under Display)
-

@@ -39,5 +39,3 @@ So when looking at our current Logic Apps, I was looking for a way to not have t
    - Then do the regular 'Create Job' from Azure Automation to run a runbook that will [read table storage and get the values](https://automationadmin.com/2020/05/ps-write-to-table-storage) and change the record to 'completed' so that the next flow won't try to process it.
 
 2. This, of course, is kinda silly seeing as Runbooks have native ways to pass parameters! So instead, create parameters for your runbook and then when you choose the 'Create Job' action for Azure Runbooks - you just fill in the parameters since Azure will automatically populate the input parameters by name! I would show a screenshot here but I don't have anything with generic parameters so I will link [this](https://docs.microsoft.com/en-us/azure/automation/runbook-input-parameters) instead.
-
-

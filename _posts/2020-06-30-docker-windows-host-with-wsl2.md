@@ -17,7 +17,6 @@ tags:
 
 So I did a PC refresh the other day and wanted to move from VirtualBox to using only WSL2. I then went to setup Plex in a container in WSL2 which I then changed later but here is what I initially did to get Docker on Windows. Pretty much just followed the [official docs](https://docs.docker.com/docker-for-windows/wsl/)
 
-
 ### To Resolve:
 
 1. Make your user a member of the local administrator group or you will have issues with [named pipes](https://stackoverflow.com/questions/58663920/can-i-run-docker-desktop-on-windows-without-admin-privileges)

@@ -21,7 +21,7 @@ So up until now, I have always been using a folder under my Google Drive for rep
 
 1. On my home computer, which is starting to be my work computer now due to Covid and permanent work from home (yay!), I copied `path://google/my-git-repo` to `c:/git/my-git-repo`. I then did:
 
-   - Deleted  `path://google/my-git-repo` 
+   - Deleted  `path://google/my-git-repo`
    - Created a batch file with: `robocopy C:\git\my-repo Q:\google\my-git-repo /mir /xd .git`
    - I then changed my VS Code workspaces to go from old location to new location:
 

@@ -25,7 +25,6 @@ When typing `code .` in my vscode instance attached to WSL2, I kept getting:
 
 Upon further investigation I found that I could not find `/mnt/c` from within WSL2 so I knew something was up.
 
-
 ### To Resolve:
 
 1. Found [the fix](https://github.com/microsoft/vscode-remote-release/issues/2818) in one of the first searches:
@@ -34,4 +33,4 @@ Upon further investigation I found that I could not find `/mnt/c` from within WS
    wsl.exe --shutdown
    ```
 
-   - This seems to be something to do with Docker running on my host machine. 
+   - This seems to be something to do with Docker running on my host machine.

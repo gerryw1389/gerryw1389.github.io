@@ -63,7 +63,7 @@ Here are some snippets I have been using lately:
 
    s = '85d89569-5c9e-4fc6-a394-7bb9d724b614'
    p = '{"AppName": "SomeApp", "PermName": "SomePermission", "ChangeRequestType": "ADD"}'
-   k = 'SbBjasdfasdf'
+   k = 'someGuid'
    req = send_req(s, p, k)
    print(req.status_code)
 
@@ -276,4 +276,3 @@ Here are some snippets I have been using lately:
    2020-06-22 05:19:37 PM => DEBUG : https://mycompany.southcentralus-1.eventgrid.azure.net:443 "POST /api/events HTTP/1.1" 200 0
    2020-06-22 05:19:39 PM => INFO : Request completed successfully
   ```
-

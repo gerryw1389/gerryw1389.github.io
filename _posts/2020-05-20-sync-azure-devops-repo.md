@@ -36,4 +36,3 @@ So I will eventually be moving from Github to Azure Devops but first I wanted to
    ```
 
 3. Enter your credentials when prompted. Be advised I got an error `Error: 'security token doesn't have enough privledges..'` and the fix was to go back to the project and make my user an Administrator of the project.
-

@@ -37,6 +37,6 @@ So we are currently chaining a bunch of Logic Apps together by creating them wit
    | project TimeCompleted, LogicApp, Status, StartTime, EndTime, CoorelationID
    ```
 
-   - Make sure you have a `JobStream` tag in each Logic App and replace my value with yours. 
+   - Make sure you have a `JobStream` tag in each Logic App and replace my value with yours.
 
 2. Once the results are returned, select the radio button to 'Group Results' and then drag the column 'CoorelationID' up and you can now see a group of Logic Apps that were called by each other. You can learn about [clientTrackingId here](https://docs.microsoft.com/en-us/azure/logic-apps/monitor-logic-apps-log-analytics#extend-data).

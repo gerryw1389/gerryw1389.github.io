@@ -26,13 +26,13 @@ So if you ever have a runbook that you need to run often, like once a minute oft
 
 2. Using Postman, use a Microsoft Graph API call to the webook and see if it works. Ensure that whatever user or application you are using has the permissions to execute runbooks. Honestly not sure what permissions are needed since this worked with [my generic Powershell Rest API application](https://automationadmin.com/2020/01/azure-create-ps-app/) and that app has no rights in my Azure subscription
 
-3. Go to Function Apps => New 
+3. Go to Function Apps => New
 
    - Name: `run-every-minute`
    - Publish `code`, Runtime stack `powershell core`, version `6`
    - New Function => 'timer trigger'
-	- Name: `default`
-	- Schedule: `0 */1 * * * *`
+   - Name: `default`
+   - Schedule: `0 */1 * * * *`
    - Click on the function name above the word functions => Platform Features => Configuration
    - Add in the following environmental variables: `AzClientID = blah` and `AzClientSecret = blah` replacing `blah` with a clientID and clientSecret for an Azure app that has the ability to start runbooks via Rest API (as always, test this in Postman first!)
 

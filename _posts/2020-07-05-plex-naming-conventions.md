@@ -54,5 +54,3 @@ So in order to have my media processed correctly with Plex I had to name them li
    - Fix: Just used Bulk Rename Utility as I already had these almost like this.
 
 4. For photos and home videos, I just sort by Year and then Month so `/photos/2020/01/photo1.jpeg` so I never had issues there as I always just browse by folder for those libraries.
-
-

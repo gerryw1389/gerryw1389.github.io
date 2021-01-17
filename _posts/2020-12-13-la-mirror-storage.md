@@ -22,7 +22,7 @@ So I have, the past, setup an Azure Container Group that accepts files to be pla
 
 1. Source code is [here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/logic-apps/mirror-storage.json)
 
-2. Be sure to find/replace for `{{ some text }}` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
+2. Be sure to find/replace for `double open brackets` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
 
 3. Pics
 

@@ -75,5 +75,3 @@ This post will be a reference post for different expressions you can create with
       sub(length(variables('substring')),2)) # integer you want past the index = subtract 2 from the length of $substring
    )
    ```
-
-

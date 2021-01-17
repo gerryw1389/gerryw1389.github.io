@@ -14,7 +14,6 @@ tags:
 ---
 <!--more-->
 
-
 ### Description
 
 Azure Storage Accounts can host table storage that scripts can use for temp or long term placement. In the move to replace VRO with Azure Automation, we decided to treat table storage similar to that of Resource Elements in VRO.

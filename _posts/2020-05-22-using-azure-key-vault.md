@@ -79,4 +79,3 @@ So inside an Azure Automation Account, you can call credentials securely but wha
    Set-AzKeyVaultSecret @params 
    # creates 'my-api' with value of 'blah'
    ```
-

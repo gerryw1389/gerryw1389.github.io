@@ -20,9 +20,9 @@ Here are the steps to tag resources in Bulk using powershell
 
 1. Create a powershell file on your machine and paste in:
 
-   ```
+   ```powershell
    Import-Module Az
-   $sub = '697adfadfasdfasdfas'
+   $sub = 'someAzureSubscriptionID'
    Connect-AzAccount -SubscriptionId $sub -UseDeviceAuthentication
    ```
 

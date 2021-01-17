@@ -174,4 +174,3 @@ In this guide, we will be able to get better ideas of alerts because my organiza
       Exit 1
    }
    ```
-

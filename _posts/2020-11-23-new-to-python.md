@@ -51,4 +51,3 @@ Similar to my [New To Powershell?](https://automationadmin.com/2018/02/new-to-po
    - [What Can I Do With Python? – Real Python](https://realpython.com/what-can-i-do-with-python/)
    - [42 Exciting Python Project Ideas & Topics for Beginners 2020 | upGrad blog](https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/)
    - [10 Simple Python Projects (With Full Tutorials) - Comp Sci Central](https://compscicentral.com/python-projects/?fbclid=IwAR19vAJ-cMwQI3Um4SOI6COYlZ_mexsHamBwlrJuBUfiQPVhpNT8tFYfNes)
-

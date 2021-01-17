@@ -31,10 +31,10 @@ So in one of the first steps to convert powershell functions to python functions
       }
    }
    ```
-   
+
    - The endpoint responds back with:
   
-   ```  
+   ```escape
    Hello, gerry.
 
    You chose mustang.
@@ -43,4 +43,3 @@ So in one of the first steps to convert powershell functions to python functions
    ```
 
 2. What this template demonstrates is that I can send a two-level json payload and it can extract those into variables. In addition, I create a `helpers.py` that it will import so I can create functions in a separate file and have the main function and controller. This is huge! Can't wait to get started and expand on this!
-

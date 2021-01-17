@@ -102,7 +102,7 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
 
 #### Azure Automation
 
-7. Job Error:
+1. Job Error:
 
    ```escape
    AzureDiagnostics
@@ -110,7 +110,7 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
    | project TimeGenerated , RunbookName_s , ResultType , Resource
    ```
 
-8. Job Success:
+2. Job Success:
 
    ```escape
    AzureDiagnostics
@@ -118,7 +118,7 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
    | project TimeGenerated , RunbookName_s , ResultType , Resource
    ```
 
-9. Job stream error: Can also by output and verbose
+3. Job stream error: Can also by output and verbose
 
    ```escape
    AzureDiagnostics
@@ -126,7 +126,7 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
    | project TimeGenerated , RunbookName_s , StreamType_s , Resource , ResultDescription
    ```
 
-10. Specific job success:
+4. Specific job success:
 
    ```escape
    AzureDiagnostics
@@ -134,7 +134,7 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
    | project TimeGenerated , RunbookName_s , ResultType , Resource
    ```
 
-11. Count of Automation runbook runs:
+5. Count of Automation runbook runs:
 
    ```escape
    AzureDiagnostics
@@ -144,4 +144,3 @@ Here are some Log Analytics queries we have saved for Logic Apps and Azure Autom
    | extend Runbook_Count = count_RunbookName_s
    | project Runbook_Count
    ```
-

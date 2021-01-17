@@ -18,7 +18,6 @@ tags:
 
 Follow this basic tutorial to setup an Azure Function with Github as the source control. Be advised that when you do this, almost all screens in the web UI will say 'View is set to Read Only since the App is in Source Control' or something of that nature.
 
-
 ### To Resolve:
 
 1. In Github, Create a repo as a service account repo - not organization level called 'azure-function-http'

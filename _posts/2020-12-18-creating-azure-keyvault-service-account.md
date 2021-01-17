@@ -19,12 +19,11 @@ tags:
 
 Service Accounts are great! They allow you to connect services and limit access to a specific user at the same time. Here is an example of how I setup an Azure KeyVault user.
 
-
 ### To Resolve:
 
 1. Create a user in Azure AD called `keyvault@domain.com` for example.
    - To create a user in Azure AD: Azure AD => Users => New
-	- Give 30+ character password
+   - Give 30+ character password
    - Have it bypass MFA: Azure AD => Security => Conditional Access => Azure MFA => Exclude => Add user
    - Have password never expire: `Set-AzureADUser -ObjectId keyvault@domain.com -PasswordPolicies DisablePasswordExpiration`
      - We have an enterprise app that rotates passwords every 30 days so this is okay.
@@ -34,13 +33,13 @@ Service Accounts are great! They allow you to connect services and limit access 
    - Copy the ClientID from the Overview tab to notepad
    - Owners => add the user you just created (keyvault@domain.com)
    - Client Secrets => Copy to notepad
-	
+
 3. Add the user to the KeyVault policy
 
    - Go to Azure KeyVault => IAM => Role Assignments => contributor => Add user and application
    - Go to Azure KeyVault => Access Policies => Add user and application with "Key & Secret Management" Template (read/write to secrets)
 
-4. Now that the user is added, I create a `.env` file in my python repo and fill with key value pairs mentioned in the next script. 
+4. Now that the user is added, I create a `.env` file in my python repo and fill with key value pairs mentioned in the next script.
 
    - Script:
 
@@ -92,7 +91,7 @@ Service Accounts are great! They allow you to connect services and limit access 
       url = f"https://{vault_name}.vault.azure.net/secrets/test?api-version=7.1"
       
       # for a specific version of the secret, replace {version}
-      # version = "aadsfasdfasdfasdf"
+      # version = "someGuid"
       # url = f"https://{vault_name}.vault.azure.net/secrets/test/{version}?api-version=7.1"
 
       payload={}
@@ -120,4 +119,3 @@ Service Accounts are great! They allow you to connect services and limit access 
 
    - Inside the Azure KeyVault policy, remove the `Compound Identity` and add two policies - one for the user and one for the application separately.
    - After running again, I get the secret I was looking for.
-

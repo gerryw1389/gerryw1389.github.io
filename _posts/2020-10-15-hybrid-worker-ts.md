@@ -27,4 +27,3 @@ Not very often I will have to troubleshoot issues on a hybrid worker. My only ex
    - Then it changed back to connected.
 
 2. In theory, you could check that `Orchestrator.Sandbox.exe` is running during a runbook execution, but not much to do there. More info on another post [here](https://automationadmin.com/2020/07/azure-automation-new-csonlinesession-maxshell-issue)
-

@@ -19,7 +19,7 @@ tags:
 
 So the goal of this post is to clarify what all we tried for renaming devices joined using Hybrid Azure AD Join. [Per Microsoft](https://docs.microsoft.com/en-us/mem/intune/remote-actions/device-rename), renaming hybrid devices is not yet supported:
 
-   - ![Not Supported](https://automationadmin.com/assets/images/uploads/2020/06/intune-3.jpg){:class="img-responsive"}
+- ![Not Supported](https://automationadmin.com/assets/images/uploads/2020/06/intune-3.jpg){:class="img-responsive"}
 
 ### To Resolve:
 
@@ -61,13 +61,11 @@ So the goal of this post is to clarify what all we tried for renaming devices jo
 
    - None of these would get me that information! So frustrating!
 
-
 2. I finally decided to open up Network tools in Firefox and see what REST calls my browser was making to get that information and was able to track it down:
 
    - ![Intune Graph API](https://automationadmin.com/assets/images/uploads/2020/06/intune-2.jpg){:class="img-responsive"}
 
 3. I then translated this into Powershell and tested different device serial numbers. See code below for implementation but for now I needed to find a way to run this on the client device itself. That is where I found [this great post](https://oofhours.com/2020/05/19/renaming-autopilot-deployed-hybrid-azure-ad-join-devices/)
-
 
    - First, we have to allow client devices to rename themselves:
      - Right click OU => Delegate Access
@@ -82,7 +80,7 @@ So the goal of this post is to clarify what all we tried for renaming devices jo
      - App Registrations => ReadData
      - Generate Client Secret => $secretKey
      - Copy Client ID => some guid
-     - Add Permissions => 
+     - Add Permissions =>
        - Permission:
        - Device.Read.All - Application - Read all devices
        - DeviceManagementApps.Read.All - Application - Read Microsoft Intune apps
@@ -96,9 +94,7 @@ So the goal of this post is to clarify what all we tried for renaming devices jo
 
    - Lastly, download the [poster's Github](https://github.com/mtniehaus/RenameComputer) locally
 
-
 4. So the goal is to create a new Intune app and push that to the clients and have them renamed themselves according to the fields in step 1 set by a user manually when onboarding a device. Here are some changes made:
-
 
    - At the top, insert the Graph API function
 

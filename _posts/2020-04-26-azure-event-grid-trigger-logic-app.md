@@ -22,11 +22,11 @@ Having a runbook [run every minute](https://automationadmin.com//2020/04/azure-f
 
 ### To Resolve:
 
-1. Create a new Event Grid Domain: 
+1. Create a new Event Grid Domain:
    - Go to Event Grid Domains and create a new one `MyTestEG`
-   - Note the endpoint it creates - https://mytesteg.southcentralus-1.eventgrid.azure.net/api/events
+   - Note the endpoint it creates - <https://mytesteg.southcentralus-1.eventgrid.azure.net/api/events>
 
-2. Create a new topic: 
+2. Create a new topic:
    - Go to Event Grid Topics and create a new one `MyTestTopic`
    - Add a new Event Subscription: `MyTestSubscription`
    - Have the subscription call a logic app: Paste in URL for HTTP webook
@@ -70,9 +70,9 @@ Having a runbook [run every minute](https://automationadmin.com//2020/04/azure-f
    ]
    ```
 
-3. Did this trigger your logic app which resulted in an email to you (per step 2)? This may not work because I have removed my domain specific stuff and I know we got it working but it may not work since it's been sanitized - let me know in the comments.
+4. Did this trigger your logic app which resulted in an email to you (per step 2)? This may not work because I have removed my domain specific stuff and I know we got it working but it may not work since it's been sanitized - let me know in the comments.
 
-4. So this is good and all, but we need a way to filter events in case we get more than a few of these. You can do this with `Subject filtering`:
+5. So this is good and all, but we need a way to filter events in case we get more than a few of these. You can do this with `Subject filtering`:
 
    - Go back to Event Topics. Click `MyTestTopic` and `+ Event Subscription`
    - Name = TESTLogicApp
@@ -86,7 +86,7 @@ Having a runbook [run every minute](https://automationadmin.com//2020/04/azure-f
    - Filter tab = Check the box to enable subject filtering and choose 'subject begins with' and paste in '6a99c7e2-5dab-4036-b1fc-2a74b65967ef'
    - Save / Exit
 
-5. Test from your machine using Postman
+6. Test from your machine using Postman
    - Headers: Same
    - Body:
 

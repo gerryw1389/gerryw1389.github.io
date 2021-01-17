@@ -17,7 +17,6 @@ tags:
 
 So while working with Service Now developers to move to [an Event Based setup](https://automationadmin.com/2020/05/general-automation-goals-with-azure), I wrote a Logic App in the interim that scans Service Now for new requests every minute and calls an Azure Automation job if a new record was created. Here are the steps:
 
-
 ### To Resolve:
 
 1. Trigger => Recurrence set to `1 week`, then `M-F` every minute between `8am and 5pm`

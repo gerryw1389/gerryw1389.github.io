@@ -93,7 +93,7 @@ Instead of using Jenkins, we wanted to test with Azure Automation instead. The w
 
 8. Now add the repo to my machine and create a similar test script and watch it automatically sync and publish (as long as you chose those options under Automation Account => Source Control => AutoSync = True / Publish Runbook = True.
 
-9.  If you want to forward your logs, you will have to enable MS Insights at the subscription level and then run from cloudshell:
+9. If you want to forward your logs, you will have to enable MS Insights at the subscription level and then run from cloudshell:
 
    ```powershell
    Get-AzResource -ResourceType "Microsoft.OperationalInsights/workspaces"
@@ -108,4 +108,4 @@ Instead of using Jenkins, we wanted to test with Azure Automation instead. The w
    Get-AzDiagnosticSetting -ResourceId $automationAccountId
    ```
 
-11. I have [another post](https://automationadmin.com/2020/04/use-log-analytics-with-azure-automation-for-alerts) on this if you want to continue reading.
+10. I have [another post](https://automationadmin.com/2020/04/use-log-analytics-with-azure-automation-for-alerts) on this if you want to continue reading

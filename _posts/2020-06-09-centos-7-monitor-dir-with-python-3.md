@@ -20,7 +20,7 @@ So the other day, I wrote a [post](https://automationadmin.com/2020/06/systemd-p
 
 1. Following [this guide](https://developers.redhat.com/blog/2018/08/13/install-python3-rhel/#tldr) I installed python 3 on my RHEL 7 box by running:
 
-   ```
+   ```shell
    subscription-manager repos --enable rhel-7-server-optional-rpms \
    --enable rhel-server-rhscl-7-rpms
    yum -y install @development
@@ -29,7 +29,7 @@ So the other day, I wrote a [post](https://automationadmin.com/2020/06/systemd-p
 
 2. Next, I copied over my `monitorcsv.py` that I have been building in vscode:
 
-   ```
+   ```shell
    cd /myuser/scripts
    mkdir csv
    cd csv
@@ -47,26 +47,26 @@ So the other day, I wrote a [post](https://automationadmin.com/2020/06/systemd-p
 
 3. Next, I created a caller bash script:
 
-   ```
+   ```shell
    vi /myuser/scripts/monitorcsv.sh
-      # paste in:
-      #!/bin/bash
-      scl enable rh-python36 bash
-      source /myuser/scripts/csv/venv/bin/activate
-      python /myuser/scripts/csv/monitorcsv.py
+   # paste in:
+   #!/bin/bash
+   scl enable rh-python36 bash
+   source /myuser/scripts/csv/venv/bin/activate
+   python /myuser/scripts/csv/monitorcsv.py
    chmod 700 csv.sh
    ```
 
 4. Create an `.env` file for python to load environmental variables within the env:
 
-   ```
+   ```python
    EMAIL="somePass"
    KEY="someKey"
    ```
 
    - Make sure to add at top of your python script:
 
-   ```
+   ```python
    from dotenv import load_dotenv
 
    load_dotenv()

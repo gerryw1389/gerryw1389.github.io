@@ -21,9 +21,9 @@ So my organization needed a way to send API calls to a third party application t
 
 1. First, deploy an instance in the Azure portal.
 2. This takes a while. After it is done, in the Azure Portal go to:
-   - API's blade => Echo API => Settings tab => Take note of `Web Service: http://echoapi.cloudapp.net/api`. 
+   - API's blade => Echo API => Settings tab => Take note of `Web Service: http://echoapi.cloudapp.net/api`.
 3. For your organizations API's, you will replace this with the base URI of the endpoint you want to connect to. For example, for Service Now this is `yourcompany.service-now.com/api`. Let's go ahead and create it:
-   - In API's blade => Click `Add API` => Type 
+   - In API's blade => Click `Add API` => Type
      - `SN Test` as display name
      - `SN-Test` as name
      - `https://yourcompany.service-now.com/api` for Web Service URL
@@ -33,7 +33,7 @@ So my organization needed a way to send API calls to a third party application t
    - On the same blade, go to the Test tab. Click on `Get Request` and click on the eye icon in bottom right to get the `Ocp-Apim-Subscription-Key` under the HTTP Request section. We will need this to test from Postman.
 
 4. Now inside Postman:
-   - Set operation to `GET` 
+   - Set operation to `GET`
    - Set URL to `https://my-org.azure-api.net/sn-test/now/table/sc_request?sysparm_query=sys_id%3D1e04601adb2ad0106b29d411ce96199e`
      - First part `https://my-org.azure-api.net/sn-test/` is your API Management instance which redirects to the API you just created
      - Second part `/now/table/sc_request` is how to hit SN Request table via API.
@@ -50,7 +50,7 @@ So my organization needed a way to send API calls to a third party application t
    - Inside Azure API Management portal, go to API's => Add API => OpenAPI Spec => Browse => Upload the yml file, ignore errors
 
 6. At this point, you should be good to go but wanted to include some additional info: To learn more about API Management, what I did was click on `Echo API` and went to Design tab => `Post Create Resource` => FrontEnd => Edit =>  Then looked at bottom sections: Template, Query, Headers, Request, Responses.
-   - These are similar to Postman tabs. Inside each one you put a key and an example. For example, go to the `Request` sub-tab: 
+   - These are similar to Postman tabs. Inside each one you put a key and an example. For example, go to the `Request` sub-tab:
      - Type: `application/json` under Content-Type
      - Type `{"vehicleType": "train","maxSpeed": 125,"avgSpeed": 90,"speedUnit": "mph"}` under Sample
      - Save

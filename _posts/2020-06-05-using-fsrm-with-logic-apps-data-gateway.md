@@ -21,9 +21,9 @@ I haven't fully implemented this yet but the idea is to migrate my scripts that 
 
 1. Server Manager => Roles => File and Storage Services/File System Resource Manager => Install => Doesn't require a reboot
 
-2. Now, Server Manager => Tools => FSRM => File Screen => File Screen Path 
+2. Now, Server Manager => Tools => FSRM => File Screen => File Screen Path
    - G:\test
-   - How do you want to configure file screen properties? Define custom => 
+   - How do you want to configure file screen properties? Define custom =>
    - Settings: Passive Screening and Maintain File Groups => Create => Name:CSVs => on include section put `*.csv`
    - Command Tab:
      - Command: `C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe`
@@ -56,4 +56,3 @@ I haven't fully implemented this yet but the idea is to migrate my scripts that 
 
    write-log "hello"
    ```
-

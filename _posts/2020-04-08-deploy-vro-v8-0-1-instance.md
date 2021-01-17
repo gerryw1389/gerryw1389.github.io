@@ -28,7 +28,6 @@ In this post, I will go over how I deployed a vRO appliance v8.0.1 in on-prem vC
    - Join to vCenter using admin account
    - Add the AD group you want to have access
 
-
 4. In my case, I couldn't get to vco-controlcenter even on first boot because vco-app failed to even start. So I followed [this KB](https://kb.vmware.com/s/article/78235) which has you run these 3 commands:
 
    ```shell

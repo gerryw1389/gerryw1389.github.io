@@ -28,6 +28,3 @@ So I have used [MS Flow](https://automationadmin.com/2019/10/connect-ms-flow-to-
 4. Follow the installation from above and sign in to your Service Account on the server when you get to that step. Also, pay very close attention to the location during the gateway install because you basically have to reinstall it for it to show up - in my case I was wanting `southcentralus` and it kept trying to give me `centralus`. If this happens, you can reinstall it to point to the correct location. Name it something you will recognize. Lastly, I would advise running the gateway as an on-prem user that you specify so that you can automate things within the environment - this is pretty easy to do as there is a page for it in the configuration.
 
 5. Once completed, go inside Azure and search for `on-premises Data Gateways` and click New => Enter your information and it should find them in the dropdown. If this doesn't work, try waiting an hour or so and try again. See step 6 [here](https://www.codit.eu/blog/installing-and-configuring-on-premise-data-gateway-for-logic-apps/) for examples.
-
-
-

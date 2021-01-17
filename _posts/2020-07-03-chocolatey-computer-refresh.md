@@ -28,8 +28,6 @@ First, get all the installed programs
 
 I had planned to just follow my [original post about this](https://automationadmin.com/2018/08/setup-a-new-computer/) but found that it was a little outdated, so here is my newer post on what I did.
 
-
-
 ### To Resolve:
 
 1. Open PS as administrator and run the following commands and close and reopen to get a new session:
@@ -41,7 +39,7 @@ I had planned to just follow my [original post about this](https://automationadm
    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
    ```
 
-3. Run:
+   - Run:
 
    ```powershell
    $packages = ( 
@@ -71,9 +69,9 @@ I had planned to just follow my [original post about this](https://automationadm
    }
    ```
 
-3. Then I installed my paid software like Microsoft Office by signing into my Microsoft account and installing from there.
+2. Then I installed my paid software like Microsoft Office by signing into my Microsoft account and installing from there.
 
-4. Choco commands that might be useful:
+3. Choco commands that might be useful:
 
    ```powershell
    # see installed packages
@@ -89,7 +87,7 @@ I had planned to just follow my [original post about this](https://automationadm
    choco upgrade notepadplusplus googlechrome atom 7zip
    ```
 
-5. You could also try this with the native 'Package Management' module but I kept getting errors on some packages in testing:
+4. You could also try this with the native 'Package Management' module but I kept getting errors on some packages in testing:
 
    ```powershell
    Install-PackageProvider chocolatey
@@ -98,4 +96,3 @@ I had planned to just follow my [original post about this](https://automationadm
    Find-Package -Name firefox, winrar, notepadplusplus, putty, dropbox | Install-Package
    Install-Package -Name "everything" -ProviderName Chocolatey
    ```
-

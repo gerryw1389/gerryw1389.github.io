@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-This post is a quick easy post to share how I use file shares to share state between [two Windows Server Hybrid Workers](https://automationadmin.com/2020/04/moving-to-azure-automation) in an Azure Automation account. 
+This post is a quick easy post to share how I use file shares to share state between [two Windows Server Hybrid Workers](https://automationadmin.com/2020/04/moving-to-azure-automation) in an Azure Automation account.
 
 ### To Resolve:
 
@@ -43,4 +43,5 @@ This post is a quick easy post to share how I use file shares to share state bet
       }
    }
    ````
+
 8. Now, all you have to do is include the same snippet of code in your Azure Automation Runbooks and you can refer to paths locally no matter which hybrid worker you run on! Example: `cd T:\myfolder` will work on each hybrid worker you follow these steps on. We have had this running this way for over a year and the drives are always there connected so they don't disconnect and automation runs smooth.

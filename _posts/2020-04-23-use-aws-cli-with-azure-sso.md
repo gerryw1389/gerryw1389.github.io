@@ -28,7 +28,7 @@ Using AWS CLI is pretty straight forward and you can just follow the guides to s
 2. Configure your profile
 
    - Open Powershell and run: `aws-azure-login --configure`
-   - If you want to setup multiple profiles, you can run `aws-azure-login --configure --profile profilename` 
+   - If you want to setup multiple profiles, you can run `aws-azure-login --configure --profile profilename`
 
    ```escape
    Configuring profile 'default'

@@ -73,4 +73,3 @@ I had a bash script doing backups on Centos, but wanted to see if I could conver
    Write-Output "Backup Complete" | Out-File $log -Append -Encoding "ascii"
    Write-Output "============================================================" | Out-File $log -Append -Encoding "ascii"
    ```
-

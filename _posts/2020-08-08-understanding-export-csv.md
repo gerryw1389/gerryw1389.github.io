@@ -95,7 +95,6 @@ Again, this exports the 1kb file instead the whole CSV. If I check `$export` in 
 
    - And:
 
-
    ```powershell
    $a = Get-Process | Select-Object -first 5 -Property "name"
    $a | Export-CSV -Path 'c:\scripts\one.csv' -NoTypeInformation
@@ -130,4 +129,3 @@ Again, this exports the 1kb file instead the whole CSV. If I check `$export` in 
 
    Sort-Object, Where-Object, Whatever-Object, etc., are similarly pipeline commands. They all have the -InputObject parameter, but they are all designed to only work as expected when input objects are passed to them through the pipeline, not explicitly.
    ```
-

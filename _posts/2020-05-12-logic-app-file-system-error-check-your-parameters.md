@@ -30,7 +30,6 @@ After [creating an on-prem data gateway](https://automationadmin.com/2020/05/aut
    }
    ```
 
-
 ### To Resolve:
 
 1. Go inside your Logic App and go to 'API Connections'. Often you will see where you created a connection to a specific folder like `G:\Test2` and you are trying to write a file to `G:\Test`, this will not work. To fix, just create a new connection to the correct folder and use that one instead when building your Logic App.

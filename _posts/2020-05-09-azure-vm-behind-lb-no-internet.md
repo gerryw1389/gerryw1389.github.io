@@ -32,4 +32,3 @@ So one of the first tasks we had to do in Azure is load balance some VMs. Since 
 ["Allow Internal Load Balancer Internet Access "](https://feedback.azure.com/forums/217313-networking/suggestions/37768234-allow-internal-load-balancer-internet-access)
 
 ["Generic search"](https://www.google.com/search?sxsrf=ALeKk00Z5TtdlBtkZR-y5gj-NSnWKwGr7A:1588971813646&q=azure+internal+load+balancer+vm+doesn%27t+get+internet&spell=1&sa=X&ved=2ahUKEwinkYqklaXpAhUBKKwKHd8IA-0QBSgAegQIDRAn&biw=1920&bih=938)
-

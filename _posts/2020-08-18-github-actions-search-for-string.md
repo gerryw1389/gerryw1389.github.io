@@ -91,6 +91,7 @@ Using Github Actions, I could get a 'failed' notification on push if it finds th
       exit 1
    fi
    ```
+
    - Ran locally before pushing: `git update-index --chmod=+x ./.github/scripts/run-check.sh`
 
 4. With those files created and chmod command ran, do a push to your repo. Now in Github, go the Actions tab in your repo and you should see two actions running - `ps-check-workflow` and `run-script-workflow`. Congrats!

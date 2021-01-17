@@ -37,7 +37,7 @@ This post describes how I added Google Adsense and Disqus to the Github Pages ho
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
    <script>
    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-551489asdfasdf9109",
+      google_ad_client: "ca-pub-someChars",
       enable_page_level_ads: true
    });
    </script>
@@ -53,7 +53,6 @@ This post describes how I added Google Adsense and Disqus to the Github Pages ho
 
     ![adsense](https://automationadmin.com/assets/images/uploads/2019/06/adsense.png){:class="img-responsive"}
 
-
 2. Adding disqus as your commenting system is fairly straightforward, sign up for disqus, register your website, get your shortname in admin panel => site settings.
 
    - Then in your `_config.yml`
@@ -68,4 +67,3 @@ This post describes how I added Google Adsense and Disqus to the Github Pages ho
    # Down below, in post settings, add
    comments: true
    ```
-

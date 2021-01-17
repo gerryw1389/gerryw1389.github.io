@@ -57,8 +57,3 @@ So I had a goal to query Azure Graph API to answer something like: "Get me all u
    - In the Pre-Request script above, replace `id` with your application ID and `my-secret` with your client secret.
 
 3. After running it, you will see that it doesn't get your user's `onPremisesExtensionAttributes`, for that, just change to the beta API `GET https://graph.microsoft.com/beta/users/user@domain.com`
-
-
-
-
-

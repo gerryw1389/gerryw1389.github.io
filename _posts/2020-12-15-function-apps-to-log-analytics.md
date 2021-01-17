@@ -25,26 +25,26 @@ Follow these steps to get your Function App custom logs to show up in Log Analyt
 
 3. If you want to see the output of a log, you have two places to go for now:
 
-  - Inside Application Insights => Logs => you can type `traces` and run. It should  have your python `logging.info("something")` statements
-  - Example for a function called `GetProcessID`:
+   - Inside Application Insights => Logs => you can type `traces` and run. It should  have your python `logging.info("something")` statements
+   - Example for a function called `GetProcessID`:
 
-  ```escape
-  traces
-  | where customDeminsions.Category == "Function.GetProcessID.User"
-  ```
+   ```escape
+   traces
+   | where customDeminsions.Category == "Function.GetProcessID.User"
+   ```
 
-  - Inside Log Analytics => Logs => you can type `FunctionAppLogs` and run. It should  have your python `logging.info("something")` statements
+   - Inside Log Analytics => Logs => you can type `FunctionAppLogs` and run. It should  have your python `logging.info("something")` statements
 
-  ```escape
-  FunctionAppLogs
-  | where FunctionName == "GetProcessID"
-  
-  # another example to get Exceptions
-  FunctionAppLogs
-  | where ExceptionDetails != ""  
-  | order by TimeGenerated asc
+   ```escape
+   FunctionAppLogs
+   | where FunctionName == "GetProcessID"
 
-  ```
+   # another example to get Exceptions
+   FunctionAppLogs
+   | where ExceptionDetails != ""  
+   | order by TimeGenerated asc
+
+   ```
 
 4. Actually, for best results, I have been typing `AppTraces` in Log Analytics to get my logging statement outputs.
 
@@ -62,4 +62,3 @@ Follow these steps to get your Function App custom logs to show up in Log Analyt
   | sort by TimeGenerated desc 
   | summarize by OperationId, TimeGenerated, Message
   ```
-

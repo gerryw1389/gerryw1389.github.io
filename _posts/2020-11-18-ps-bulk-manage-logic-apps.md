@@ -30,7 +30,6 @@ I have a folder I keep called 'portal-scripts' but really they are just a way to
 
 2. Then you usually create an array of resources to loop through by their name in the Azure portal:
 
-
    ```powershell
    $apps = @(
    'DoSomething-002',
