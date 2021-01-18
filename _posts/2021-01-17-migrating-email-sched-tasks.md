@@ -54,4 +54,5 @@ These are the steps I used to migrate my "send email if bitcoin is trending down
    - Script will be maintained [on my Github](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/check_bitcoin)
      - If you have time, look at the `helpers.py` file and how it uses functions to start logging and sending emails
      - Look at the log file to see the format
+     - Check the [check_mutual_funds](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/check_bitcoin/check_mutual_funds.py) and see a foreach loop with this API and a different endpoint!
      - Try to replicate on your machine, this is a good first project!
