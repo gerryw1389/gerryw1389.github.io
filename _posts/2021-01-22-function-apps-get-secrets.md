@@ -21,7 +21,7 @@ This is currently how I have my Function Apps getting secrets.
 
 ### To Resolve:
 
-1. Let's look at the following functions declared in our standard `shared/helpers.py`:
+1. Let's look at the following functions declared in our standard `shared/helpers.py` found in many of my python [Github Repos](https://github.com/gerryw1389/python/tree/main/scripts) ([for example](https://github.com/gerryw1389/python/blob/main/scripts/azure-durable-functions-basic/shared/helpers.py)):
 
    ```python
    def import_creds():
@@ -121,7 +121,7 @@ This is currently how I have my Function Apps getting secrets.
 
 2. First, notice the `get_sn_username` function which will get the username for an API user for Service Now.
 
-   - It first creates `keyvault_creds` by querying the Function App's environmental variables. It is crucial that certain values are set in the `Configuration` blade in Azure for this to work.
+   - It first creates `keyvault_creds` by querying the Function App's environmental variables. It is crucial that certain values are set in the `Configuration` blade in Azure for this to work as dicussed in my [Function App post](https://automationadmin.com/2021/01/function-app-source-control-pt-2/)
    - It then calls `get_oauth` which relies on those credentials to be correct to get an Oauth token.
    - It then passes that token to the Azure Keyvault to get a secret.
    - Finally, it returns the plain text version of the secret to whatever calls it.

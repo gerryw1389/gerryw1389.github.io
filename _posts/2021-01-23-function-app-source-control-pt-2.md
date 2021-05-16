@@ -92,6 +92,7 @@ As a continuation of my [original post](https://automationadmin.com/2020/08/crea
       "response": response,
       "date_time": date 
    }])
+   return func.HttpResponse(rspJson, status_code=200)
    ```
 
 3. Once I develop the python script, I rename the folder `READJSON` to the name of the function, like `get_ip` in this case
@@ -114,7 +115,7 @@ As a continuation of my [original post](https://automationadmin.com/2020/08/crea
 
 6. One optional thing you can do at this point is modify your app to [mount a file share from an Azure Storage Account](https://automationadmin.com/2021/01/azure-functions-mounting-storage) if needed.
 
-7. Another thing I do for all Function Apps is set certain environmental variables inside `Configuration` blade in Azure in order to [access secrets](https://automationadmin.com/2021/01//2021/01/function-apps-get-secrets/)
+7. Another thing I do for all Function Apps is set certain environmental variables inside `Configuration` blade in Azure in order to [access secrets](https://automationadmin.com/2021/01/function-apps-get-secrets/)
 
 8. Under `Diagnostics` blade, send their logs to a Log Analytics Workspace. This is mandatory to get the logs for the apps. You can have App Insights forward logs there as well by clicking on the `Properties` blade under App Insights and pointing to your Log Analytics workspace.
 

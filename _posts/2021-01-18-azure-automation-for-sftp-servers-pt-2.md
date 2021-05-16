@@ -25,7 +25,7 @@ This will be a continuation of my [original post](https://automationadmin.com/20
 
 ### To Resolve:
 
-1. I use the WinSCP module to write Powershell runbooks that transfer files.
+1. I use the [WinSCP .NET Assembly](https://winscp.net/eng/docs/library_powershell#example) to write Powershell runbooks that transfer files.
 
 2. First, at the top of my runbooks, I ensure that I can mount the drive which is a file share from my Azure Storage account:
 

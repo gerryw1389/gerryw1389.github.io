@@ -9,13 +9,13 @@ categories:
   - Azure
 tags:
   - Cloud
-  - Azure-LogicApps
+  - Azure-FunctionApps
 ---
 <!--more-->
 
 ### Description:
 
-Here are the steps I did to test Azure functions locally
+Here are the steps I did to test Azure functions locally following the [quickstart](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python).
 
 ### To Resolve:
 
