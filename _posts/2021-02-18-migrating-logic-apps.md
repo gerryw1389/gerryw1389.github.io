@@ -1,6 +1,6 @@
 ---
 title: Migrating Logic Apps Between RGs
-date: 2021-02-18T21:49:19-05:00
+date: 2021-02-18T11:37:56-06:00
 author: gerryw1389
 layout: single
 classes: wide

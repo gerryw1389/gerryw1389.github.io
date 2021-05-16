@@ -1,6 +1,6 @@
 ---
 title: Azure Durable Functions
-date: 2021-05-03T21:49:19-05:00
+date: 2021-05-03T11:37:56-06:00
 author: gerryw1389
 layout: single
 classes: wide

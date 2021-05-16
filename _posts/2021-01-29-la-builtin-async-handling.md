@@ -1,6 +1,6 @@
 ---
 title: Logic App Builtin Async Handling
-date: 2021-01-29T21:49:19-05:00
+date: 2021-01-29T11:37:56-06:00
 author: gerryw1389
 layout: single
 classes: wide

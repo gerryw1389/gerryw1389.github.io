@@ -1,6 +1,6 @@
 ---
 title: Azure Function App With Github Source Control Pt 2
-date: 2021-01-23T21:49:19-05:00
+date: 2021-01-23T11:37:56-06:00
 author: gerryw1389
 layout: single
 classes: wide

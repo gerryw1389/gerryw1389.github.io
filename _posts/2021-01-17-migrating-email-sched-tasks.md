@@ -1,6 +1,6 @@
 ---
 title: Migrating Email Scheduled Task
-date: 2021-01-17T18:22:38-06:00
+date: 2021-01-17T11:37:56-06:00
 author: gerryw1389
 layout: single
 classes: wide

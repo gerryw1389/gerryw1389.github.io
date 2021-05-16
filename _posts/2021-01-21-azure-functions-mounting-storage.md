@@ -1,6 +1,6 @@
 ---
 title: Azure Functions Mounting Azure Storage File Shares
-date: 2021-01-21T21:49:19-05:00
+date: 2021-01-21T11:37:56-06:00
 author: gerryw1389
 layout: single
 classes: wide

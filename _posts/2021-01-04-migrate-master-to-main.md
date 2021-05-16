@@ -21,7 +21,6 @@ This post is documents how I updated my git repositories to rename from master t
 
 1. First, for each repo on your computer, cd into the repo and run:
 
-
    ```shell
    # Step 1 
    # create main branch locally, taking the history from master
@@ -52,4 +51,3 @@ This post is documents how I updated my git repositories to rename from master t
    whitelist => allowlist
    blacklist => blocklist
    ```
-
