@@ -9,7 +9,7 @@ categories:
   - Azure
 tags:
   - Cloud
-  - Azure-LogicApps
+  - VersionControl
   - Azure-FunctionApps
   - Scripting-Python
 ---

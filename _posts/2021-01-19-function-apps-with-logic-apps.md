@@ -12,6 +12,8 @@ tags:
   - Azure-LogicApps
   - Azure-FunctionApps
   - Scripting-Python
+  - Azure-ApiManagement
+  - Azure-EventGrid
 ---
 <!--more-->
 
@@ -121,3 +123,4 @@ Azure Function Apps are completely serverless bits of code that you can run. Lat
    - Logic Apps themselves can have reoccurrence triggers or HTTP triggers.
    - Each of these can call Function Apps that will parse JSON payloads and respond back to the calling Logic App usually in sub-second time frames.
    - Much faster than [Azure Automation](https://automationadmin.com/2020/10/using-azure-automation-logic-apps-for-sftp) which is what we were currently using.
+   - For fast responses use [Function Apps](https://automationadmin.com/2021/01/function-app-source-control-pt-2/) and for long run async functions use [Durable Functions](https://automationadmin.com/2021/05/azure-durable-functions/)

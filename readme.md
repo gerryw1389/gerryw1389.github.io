@@ -1,14 +1,15 @@
 
-### Site
-Migration from self-hosted Wordpress => Jeykll on Github Pages
+### AutomationAdmin.com
 
-[Parent Theme](https://github.com/mmistakes/minimal-mistakes)
+Migration from self-hosted Wordpress to Jeykll on Github Pages => [https://automationadmin.com](https://automationadmin.com).
 
-#### Changes To Parent Theme: 
+Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minimal-mistakes)
+
+#### Changes To Parent Theme:
 
 1. Setup my markdown template for new posts as follows:
 
-   ```
+   ```escape
    ---
    title: New Note
    date: Ctrl + Shift + Alt + i
@@ -56,7 +57,7 @@ Migration from self-hosted Wordpress => Jeykll on Github Pages
 
 4. Recently, I wanted to change the font to be smaller, I did this by editing `/assets/css/main.scss` and putting in:
 
-   ```
+   ```escape
    --- 
    # Only the main Sass file needs front matter (the dashes are enough) 
    --- 
@@ -85,7 +86,7 @@ Migration from self-hosted Wordpress => Jeykll on Github Pages
 
 5. For left sidebar options for single posts, I use the following at `_data/naviagation.yml`:
 
-   ```
+   ```escape
    categories:
    - title: Home
       children:
@@ -106,6 +107,6 @@ Migration from self-hosted Wordpress => Jeykll on Github Pages
 
 7. Anything I might have missed should be [here](https://automationadmin.com/2019/08/wordpress-to-jekyll-changes/)
 
-### DISCLAIMER 
-See [Parent Theme](https://github.com/mmistakes/minimal-mistakes) for any licenses with anything outside of `_posts`. Please see the MIT [license](./LICENSE) for licensing for my content inside `_posts`. 
+### DISCLAIMER
 
+See [Parent Theme](https://github.com/mmistakes/minimal-mistakes) for any licenses with anything outside of `_posts`. Please see the MIT [license](./LICENSE) for licensing for my content inside `_posts`.

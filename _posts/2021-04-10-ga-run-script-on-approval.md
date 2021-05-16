@@ -11,6 +11,7 @@ tags:
   - Cloud
   - CICD
   - Scripting-Python
+  - Azure-ApiManagement
 ---
 <!--more-->
 
@@ -31,4 +32,3 @@ This post will build on a [previous post with Github Actions](https://automation
    - If the approver approves and the branches are merged, a script `api-testing-branch.py` is fired.
    - Likewise on branch `main` a script `api-main-branch.py` is fired.
    - On the other hand, if the approver rejects, a line of text is written to the output stream that you can see on the Functions output in Github Actions screen.
-
