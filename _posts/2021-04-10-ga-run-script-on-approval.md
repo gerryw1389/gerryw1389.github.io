@@ -22,7 +22,7 @@ This post will build on a [previous post with Github Actions](https://automation
 
 1. So the first thing you will need to do is go to your repo inside Github Web UI and add the secret `API_MGMT_KEY` which matches your `Ocp-Apim-Subscription-Key` value for the header you will pass to your API Mgmt endpoint.
 
-2. Next, go to my [Github]() and copy all the files under `example-run-python-script-on-approval`
+2. Next, go to my [Github](https://github.com/gerryw1389/python/tree/main/scripts/example-run-python-script-on-approval/.github) and copy all the files under `example-run-python-script-on-approval`
 
    - Make sure you have the `workflow` and `script` folders with their associated files.
 
