@@ -9,7 +9,7 @@ categories:
   - Azure
 tags:
   - Cloud
-  - Azure-FunctionApp
+  - Azure-FunctionApps
   - VersionControl
 ---
 <!--more-->

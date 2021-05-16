@@ -11,6 +11,7 @@ tags:
   - Scripting-Powershell
   - Orchestration 
   - Scripting-RestAPI
+  - CICD
 ---
 <!--more-->
 

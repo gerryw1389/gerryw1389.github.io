@@ -9,6 +9,7 @@ categories:
   - LocalSoftware
 tags:
   - Orchestration
+  - CICD
 ---
 <!--more-->
 

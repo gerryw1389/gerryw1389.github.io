@@ -9,7 +9,7 @@ categories:
   - Azure
 tags:
   - Scripting-Python
-  - Azure-FunctionApp
+  - Azure-FunctionApps
 ---
 <!--more-->
 

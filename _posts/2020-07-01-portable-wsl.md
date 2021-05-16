@@ -7,8 +7,8 @@ classes: wide
 permalink: /2020/07/portable-wsl
 categories:
   - Linux
-tags:
   - Windows
+tags:
   - VirtualizationSoftware
 ---
 <!--more-->

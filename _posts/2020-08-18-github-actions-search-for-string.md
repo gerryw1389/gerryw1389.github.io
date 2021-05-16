@@ -9,6 +9,7 @@ categories:
   - WebSoftware
 tags:
   - VersionControl
+  - CICD
 ---
 <!--more-->
 

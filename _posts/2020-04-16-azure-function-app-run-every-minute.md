@@ -10,7 +10,7 @@ categories:
 tags:
   - Cloud
   - Orchestration
-  - Azure-FunctionApp
+  - Azure-FunctionApps
 ---
 <!--more-->
 

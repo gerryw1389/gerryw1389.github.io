@@ -9,7 +9,7 @@ categories:
    - WebSoftware
 tags:
    - Cloud
-   - Azure-FunctionApp
+   - Azure-FunctionApps
    - Azure-NATGateways
    - Scripting-Python
 ---

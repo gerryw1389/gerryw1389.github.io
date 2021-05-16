@@ -9,6 +9,8 @@ categories:
   - LocalSoftware
 tags:
   - Orchestration
+  - CICD
+  - VersionControl
 ---
 <!--more-->
 
@@ -96,4 +98,3 @@ So instead of manually typing in a groovy script as a source for a job in Jenkin
    - Script Path = addAzureUser_Jenkinsfile
 
 7. If you have one repo, you can have as many `Jenkinsfile` files as needed that each job points to.
-
