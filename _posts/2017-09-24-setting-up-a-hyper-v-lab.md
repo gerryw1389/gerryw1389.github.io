@@ -18,10 +18,10 @@ This post will be similar to my post on [using VirtualBox](https://automationadm
 
 Hyper-V Switch Notes:
 
-   - External switch uses a physical nic to access the network outside of the hyper v host.
-   - Private switch only allows network traffic between the VMs.
-   - Internal switch allows the host to talk to the VMs (and VM to VM communication).
-   - When setting internal or private switch, use static IP. You can't use DHCP unless one of the VMs is acting as a Domain Controller. E.g. VM1 has IP 10.0.0.1, VM2 has IP 10.0.0.2 and both have Netmask 255.255.255.0
+- External switch uses a physical nic to access the network outside of the hyper v host.
+- Private switch only allows network traffic between the VMs.
+- Internal switch allows the host to talk to the VMs (and VM to VM communication).
+- When setting internal or private switch, use static IP. You can't use DHCP unless one of the VMs is acting as a Domain Controller. E.g. VM1 has IP 10.0.0.1, VM2 has IP 10.0.0.2 and both have Netmask 255.255.255.0
 
 You should be able to ping between both VMs now if you set up a Private switch. If you're using an Internal Switch, set the IP of the host machine to the same range and you should be good to go. Follow the links in the previous post (mentioned above) and substitute where necessary.
 
@@ -45,15 +45,7 @@ You should be able to ping between both VMs now if you set up a Private switch. 
    - This will put your VM on your prod network. Run `ipconfig`, get the IP, and then do `\\ipaddress\scripts` and enter a username and password (the one you login with).
    - Copy files from your machine to it and then reverse the steps: Switch the VM back to Internal_LAN, change the NIC settings in Windows back to static and fill in the information.
 
-----
-
-### Here another to say this:
-
-### Description:
-
-Follow these steps to create a test lab on your work laptop.
-
-### To Resolve:
+### Here is another to say this:
 
 1. Install Hyper-V role on your machine.
 
@@ -101,7 +93,7 @@ Follow these steps to create a test lab on your work laptop.
      - DNS1: 129.107.35.89  
      - DNS2: 129.107.56.180
 
-8. On the W10 VM, launch internet browser and go to: http://10.12.12.254 and sign in with admin/pfsense
+8. On the W10 VM, launch internet browser and go to: `http://10.12.12.254` and sign in with admin/pfsense
 
    - Accept defaults and change your password.
 
@@ -146,4 +138,3 @@ Follow these steps to create a test lab on your work laptop.
 10. Install updates over and over until they say "up to date".
 
 11. Lastly, right click the VM's and "create snapshot". We will be using these VMs for testing often so a baseline snapshot is mandatory for reverts.
-

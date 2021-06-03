@@ -16,10 +16,9 @@ tags:
 
 So in my [previous post](https://automationadmin.com//2020/02/postman-pre-request-and-tests) I talked about using Postman to run pre-request scripts so that it can get an Oauth Token and attach it to each request. Here we are going to do the same thing but instead we will connect to Microsoft Graph API. This assumes that you created [an application](https://automationadmin.com/2020/01/azure-create-ps-app/) before (although will work for user as well (see below):
 
-
 ### To Resolve:
 
-1. First you will need to replace `some-tenant-id`, `client_id`, `client_secret`, `username`, and `password` in the examples to come - make sure you have them. Go into your connection, and edit the `pre-request` script to be like: 
+1. First you will need to replace `some-tenant-id`, `client_id`, `client_secret`, `username`, and `password` in the examples to come - make sure you have them. Go into your connection, and edit the `pre-request` script to be like:
 
    - To connect as an `application`:
 
@@ -80,10 +79,11 @@ So in my [previous post](https://automationadmin.com//2020/02/postman-pre-reques
       pm.environment.set('currentRefreshToken', responseJson.refresh_token)
    });
    ```
-   
+
 2. Inside the connection just set `Authorization` tab to:
-     - type: Bearer Token
-     - Value: `currentAccessToken`
+
+   - type: Bearer Token
+   - Value: `currentAccessToken`
 
 3. For requests that don't use `application/x-www-form-urlencoded` (untested):
 
@@ -103,7 +103,6 @@ So in my [previous post](https://automationadmin.com//2020/02/postman-pre-reques
    }
    ```
 
-   - If that doesn't work, check this [Gist](https://gist.github.com/madebysid/b57985b0649d3407a7aa9de1bd327990) for other options 
+   - If that doesn't work, check this [Gist](https://gist.github.com/madebysid/b57985b0649d3407a7aa9de1bd327990) for other options
 
 4. I have powershell example [here](https://automationadmin.com/2020/02/ps-upload-csv-to-teams-sharepoint-site)
-

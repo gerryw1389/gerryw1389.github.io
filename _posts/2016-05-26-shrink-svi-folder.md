@@ -25,20 +25,17 @@ NOTE: This did not work on my W10 install, but I don't use System Restore, I use
 ### To Resolve:
 
 1. Run => `cleanmgr.msc` => Select System Restore and shadow copies => Clean up. This usually will fix the issue, but what do you do when it's greyed out?
-
-  <img class="alignnone size-full wp-image-710" src="https://automationadmin.com/assets/images/uploads/2016/09/shrink-svi-folder.png" alt="shrink-svi-folder" width="408" height="466" srcset="https://automationadmin.com/assets/images/uploads/2016/09/shrink-svi-folder.png 408w, https://automationadmin.com/assets/images/uploads/2016/09/shrink-svi-folder-263x300.png 263w" sizes="(max-width: 408px) 100vw, 408px" />
+   - ![shrink-svi](https://automationadmin.com/assets/images/uploads/2016/09/shrink-svi-folder.png){:class="img-responsive"}
 
 2. Open an elevated command prompt and type: `vssadmin resize shadowstorage /for=c: /on=c: /maxsize=1024MB`
 
+### Update 2018-03
 
-----
+- I used the following method recently:
 
+1. Run => `diskmgmt.msc` => Select the drive => Properties => Shadow Copies
 
-1. Update 2018-03: I used the following method recently:
-
-2. Run => `diskmgmt.msc` => Select the drive => Properties => Shadow Copies
-
-3. In the list of copies, select those over 10 days old and delete them all.
+2. In the list of copies, select those over 10 days old and delete them all.
 
    - To do it via command line:
 
@@ -50,11 +47,11 @@ NOTE: This did not work on my W10 install, but I don't use System Restore, I use
 
    - I believe you would have to do this multiple times, so create a loop. Something that collects all restore points and only keeps the latest ten. I just did it via GUI since it was a one off task on one machine.
 
-4. This only works if VSS/ Diskshadow is enabled. Since Windows 8, Shadow Copies is replaced by &#8220;File History&#8221;:  
+3. This only works if VSS/ Diskshadow is enabled. Since Windows 8, Shadow Copies is replaced by &#8220;File History&#8221;:  
    - [Article](https://blogs.msdn.microsoft.com/b8/2012/07/10/protecting-user-files-with-file-history/)  
    - [About](https://support.microsoft.com/en-us/help/17143/windows-10-back-up-your-files)
 
-5. If you really want to enable Shadow copies on Windows 10, you have to do the following:
+4. If you really want to enable Shadow copies on Windows 10, you have to do the following:
 
    - Enable it by following step 1 above. From CMD: `wmic shadowcopy call create Volume=c:\`
 

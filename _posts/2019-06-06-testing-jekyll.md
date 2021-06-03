@@ -8,17 +8,14 @@ permalink: /2019/06/testing-jekyll/
 ---
 <!--more-->
 
-# Test
+### Test
 
-Text below
+1. Text below
 
-*ital*
+   - *ital*
 
-**bold**
+   - **bold**
 
-testing for something
+   - testing for something
 
-
-
-
-![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/could-not-request-cert.png){:class="img-responsive"}
+2. ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/could-not-request-cert.png){:class="img-responsive"}

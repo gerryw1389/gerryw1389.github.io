@@ -16,9 +16,10 @@ tags:
 ### Description:
 
 So, the last time I moved some folders around between my drives I setup a new Plex directory for movies and such and now it won't auto mount like it used to. I used to fstab entries and it worked fine. I was tinkering around and I found a method, but I can't seem to get it to work. Will update this post when it is complete, but right now what I do is:  
-Reboot the VM  
-Login and run a bash file that automounts the drives  
-Not sure why crontab isn't working&#8230;
+
+- Reboot the VM  
+- Login and run a bash file that automounts the drives  
+- Not sure why crontab isn't working
 
 ### To Resolve:
 
@@ -48,8 +49,6 @@ Not sure why crontab isn't working&#8230;
 
 5. Reboot to test, didn't work. Had to do steps in description&#8230;
 
-----
-
 ### UPDATE: 2018-04-01 - This was fixed by doing the following:
 
 1. Remove the auto mount drives for VirtualBox completely.
@@ -63,7 +62,7 @@ Not sure why crontab isn't working&#8230;
    ```powershell
    smbclient -m SMB3 -U smb //192.168.0.20
    (enter password)
-   # Prompt changes to: smb:> 
+   # Prompt changes to: smb:
    exit
    ```
 
@@ -80,29 +79,31 @@ Not sure why crontab isn't working&#8230;
 
    - From [https://wiki.ubuntu.com/MountWindowsSharesPermanently](https://wiki.ubuntu.com/MountWindowsSharesPermanently)
 
-   > The quickest way to auto-mounting a password-protected share is to edit /etc/fstab (with root privileges), to add this line:
-   > 
-   > //servername/sharename /media/windowsshare cifs username=msusername,password=mspassword,iocharset=utf8,sec=ntlm 0 0  
-   > This is not a good idea however: /etc/fstab is readable by everyone and so is your Windows password in it. The way around this is to use a credentials file. This is a file that contains just the username and password.
-   > 
-   > Using a text editor, create a file for your remote servers logon credential:
-   > 
-   > gedit ~/.smbcredentials  
-   > Enter your Windows username and password in the file:
-   > 
-   > username=msusername  
-   > password=mspassword  
-   > Save the file, exit the editor.
-   > 
-   > Change the permissions of the file to prevent unwanted access to your credentials:
-   > 
-   > chmod 600 ~/.smbcredentials  
-   > Then edit your /etc/fstab file (with root privileges) to add this line (replacing the insecure line in the example above, if you added it):
-   > 
-   > //servername/sharename /media/windowsshare cifs credentials=/home/ubuntuusername/.smbcredentials,iocharset=utf8,sec=ntlm 0 0  
-   > Save the file, exit the editor.
-   > 
-   > Finally, test the fstab entry by issuing:
-   > 
-   > sudo mount -a  
-   > If there are no errors, you should test how it works after a reboot. Your remote share should mount automatically.
+   ```escape
+   The quickest way to auto-mounting a password-protected share is to edit /etc/fstab (with root privileges), to add this line:
+
+   //servername/sharename /media/windowsshare cifs username=msusername,password=mspassword,iocharset=utf8,sec=ntlm 0 0  
+   This is not a good idea however: /etc/fstab is readable by everyone and so is your Windows password in it. The way around this is to use a credentials file. This is a file that contains just the username and password.
+
+   Using a text editor, create a file for your remote servers logon credential:
+
+   gedit ~/.smbcredentials  
+   Enter your Windows username and password in the file:
+
+   username=msusername  
+   password=mspassword  
+   Save the file, exit the editor.
+
+   Change the permissions of the file to prevent unwanted access to your credentials:
+
+   chmod 600 ~/.smbcredentials  
+   Then edit your /etc/fstab file (with root privileges) to add this line (replacing the insecure line in the example above, if you added it):
+
+   //servername/sharename /media/windowsshare cifs credentials=/home/ubuntuusername/.smbcredentials,iocharset=utf8,sec=ntlm 0 0  
+   Save the file, exit the editor.
+
+   Finally, test the fstab entry by issuing:
+
+   sudo mount -a  
+   If there are no errors, you should test how it works after a reboot. Your remote share should mount automatically.
+   ```

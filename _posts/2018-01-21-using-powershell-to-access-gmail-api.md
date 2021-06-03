@@ -30,7 +30,7 @@ Follow this guide to connect to Gmail API using OAuthv2 working as of 2020-08-26
    - Configure the Authorized Redirect URI to `https://developers.google.com/oauthplayground` must not have a ending `/` in the URI
    - Save your client ID and Secret
    - Browse to [Oauth Playground](https://developers.google.com/oauthplayground)
-   - This saves us time from generating an OAuth request in PowerShell. This is where we will authorize our Project to our Google Account using our provided  - Client ID and Client Secret. 
+   - This saves us time from generating an OAuth request in PowerShell. This is where we will authorize our Project to our Google Account using our provided  - Client ID and Client Secret.
    - Click the gear in the right-hand corner and select `Use your own OAuth credentials`
    - Choose `Gmail API v1` and copy the `refresh_token` and `access_token` to notepad
 
@@ -78,7 +78,7 @@ Follow this guide to connect to Gmail API using OAuthv2 working as of 2020-08-26
 
 3. Feel free to ignore past this step - keeping here for any readers that need more info:
 
-----
+### Older
 
 1. I couldn't get this working before because I was running into an issue with the fact that I had to open a browser to get the $code variable like this:
 
@@ -141,11 +141,10 @@ Follow this guide to connect to Gmail API using OAuthv2 working as of 2020-08-26
    cmd /c pause
    ```
 
-2. So I would run `c:/scripts/1.ps1` and paste the code from the browser window into `$refresh_token` in `c:/scripts/2.ps1`. 
+2. So I would run `c:/scripts/1.ps1` and paste the code from the browser window into `$refresh_token` in `c:/scripts/2.ps1`.
 
    - After this it would work perfectly, but I can't be logging in interactively if this is going to be a scheduled task!
    - What I was missing was the redirect URI and Oauth Playground steps from above.
-
 
 3. That is all for now, but in summary, once you have the $AccessToken, you can access Gmail API pretty easily:
 

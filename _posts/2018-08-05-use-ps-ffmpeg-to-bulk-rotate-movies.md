@@ -24,59 +24,59 @@ NOTE: This assumes you have the ffmpeg executable at c:\temp\ffmpeg\bin\ffmpeg.e
 
 1. Get a video file from somewhere and copy it three times to c:\temp where the ffmpeg folder lies. Rename to match above (vid.mp4, vid2.mp4, and vid3.mp4).
 
-1. Create a file called &#8220;files.txt&#8221; in C:\temp and paste the following:
+2. Create a file called &#8220;files.txt&#8221; in C:\temp and paste the following:
 
-	```powershell
-	c:\temp\vid.mp4
-	c:\temp\vid2.mp4
-	c:\temp\vid3.mp4
-	```
+   ```powershell
+   c:\temp\vid.mp4
+   c:\temp\vid2.mp4
+   c:\temp\vid3.mp4
+   ```
 
 3. Create four files in C:\temp called run.bat, run.ps1, run2.bat, and run.ps1. For the .bat files, just copy, paste, save, and close the following:
 
-	```powershell
-	pushd "%~dp0"
-	@ECHO OFF
-	PowerShell.exe -NoProfile ^
-	-Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
-	popd
-	```
+   ```powershell
+   pushd "%~dp0"
+   @ECHO OFF
+   PowerShell.exe -NoProfile ^
+   -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""' -Verb RunAs}"
+   popd
+   ```
 
 4. For run.ps1, copy and paste the following:
 
-	```powershell
-	$Log = "$PSScriptroot\FilesToProcess.txt"
-	If (-not(Test-Path $Log))
-	{
-	New-Item -Itemtype File -Path $Log | Out-Null
-	}
-	
-	$FilesToProcess = Get-Content "$PSScriptroot\files.txt"
+   ```powershell
+   $Log = "$PSScriptroot\FilesToProcess.txt"
+   If (-not(Test-Path $Log))
+   {
+   New-Item -Itemtype File -Path $Log | Out-Null
+   }
 
-	ForEach ($File in $FilesToProcess)
-	{
-		$FilePath = $File -Split "\\"
-		$FileFullName = $FilePath[-1]
-		$Extension = $Filepath[-1].Split('.')[-1]
-		$Filename = $Filepath[-1].Split('.')[-2]
-		$Command = "$PSScriptroot\ffmpeg\bin\ffmpeg.exe"
-		$Arguments = "-" + "i" + " " + $File + " " + "-vf transpose=2"  + " " + $PSScriptroot + "\" +
-		$Filename + "-" + "rotated" + '.' + $Extension
-		$Run = $Command + " " + $Arguments
-		Write-Output $Run | Out-File $Log -Append
-	}
-	```
+   $FilesToProcess = Get-Content "$PSScriptroot\files.txt"
+
+   ForEach ($File in $FilesToProcess)
+   {
+      $FilePath = $File -Split "\\"
+      $FileFullName = $FilePath[-1]
+      $Extension = $Filepath[-1].Split('.')[-1]
+      $Filename = $Filepath[-1].Split('.')[-2]
+      $Command = "$PSScriptroot\ffmpeg\bin\ffmpeg.exe"
+      $Arguments = "-" + "i" + " " + $File + " " + "-vf transpose=2"  + " " + $PSScriptroot + "\" +
+      $Filename + "-" + "rotated" + '.' + $Extension
+      $Run = $Command + " " + $Arguments
+      Write-Output $Run | Out-File $Log -Append
+   }
+   ```
 
 5. For run2.ps1, copy and paste the following:
 
-	```powershell
-	$Files = Get-Content "$PSScriptRoot\FilesToProcess.txt"
-	
-	ForEach ($F in $Files)
-	{
-	Start-Process PowerShell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command $F" -Verb RunAs
-	}
-	```
+   ```powershell
+   $Files = Get-Content "$PSScriptRoot\FilesToProcess.txt"
+
+   ForEach ($F in $Files)
+   {
+   Start-Process PowerShell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command $F" -Verb RunAs
+   }
+   ```
 
 6. That's it! When you want to bulk rotate movies, you just have to:
 

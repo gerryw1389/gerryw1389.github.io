@@ -20,7 +20,7 @@ One of my main goals this year is to replace all of my batch scripts with Powers
 
 1. When calling external programs, there is really one a few rules:
 
-- Use `&` to call the app.
+   - Use `&` to call the app.
 
    ```powershell
    #Shut down VMs
@@ -69,4 +69,4 @@ One of my main goals this year is to replace all of my batch scripts with Powers
    & $Command $Arguments
    ```
 
-1. As mentioned in a [previous post](https://automationadmin.com/2016/11/ps-replace-cmd), use the Don't Parse symbol (`--%`) when converting longer commands. 
+2. As mentioned in a [previous post](https://automationadmin.com/2016/11/ps-replace-cmd), use the Don't Parse symbol (`--%`) when converting longer commands.

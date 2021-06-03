@@ -17,9 +17,7 @@ tags:
 
 So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a long time, but recently wanted to try out VSCode for everyday note taking. Here is where I will keep my VSCode Settings over time. I exported all notes to a directory. Then used powershell to bulk rename all `.txt` to `.md` - [see here](https://github.com/gerryw1389/powershell/blob/main/gwFilesystem/Public/Rename-Items.ps1). After moving to VScode, I only needed to [fix the themes for Markdown](https://automationadmin.com/2019/12/modify-vscode-markdown-theme/) and I was good to go!
 
-
-
-### To Resolve: 
+### To Resolve:
 
 1. Keyboard shortcuts
 
@@ -43,7 +41,7 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
    - `Ctrl+Shift+h` - Same but replace
 
 2. Extensions (as of 2019-06):
-   
+
    - For an up-to-date reference, check out my [Settings.json here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json)
 
    - Linux Themes for VS Code
@@ -52,9 +50,9 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
      - So that you can use shortcuts to like `Ctrl+B` to bold something
    - Markdown PDF
      - Print PDFs from .md files
-   - Paste Image 
+   - Paste Image
      - Allows you to paste from clipboard using `Ctrl+Alt+V`
-  - Scripting-Powershell
+   - Scripting-Powershell
      - Auto format code using `Ctrl+Alt+F`
      - Auto linting
    - Puppet
@@ -64,7 +62,7 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
    - vscode-icons
      - Preferred icon theme
    - Insert DateString
-     - Adds date by `Ctrl+Shift+i` and full date by `Ctrl+Shift+Alt+i` 
+     - Adds date by `Ctrl+Shift+i` and full date by `Ctrl+Shift+Alt+i`
 
 3. Extensions - Config
 
@@ -94,6 +92,5 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
    - For an up-to-date reference, check out my [Settings.json](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json)
 
 5. [keybindings.json](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/keybindings.json) - Preferences: Open Keyboard Shortcuts File (json)
-
 
 6. Don't forget - Create VSCode PS profile: `Microsoft.VSCode_profile.ps1` in `C:\users\username\Documents\WindowsPowershell`

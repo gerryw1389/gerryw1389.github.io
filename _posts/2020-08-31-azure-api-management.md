@@ -45,8 +45,8 @@ So my organization needed a way to send API calls to a third party application t
 5. At this stage, you can keep adding API endpoints and operations as you see fit. But what if you already have some as Postman collections? Well that is where you need to use [OpenMan](https://github.com/codeasashu/openman) to convert Postman 2.1 collections to OpenAPI spec for Azure API Management. I had to do this so this is what I did:
    - Export v2.1 in Postman to `c:\scripts`
    - In wsl:
-      - Type: `pip3 install openman`
-      - Type: `openman convert /mnt/c/scripts/p.json /mnt/c/scripts/spec2.yaml`
+     - Type: `pip3 install openman`
+     - Type: `openman convert /mnt/c/scripts/p.json /mnt/c/scripts/spec2.yaml`
    - Inside Azure API Management portal, go to API's => Add API => OpenAPI Spec => Browse => Upload the yml file, ignore errors
 
 6. At this point, you should be good to go but wanted to include some additional info: To learn more about API Management, what I did was click on `Echo API` and went to Design tab => `Post Create Resource` => FrontEnd => Edit =>  Then looked at bottom sections: Template, Query, Headers, Request, Responses.

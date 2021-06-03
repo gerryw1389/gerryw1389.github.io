@@ -20,9 +20,12 @@ If your computer is on the same network as a computer running Windows and you wa
 ### To Resolve:
 
 1. Launch Dolphin File Manager and type `smb://(ip-address)` of the Windows share.
-   - If you don't know the IP-address of the share, you can browse the local network by simply entering `smb:/` in the Dolphin location bar. 
+
+   - If you don't know the IP-address of the share, you can browse the local network by simply entering `smb:/` in the Dolphin location bar.
+
    - However, this will only work if you configure the firewall first.  
-      - Kickoff menu => Computer tab => YaST => Security and Users => Firewall => Allowed Services => Select `Samba Client` and `Netbios Server` in the Service to allow combobox and add them.
+
+     - Kickoff menu => Computer tab => YaST => Security and Users => Firewall => Allowed Services => Select `Samba Client` and `Netbios Server` in the Service to allow combobox and add them.
 
 2. To Share Your Files:
 

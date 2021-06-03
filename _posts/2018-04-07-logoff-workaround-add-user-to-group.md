@@ -13,8 +13,10 @@ categories:
 ### Description:
 
 When you access resources on Windows, Kerberos is used for authentication (with NTLM as a fallback). The user's initial Kerberos ticket (TGT) is retrieved at logon which contains the user's group memberships at the moment of logon which will be copied into the service tickets (TGS) that are fetched when accessing resources. This is why group membership changes made in AD do not immediately permit/deny access.  
-1) If you force the use of NTLM, group membership changes are reflected immediately due to the way NTLM authentication works. Kerberos only works with DNS names so by accessing a resource via IP address Windows will be forced to use NTLM authentication.  
-2) If you purge the user's Kerberos tickets, a new TGT will be automatically fetched which will contain current group memberships. You can do this with the `klist purge`  command. Consequently, the command klist lists the user's current Kerberos tickets.
+
+1. If you force the use of NTLM, group membership changes are reflected immediately due to the way NTLM authentication works. Kerberos only works with DNS names so by accessing a resource via IP address Windows will be forced to use NTLM authentication.  
+
+2. If you purge the user's Kerberos tickets, a new TGT will be automatically fetched which will contain current group memberships. You can do this with the `klist purge`  command. Consequently, the command klist lists the user's current Kerberos tickets.
 
 ### To Resolve:
 
@@ -32,4 +34,3 @@ When you access resources on Windows, Kerberos is used for authentication (with 
 ### References:
 
 ["Workaround for having to log off/on to apply Windows folder permissions?"](https://www.reddit.com/r/sysadmin/comments/6vzwzb/workaround_for_having_to_log_offon_to_apply)  
-

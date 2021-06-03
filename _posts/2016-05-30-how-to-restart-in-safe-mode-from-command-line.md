@@ -34,7 +34,7 @@ If you ever want to reboot a computer in safe mode from within Windows follow th
    bcdedit /set {current} safeboot minimal
    ```
 
-     - Then reboot the machine.
+   - Then reboot the machine.
 
    - To Start in Safe Mode with Networking: In the command prompt, type the command below and press enter. Substitute identifier in the command below with the actual value or long GUID number to the right of identifer in the command used from step 2.
 
@@ -44,7 +44,7 @@ If you ever want to reboot a computer in safe mode from within Windows follow th
    bcdedit /set {current} safeboot network
    ```
 
-     - Then reboot the machine.
+   - Then reboot the machine.
 
    - To Start Windows 7 back in Normal Mode: From step 2, look for the identifier (ex: {current}) for the OS description (ex: Windows 7) under a Windows Boot Loader section that has the safeboot value in it. In the command prompt, type the command below and press enter: (Substitute identifier in the command below with the actual value or long GUID number to the right of identifer in the command used from step 2):
 
@@ -52,4 +52,4 @@ If you ever want to reboot a computer in safe mode from within Windows follow th
    bcdedit /deletevalue {identifier} safeboot
    ```
 
-     - Then reboot the machine.
+   - Then reboot the machine.

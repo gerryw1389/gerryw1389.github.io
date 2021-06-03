@@ -19,16 +19,15 @@ Although I have these steps in a couple places, I wanted to make a single post w
 
 ### To Resolve:
 
-## CIFS/SMB
+### CIFS/SMB
 
-### Stateful protocol that executes each command in the context of the user that you connect as; most common in Windows environments
+- Stateful protocol that executes each command in the context of the user that you connect as; most common in Windows environments
 
 1. Using CIFS from from Windows Server => Windows client (most common):
 
    - Create the share using the steps above
    - Run => `\\WindowsComputerName\ShareName`
    - Enter the username and password from above
-
 
 2. Using CIFS from Windows Server => Linux Client (most common)
    - Networking and Sharing => File/Print sharing
@@ -104,11 +103,9 @@ Although I have these steps in a couple places, I wanted to make a single post w
    mount -a
    ```
 
------
+### NFS
 
-## NFS
-
-### Stateless protocol that allows clients access based on their IP address and linux permissions; most common in Linux environments with higher speeds than CIFS/SMB is most cases
+- Stateless protocol that allows clients access based on their IP address and linux permissions; most common in Linux environments with higher speeds than CIFS/SMB is most cases
 
 1. Using NFS from Linux Server => Linux client (most common):
 
@@ -147,11 +144,9 @@ Although I have these steps in a couple places, I wanted to make a single post w
 
 2. Using NFS from Linux Server => Windows client - See [my post](https://automationadmin.com/2019/04/connect-to-nfs-share-from-windows/) on this
 
-----
+### SCP
 
-## SCP
-
-### SCP is a protocol for transferring files through a SSH session using RCP commands on a Unix system. Unlike FTP, SCP retains file permissions and timestamps through inclusion with the transferred files themselves, thereby ensuring data confidentiality during transit.
+- SCP is a protocol for transferring files through a SSH session using RCP commands on a Unix system. Unlike FTP, SCP retains file permissions and timestamps through inclusion with the transferred files themselves, thereby ensuring data confidentiality during transit.
 
 1. From Linux to Linux:
 
@@ -189,4 +184,3 @@ Although I have these steps in a couple places, I wanted to make a single post w
 
    # now foo.log is at c:\scripts on your Windows machine
    ```
-

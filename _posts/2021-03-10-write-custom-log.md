@@ -47,8 +47,8 @@ So you can already connect Log Analytics queries to power Power BI applications 
    ```
 
    - Send-Data-Success => Action - Send Data
-      - JSON Request body => `payload`
-      - Custom Log Name => `My_Log_Analytics_Table_Name`
+     - JSON Request body => `payload`
+     - Custom Log Name => `My_Log_Analytics_Table_Name`
 
 3. So what you can do is declare a bunch of variables throughout your Logic App and then place the `Condition` action at multiple points and write out to this Log Analytics table at any point.
 

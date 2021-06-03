@@ -18,7 +18,7 @@ tags:
 - [Version](#version)
 - [Naming](#naming)
 - [Modules](#modules)
-- [Variables](#variables)
+- [Variables and Comments and Inspections](#variables-and-comments-and-inspections)
 - [Functions](#functions)
 - [Strings](#strings)
 - [Conditionals](#conditionals)
