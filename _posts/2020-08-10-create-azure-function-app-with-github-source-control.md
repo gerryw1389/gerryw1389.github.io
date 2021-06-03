@@ -26,8 +26,8 @@ Follow this basic tutorial to setup an Azure Function with Github as the source 
 
    - Repo name: azure-function-http
    - my-http-function
-      - function.json
-      - run.ps1
+     - function.json
+     - run.ps1
    - host.json
    - profile.ps1
    - requirements.psd1
