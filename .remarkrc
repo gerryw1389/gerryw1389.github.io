@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "remark-lint-no-dead-urls",
+    ["skipOffline", true]
+  ]
+}
