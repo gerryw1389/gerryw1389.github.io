@@ -315,8 +315,7 @@ See below for a list of bookmarks!
 [PowerShell Escape - Matt Mcnabb](https://mattmcnabb.github.io/)  
 [MS Script Center](https://technet.microsoft.com/en-us/scriptcenter)  
 [PoSh Chap](https://blogs.technet.microsoft.com/poshchap/)  
-[Under The Stairs - Thomas Lee](https://tfl09.blogspot.com/)  
-[PowerShell.org](https://powershell.org/)  
+[Under The Stairs - Thomas Lee](https://tfl09.blogspot.com/) 
 [Ainsey11](https://github.com/ainsey11)  
 [A First Look At PowerShell on Linux](https://www.petri.com/microsoft-powershell-for-everyone)  
 [Beyond Impact Blog](http://blog.beyondimpactllc.com/blog)  
@@ -358,7 +357,7 @@ See below for a list of bookmarks!
 [Lib Hunt - Tools For SysAdmins](https://sysadmin.libhunt.com/)  
 [Ninite](https://ninite.com/)  
 [AlternativeTo](https://alternativeto.net/)  
-[Time Zones](http://everytimezone.com/)  
+[Time Zones](https://everytimezone.com/)  
 [Gogs - Go Git Service](https://try.gogs.io/explore/repos)  
 [HTML Syntax Highlighter](http://hilite.me/)  
 [Reset Windows Update Agent](https://gallery.technet.microsoft.com/scriptcenter/Reset-Windows-Update-Agent-d824badc)  
@@ -369,13 +368,13 @@ See below for a list of bookmarks!
 [WSCC - Windows System Control Center](http://www.kls-soft.com/wscc/)  
 [Atom](https://atom.io/)  
 [Chrome Bookmarks Separator](http://separator.mayastudios.com/index.php)  
-[SysAdmin Tools - Github](https://github.com/n1trux/awesome-sysadmin)  
+[SysAdmin Tools - Github ](https://github.com/kahun/awesome-sysadmin)
+[Tilde Fun SysAdmin](https://awesome.tilde.fun/t/sysadmin)
 [Portable Apps](https://portableapps.com/)  
 [MAC Vendor Search](http://www.gcstech.net/macvendor/)  
 [Dell ST to EST Converter](http://creativyst.com/Doc/Articles/HT/Dell/DellNumb.htm)  
 [Windows/Office Online Activation](https://microsoft.gointeract.io/mobileweb/?interaction=1443478049354-2924fcb582254ed49836617882f915015fecd10-64be&accountId=microsoft&appkey=fdd66706-ae19-4524-a9e5-440df6739dcd&Language=English&name=pana&Click%20To%20Call%20Caller%20Id=+18176144386&dnis=26)  
-[Freeware Files](http://www.freewarefiles.com/)  
-[EventID](https://www.eventid.net/)  
+[Freeware Files](http://www.freewarefiles.com/)
 [Selenium - Web Browser Automation](https://www.selenium.dev/)
 
 ### Troubleshooting
@@ -392,7 +391,6 @@ See below for a list of bookmarks!
 
 ### Tutorial
 
-[Linode](https://www.linode.com)  
 [DigitalOcean](https://www.digitalocean.com/community/)  
 [Pete Net Live](https://www.petenetlive.com/archive)
 
