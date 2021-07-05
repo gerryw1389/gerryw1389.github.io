@@ -49,5 +49,4 @@ NOTE: If you are in a domain environment, try applying this GPO to your joined c
 
 ### References:
 
-["My WMI sensors don't work. What can I do?"](https://kb.paessler.com/en/topic/1043-my-wmi-sensors-don-t-work-what-can-i-do)  
-["How to Start/Stop Remote Procedure Call RPC"](http://computerstepbystep.com/remote_procedure_call_(rpc)_service.html)  
+["My WMI sensors don't work. What can I do?"](https://kb.paessler.com/en/topic/1043-my-wmi-sensors-don-t-work-what-can-i-do)

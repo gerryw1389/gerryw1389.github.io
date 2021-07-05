@@ -28,7 +28,7 @@ When we add a device to the DMZ (demilitarized zone), we are essentially making 
 
 ### Breakdown on NAT/PAT:
 
-NAT (Network Address Translation)= One public IP WAN side/ multiple private IP's LAN side. Through multiple ports in &#8220;stateful connections&#8221;. You can also have multiple one-to-one relationships where one public IP is equal to one internal IP. See [whatismyipaddress.com](https://whatismyipaddress.com/) for more info.
+NAT (Network Address Translation)= One public IP WAN side/ multiple private IP's LAN side. Through multiple ports in &#8220;stateful connections&#8221;. You can also have multiple one-to-one relationships where one public IP is equal to one internal IP. See [whatismyipaddress.com](https://whatismyipaddress.com) for more info.
 
 PAT (Port Address Translation)= An extension of NAT that gives each LAN device a port off the public IP. It is known as overloading and port-level multiplexed NAT.
 

@@ -235,7 +235,7 @@ See below for a list of bookmarks!
 
 ### Linux
 
-[Will Foster's Site](https://hobo.house/speaking/)  
+[Will Foster's Site](https://hobo.house)  
 [Linux Inside](https://0xax.gitbooks.io/linux-insides/content/)  
 [Linux Distro's Timeline](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)  
 [Linux Digest](https://sathisharthars.com/)  
@@ -251,12 +251,11 @@ See below for a list of bookmarks!
 [EncFS](https://wiki.archlinux.org/index.php/EncFS)  
 [Linux Ebooks](http://linuxnix.tradepub.com/category/information-technology-servers-and-linux-server-os/806/)  
 [A First Look At PowerShell on Linux](https://www.petri.com/microsoft-powershell-for-everyone)  
-[Linux Academy](https://linuxacademy.com/)  
-[Pete Net Live](http://www.petenetlive.com/archive)  
+[Linux Academy](https://linuxacademy.com/)   
 [Beginners Guide For Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/)  
-[Read LFS Online](http://www.linuxfromscratch.org/lfs/read.html)  
-[The Geek Stuff](http://www.thegeekstuff.com/)  
-[LinuxTopia](http://www.linuxtopia.org/)
+[Read LFS Online](https://www.linuxfromscratch.org/lfs/read.html)  
+[The Geek Stuff](https://www.thegeekstuff.com/)  
+[LinuxTopia](https://www.linuxtopia.org/)
 
 ### MDT
 
@@ -304,7 +303,7 @@ See below for a list of bookmarks!
 [Hey, Scripting Guy!](https://blogs.technet.microsoft.com/heyscriptingguy/)  
 [Rambling Cookie Monster](https://ramblingcookiemonster.github.io/about/)  
 [Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)  
-[PowerShell Magazine](http://www.powershellmagazine.com/2016/https://msdn.microsoft.com/powershell10/31/pstip-tab-complete-properties/)  
+[PowerShell Magazine](http://www.powershellmagazine.com)  
 [Matthew Hodgkin's Blog](https://hodgkins.io/#blog)  
 [Fun with the Windows Subsystem for Linux](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#LyMOLTmGWqyUthfE.97)  
 [Bartek Bielawski](https://becomelotr.wordpress.com/)  
@@ -370,42 +369,41 @@ See below for a list of bookmarks!
 [WSCC - Windows System Control Center](http://www.kls-soft.com/wscc/)  
 [Atom](https://atom.io/)  
 [Chrome Bookmarks Separator](http://separator.mayastudios.com/index.php)  
-[SysAdmin Tools - Github](https://github.com/n1trux/awesome-sysadmin#dns)  
+[SysAdmin Tools - Github](https://github.com/n1trux/awesome-sysadmin)  
 [Portable Apps](https://portableapps.com/)  
 [MAC Vendor Search](http://www.gcstech.net/macvendor/)  
 [Dell ST to EST Converter](http://creativyst.com/Doc/Articles/HT/Dell/DellNumb.htm)  
 [Windows/Office Online Activation](https://microsoft.gointeract.io/mobileweb/?interaction=1443478049354-2924fcb582254ed49836617882f915015fecd10-64be&accountId=microsoft&appkey=fdd66706-ae19-4524-a9e5-440df6739dcd&Language=English&name=pana&Click%20To%20Call%20Caller%20Id=+18176144386&dnis=26)  
 [Freeware Files](http://www.freewarefiles.com/)  
-[EventID](http://www.eventid.net/)  
-[Selenium - Web Browser Automation](http://www.seleniumhq.org/)
+[EventID](https://www.eventid.net/)  
+[Selenium - Web Browser Automation](https://www.selenium.dev/)
 
 ### Troubleshooting
 
 [Bleeping Computer](https://www.bleepingcomputer.com/)  
-[Windows IT Pro](http://windowsitpro.com/)  
+[Windows IT Pro](https://www.itprotoday.com/)  
 [Server Fault](https://serverfault.com/)  
 [Expert Exchange](https://www.experts-exchange.com/topics/)  
-[MAC Vendor Search](http://www.gcstech.net/macvendor/)  
-[Spiceworks](https://community.spiceworks.com/)  
-[EventID](http://www.eventid.net/)  
-[Windows Secrets](http://windowssecrets.com/)  
+[MAC Vendor Search](https://www.gcstech.net/macvendor/)  
+[Spiceworks](https://community.spiceworks.com/)
+[Windows Secrets](https://www.askwoody.com/)  
 [Malware Removal Guide](https://www.reddit.com/r/techsupport/comments/33evdi/suggested_reading_official_malware_removal_guide/)  
 [Windows 10 Forums](https://www.tenforums.com/)
 
 ### Tutorial
 
-[Linode](https://www.linode.com/docs/)  
+[Linode](https://www.linode.com)  
 [DigitalOcean](https://www.digitalocean.com/community/)  
-[Pete Net Live](http://www.petenetlive.com/archive)
+[Pete Net Live](https://www.petenetlive.com/archive)
 
 ### Vim
 
-[Vimcasts](http://vimcasts.org/training/)
+[Vimcasts](https://vim.is/)
 
 ### Vmware
 
-[VMtoday](http://vmtoday.com/)  
-[Pete Net Live](http://www.petenetlive.com/archive)
+[VMtoday](https://vmtoday.com/)  
+[Pete Net Live](https://www.petenetlive.com/archive)
 
 ### VPN
 
@@ -420,28 +418,24 @@ See below for a list of bookmarks!
 [The Lonely Administrator](http://jdhitsolutions.com/blog/?feed-stats-url=aHR0cDovL3d3dy5wZXRyaS5jby5pbC9leHBvcnQtdG8tZXhjZWwtd2l0aC1wb3dlcnNoZWxsLXBhcnQtMi5odG0=)  
 [Windows Server 2016 Deployment/Config](https://docs.microsoft.com/en-us/windows-server/Windows-Server-2016)  
 [Deployment Bunny](https://deploymentbunny.com/2014/01/06/powershell-is-king-building-a-reference-image-factory/)  
-[Adam The Automator](http://www.adamtheautomator.com/)  
+[Adam The Automator](https://www.adamtheautomator.com/)  
 [Jack Stromberg](http://jackstromberg.com/2013/)  
-[EliminateRepetitiveTasks](http://www.sikuli.org/productivity.html)  
 [Chinny Chukwudozie](https://chinnychukwudozie.com/)  
 [Kevin Remde - Full Of I.T.](https://blogs.technet.microsoft.com/kevinremde/)  
-[Raj Dude](http://rajdude.com/blog/)  
+[Raj Dude](https://rajdude.com/blog/)  
 [MonsterMuffin](https://blog.monstermuffin.org/author/monstermuffin/)  
 [SysAdmin Reference Blog](https://sysadminreference.blogspot.com/?view=classic)  
-[Andy Dawson's Blog](http://blogs.blackmarble.co.uk/blogs/adawson/)  
+[Andy Dawson's Blog](https://blogs.blackmarble.co.uk/adawson/)  
 [BritV8](http://britv8.com/powershell-manage-user-profiles/)  
 [Rick's Tech Gab](https://rickrbyrne.wordpress.com/)  
 [PAW's2](https://blogs.technet.microsoft.com/askpfeplat/2016/03/14/secure-administrative-workstations/)  
 [Buy MS Software](https://www.reddit.com/r/microsoftsoftwareswap/)  
 [RootUsers](https://www.rootusers.com/category/windows/)  
 [Jason Yoder, MCT](https://mctexpert.blogspot.com/)  
-[Sysadmin](https://www.reddit.com/r/sysadmin/)  
-[Van Efferen](http://www.efferen.nl/)  
+[Sysadmin](https://www.reddit.com/r/sysadmin/)
 [WindowsHostFile](http://winhelp2002.mvps.org/hosts2.htm)  
 [Herring's Fishbait](https://herringsfishbait.com/)  
-[Privileged Access Workstations - PAWs](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices)  
-[Pete Net Live](http://www.petenetlive.com/archive)  
-[Windows/Office Online Activation](https://microsoft.gointeract.io/mobileweb/?interaction=1443478049354-2924fcb582254ed49836617882f915015fecd10-64be&accountId=microsoft&appkey=fdd66706-ae19-4524-a9e5-440df6739dcd&Language=English&name=pana&Click%20To%20Call%20Caller%20Id=+18176144386&dnis=26)  
+[Privileged Access Workstations - PAWs](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices)
 [Bohemian Grove](http://bohemiangrove.co.uk/)  
 [Serverlab](http://www.serverlab.ca/)  
 [Windows Secrets](http://windowssecrets.com/)  

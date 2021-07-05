@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-Follow this guide to connect to Gmail API using OAuthv2 working as of 2020-08-26. Credits to [this blog post](https://monteledwards.com/2017/03/05/powershell-oauth-downloadinguploading-to-google-drive-via-drive-api/). What I did was:
+Follow this guide to connect to Gmail API using OAuthv2 working as of 2020-08-26. What I did was:
 
 ### To Resolve:
 

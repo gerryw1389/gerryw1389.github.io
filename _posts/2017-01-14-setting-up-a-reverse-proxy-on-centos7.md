@@ -46,7 +46,3 @@ Follow these steps to create a reverse proxy using Apache on Centos7.
    # Now just restart Apache and test!
    sudo systemctl restart httpd
    ```
-
-### References:
-
-["Forward & Reverse Apache Proxy – CentOS 7"](https://geekpeek.net/forward-reverse-apache-proxy-centos/)

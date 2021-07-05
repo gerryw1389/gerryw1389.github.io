@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-So up until now, I have always been using a folder under my Google Drive for repo's in Github both personal and work but I have read about these getting out of sync and wanted to get ahead of the curve although everything is currently working (google 'google drive git corrupt', [example](https://stackoverflow.com/questions/31984751/google-drive-can-corrupt-repositories-in-github-desktop)). Here is what I did:
+So up until now, I have always been using a folder under my Google Drive for repo's in Github both personal and work but I have read about these getting out of sync and wanted to get ahead of the curve although everything is currently working (google 'google drive git corrupt', [example](https://stackoverflow.com/questions/31984751/google-drive-can-corrupt-repositories-in-github-desktop) ). Here is what I did:
 
 ### To Resolve:
 
