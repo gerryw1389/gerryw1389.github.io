@@ -363,5 +363,3 @@ I still mainly use CMD commands for these, but this is a list of networking rela
    Get-NetTCPConnection | ? State -eq Established | FT –Autosize
    Get-NetTCPConnection | ? State -eq Established | ? RemoteAddress -notlike 127* | % { $_; Resolve-DnsName $_.RemoteAddress -type PTR -ErrorAction SilentlyContinue }
    ```
-
-   - [Source](https://blogs.technet.microsoft.com/josebda/2015/04/18/windows-powershell-equivalents-for-common-networking-commands-ipconfig-ping-nslookup/)

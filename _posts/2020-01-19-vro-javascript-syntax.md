@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-[vRealize Orchestrator](https://automationadmin.com//2020/01/vrealize-orchestrator/) doesn't actually use Javascript [per se](https://docs.vmware.com/en/vRealize-Orchestrator/7.6/com.vmware.vrealize.orchestrator-dev.doc/GUID-2BDAC8BD-8A5D-4ACE-AD4B-45E3F24DE6DB.html), but most examples on the internet will work. Here is [a primer](https://www.ltx.systems/pages/scripting-in-vrealize-orchestrator-using-javascript) and here are my notes on what I use:
+[vRealize Orchestrator](https://automationadmin.com//2020/01/vrealize-orchestrator/) doesn't actually use Javascript [per se](https://docs.vmware.com/en/vRealize-Orchestrator/7.6/com.vmware.vrealize.orchestrator-dev.doc/GUID-2BDAC8BD-8A5D-4ACE-AD4B-45E3F24DE6DB.html), but most examples on the internet will work. Here are my notes on what I use:
 
 ### To Resolve
 
@@ -361,7 +361,7 @@ tags:
    // now run the same code as above replacing `myWorkflow` with `wfObject` and you are now good to delete the input variable!
    ```
 
-11. Untested myself - Access XML Documents
+1. Untested myself - Access XML Documents
 
    ```javascript
    The following JavaScript example allows you to access XML documents from JavaScript by using the ECMAScript for XML (E4X) implementation in the Orchestrator JavaScript API.
@@ -408,8 +408,7 @@ tags:
    */
    ```
 
-
-12. Untested - CSV Files? May work?
+1. Untested - CSV Files? May work?
 
    ```javascript
    var i = 0;
@@ -438,6 +437,3 @@ tags:
       }
    fileReader.close; 
    ```
-
-
-

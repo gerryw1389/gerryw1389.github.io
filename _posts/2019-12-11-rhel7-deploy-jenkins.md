@@ -144,7 +144,7 @@ I followed this post to install Jenkins on a RHEL 7 Server and Nginx with a reve
 
 3. Now that Jenkins is running, need to modify a few things:
 
-   - Jenkins Web UI => Manage Jenkins => Configure System => Jenkins Location => Update the Jenkins URL to use HTTPS - <https://jenkins.domain.com/>
+   - Jenkins Web UI => Manage Jenkins => Configure System => Jenkins Location => Update the Jenkins URL to use HTTPS - `https://jenkins.domain.com/`
 
    - Install 'Active Directory plugin'
    - Manage Jenkins => Configure Global Security => Security Realm:Active Directory

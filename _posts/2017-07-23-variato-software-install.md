@@ -48,7 +48,4 @@ Veriato is a company that specializes in Employee Monitoring software. You buy h
 
 ### References:
 
-["Managing Remote Computers"](http://help.veriato.com/products/veriato-Investigator/Win/EN/v76/administrator/configure/remote_clients.htm)  
 ["Veriato Investigator overview video"](https://www.youtube.com/watch?v=ZD_r6L4-_n4&feature=youtu.be)  
-
-

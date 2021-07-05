@@ -189,4 +189,3 @@ In light of all the crypto viruses going around, I found this great guide on Red
 ### References:
 
 ["Cryptolocker/Cryptowall prevention file screening..."](https://www.reddit.com/r/sysadmin/comments/3gm9ji/cryptolockercryptowall_prevention_file_screening/)  
-["Stop CryptoLocker (and copy-cat variants of this badware) before it ruins your day"](http://jpelectron.com/sample/Info%20and%20Documents/Stop%20crypto%20badware%20before%20it%20ruins%20your%20day/1-PreventCrypto-Readme.htm)  

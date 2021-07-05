@@ -50,4 +50,3 @@ This GPO is used to when you want to setup a monitoring application like PRTG Ne
 
 ["Is there a way to set access to WMI using GroupPolicy?"](http://serverfault.com/questions/262590/is-there-a-way-to-set-access-to-wmi-using-grouppolicy)  
 ["How to: Group Policy to Allow WMI Access to Remote Machine"](https://community.spiceworks.com/how_to/17452-group-policy-to-allow-wmi-access-to-remote-machine)  
-["Setting up WMI-Access Through Ad & Gpo"](http://infrasightlabs.com/setting-wmi-access-ad-gpo)

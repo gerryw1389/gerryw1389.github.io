@@ -58,7 +58,3 @@ I'm a big fan of the MATE desktop for my Linux distro's. As such, I found a neat
    ```shell
    yum install gnome-disk-utility
    ```
-
-### References:
-
-[http://www.45drives.com/wiki/index.php/Installing\_MATE\_on\_CentOS\_7](http://www.45drives.com/wiki/index.php/Installing_MATE_on_CentOS_7)

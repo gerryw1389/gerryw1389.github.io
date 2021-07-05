@@ -29,11 +29,8 @@ In this post, I will setup a NAT Gateway and then connect my Function App (linux
    - Tie to one subnet
      - I selected this in the wizard but it didn't stick on creation. To fix just go to the gateway => Subnets => Assign to a subnet
 
-3. Tie the Function App to the VNET:
-   - Function App => Networking => VNET Integration => Configure => Add VNET/Subnet that has NAT GW
-   - Verify that it can see the subnet by click on the subnet name which should show the NAT gateway as well
-   - Force all outgoing traffic to go through the VNET by:
-     - Go to configuration => New App Setting => `WEBSITE_VNET_ROUTE_ALL = 1`. This will force the traffic going to the internet to be routed through public IP address associated to the NAT Gateway.
+3. Create a [Function App](https://automationadmin.com/2021/01/function-app-source-control-pt-2/) in Azure and set the source as Github.
+
    - Add `requests==2.25.0` to your `requirements.txt` Function App
    - Copy/paste the following into one of your functions `__init__.py` files:
 
@@ -75,27 +72,66 @@ In this post, I will setup a NAT Gateway and then connect my Function App (linux
       print("function not called correctly")
    ```
 
-4. Do your push to Github which should sync with Azure's Function App and then test with Postman. Did it work? Didn't for me, I didn't get any errors, but I ended up getting one of the IP's of the Function App instead of that of the Gateway.
+   - Push this to Github and it will sync with Azure.
+   - Before binding with the gateway, do a test to get the public IP. You can do this in the portal by going to Function App => Functions => `get_ip` => Code/Test.
+   - It should return with one of the IP's which are listed on Function App => Properties blade (Outbound IP addresses).
 
-5. I currently have a case open with Microsoft on this but my guess is that this will work fine for Windows App service plans and Windows Powershell functions like in the posts above. Reason for this assumption is that they seem to always support Windows things first and then python later...
+4. Tie the Function App to the VNET:
+   - Function App => Networking => VNET Integration => Configure => Add VNET/Subnet that has NAT GW. Click on the subnets name and verify that is has the gateway listed as a NAT gateway.
+   - Force all outgoing traffic to go through the VNET by:
+     - Go to configuration => New App Setting => `WEBSITE_VNET_ROUTE_ALL = 1`. This will force the traffic going to the internet to be routed through public IP address associated to the NAT Gateway.
 
-   - For Troubleshooting:
-   - At first, I had read something like mounting storage wasn't supported and I had done this in the past Per [docs](https://docs.microsoft.com/en-us/azure/azure-functions/scripts/functions-cli-mount-files-storage-linux):
+5. Test with Postman (or the Code/Test in the portal like before). Did it work? As of 2021-06-01 this is now working for me!
 
-   ```shell
-   az webapp config storage-account add \
-      --resource-group myResourceGroup \
-      --name $functionAppName \
-      --custom-id $shareId \
-      --storage-type AzureFiles \
-      --share-name $shareName \
-      --account-name $AZURE_STORAGE_ACCOUNT \
-      --mount-path $mountPath \
-      --access-key $AZURE_STORAGE_KEY
+6. To verify we could use this as a way to transfer files, I also added in a response that will give me output of the files in a directory for a [mounted Azure File Share](https://automationadmin.com/2021/01/azure-functions-mounting-storage/). This worked as well. Code:
+
+   ```python
+   #!/usr/bin/python3
+
+   ##################################################
+   # This function will return the public ip of the function app
+
+   ##################################################
+
+   import sys
+   import logging
+   import azure.functions as func
+   import os
+   import time
+   from datetime import datetime, timedelta
+   import json
+   import requests
+
+   def main(req: func.HttpRequest) -> func.HttpResponse:
+
+      url = "https://ifconfig.me/ip"
+      payload = {}
+      headers = {
+      'Content-Type': 'application/json',
+      }
+      r = requests.request("GET", url, headers=headers, data=payload)
+         
+      response = r.text
+      logging.info(f"Response: {response}")
+
+      files_in_share = os.listdir("/data")
+      logging.info(f"Files in mounted share: {files_in_share}")
+
+      ### Response
+      pastdate = datetime.now() + timedelta(days=0,  hours=-6, minutes=0)
+      date = pastdate.strftime("%Y-%m-%d-%r")
+      
+      rspJson = json.dumps([{ 
+               "response": response,
+               "date_time": date,
+               "files": files_in_share
+      }])
+      return func.HttpResponse(rspJson, status_code=200)
+
+   if __name__ == '__main__':
+      main(req)
+   else:
+      logging.error("Function not called correctly, please try again.")
    ```
 
-   - So I deleted the storage by typing `az webapp config storage-account delete --custom-id CustomId --name MyWebApp --resource-group MyResourceGroup` per [docs](https://docs.microsoft.com/en-us/cli/azure/webapp/config/storage-account?view=azure-cli-latest#az_webapp_config_storage_account_delete), still didn't change anything, Function App was still displaying an IP in the list from the output of `az webapp show --resource-group MyResourceGroup --name MyWebApp --query outboundIpAddresses --output tsv` and not the NAT Gateway.
-
-   - I deleted the NAT Gateway multiple times and recreated, no change
-   - I deployed a new Function App, no change
-   - Will update this if I have a resolution...
+   - I then get the expected response: `[{"response": "x.x.x.x (public ip of NAT Gateway)", "date_time": "2021-06-01-02:16:18 PM", "files": ["file1.csv", "file2.csv", "file3.csv"]}]`

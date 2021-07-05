@@ -337,7 +337,7 @@ In this post, I created a Reverse Proxy Server using Nginx for Plex Media Server
 8. In the Plex Web UI, go to Settings:
    - Custom certificate location: `/var/lib/plexmediaserver/certificate.pfx`
    - Custom certificate encryption key: The password you entered on step 2 of last section
-   - Custom certificate domain: <https://plex.domain.com>
+   - Custom certificate domain: `https://plex.domain.com`
    - Save your changes.
    - That's it. You don't even have to restart plex!
    - You can check the Plex\ Media\ Server.log file in `/var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/Logs` if you want to verify whether there were any errors.

@@ -101,7 +101,7 @@ This is part of a 3 part series:
 
 6. Add each node to the jenkins pool:
 
-   - Login to [https://schedtasks-win2019.domain.com](https://schedtasks-win2019.domain.com) 
+   - Login to `https://schedtasks-win2019.domain.com`
    - Manage Jenkins => Configure Global Security => TCP port for inbound agents => 8089
    - Manage Jenkins => Configure Nodes => Configure:
    - Name = `schedtasks3-win2019`

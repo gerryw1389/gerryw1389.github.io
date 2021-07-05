@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-As anyone who is into scripting must sometime learn, I need to learn how to use Regex with Powershell. I'm very new at this still so I wanted to start with a task I have to do kind of frequently: Updating my [Bookmarks](https://automationadmin.com/bookmarks/) page.
+As anyone who is into scripting must sometime learn, I need to learn how to use Regex with Powershell. I'm very new at this still so I wanted to start with a task I have to do kind of frequently: Updating my [Bookmarks](https://automationadmin.com/2016/02/bookmarks/) page.
 
 Essentially:
 

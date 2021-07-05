@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-If you ever want to reboot a computer in safe mode from within Windows follow these steps. Note a good reference can be found [here](http://www.sevenforums.com/tutorials/69585-safe-mode.html)
+If you ever want to reboot a computer in safe mode from within Windows follow these steps.
 
 ### To Resolve:
 

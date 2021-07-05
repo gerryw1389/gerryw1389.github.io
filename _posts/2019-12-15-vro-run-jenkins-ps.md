@@ -19,7 +19,6 @@ tags:
 
 This post will be following [Ben's post](https://ben.neise.co.uk/2016/09/05/vro-jenkins.html) but instead of having a Windows Jenkins server, we will be using our [Jenkins Server](https://automationadmin.com/2019/12/rhel7-deploy-jenkins/) which runs on RHEL 7. The post describes using [vRealize Orchestrator](https://automationadmin.com//2020/01/vrealize-orchestrator/) to call a Jenkins job and collect the results.
 
-
 ### To Resolve:
 
 1. Install Powershell on the Jenkins server:
@@ -29,7 +28,8 @@ This post will be following [Ben's post](https://ben.neise.co.uk/2016/09/05/vro-
    yum install powershell -y
    ```
 
-2. Login to Jenkins web UI and: 
+2. Login to Jenkins web UI and:
+
    - New Item => 'pwsh-facts' (Pipeline) => Check the box 'Trigger builds remotely (e.g., from scripts)' and enter a random GUID (generate on your own)
    - Next, in the pipeline definition, enter:
 
@@ -104,7 +104,7 @@ This post will be following [Ben's post](https://ben.neise.co.uk/2016/09/05/vro-
 
 3. Anyhow, back on topic. Inside vRealize Orchestrator, run the workflow `Add A Rest Host` to add your Jenkins server:
    - Name: My Jenkins Server
-   - URL: http://server.domain.com:8080/jenkins/ (use the URL and port of your Jenkins server)
+   - URL: `http://server.domain.com:8080/jenkins/` (use the URL and port of your Jenkins server)
    - Connection timeout (seconds): 30.0 (you may wish to tune this for your specific requirements, but I'm leaving it as the default for now)
    - Operation timeout (seconds): 60.0 (you may wish to tune this for your specific requirements, but I'm leaving it as the default for now)
    - Configure Proxy settings
@@ -185,9 +185,9 @@ This post will be following [Ben's post](https://ben.neise.co.uk/2016/09/05/vro-
 
 6. The fix was a `reboot` after one of these changes:
 
-   - Running workflow 'Import certificate from URL' = <https://jenkins.domain.com>
-   - Running workflow 'Import a certificate from URL with certificate alias' = <https://jenkins.domain.com>
-   - Navigate to <https://jenkins.domain.com> in a browser and download its cert locally as domain.cer. Then upload using workflows:
+   - Running workflow 'Import certificate from URL' = `https://jenkins.domain.com`
+   - Running workflow 'Import a certificate from URL with certificate alias' = `https://jenkins.domain.com`
+   - Navigate to `https://jenkins.domain.com` in a browser and download its cert locally as domain.cer. Then upload using workflows:
    - Running workflow 'Import a trusted certificate from a file' => domain.cer
 
 7. After it was all said and done, this is what it looks like in the logs:

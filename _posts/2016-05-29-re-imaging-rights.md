@@ -16,7 +16,7 @@ This is just a reference article to show your rights for re-imaging machines.
 
 ### To Resolve:
 
-1. Download the pdf from [here](https://www.microsoft.com/en-us/Licensing/learn-more/brief-reimaging-rights.aspx)
+1. Download the pdf from (search engine: "microsoft reimaging rights")
 
 2. Essentially, OEM images are NOT allowed to be transferred from the machine to anything.
 

@@ -72,7 +72,3 @@ After signing up for CloudFlare to host my website, I found that it will automat
    - Copy and paste the Google verification link in another tab to "authorize" your email as a trusted sender.
 
 6. Now you can send and receive from a mailbox that seems to be connected to your domain!
-
-### References:
-
-["How-To: Set up Email Forwarding for your domain using Mailgun"](http://lowendtalk.com/discussion/19043/how-to-set-up-email-forwarding-for-your-domain-using-mailgun)

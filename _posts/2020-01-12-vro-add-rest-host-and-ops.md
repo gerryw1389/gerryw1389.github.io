@@ -100,7 +100,7 @@ Update: Here is a post I did on basic [Javascript syntax in VRO](https://automat
 
    - Couple of notes:
    - 1. `softwareGetUserInfo` is another operation to that host when you are using the `primaryToken` variable from the function above.
-   - 2. The `softwareGetUserInfo` is dynamic in that you can pass variable to it in the request itself. This is covered in my [Part 2](https://automationadmin.com/2020/01/vro-run-jenkins-ps-2/) post. `uniqueID` is a variable that was defined somewhere else but picture it as a way to search for a specific user, hence the 'GetUserInfo' part of the name
+   - 2. The `softwareGetUserInfo` is dynamic in that you can pass variable to it in the request itself. This is covered in my [Part 2](https://automationadmin.com/2020/01/vro-run-jenkins-pt-2/) post. `uniqueID` is a variable that was defined somewhere else but picture it as a way to search for a specific user, hence the 'GetUserInfo' part of the name
 
 3. So all of this to say, be careful about how you name Rest hosts, rest operations, and input variables. I have taken to put multi-line comment blocks in the top of my workflows that re-use the same variable names so that I don't ever get confused on to what is doing what:
 

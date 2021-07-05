@@ -43,7 +43,7 @@ If you have any of the above server platforms, you must generate a new CSR befor
 
 2. Add funds to account.
 
-3. [Submit a CSR](https://www.digicert.com/ssl-certificate-renewal-iis-8.htm) (Certificate Signing Request) => Two options: Submit a new request (what I usually do) or if renewing the same cert, resubmit the original CSR.
+3. [Submit a CSR](https://docs.digicert.com/manage-certificates/renew-ssltls-certificate/) (Certificate Signing Request) => Two options: Submit a new request (what I usually do) or if renewing the same cert, resubmit the original CSR.
 
 4. Submit domain verification => just reply to email the CA sends you.
 

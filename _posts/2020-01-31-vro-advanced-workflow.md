@@ -75,5 +75,5 @@ This post will cover each of my previous posts about [vRealize Orchestrator](htt
 
    - Once all items are completed under a request, close the request in Service Now
 
-9. Workflow 3: Exists only to be called from workflow two. It consists of a [Jenkins job](https://automationadmin.com/2020/01/vro-run-jenkins-ps-2/) that takes multiple input parameters.
+9. Workflow 3: Exists only to be called from workflow two. It consists of a [Jenkins job](https://automationadmin.com/2020/01/vro-run-jenkins-pt-2/) that takes multiple input parameters.
 

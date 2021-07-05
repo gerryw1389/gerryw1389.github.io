@@ -33,7 +33,7 @@ So our department recently had the project of moving from one hosted Exchange co
    - Autodiscover record => This is just a CNAME of of Exchange2's servers that provide the autodiscover service. 
      - Add the dot on the end for the one on the domain controller. If you have hosted DNS, it may / may not be necessary => I would email their support just to make sure.
 
-   - SPF Record => Syntax [here](http://www.openspf.org/SPF_Record_Syntax) make sure to check out the `include` section as all we had to do is add Exchange2's domain before the `-all` 
+   - SPF Record => Make sure to check out the `include` section as all we had to do is add Exchange2's domain before the `-all` 
      - If you have issues after adding this, try adding a `?` after the include command, this will make it neutral. We didn't have to do this.
 
 5. Once you cut over the DNS records, specifically the autodiscover, you have to wait for DNS to propagate in order for clients to hit the right server for auto-config => they just use email address and mailbox password to add their account in Outlook and on cell phones.

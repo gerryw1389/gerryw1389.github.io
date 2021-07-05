@@ -41,7 +41,3 @@ I once had an issue where I deleted all my folders in my user profile (because I
    - Right click on "ShellFolder" => Permissions => Administrators => Allow Full Control
    - On the right, click on "Attributes" => Value: `b094010c`
    - Restart
-
-### References:
-
-["Windows 7: Homegroup - Add or Remove from Navigation Pane"](http://www.sevenforums.com/tutorials/39670-homegroup-add-remove-navigation-pane.html)

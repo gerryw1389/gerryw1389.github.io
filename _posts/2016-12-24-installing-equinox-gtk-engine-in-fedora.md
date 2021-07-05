@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-This post is going to be pretty short, but this is the steps to install the GTK engine Equinox. There are plenty of [others to choose from](https://github.com/GNOME/gtk-engines), but I like this combination on my Fedora MATE desktop.
+This post is going to be pretty short, but this is the steps to install the GTK engine Equinox. There are plenty of others to choose from (search engine: "gtk engines github"), but I like this combination on my Fedora MATE desktop.
 
 ### To Resolve:
 

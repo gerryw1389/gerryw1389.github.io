@@ -38,9 +38,9 @@ UPDATE: Found an interesting article [here](http://pcsupport.about.com/od/system
 
 4. One of the last options you can do is find the OS CD => boot to that => Choose the option &#8220;Repair Your Computer&#8221; and go back to the backup mentioned in step 1.
 
-5. After you get the system back up to the point prior to installing updates, I would run the [System Update Checker Tool (W7)](https://www.microsoft.com/en-us/download/details.aspx?id=20858)
+5. After you get the system back up to the point prior to installing updates, I would run the "System Update Checker Tool (W7)" (search for it)
 
-6. Run the script found [here](http://www.sevenforums.com/tutorials/91738-windows-update-reset.html) to reset Windows Updates.
+6. Run the script found (search "windows update reset - seven forums") to reset Windows Updates.
 
 7. Try running `sfc/scannow`. If that doesn't work, you need to download the Windows 10 iso and use `DISM /Online /Cleanup-Image /RestoreHealth /Source:repairSource\install.wim`
 
@@ -51,7 +51,3 @@ UPDATE: Found an interesting article [here](http://pcsupport.about.com/od/system
    Remove-Item $env:windir\SoftwareDistribution\ -Force -Recurse  
    Start-Service -Name 'wuauserv'
    ```
-
-### Resources:
-
-["Failure configuring windows updates, reverting changes"](http://www.sbcprojects.com/blog/102-failure-configuring-windows-updates-reverting-changes.html)  

@@ -26,4 +26,4 @@ There will be blank spots on the system tray. Do these steps to remove them.
 
 3. Delete the IconStreams and PastIconStream keys.
 
-4. Exit and reboot. For more details, see ["Windows 7: Notification Area Icons - Reset"](http://www.sevenforums.com/tutorials/13102-notification-area-icons-reset.html)
+4. Exit and reboot.

@@ -43,8 +43,3 @@ This hasn't ever happened to me, but if you cannot remember the domain admin's p
 6. Exit and reboot the server. Take out the boot disk and boot normally. Done.
 
 7. You can do all this from within Windows by taking all the permissions of utilman.exe, but I prefer the above method.
-
-
-### References:
-
-["Reset Windows Server 2012 Domain Administrator Password"](http://blog.watchpointdata.com/how-to-reset-forgotten-windows-server-2012-domain-administrator-password)  

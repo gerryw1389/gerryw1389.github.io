@@ -67,5 +67,4 @@ NOTE: You will see that when it comes to imaging, MDT does 80%+ of the work and 
 
 ### References:
 
-["Deploy Windows 7 The Easy Way: Using WDS, MDT and AIK – Step-By-Step Video"](https://blogs.technet.microsoft.com/danstolts/2010/03/deploy-windows-7-the-easy-way-using-wds-mdt-and-aik-step-by-step-video/)  
 ["MDT 2012 Guide"](https://msadministrator.com/guides/mdt-2012-step-by-step-guide/)

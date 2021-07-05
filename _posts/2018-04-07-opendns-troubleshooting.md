@@ -19,7 +19,7 @@ So every now and then, I will notice that our OpenDNS service will not be blocki
 
 ### To Resolve:
 
-1. Login to each DNS server and &#8220;Clear DNS Cache&#8221;, then wait 5 minutes.
+1. Login to each DNS server and `Clear DNS Cache` then wait 5 minutes.
 
 2. Pull up a command prompt and type:
 
@@ -32,4 +32,4 @@ So every now and then, I will notice that our OpenDNS service will not be blocki
 
 3. Go to [OpenDNS](https://welcome.opendns.com/)
 
-4. Go to the [test blocked site](https://phish.opendns.com/main?url=www.internetbadguys.com&server=dfw2&prefs=&tagging=&nref)
+4. Go to the test blocked site `www.internetbadguys.com` and ensure it is blocked by provider.

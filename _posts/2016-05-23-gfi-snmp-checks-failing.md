@@ -22,7 +22,7 @@ SNMP check will fail on the GFI Agent dashboard. This means there is a Hardware 
 
    - Open up Dell Open Manage or HP Insight and see what's generating the error.
 
-2. Download the newest driver or firmware related to it. For Perc Adapters, download the newest driver under the &#8220;SAS-Raid&#8221; section. For a &#8220;Storport out of date&#8221; error, go to [http://support.microsoft.com/kb/932755/en-us](https://support.microsoft.com/en-us/kb/932755) and install that. The Dell site doesn't have it.
+2. Download the newest driver or firmware related to it. For Perc Adapters, download the newest driver under the &#8220;SAS-Raid&#8221; section. For a &#8220;Storport out of date&#8221; error, go to (link dead, search yourself) and install that. The Dell site doesn't have it.
 
 3. For &#8220;Processor Temperature Fail&#8221;, check to see if it's an older server. If it is, bump the check up to &#8220;400&#8221; instead of &#8220;350&#8221; through the check's settings in the agent. If it fails again, you will need to have the customer open up the server and blast it with air duster.
 

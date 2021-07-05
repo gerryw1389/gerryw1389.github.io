@@ -16,7 +16,7 @@ Follow this post to see why a scheduled task is not running successfully.
 
 ### To Resolve:
 
-1. First off as a general rule of thumb, don't run GUI applications as scheduled tasks. The main point of scheduled task is to run some code while you are away. That being said, the most common issue I hear is `I can't see the output from my script!`. I then have to explain this is because scheduled tasks are often configured to be ran as `SYSTEM` so you won't see any output. This is why it is crucial to [add logging](https://automationadmin.com/2017/09/ps-logging-snippets/) to your scripts.
+1. First off as a general rule of thumb, don't run GUI applications as scheduled tasks. The main point of scheduled task is to run some code while you are away. That being said, the most common issue I hear is `I can't see the output from my script!`. I then have to explain this is because scheduled tasks are often configured to be ran as `SYSTEM` so you won't see any output. This is why it is crucial to [add logging](https://automationadmin.com/2017/08/ps-logging/) to your scripts.
 
 2. Your `start in` field is null. You may want to set it to `c:\Scripts\` and see if it behaves differently. I usually get around this by skipping PS files altogether and [call a batch file](https://automationadmin.com/2016/05/how-to-run-ps-as-a-scheduled-task/) in the same directory which then calls the PS1 script.
 

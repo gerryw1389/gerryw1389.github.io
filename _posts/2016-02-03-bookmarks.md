@@ -90,7 +90,7 @@ See below for a list of bookmarks!
 ### Best Practices
 
 [Ops Report Card](http://www.opsreportcard.com/)  
-[Ops School Curriculum](http://www.opsschool.org/en/latest/)
+[Ops School Curriculum](https://www.opsschool.org/)
 
 ### CCNA
 
@@ -119,8 +119,7 @@ See below for a list of bookmarks!
 [Apache Cheat Sheet](http://www.petefreitag.com/cheatsheets/apache/)  
 [Google Guide Cheatsheet](http://www.googleguide.com/print/adv_op_ref.pdf)  
 [SpectralCoding](https://www.spectralcoding.com/2016/09/sysadmin-blog-and-rss-feed-list/)  
-[DevOps Bookmarks](http://www.devopsbookmarks.com/)  
-[Bookmarks4Techs](https://whatsonmypc.blog/bookmarks4techs/)  
+[DevOps Bookmarks](http://www.devopsbookmarks.com/)
 [DevOps Library](https://www.devopslibrary.com/)  
 [Windows SysAdmin Interview Questions](http://www.01world.in/p/windows.html)  
 [PacketLife.net](http://packetlife.net/library/cheat-sheets/)  
@@ -146,7 +145,7 @@ See below for a list of bookmarks!
 [Google Custom Search](https://cse.google.com/cse/home?cx=000661023013169144559:a1-kkiboeco)  
 [Linux Ebooks](http://linuxnix.tradepub.com/category/information-technology-servers-and-linux-server-os/806/)  
 [Free Tech Books](http://www.freetechbooks.com/)  
-[Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#linux)  
+[Free Programming Books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md)  
 [Zeepedia](http://www.zeepedia.com/)  
 [Free Ebooks From Microsoft Press](https://mva.microsoft.com/ebooks)
 
@@ -163,7 +162,7 @@ See below for a list of bookmarks!
 
 ### Games
 
-[Under the Wire](http://underthewire.tech/wargames.htm)
+[Under the Wire](https://underthewire.tech/wargames)
 
 ### GPO
 
@@ -175,7 +174,6 @@ See below for a list of bookmarks!
 
 ### High Availability
 
-[High Availability with Wackamole](https://wiki.smartos.org/display/DOC/High+Availability+with+Wackamole)  
 [Configure High-Avaliablity Cluster on CentOS 7](http://www.itzgeek.com/how-tos/linux/centos-how-tos/configure-high-avaliablity-cluster-on-centos-7-rhel-7.html)
 
 ### Ip Tools
@@ -183,7 +181,7 @@ See below for a list of bookmarks!
 [Hurricane Electric BGP Toolkit](http://bgp.he.net/)  
 [MX Lookup Tool](https://mxtoolbox.com/)  
 [Wolfram Alpha](https://www.wolframalpha.com/)  
-[10 Minute Mail](https://10minutemail.com/10MinuteMail/?dswid=6327)  
+[10 Minute Mail](https://10minutemail.com)  
 [Admin Sub](http://www.adminsub.net/)  
 [Whois.net](https://whois.net/)  
 [HTML Syntax Highlighter](http://hilite.me/)  
@@ -213,10 +211,10 @@ See below for a list of bookmarks!
 
 [Techopedia](https://www.techopedia.com/)  
 [edX](https://www.edx.org/course/subject/computer-science)  
-[Cybrary.IT](https://www.cybrary.it/resources/)  
+[Cybrary.IT](https://www.cybrary.it/)  
 [Microsoft Virtual Academy (MVA)](https://mva.microsoft.com/)  
 [Computer Performance - Powershell](http://www.computerperformance.co.uk/powershell/)  
-[Ops School Curriculum](http://www.opsschool.org/en/latest/)  
+[Ops School Curriculum](https://www.opsschool.org/)  
 [Pluralsight](https://www.pluralsight.com/)  
 [Exam Labs](http://www.exam-labs.com/)  
 [Codecademy](https://www.codecademy.com/learn/all)  
@@ -237,10 +235,8 @@ See below for a list of bookmarks!
 
 ### Linux
 
-[High Availability with Wackamole](https://wiki.smartos.org/display/DOC/High+Availability+with+Wackamole)  
 [Will Foster's Site](https://hobo.house/speaking/)  
 [Linux Inside](https://0xax.gitbooks.io/linux-insides/content/)  
-[Tech Arena 51](https://techarena51.com/)  
 [Linux Distro's Timeline](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)  
 [Linux Digest](https://sathisharthars.com/)  
 [Linux Project Ideas](https://www.reddit.com/r/sysadmin/comments/5hwdcd/linux_project_ideas_for_company/)  
@@ -292,8 +288,7 @@ See below for a list of bookmarks!
 ### Powershell
 
 [The Lazy Administrator](https://www.thelazyadministrator.com)  
-[The Lonely Administrator](http://jdhitsolutions.com/blog/?feed-stats-url=aHR0cDovL3d3dy5wZXRyaS5jby5pbC9leHBvcnQtdG8tZXhjZWwtd2l0aC1wb3dlcnNoZWxsLXBhcnQtMi5odG0=)  
-[Under the Wire](http://underthewire.tech/wargames.htm)  
+[The Lonely Administrator](http://jdhitsolutions.com/blog/?feed-stats-url=aHR0cDovL3d3dy5wZXRyaS5jby5pbC9leHBvcnQtdG8tZXhjZWwtd2l0aC1wb3dlcnNoZWxsLXBhcnQtMi5odG0=)   
 [PowerShell - Reddit](https://www.reddit.com/r/PowerShell/)  
 [The Agreeable Cow](http://www.theagreeablecow.com/search/label/powershell)  
 [Geekeefy](https://geekeefy.wordpress.com/tag/powershell/)  
@@ -308,9 +303,8 @@ See below for a list of bookmarks!
 [Get-Blog](http://www.get-blog.com/?p=22)  
 [Hey, Scripting Guy!](https://blogs.technet.microsoft.com/heyscriptingguy/)  
 [Rambling Cookie Monster](https://ramblingcookiemonster.github.io/about/)  
-[Microsoft PowerShell](https://msdn.microsoft.com/powershell)  
-[PowerShell for Windows Admins](http://itknowledgeexchange.techtarget.com/powershell/2017/05/)  
-[PowerShell Magazine](http://www.powershellmagazine.com/2016/10/31/pstip-tab-complete-properties/)  
+[Microsoft PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.1)  
+[PowerShell Magazine](http://www.powershellmagazine.com/2016/https://msdn.microsoft.com/powershell10/31/pstip-tab-complete-properties/)  
 [Matthew Hodgkin's Blog](https://hodgkins.io/#blog)  
 [Fun with the Windows Subsystem for Linux](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#LyMOLTmGWqyUthfE.97)  
 [Bartek Bielawski](https://becomelotr.wordpress.com/)  
@@ -325,7 +319,6 @@ See below for a list of bookmarks!
 [Under The Stairs - Thomas Lee](https://tfl09.blogspot.com/)  
 [PowerShell.org](https://powershell.org/)  
 [Ainsey11](https://github.com/ainsey11)  
-[Powershell On Github](https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell)  
 [A First Look At PowerShell on Linux](https://www.petri.com/microsoft-powershell-for-everyone)  
 [Beyond Impact Blog](http://blog.beyondimpactllc.com/blog)  
 [Jasonjas](https://github.com/jasonjas)  
@@ -446,7 +439,7 @@ See below for a list of bookmarks!
 [Van Efferen](http://www.efferen.nl/)  
 [WindowsHostFile](http://winhelp2002.mvps.org/hosts2.htm)  
 [Herring's Fishbait](https://herringsfishbait.com/)  
-[PAWs](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/privileged-access-workstations)  
+[Privileged Access Workstations - PAWs](https://docs.microsoft.com/en-us/security/compass/privileged-access-devices)  
 [Pete Net Live](http://www.petenetlive.com/archive)  
 [Windows/Office Online Activation](https://microsoft.gointeract.io/mobileweb/?interaction=1443478049354-2924fcb582254ed49836617882f915015fecd10-64be&accountId=microsoft&appkey=fdd66706-ae19-4524-a9e5-440df6739dcd&Language=English&name=pana&Click%20To%20Call%20Caller%20Id=+18176144386&dnis=26)  
 [Bohemian Grove](http://bohemiangrove.co.uk/)  
@@ -463,8 +456,8 @@ See below for a list of bookmarks!
 [Graylog Marketplace](https://marketplace.graylog.org/addons/750b88ea-67f7-47b1-9a6c-cbbc828d9e25)  
 [Graylog Marketplace 2](https://marketplace.graylog.org/addons/239b96b7-48cf-4b26-97eb-af74465614b0)  
 [Graylog Log On Windows](https://tom-henderson.github.io/2015/04/15/graylog.html)  
-[Install Greylog On CentOS and Forward Windows Logs](http://www.systeen.com/2016/05/12/install-graylog-2-0-centos-7-collect-windows-logs/)
+[Windows Forward Logs To Greylog](https://yallalabs.com/linux/how-to-collect-windows-event-logs-to-graylog2-using-nxlog/)
 
 ### WSUS
 
-[WSUS Maintenance](https://blogs.technet.microsoft.com/configurationmgr/2016/01/26/the-complete-guide-to-microsoft-wsus-and-configuration-manager-sup-maintenance/)
+[WSUS Maintenance](https://docs.microsoft.com/en-US/troubleshoot/mem/configmgr/wsus-maintenance-guide)

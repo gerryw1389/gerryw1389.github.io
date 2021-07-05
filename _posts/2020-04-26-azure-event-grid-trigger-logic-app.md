@@ -24,7 +24,7 @@ Having a runbook [run every minute](https://automationadmin.com//2020/04/azure-f
 
 1. Create a new Event Grid Domain:
    - Go to Event Grid Domains and create a new one `MyTestEG`
-   - Note the endpoint it creates - <https://mytesteg.southcentralus-1.eventgrid.azure.net/api/events>
+   - Note the endpoint it creates - `https://mytesteg.southcentralus-1.eventgrid.azure.net/api/events`
 
 2. Create a new topic:
    - Go to Event Grid Topics and create a new one `MyTestTopic`

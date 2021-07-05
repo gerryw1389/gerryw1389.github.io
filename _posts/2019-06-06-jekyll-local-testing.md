@@ -58,7 +58,7 @@ This post assumes you have [WSL](https://automationadmin.com/2017/09/windows-sub
    - For the sub-error `GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` I [skipped for now](https://github.com/github/pages-gem/issues/399)
 
 
-   - For the sub-error `GitHub Metadata: Error processing value 'repo_pages_info':` I [skipped for now](https://github.com/github/personal-website/issues/166)
+   - For the sub-error `GitHub Metadata: Error processing value 'repo_pages_info':` I skipped for now.
 
    - For the sub-error
 

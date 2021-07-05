@@ -43,7 +43,7 @@ If you face problems sending out mail, but only to a handful of domains, please 
 
 3. IP Reputation:
 
-   - Check your IP reputation on Talos [talosintelligence.com](https://talosintelligence.com/reputation_center/lookup?) or MXToolbox. You will either be Good, Neutral or Poor. If your reputation is Poor => then you may have problems sending out mail and are most likely appearing on a blacklist or two somewhere. If you are Neutral, then you may have had a problem in the recent past and are still recovering your reputation. If you have a Good reputation, you should have no problems sending out emails.
+   - Check your IP reputation on Talos [talosintelligence.com](https://talosintelligence.com/) or MXToolbox. You will either be Good, Neutral or Poor. If your reputation is Poor => then you may have problems sending out mail and are most likely appearing on a blacklist or two somewhere. If you are Neutral, then you may have had a problem in the recent past and are still recovering your reputation. If you have a Good reputation, you should have no problems sending out emails.
 
 4. SPF Record (Sender Policy Framework):
 

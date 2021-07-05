@@ -28,7 +28,7 @@ One of the main goals in Systems Administration is for you to lock down your net
 
 5. None of these privileged accounts have access to email or the internet.
 
-6. Each member of IT should have a separate [privileged access workstation](https://technet.microsoft.com/en-us/windows-server-docs/security/securing-privileged-access/privileged-access-workstations), completely separate from their regular user PC. These allow connection to various secured jump boxes inside the datacenter to administer servers through RSAT and other infrastructure via SSH.
+6. Each member of IT should have a separate privileged access workstations, completely separate from their regular user PC. These allow connection to various secured jump boxes inside the datacenter to administer servers through RSAT and other infrastructure via SSH.
 
 7. PAWs are on a different network segment than user PCs.
 

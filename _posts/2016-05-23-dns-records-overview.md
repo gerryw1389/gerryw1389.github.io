@@ -49,4 +49,4 @@ A great comb-through resource for understanding DNS records can be found here.
 
 5. In practice I have only seen `~` all and `-` all used. Please take a look at the following links for more info:  
    ["Authenticating SPF"](https://wordtothewise.com/2014/06/authenticating-spf)  
-   ["Syntax"](http://www.openspf.org/SPF_Record_Syntax)
+   ["Syntax"](http://www.open-spf.org/SPF_Record_Syntax/)
