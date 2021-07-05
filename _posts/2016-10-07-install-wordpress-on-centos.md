@@ -56,7 +56,7 @@ This assumes you have already followed the steps in [Setting Up LAMP On CentOS](
    define('DB_PASSWORD', 'password');
    ```
 
-3. Now open up a browser and go to: http://serverDomainNameOrIpAddress # NOTE: mine wouldn't start so I rebooted the server, then it worked!
+3. Now open up a browser and go to: `http://serverDomainNameOrIpAddress` # NOTE: mine wouldn't start so I rebooted the server, then it worked!
 
 4. Now get WordPress to start on startup:
 

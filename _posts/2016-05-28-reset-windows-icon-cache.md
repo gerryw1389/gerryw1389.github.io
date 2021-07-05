@@ -66,7 +66,3 @@ You will have &#8220;broken&#8221; icons on your desktop. A simple right click t
    pause
    exit /B
    ```
-
-### References:
-
-["How to Rebuild the Icon Cache in Windows"](http://www.sevenforums.com/tutorials/49819-icon-cache-rebuild.html  
