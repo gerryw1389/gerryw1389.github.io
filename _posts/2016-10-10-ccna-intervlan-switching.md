@@ -79,3 +79,11 @@ InterVLAN communications require a Layer 3 device. The most common is a &#8220;r
    show ip route
    ```
 
+### Suggested Training Opportunities
+
+1. Free Resources
+   - [Youtube](https://www.youtube.com)
+   - [Flackbox](https://www.flackbox.com/cisco-ccna-lab-guide)
+
+2. Instructor led:
+   - [Flackbox CCNA Gold Bootcamp course](https://www.flackbox.com/cisco-ccna-course)

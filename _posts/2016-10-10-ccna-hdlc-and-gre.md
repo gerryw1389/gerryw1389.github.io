@@ -76,3 +76,11 @@ Remember that clock rates are set on the DTE side and you must set them to match
    show interface tunnel
    ```
 
+### Suggested Training Opportunities
+
+1. Free Resources
+   - [Youtube](https://www.youtube.com)
+   - [Flackbox](https://www.flackbox.com/cisco-ccna-lab-guide)
+
+2. Instructor led:
+   - [Flackbox CCNA Gold Bootcamp course](https://www.flackbox.com/cisco-ccna-course)

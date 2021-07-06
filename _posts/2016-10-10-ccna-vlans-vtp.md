@@ -123,4 +123,11 @@ VTP is a Cisco protocol that allows you to create a client/server way to share V
    show interface trunk
    ```
 
+### Suggested Training Opportunities
 
+1. Free Resources
+   - [Youtube](https://www.youtube.com)
+   - [Flackbox](https://www.flackbox.com/cisco-ccna-lab-guide)
+
+2. Instructor led:
+   - [Flackbox CCNA Gold Bootcamp course](https://www.flackbox.com/cisco-ccna-course)

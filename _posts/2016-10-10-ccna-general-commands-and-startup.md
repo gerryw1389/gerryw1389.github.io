@@ -181,3 +181,12 @@ troubleshooting commands: ping, show ip route, show interfaces
    delete (filename) # for example, delete vlan.dat (in routers to delete all VLAN info)
    ```
 
+
+### Suggested Training Opportunities
+
+1. Free Resources
+   - [Youtube](https://www.youtube.com)
+   - [Flackbox](https://www.flackbox.com/cisco-ccna-lab-guide)
+
+2. Instructor led:
+   - [Flackbox CCNA Gold Bootcamp course](https://www.flackbox.com/cisco-ccna-course)
