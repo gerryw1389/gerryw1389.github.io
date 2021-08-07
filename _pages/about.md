@@ -51,24 +51,24 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
 
 ### My Certs:
 
-1. 2021-08-01: Azure Administrator (AZ103)
-   - ![AZ303](https://automationadmin.com/assets/images/uploads/2021/08/az303.png){:class="img-responsive"}
+1. TBD: Microsoft Azure Architect Design (AZ304)
+   - ![Solutions Architect](https://automationadmin.com/assets/images/uploads/certs/az303-az304.png){:class="img-responsive"}
+   - ![AZ304](https://automationadmin.com/assets/images/uploads/certs/az304.png){:class="img-responsive"}
 
-2. 2020-05-16: Azure Administrator (AZ103)
-   - ![AZ103/AZ104](https://automationadmin.com/assets/images/uploads/2020/05/az103.png){:class="img-responsive"}
+2. 2021-08-01: Azure Administrator (AZ303)
+   - ![AZ303](https://automationadmin.com/assets/images/uploads/certs/az303.png){:class="img-responsive"}
 
+3. 2020-05-16: Azure Administrator (AZ103/AZ104)
+   - ![AZ103](https://automationadmin.com/assets/images/certs/az103.png){:class="img-responsive"}
 
-3. 2019-11-19: Azure Fundamentals (AZ900)
-   - ![AZ900](https://automationadmin.com/assets/images/uploads/2020/05/az900.png){:class="img-responsive"}
+4. 2019-11-19: Azure Fundamentals (AZ900)
+   - ![AZ900](https://automationadmin.com/assets/images/certs/az900.png){:class="img-responsive"}
 
+5. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
+   - ![CCNA](https://automationadmin.com/assets/images/certs/ccna.png){:class="img-responsive"}
 
-4. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
-   - ![CCNA](https://automationadmin.com/assets/images/uploads/2020/05/ccna.png){:class="img-responsive"}
-
-
-5. 2015-05-02: Testout Network Pro (Undergrad)
-   - ![TestOut Network Pro](https://automationadmin.com/assets/images/uploads/2020/05/testout.png){:class="img-responsive"}
-
+6. 2015-05-02: Testout Network Pro
+   - ![TestOut Network Pro](https://automationadmin.com/assets/images/certs/testout.png){:class="img-responsive"}
 
 ### Archived:
 
