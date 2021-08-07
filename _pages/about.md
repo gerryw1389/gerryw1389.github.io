@@ -55,13 +55,13 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
    - ![Solutions Architect](https://automationadmin.com/assets/images/uploads/certs/az303-az304.png){:class="img-responsive"}
    - ![AZ304](https://automationadmin.com/assets/images/uploads/certs/az304.png){:class="img-responsive"}
 
-2. 2021-08-01: Azure Administrator (AZ303)
+2. 2021-08-01: Microsoft Azure Architect Technologies (AZ303)
    - ![AZ303](https://automationadmin.com/assets/images/uploads/certs/az303.png){:class="img-responsive"}
 
-3. 2020-05-16: Azure Administrator (AZ103/AZ104)
+3. 2020-05-16: Microsoft Azure Administrator (AZ103)
    - ![AZ103](https://automationadmin.com/assets/images/certs/az103.png){:class="img-responsive"}
 
-4. 2019-11-19: Azure Fundamentals (AZ900)
+4. 2019-11-19: Microsoft Azure Fundamentals (AZ900)
    - ![AZ900](https://automationadmin.com/assets/images/certs/az900.png){:class="img-responsive"}
 
 5. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
