@@ -59,16 +59,16 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
    - ![AZ303](https://automationadmin.com/assets/images/uploads/certs/az303.png){:class="img-responsive"}
 
 3. 2020-05-16: Microsoft Azure Administrator (AZ103)
-   - ![AZ103](https://automationadmin.com/assets/images/certs/az103.png){:class="img-responsive"}
+   - ![AZ103](https://automationadmin.com/assets/images/uploads/certs/az103.png){:class="img-responsive"}
 
 4. 2019-11-19: Microsoft Azure Fundamentals (AZ900)
-   - ![AZ900](https://automationadmin.com/assets/images/certs/az900.png){:class="img-responsive"}
+   - ![AZ900](https://automationadmin.com/assets/images/uploads/certs/az900.png){:class="img-responsive"}
 
 5. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
-   - ![CCNA](https://automationadmin.com/assets/images/certs/ccna.png){:class="img-responsive"}
+   - ![CCNA](https://automationadmin.com/assets/images/uploads/certs/ccna.png){:class="img-responsive"}
 
 6. 2015-05-02: Testout Network Pro
-   - ![TestOut Network Pro](https://automationadmin.com/assets/images/certs/testout.png){:class="img-responsive"}
+   - ![TestOut Network Pro](https://automationadmin.com/assets/images/uploads/certs/testout.png){:class="img-responsive"}
 
 ### Archived:
 
