@@ -199,14 +199,14 @@ A good way to see this is to download one of my Modules off [Github](https://git
    $PrivatePath = $Path + "\Private"
    New-Item -ItemType Directory -Path $PrivatePath -Force | Out-Null
    $Download = "$Path\Private\helpers.psm1"
-   $URI = "https://raw.githubusercontent.com/gerryw1389/master/master/gwConfiguration/Private/helpers.psm1"
+   $URI = "https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Private/helpers.psm1"
    $Response = Invoke-RestMethod -Method Get -Uri $URI
    $Response | Out-File $Download -Encoding ASCII
 
    $PublicPath = $Path + "\Public"
    New-Item -ItemType Directory -Path $PublicPath -Force | Out-Null
    $Download = "$Path\Public\set-template.ps1"
-   $URI = "https://raw.githubusercontent.com/gerryw1389/master/master/gwConfiguration/Public/Set-Template.ps1"
+   $URI = "https://raw.githubusercontent.com/gerryw1389/powershell/main/gwConfiguration/Public/Set-Template.ps1"
    $Response = Invoke-RestMethod -Method Get -Uri $URI
    $Response | Out-File $Download -Encoding ASCII
 

@@ -51,7 +51,7 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
 
 ### My Certs:
 
-1. TBD: Microsoft Azure Architect Design (AZ304)
+1. 2021-10-02: Microsoft Azure Architect Design (AZ304)
    - ![Solutions Architect](https://automationadmin.com/assets/images/uploads/certs/az303-az304.png){:class="img-responsive"}
    - ![AZ304](https://automationadmin.com/assets/images/uploads/certs/az304.png){:class="img-responsive"}
 

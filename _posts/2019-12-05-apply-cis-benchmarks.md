@@ -159,7 +159,7 @@ Overview:
 
 5. Now that we have an idea of remediation, we need to find a way to convert these to puppet classes. This is obviously the hardest part of the project as you have to find a way to have puppet apply a default class to each kind of server that will remediate most of the issues.
 
-   - This is too complicated to list here, but if you know how to read puppet classes, start with [init.pp](https://github.com/gerryw1389/base_cis/blob/master/manifests/init.pp) and work your way downwards.
+   - This is too complicated to list here, but if you know how to read puppet classes, start with [init.pp](https://github.com/gerryw1389/base_cis/blob/main/manifests/init.pp) and work your way downwards.
 
    - For Windows, the main fixes are two fold:
    - On one hand, puppet just sets a ton of registry settings. These are my preferred way to manage settings:
@@ -173,8 +173,8 @@ Overview:
    }
    ```
 
-   - On the other hand, Windows is managed by `LGPO.exe` (with CSV files for audit policies and inf files for local security policies) , `laps.msi`, and others. See [2012](https://github.com/gerryw1389/base_cis/blob/master/manifests/base_windows/twentytwelve_template.pp) and [2016](https://github.com/gerryw1389/base_cis/blob/master/manifests/base_windows/twentysixteen_template.pp)
+   - On the other hand, Windows is managed by `LGPO.exe` (with CSV files for audit policies and inf files for local security policies) , `laps.msi`, and others. See [2012](https://github.com/gerryw1389/base_cis/blob/main/manifests/base_windows/twentytwelve_template.pp) and [2016](https://github.com/gerryw1389/base_cis/blob/main/manifests/base_windows/twentysixteen_template.pp)
 
-   - For linux, I just used a series of shell scripts that will [test settings on the first run, and then execute scripts if something fails](https://github.com/gerryw1389/base_cis/blob/master/manifests/base_rhel/rhel_cis.pp)
+   - For linux, I just used a series of shell scripts that will [test settings on the first run, and then execute scripts if something fails](https://github.com/gerryw1389/base_cis/blob/main/manifests/base_rhel/rhel_cis.pp)
 
-6. [Final result](https://github.com/gerryw1389/base_cis/blob/master/files/benchmarks/proof/proof.md)
+6. [Final result](https://github.com/gerryw1389/base_cis/blob/main/files/benchmarks/proof/proof.md)

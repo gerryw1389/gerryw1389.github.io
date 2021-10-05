@@ -23,7 +23,7 @@ UPDATE 2021-05: I would skip this post and read about [my Durable Functions post
 
 1. Create a [Function App](https://automationadmin.com/2020/11/azure-function-python-http-template) in python with a `time.sleep(6)`, call it `sleep`
 
-   - Using the template [here](https://github.com/gerryw1389/python/blob/master/scripts/azure-function-template/ReadJSON/__init__.py), add a line before the return that sleeps the app for a few seconds.
+   - Using the template [here](https://github.com/gerryw1389/python/blob/main/scripts/azure-function-template/ReadJSON/__init__.py), add a line before the return that sleeps the app for a few seconds.
 
 2. Create a logic app called `Async`
 
