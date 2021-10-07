@@ -24,7 +24,7 @@ So I've been using Google Drive to store my scripts in a &#8220;public repo&#822
    
    - In the top right, click on Settings => Developer Settings => Personal Access Tokens => Click the 'Generate new token' button => Check 'repo' => Create => Jot this down somewhere, should look something like `1ef09e5aac03f99fc5135a105d104bac70652898`
 
-3. If you haven't already, install [GCM](https://github.com/Microsoft/Git-Credential-Manager-for-Windows). This will allow Windows to store your git credentials securely.
+3. If you haven't already, install [GCM](https://github.com/microsoft/Git-Credential-Manager-Core/releases/). This will allow Windows to store your git credentials securely.
 
 4. Clean up your git repos on your computer. See [my other post](https://automationadmin.com/2019/06/notes-on-git/) on this for more details. But the idea is that you:
 

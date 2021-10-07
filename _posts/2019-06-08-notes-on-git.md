@@ -41,7 +41,7 @@ So I have been using `git` for awhile now, but I still don't really know how it 
    git merge <branch_name> - branches that branch with current branch
    ```
 
-3. Something I have been fighting with recently is that Vscode ignores linux git settings you set if you have [WSL](https://automationadmin.com/2017/09/windows-subsystem-for-linux-wsl/) enabled. So I would set the global and local configs like mentioned below and vscode would ignore them. I ended up doing the steps in [my Github post](https://automationadmin.com/2018/02/connect-to-github-private-repo/) and installing [GCM](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) which then allowed me to push/pull often without entering credentials.
+3. Something I have been fighting with recently is that Vscode ignores linux git settings you set if you have [WSL](https://automationadmin.com/2017/09/windows-subsystem-for-linux-wsl/) enabled. So I would set the global and local configs like mentioned below and vscode would ignore them. I ended up doing the steps in [my Github post](https://automationadmin.com/2018/02/connect-to-github-private-repo/) and installing [GCM](https://github.com/microsoft/Git-Credential-Manager-Core/releases/) which then allowed me to push/pull often without entering credentials.
 
 4. Git has three levels of settings:
 

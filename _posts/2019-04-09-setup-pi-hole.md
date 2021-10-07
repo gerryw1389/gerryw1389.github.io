@@ -67,3 +67,15 @@ So after [setting up](https://automationadmin.com/2017/08/setting-up-raspberry-p
    - [Ransomware](https://tspprs.com/dl/ransomware)  
    - [Scam](https://tspprs.com/dl/scam)  
  
+
+7. Couple other commands I used to clean it up:
+
+   ```shell
+   sudo apt update
+   sudo apt full-upgrade
+   sudo apt clean
+   apt -y purge "pulseaudio*"
+   ```
+
+   - Update: `pihole -up`
+
