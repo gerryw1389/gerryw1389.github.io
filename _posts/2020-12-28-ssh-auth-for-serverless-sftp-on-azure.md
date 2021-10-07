@@ -16,7 +16,7 @@ tags:
 
 ### Description:
 
-This post is a variation of my [previous post](https://github.com/gerryw1389/powershell/tree/main/azure/serverless-sftp-ssh-auth) about serverless SFTP on Azure. What this does is allow you to run Container Instances that mount two file shares - one for actual storage and another that mounts ssh keys per [this issue](https://github.com/Azure-Samples/sftp-creation-template/issues/2). Source is maintained at Github [here](https://github.com/gerryw1389/powershell/tree/main/azure/serverless-sftp-ssh-auth).
+This post is a variation of my [previous post](https://github.com/gerryw1389/terraform-examples/tree/main/container-groups/serverless-sftp) about serverless SFTP on Azure. What this does is allow you to run Container Instances that mount two file shares - one for actual storage and another that mounts ssh keys per [this issue](https://github.com/Azure-Samples/sftp-creation-template/issues/2). Source is maintained at Github [here](https://github.com/gerryw1389/terraform-examples/tree/main/container-groups/serverless-sftp-ssh-auth).
 
 The way to use is:
 
