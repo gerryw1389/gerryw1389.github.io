@@ -6,7 +6,7 @@ layout: single
 classes: wide
 permalink: /2020/12/function-apps-to-log-analytics
 categories:
-  - WebSoftware
+  - Azure
 tags:
   - Cloud
   - Azure-LogAnalytics

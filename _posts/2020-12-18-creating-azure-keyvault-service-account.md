@@ -6,7 +6,7 @@ layout: single
 classes: wide
 permalink: /2020/12/creating-azure-keyvault-service-account
 categories:
-  - WebSoftware
+  - Azure
 tags:
   - Cloud
   - Scripting-Python

@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-Following [this template](https://github.com/Azure/azure-quickstart-templates/tree/main/201-aci-sftp-files-existing-storage) I was able to create a powershell script that when ran in the portal would deploy new instances of SFTP by connecting to our storage account and creating one share per user. This works great as a one off solution to have user's send you files and each user is to have their own chroot. Source is  maintained at Github [here](https://github.com/gerryw1389/terraform-examples/tree/main/container-groups/serverless-sftp).
+Following [this template](https://docs.microsoft.com/en-us/samples/azure-samples/sftp-creation-template/sftp-on-azure/) I was able to create a powershell script that when ran in the portal would deploy new instances of SFTP by connecting to our storage account and creating one share per user. This works great as a one off solution to have user's send you files and each user is to have their own chroot. Source is  maintained at Github [here](https://github.com/gerryw1389/terraform-examples/tree/main/container-groups/serverless-sftp).
 
 The way to use is:
 

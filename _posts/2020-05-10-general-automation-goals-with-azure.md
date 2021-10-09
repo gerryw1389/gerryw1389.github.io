@@ -6,7 +6,7 @@ layout: single
 classes: wide
 permalink: /2020/05/general-automation-goals-with-azure
 categories:
-  - WebSoftware
+  - Azure
 tags:
   - Cloud
 ---

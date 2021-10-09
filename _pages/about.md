@@ -16,6 +16,18 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
    - Try to check the skills in: [How to be a Cloud SysAdmin](https://automationadmin.com/2018/11/aws-sysadmin-guide/)
    - Must read [post](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/)
    - Trying to [break in?](https://roadmap.sh/devops) Get to learning. More info can be found on [this recurring thread](https://www.reddit.com/r/devops/comments/koijyu/monthly_getting_into_devops_thread_202101/)
+   - Most common tags for 2021 so far:
+     - [Azure-Automation](https://automationadmin.com/tags/#azure-automation)
+     - [Azure-FunctionApps](https://automationadmin.com/tags/#azure-functionapps)
+     - [Azure-KeyVault](https://automationadmin.com/tags/#azure-keyvault)
+     - [Azure-LogAnalytics](https://automationadmin.com/tags/#azure-loganalytics)
+     - [Azure-LogicApps](https://automationadmin.com/tags/#azure-logicapps)
+     - [CICD](https://automationadmin.com/tags/#cicd)
+     - [ConfigManagement](https://automationadmin.com/tags/#configmanagement)
+     - [Scripting-Powershell](https://automationadmin.com/tags/#scripting-powershell)
+     - [Scripting-Python](https://automationadmin.com/tags/#scripting-python)
+     - [Scripting-RestAPI](https://automationadmin.com/tags/#scripting-restapi)
+     - [VersionControl](https://automationadmin.com/tags/#versioncontrol)
 
 2. Systems Administrator:
    - Powershell, Windows Server

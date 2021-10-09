@@ -6,7 +6,7 @@ layout: single
 classes: wide
 permalink: /2020/12/setup-nat-gateway-for-azure-functions
 categories:
-   - WebSoftware
+   - Azure
 tags:
    - Cloud
    - Azure-FunctionApps

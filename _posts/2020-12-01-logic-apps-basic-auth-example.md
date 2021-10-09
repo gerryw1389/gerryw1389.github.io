@@ -6,7 +6,7 @@ layout: single
 classes: wide
 permalink: /2020/12/logic-apps-basic-auth-example
 categories:
-  - WebSoftware
+  - Azure
 tags:
   - Cloud
   - Azure-LogicApps
