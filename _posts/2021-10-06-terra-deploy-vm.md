@@ -9,7 +9,7 @@ categories:
   - Azure
 tags:
   - Cloud
-  - ConfigManagement
+  - InfrastructureProvisioning
 ---
 <!--more-->
 

@@ -21,7 +21,7 @@ Here are the following extensions I will pick and choose from for installing vsc
 3. For customization:
 
    - `SolarLiner.linux-themes` - theme files
-   - `vscode-icons-team.vscode-icons` j- vscode icons
+   - `vscode-icons-team.vscode-icons` - vscode icons
    - `dotjoshjohnson.xml` - viewing xml files
    - `redhat.vscode-yaml` - viewing yaml files
 

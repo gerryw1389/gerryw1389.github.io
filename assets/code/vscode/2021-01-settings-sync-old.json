@@ -21,8 +21,6 @@
       "plaintext",
       "text"
    ],
-   "azureFunctions.projectSubpath": "dev",
-   "azureFunctions.showProjectWarning": false,
    "diffEditor.ignoreTrimWhitespace": false,
    "editor.acceptSuggestionOnEnter": "off",
    "editor.autoClosingBrackets": "never",
@@ -32,10 +30,6 @@
    "editor.foldingStrategy": "indentation",
    "editor.renderControlCharacters": false,
    "editor.tabSize": 3,
-   "[terraform]": {
-      "editor.defaultFormatter": "hashicorp.terraform",
-      "editor.formatOnSave": true
-   },
    "editor.tokenColorCustomizations": {
       "comments": "#9E9E9E",
       "textMateRules": [
@@ -58,18 +52,13 @@
             "scope": [
                "markup.heading.markdown",
                "entity.name.tag",
-               "entity.name.section.markdown",
                "meta.link.inline.markdown",
                "markup.underline",
                "markup.bold",
                "markup.italic",
                "markup.list",
                "meta.separator.markdown",
-               "meta.link.reference.def.markdown",
-               "punctuation.definition.heading.markdown",
-               "heading.3.markdown",
-               "heading.2.markdown",
-               "heading.1.markdown"
+               "meta.link.reference.def.markdown"
             ],
             "settings": {
                "foreground": "#228B22"
@@ -85,35 +74,7 @@
                "foreground": "#FF69B4"
             }
          }
-      ],
-      "[Relax Dark]": {
-         "textMateRules": [
-            {
-               "name": "comment.line.number-sign.python",
-               "scope": [
-                  "comment.line.number-sign.python",
-                  "punctuation.definition.comment.python"
-               ],
-               "settings": {
-                  "foreground": "#228B22"
-               }
-            },
-            {
-               "name": "source.python",
-               "scope": "source.python",
-               "settings": {
-                  "foreground": "#9E9E9E"
-               }
-            },
-            {
-               "name": "meta.item-access.arguments.python",
-               "scope": "meta.item-access.arguments.python",
-               "settings": {
-                  "foreground": "#FF69B4"
-               }
-            }
-         ]
-      }
+      ]
    },
    "editor.wordWrap": "on",
    "explorer.autoReveal": false,
@@ -139,7 +100,7 @@
    "powershell.codeFormatting.autoCorrectAliases": true,
    "powershell.codeFormatting.preset": "Allman",
    "python.analysis.logLevel": "Warning",
-   "python.formatting.provider": "black",
+   "python.formatting.provider": "yapf",
    "python.linting.pylintEnabled": true,
    "python.linting.enabled": true,
    "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
@@ -149,25 +110,33 @@
       "watchDirectory": "dynamicPriorityPolling",
       "watchFile": "dynamicPriorityPolling"
    },
-   "update.mode": "manual",
+   "update.mode": "none",
    "vsicons.dontShowNewVersionMessage": true,
    "window.newWindowDimensions": "maximized",
    "window.restoreWindows": "none",
    "window.title": "${rootName}",
+   "window.zoomLevel": 0,
+   "workbench.colorCustomizations": {
+      "[Monokai Dimmed]": {
+         "list.inactiveSelectionBackground": "#2D4D36",
+         "list.inactiveSelectionForeground": "#9E9E9E",
+         "list.activeSelectionBackground": "#2D4D36",
+         "list.activeSelectionForeground": "#9E9E9E"
+      },
+      "editorCursor.foreground": "#9AA83A",
+      "editorRuler.foreground": "#001A0D",
+      "sideBar.foreground": "#9E9E9E",
+      "gitDecoration.addedResourceForeground": "#1bcf2a",
+      "gitDecoration.modifiedResourceForeground": "#9E9E9E",
+      "gitDecoration.deletedResourceForeground": "#832514",
+      "gitDecoration.untrackedResourceForeground": "#12921d",
+      "gitDecoration.ignoredResourceForeground": "#23a9f1",
+      "gitDecoration.conflictingResourceForeground": "#be3434",
+      "gitDecoration.submoduleResourceForeground": "#23a9f1"
+   },
+   "workbench.colorTheme": "Monokai Dimmed",
    "workbench.iconTheme": "vscode-icons",
    "workbench.sideBar.location": "left",
    "workbench.startupEditor": "newUntitledFile",
-   "workbench.tree.renderIndentGuides": "always",
-   "workbench.colorTheme": "Relax Dark",
-   "workbench.colorCustomizations": {
-      "editorCursor.foreground": "#228B22",
-      "terminalCursor.foreground": "#228B22"
-   },
-   "workbench.editorAssociations": [
-      {
-         "viewType": "jupyter-notebook",
-         "filenamePattern": "*.ipynb"
-      }
-   ],
-   "redhat.telemetry.enabled": false
+   "workbench.tree.renderIndentGuides": "always"
 }
