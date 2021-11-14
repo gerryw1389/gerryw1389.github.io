@@ -62,4 +62,4 @@ Similar to my onetastic post, this will cover how to change the theme for vscode
       "workbench.colorTheme": "Monokai Dimmed"
    ```
 
-4. For an up-to-date reference, check out my [VScode Settings.json](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json)
+4. For an up-to-date reference, check out my [VScode Settings.json](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json)

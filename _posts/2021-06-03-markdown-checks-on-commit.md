@@ -26,4 +26,4 @@ Follow this post to have Github Actions check URLs on Commit. It uses Github hos
 3. Try tweaking it if needed, but you should be able to do a push to Github and it will check URLs on your website. 
 
 4. I have since removed it on mine due to the high amount of posts and low amount of effort I want to put in to fix :)
-   - Original code is still retained [here](https://github.com/gerryw1389/gerryw1389.github.io/tree/main/assets/code/old-github-actions) though if interested
+   - Original code is still retained [here](https://github.com/gerryw1389/misc/tree/main/old-github-actions) though if interested

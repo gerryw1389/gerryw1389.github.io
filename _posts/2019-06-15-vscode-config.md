@@ -42,7 +42,7 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
 
 2. Extensions (as of 2019-06):
 
-   - For an up-to-date reference, check out my [Settings.json here](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json)
+   - For an up-to-date reference, check out my [Settings.json here](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json)
 
    - Linux Themes for VS Code
      - Preferred theme - 'Monokai Dimmed'
@@ -89,8 +89,8 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
    - User Settings - Settings that apply globally to any instance of VS Code you open. This is the `settings.xml` file.
    - Workspace Settings - Settings stored inside your workspace and only apply when the workspace is opened. This is a `*.code-workspace` file.
    - ***Note: Workspace settings override user settings.***
-   - For an up-to-date reference, check out my [Settings.json](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json)
+   - For an up-to-date reference, check out my [Settings.json](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json)
 
-5. [keybindings.json](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/keybindings.json) - Preferences: Open Keyboard Shortcuts File (json)
+5. [keybindings.json](https://github.com/gerryw1389/misc/blob/main/vscode/keybindings.json) - Preferences: Open Keyboard Shortcuts File (json)
 
 6. Don't forget - Create VSCode PS profile: `Microsoft.VSCode_profile.ps1` in `C:\users\username\Documents\WindowsPowershell`

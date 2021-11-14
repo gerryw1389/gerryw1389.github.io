@@ -35,4 +35,4 @@ My OneNote settings
 
    - Right click the first page in each section and go to templates and apply that template for the section. This allows me to use the same template across my notebook.
 
-4. Here is my [OneNote Template](https://github.com/gerryw1389/powershell/blob/main/Other/misc/onenote-template.zip)
+4. Here is my [OneNote Template](https://github.com/gerryw1389/misc/blob/main/onenote-template.zip)

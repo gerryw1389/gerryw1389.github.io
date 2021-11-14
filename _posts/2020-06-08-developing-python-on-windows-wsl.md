@@ -32,7 +32,7 @@ This post describes how I started developing python scripts using vscode on Wind
 
 2. Next, in WSL type `vi ~/.bashrc` and add to the bottom of the file `cd /mnt/q/google/scripts/python`. This will set it to where everything I do will sync with Google so I can pick up on any computer I have Backup and sync installed.
 
-   - Also, if you have a [settings.json](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json), I would sync it to your WSL machine.
+   - Also, if you have a [settings.json](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json), I would sync it to your WSL machine.
    - Note that this file will be highly modified because I didn't install half the extensions I use in my Windows vscode.
 
 3. A few things I noticed:

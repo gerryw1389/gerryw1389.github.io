@@ -38,7 +38,7 @@ Notes on latest ubuntu install
    git clone git@github.com:gerryw1389/my-repo.git
    ```
 
-3. Install [extensions](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-explained.md)
+3. Install [extensions](https://github.com/gerryw1389/misc/blob/main/vscode/settings-explained.md)
   
 
 4. Since my repo has my `settings.json` for vscode, just copy and paste those (which will update `$HOME/.config/Code/User/settings.json`)
