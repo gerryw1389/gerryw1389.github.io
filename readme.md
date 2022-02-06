@@ -107,6 +107,8 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
 
 7. Anything I might have missed should be [here](https://automationadmin.com/2019/08/wordpress-to-jekyll-changes/)
 
+8. Change dates from `%B %d, %Y` to `%Y-%m-%d` by doing a find and replace. I originally added `show_date` and `date_format` per [docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates) but I think since I'm overwriting `_layouts/single.html` that it ignores the general config.yml.
+
 ### DISCLAIMER
 
 See [Parent Theme](https://github.com/mmistakes/minimal-mistakes) for any licenses with anything outside of `_posts`. Please see the MIT [license](./LICENSE) for licensing for my content inside `_posts`.
