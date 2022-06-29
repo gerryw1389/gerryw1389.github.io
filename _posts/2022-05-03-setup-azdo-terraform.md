@@ -19,7 +19,7 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
 
 ### To Resolve:
 
-1. Create free account at [Azure Devops](https://dev.azure.com/) and a sign up for Azure Subscription at [Azure](portal.azure.com)
+1. Create free account at [Azure Devops](https://dev.azure.com/) and a sign up for Azure Subscription at [Azure](https://portal.azure.com)
 
    - This creates an Azure Active Directory tenant with a root user named: `gerryw1389_gmail.com#EXT#@gerryw1389gmail.onmicrosoft.com`
    - Before following the rest of this post, you may want to skip ahead to [filling out a required form](https://aka.ms/azpipelines-parallelism-request) for Azure Devops and waiting before continuing.
@@ -62,6 +62,13 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
    ```
 
    - Take note of your Subscription ID: mySubscriptionID
+
+   - Now set a new client secret that doesn't expire as soon. First get the object ID of the App Registration for `az-terraform` from powershell or the GUI and then run:
+
+   ```powershell
+   connect-azuread
+   New-AzADAppCredential -ObjectId $objectID -EndDate ((Get-Date).AddYears(5))
+   ```
 
 1. Go to Subscription => IAM => Give contributor to `az-terraform`
 
@@ -174,5 +181,5 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
    - `deploy/main.tf` is the main controller file that calls all the files under `./ResourceGroup` which is just a self-contained module for deploying a [Resource Group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group)  
      - You may be asking, "why a module?" Truth is, this is for scalability so that if you wanted to deploy a vnet for example, you could create a `vnet` folder along with all the inputs and outputs the resource will need.
      - You could remove the module call altogether and merge `resourcegroup/variables.tf`, `resourcegroup/main.tf`, `resourcegroup/outputs.tf`, all into `deploy/main.tf` directly if you wanted.
-     - Likewise, you could combine all these `*.tf` files into a single file and have Terraform engine figure out the order but it is important to break things down into "modules".
-     - [Official recommended file structure](https://www.terraform.io/language/modules/develop/structure)
+     - Likewise, you could combine all these `*.tf` files into a single file like I used to when I was first learning terraform (see [vm](https://github.com/gerryw1389/terraform-examples/blob/main/vm/main.tf)) and have Terraform engine figure out the order but it is important to break things down into "modules".
+     - [Official recommended file structure](https://www.terraform.io/language/modules/develop/structure) which is covered on a [later post](https://automationadmin.com/2022/05/modify-repo-structure/)
