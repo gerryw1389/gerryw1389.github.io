@@ -42,7 +42,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
 1. Lastly, after pushing changes to my repo in Azure Devops, the next step was to run a build and release pipeline to ensure it says the following in the `terraform plan` stage of the pipeline:
 
-   ```
+   ```escape
    module.azure_learning_rg.azurerm_resource_group.rg: Refreshing state... [id=/subscriptions/***/resourceGroups/aa-dev-tx-test]
    azurerm_management_lock.resource-group-level: Refreshing state... [id=/subscriptions/***/resourceGroups/aa-dev-tx-test/providers/Microsoft.Authorization/locks/BlockDelete]
 
@@ -55,7 +55,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
    - And this in the `terraform apply` stage of the pipeline
 
-   ```
+   ```escape
    ╷
    │ Warning: "use_microsoft_graph": [DEPRECATED] This field now defaults to `true` and will be removed in v1.3 of Terraform Core due to the deprecation of ADAL by Microsoft.
    │ 
