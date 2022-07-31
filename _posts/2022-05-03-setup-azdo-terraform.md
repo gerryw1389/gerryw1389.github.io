@@ -98,7 +98,7 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
 
 1. Now in Azure Devops, under your Project, open up Pipelines => Libary => and create one called `Pipeline_Secrets`. Now add in our secrets from prevous steps:
 
-   ```
+   ```escape
    subscription-id mySubscriptionID
    tenant-id myTenantID
    az-tf-client-id myClientID
@@ -125,7 +125,7 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
 
 1. So the next day after getting an email saying parallelism has been enabled, I reran the build and got this on the terraform plan part:
 
-   ```
+   ```escape
    Terraform will perform the following actions:
 
    # module.azure_learning_rg.azurerm_resource_group.rg will be created

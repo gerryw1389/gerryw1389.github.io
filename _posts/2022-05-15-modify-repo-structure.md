@@ -1,6 +1,6 @@
 ---
 title: Terraform Modify Repo Structure
-date: 2022-05-04T07:10:21-05:00
+date: 2022-05-15T07:10:21-05:00
 author: gerryw1389
 layout: single
 classes: wide
@@ -38,7 +38,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
    - Since the files are now at the root of the repo, you don't have to copy them up on the build agent anymore.
 
-1. In addition, I have taken to explicitly declaring required versions of things (see providers seciont of `main.tf`) so that I can move in a model to where you upgrade your deployments by testing against new versions of releases.
+1. In addition, I have taken to explicitly declaring required versions of things (see providers section of `main.tf`) so that I can move in a model to where you upgrade your deployments by testing against new versions of releases.
 
 1. Lastly, after pushing changes to my repo in Azure Devops, the next step was to run a build and release pipeline to ensure it says the following in the `terraform plan` stage of the pipeline:
 

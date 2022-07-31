@@ -20,7 +20,7 @@ Before using Terraform to create resources in Azure, you need to first create an
 
 1. Create the application as a service principle:
 
-   ```
+   ```powershell
    $password = 'somePassword'
    $securePassword = ConvertTo-SecureString -Force -AsPlainText -String $password
    $azTerraformapp = New-AzADApplication -DisplayName 'az-terraform' -HomePage 'http://az-terraform' -IdentifierUris 'http://az-terraform' -Password $securePassword
@@ -29,28 +29,28 @@ Before using Terraform to create resources in Azure, you need to first create an
 
 1. Grab the client ID from output
 
-   ```
+   ```escape
    app id
    bb581ce9-xxx
    ```
 
 2. Get object id:
 
-   ```
+   ```powershell
    (Get-AzADApplication -ApplicationId "bb581ce9-xxx").ObjectId
    ae9f0a7a-xxx
    ```
 
 3. Get the client secret
 
-   ```
+   ```powershell
    $SecureStringPassword = ConvertTo-SecureString -String "someSecret" -AsPlainText -Force
    New-AzADAppCredential -ObjectId "ae9f0a7a-xxx" -Password $SecureStringPassword
    ```
 
 4. Get your tenant info
 
-   ```
+   ```powershell
    (Get-AzSubscription).TenantId
    b525d9fd-xxx
 
@@ -61,7 +61,7 @@ Before using Terraform to create resources in Azure, you need to first create an
 
 5. Assign them to the bashrc profile for later deployments from cloudshell:
 
-   ```
+   ```shell
    vi ~/.bashrc
    # add the following
    export TF_VAR_ARM_SUBSCRIPTION_ID="700b8c1a-xxx"
@@ -76,7 +76,7 @@ Before using Terraform to create resources in Azure, you need to first create an
 
 7. In preparation for modifying `.tf` files, inside VSCode, install the two following extensions:
 
-   ```
+   ```powershell
    code --install-extension 4ops.terraform
    code --install-extension hashicorp.terraform
    ```

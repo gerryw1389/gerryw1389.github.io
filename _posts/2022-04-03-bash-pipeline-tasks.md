@@ -10,6 +10,7 @@ categories:
 tags:
   - Cloud
   - InfrastructureProvisioning
+  - CICD
 ---
 <!--more-->
 

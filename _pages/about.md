@@ -5,11 +5,19 @@ layout: single
 classes: wide
 ---
 
-Hello, my name is Gerry and I currently work as a Senior Automation Engineer at an enterprise company in the DFW Area (TX). My current focus is on automation using enterprise software applications and workflows. This blog serves as a place to store and search my lessons learned over time.
+Hello, my name is Gerry and I currently work as a Cloud Systems Engineer at an enterprise company. My current focus is leveraging Infrastruce As Code (IaC) to deploy resources into Azure by utilizing multi-step Pipelines to accomplish this. In addition, I like to leverage any technologies for automation with powershell or python. This blog serves as a place to store and search my lessons learned over time, maybe you can find it helpful as well.
 
 ### My Interests Over Time:
 
-1. Automation Engineer (current):
+1. Cloud Systems Engineer (current):
+   - Daily tools used: 
+     - Deploying of all Azure Services using Azure Devops/Github Actions + Terraform. Everything is done through IaC instead of Azure Portal. Challenge mode on!
+     - AKS deployment/management. Will post more on this in the future but for now just learning how to use [kubectl and k9s](https://automationadmin.com//2022/07/kubectl-k9s) for interacting with deployed clusters. Stay tuned.
+     - Powershell + Python scripting to be ran by Azure Automation/Logic Apps/Function Apps. This will never change as scripting is an [incredibly valuable skill](https://automationadmin.com/2020/02/importance-of-learning-scripting/) that can be used anywhere/anytime for automation.
+   - So instead of using the Azure portal to deploy serverless applications, I now mostly write them in Terraform and deploy with Azure Devops.
+   - In previous positions, I always [source controlled](https://automationadmin.com/tags/#versioncontrol) what I could so this is just the next logical step.
+
+1. Automation Engineer:
    - Azure, Github, Docker, Python, Ansible
    - I'm trying to be serverless as much as possible so I use Azure Functions and Azure Containers when possible
      - See my [Azure](https://automationadmin.com/categories/#azure) category and [cloud](https://automationadmin.com/tags/#cloud) tag for example.
@@ -35,7 +43,7 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
      - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
      - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/)
    - Having trouble breaking in? See [this post](https://automationadmin.com/2016/05/breaking-into-sa-jobs/)
-   - Already in? [how far in?](https://www.docs.google.com/spreadsheets/d/1FBr20VIOePQH2aAH2a_6irvdB1NOTHZaD8U5e2MOMiw/pub?output=html)
+   - Already in? [how far in?](https://www.docs.google.com/spreadsheets/d/1FBr20VIOePQH2aAH2a_6irvdB1NOTHZaD8U5e2MOMiw/pub?output=html) Please don't be cocky, read [the wiki](https://www.reddit.com/r/sysadmin/wiki/bootcamp/) to always improve your skills.
 
 3. Remote Support Tech:
    - Mostly break fix and learning to script
@@ -45,7 +53,7 @@ Hello, my name is Gerry and I currently work as a Senior Automation Engineer at 
 4. How to Advance:
    - Look for a [new demanding job](https://thedailywtf.com/articles/Up-or-Out-Solving-the-IT-Turnover-Crisis) once you feel you have learned all you can and you don't see upwards mobility.
      - Make sure to [interview them](https://automationadmin.com/2016/04/interview-questions/) more than they interview you :)
-     - Try to give your current position 3 years, it can look bad if you jump ship too often.
+     - Try to give your current position 3 years minimum, it can look bad if you jump ship too often.
    - Try to never be the smartest person the room
      - I'm a fan of skills checklists so that I'm always learning something new, see above.
    - Be a tinker by nature:

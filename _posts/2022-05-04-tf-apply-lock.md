@@ -10,6 +10,7 @@ categories:
 tags:
   - Cloud
   - InfrastructureProvisioning
+  - Scripting-HCL
 ---
 <!--more-->
 
@@ -21,7 +22,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
 1. So first thing as always is to go to the [resource](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_lock) on Terraform Docs for the AzureRM provider and found the example and applied it to [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group-w-lock/Deploy/main.tf):
 
-   ```hcl
+   ```terraform
    resource "azurerm_management_lock" "resource-group-level" {
    name       = "BlockDelete"
    scope      = azurerm_resource_group.azure_learning_rg.id

@@ -52,7 +52,7 @@ Follow these steps to source control Logic Apps. In this example, I will create 
 
    - Now go to `Code View` and copy everything around `$connections` to notepad:
 
-   ```
+   ```json
    "$connections": {
       "value": {
          "azurefile": {

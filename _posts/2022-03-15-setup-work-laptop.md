@@ -21,7 +21,7 @@ So at each place I work, I like to setup a folder structure on my Windows Laptop
 
 1. Create folder `c:\scripts` and under that create `c:\scripts\sync.bat` with the following contents:
 
-   ```
+   ```powershell
    @ECHO OFF
    PowerShell.exe -NoProfile ^
    -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dpn0.ps1""'}"
@@ -30,7 +30,7 @@ So at each place I work, I like to setup a folder structure on my Windows Laptop
 
    - and then create `c:\scripts\sync.ps1` with the following contents:
 
-   ```
+   ```powershell
    robocopy "C:\scripts\company" "C:\Users\myuser\OneDrive - My Company\company" /mir /xd '.git'
    robocopy "C:\Users\myuser\OneDrive - My Company\company" "\\192.168.50.50\backup" /mir /np /ndl /log:"c:\scripts\robocopy.log"
    ```
