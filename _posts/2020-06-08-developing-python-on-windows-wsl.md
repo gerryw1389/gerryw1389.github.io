@@ -16,7 +16,7 @@ tags:
 
 ### Description:
 
-This post describes how I started developing python scripts using vscode on Windows but using WSL under the hood for linux development tasks.
+This post describes how I started developing python scripts using vscode on Windows but using WSL under the hood for linux development tasks. See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### To Resolve:
 
@@ -37,6 +37,6 @@ This post describes how I started developing python scripts using vscode on Wind
 
 3. A few things I noticed:
 
-   - For a folder rename error: `'/mnt/q/google/scripts/python/z_python/plex-backup' -> '/mnt/q/google/scripts/python/z_python/current' Error: EACCES: permission denied, rename `, I fixed by setting one of my settings.json lines to `remote.WSL.fileWatcher.polling to true`
+   - For a folder rename error: `'/mnt/q/google/scripts/python/z_python/plex-backup' => '/mnt/q/google/scripts/python/z_python/current' Error: EACCES: permission denied, rename `, I fixed by setting one of my settings.json lines to `remote.WSL.fileWatcher.polling to true`
 
    - For no pip: `There is no Pip installer available in the selected environment`, I found the path to the WSL extension and added `pip install --upgrade pip` on the end: `/usr/bin/python3 /home/myuser/.vscode-server/extensions/ms-python.python-2020.5.86806/pythonFiles/pyvsc-run-isolated.py pip install --upgrade pip`

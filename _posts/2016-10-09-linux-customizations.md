@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-This page is just for reference.
+This page is just for reference. See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### For Mate:
 

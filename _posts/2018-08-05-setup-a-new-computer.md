@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-I will be following these steps to re-image my home computer soon.
+I will be following these steps to re-image my home computer soon. See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### To Resolve:
 
@@ -103,7 +103,7 @@ I will be following these steps to re-image my home computer soon.
 
 6. Set mouse to my preferred cursor - [oxy-midnight_meadow](https://www.deviantart.com/lavalon/art/Oxygen-Cursors-76614092)
 
-7. Setup my preferred Powershell profile settings – See [Profile](https://github.com/gerryw1389/powershell/blob/main/Other/psprofile.ps1)
+7. Setup my preferred Powershell profile settings – See [Profile](https://github.com/gerryw1389/misc/blob/main/dot-files/Microsoft.Powershell_profile.ps1)
 
 8. Finally – Set Windows Taskbar: Thunderbird (Portable), VSCode, ConEmu, File Explorer, NPP, Firefox, Teams, Outlook
 

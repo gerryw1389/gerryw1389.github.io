@@ -14,11 +14,11 @@ tags:
 
 ### Description:
 
-This will serve as my documentation page for my current PS Profile. You can learn about these here.
+This will serve as my documentation page for my current PS Profile. You can learn about these [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.2). See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### To Resolve:
 
-1. [Profile](https://github.com/gerryw1389/powershell/blob/main/Other/psprofile.ps1)
+1. [Profile](https://github.com/gerryw1389/misc/blob/main/dot-files/Microsoft.Powershell_profile.ps1)
 
 2. You can use my [Test-PSProfiles](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Test-PSProfiles.ps1) script to pre-create the 6 files.
 

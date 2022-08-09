@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-The following is a list of modifications I made to the Windows Subsystem for Linux on my W10 box in my testlab:
+The following is a list of modifications I made to the Windows Subsystem for Linux on my W10 box in my testlab. See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### To Resolve:
 

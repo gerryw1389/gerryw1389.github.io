@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-So at each place I work, I like to setup a folder structure on my Windows Laptop that keeps my files locally under the `C:\scripts` folder directory while also backing them up to my company's Onedrive and my home PC for offline backup. Here is how I set it up. Obviously I would remove the offline backup part if company policies do not allow any data to leave the company laptop.
+So at each place I work, I like to setup a folder structure on my Windows Laptop that keeps my files locally under the `C:\scripts` folder directory while also backing them up to my company's Onedrive and my home PC for offline backup. Here is how I set it up. Obviously I would remove the offline backup part if company policies do not allow any data to leave the company laptop. See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### To Resolve:
 
@@ -123,7 +123,7 @@ So at each place I work, I like to setup a folder structure on my Windows Laptop
 
    - I still keep all my config at the User Settings level for Vscode, but use Workspaces to logically seperate what I'm working on because I don't like to see long trees of folders so I use workspaces alot.
 
-   - Lastly, I usually have a function in my [PSProfile](https://github.com/gerryw1389/powershell/blob/main/Other/psprofile.ps1) that will start workspaces on demand since somedays I just stay in my default workspace all day and don't need to launch all my workspaces.
+   - Lastly, I usually have a function in my [PSProfile](https://github.com/gerryw1389/misc/blob/main/dot-files/Microsoft.Powershell_profile.ps1) that will start workspaces on demand since somedays I just stay in my default workspace all day and don't need to launch all my workspaces.
 
    ```powershell
    Function Start-Workspaces

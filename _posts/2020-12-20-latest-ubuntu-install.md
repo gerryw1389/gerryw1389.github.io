@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-Notes on latest ubuntu install
+Notes on latest ubuntu install. See my [dot files post](https://automationadmin.com/2022/01/dot-files) for some references to these settings.
 
 ### To Resolve:
 
