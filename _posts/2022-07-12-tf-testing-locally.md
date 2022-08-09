@@ -72,6 +72,8 @@ Follow these steps to test locally on your machine assuming you have Terraform i
       - During the `plan` it will see that no `terraform.state` exists so it should only create new resources.
       - During the `apply` it will create the local `terraform.state` file in the current directory.
 
+1. To just test expressions locally, try [Terraform Console command](https://www.terraform.io/cli/commands/console)
+
 1. To test locally connecting to Azure but using a local state file:
 
    - Create a folder: `c:\scripts\test2` then `cd c:\scripts\test2`

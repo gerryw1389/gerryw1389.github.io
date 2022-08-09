@@ -139,7 +139,7 @@ This guide used the following infrastructure:
    - Create a new 'A' Record with the values of `185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153`
 
    - For subdomain forward:
-   - `www.gerrywilliams.net → http://gerrywilliams.net` with options `Temporary redirect (302), Forward path, Enable SSL`
+   - `www.gerrywilliams.net => http://gerrywilliams.net` with options `Temporary redirect (302), Forward path, Enable SSL`
 
    - Update it under Github.com - Repo - Settings - Custom Address - Paste it in
 

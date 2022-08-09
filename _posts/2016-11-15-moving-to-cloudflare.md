@@ -20,17 +20,20 @@ http site hosted free using noip.com => https site hosted on CloudFlare for a do
 
 ### To Resolve:
 
-1. First, I found the domain name &#8220;gerrywilliams.net&#8221; on Google Domains for $12/yr. Purchased.
+1. First, I found the domain name `gerrywilliams.net` on Google Domains for $12/yr. Purchased.
 
 2. I then signed up for Cloudflare and had change my DNS records in Google Domains to point to theirs. NOTE: By doing this, you will lose basically all the services that Google gives you like free emails, ex: admin@yourdomain.com or tech@yourdomain.com. That's okay, we will get those back another way (see step 5).
 
    - DNS servers at the time of this writing:  
-     - ali.ns.cloudflare.com  
-     - dale.ns.cloudflare.com
+     - `ali.ns.cloudflare.com`
+     - `dale.ns.cloudflare.com`
 
-3. The first thing I did was add an &#8220;A&#8221; record pointing my home IP address. So at this point you have one A record and the two NS records.
+3. The first thing I did was add an `A` record pointing my home IP address. So at this point you have one A record and the two NS records.
 
-   - Record type= A, Name = www, Value=MyPublicIPinV4Format TTL= Automatic
+   - Record type = `A`
+   - Name = `www`
+   - Value = `MyPublicIPinV4Format`
+   - TTL = `Automatic`
 
 4. Next, I setup the [naked domain redirect](https://automationadmin.com/2016/11/naked-domain-redirect-cloudflare/).
 
@@ -38,7 +41,7 @@ http site hosted free using noip.com => https site hosted on CloudFlare for a do
 
 6. Next, I setup [SSL](https://automationadmin.com/2016/11/setup-ssl-using-apache-on-centos-7/) for my site.
 
-7. I then had to go back to step 4 and add the &#8220;s&#8221; from http => https.
+7. I then had to go back to step 4 and add the `s` from http => https.
 
 8. Lastly, I wanted an automated way to update my home IP automatically so I modified [this](https://gist.github.com/benkulbertis/fff10759c2391b6618dd/) script and set it as a scheduled task (next step). All credit goes to creator of the script (see link)!
 
