@@ -57,7 +57,7 @@ Hello, my name is Gerry and I currently work as a Cloud Systems Engineer at an e
    - Try to never be the smartest person the room
      - I'm a fan of skills checklists so that I'm always learning something new, see above.
    - Be a tinker by nature:
-     - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. For example, it drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/assets/code/vscode/settings-sync.json).
+     - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. For example, it drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json).
      - Do you regularly go out of your way to learn how $x works? See [this list](https://github.com/Kickball/awesome-selfhosted) of things you can install in your [homelab](https://automationadmin.com/tags/#test-lab).
        - See my [setup](https://automationadmin.com/tags/#setup) tag for example.
        - After you stand something up, take notes of each step and then post them on [a blog](https://automationadmin.com/2019/06/wordpress-to-jekyll/) so you can showcase your skills.
@@ -71,23 +71,19 @@ Hello, my name is Gerry and I currently work as a Cloud Systems Engineer at an e
 
 ### My Certs:
 
-1. 2021-10-02: Microsoft Azure Architect Design (AZ304)
+1. 2021-10-02: Azure Solutions Architect
    - ![Solutions Architect](https://automationadmin.com/assets/images/uploads/certs/az303-az304.png){:class="img-responsive"}
-   - ![AZ304](https://automationadmin.com/assets/images/uploads/certs/az304.png){:class="img-responsive"}
+   - 2021-10-02: Microsoft Azure Architect Design (AZ304)
+   - 2021-08-01: Microsoft Azure Architect Technologies (AZ303) 
+   - [Verify](https://www.credly.com/users/gerry-williams.5513fbdf/badges)
 
-2. 2021-08-01: Microsoft Azure Architect Technologies (AZ303)
-   - ![AZ303](https://automationadmin.com/assets/images/uploads/certs/az303.png){:class="img-responsive"}
-
-3. 2020-05-16: Microsoft Azure Administrator (AZ103)
+2. 2020-05-16: Microsoft Azure Administrator (AZ103)
    - ![AZ103](https://automationadmin.com/assets/images/uploads/certs/az103.png){:class="img-responsive"}
 
-4. 2019-11-19: Microsoft Azure Fundamentals (AZ900)
-   - ![AZ900](https://automationadmin.com/assets/images/uploads/certs/az900.png){:class="img-responsive"}
-
-5. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
+3. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
    - ![CCNA](https://automationadmin.com/assets/images/uploads/certs/ccna.png){:class="img-responsive"}
 
-6. 2015-05-02: Testout Network Pro
+4. 2015-05-02: Testout Network Pro
    - ![TestOut Network Pro](https://automationadmin.com/assets/images/uploads/certs/testout.png){:class="img-responsive"}
 
 ### Archived:
