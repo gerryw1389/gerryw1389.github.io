@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-In this post, I will outline the steps I performed to sign up for Azure Devops and Azure so I can continue testing things I have learned with Terraform. The repo used as a reference in this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/resource-group). Please reference this as you read along.
+In this post, I will outline the steps I performed to sign up for Azure Devops and Azure so I can continue testing things I have learned with Terraform. The repo used as a reference in this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-05-03-setup-azdo-terraform). Please reference this as you read along.
 
 ### To Resolve:
 
@@ -108,7 +108,7 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
 
 1. Inside Resource Group `tx-storage-rg`, under the storage account `automationadminstorage`, add our new `az-terraform` application to the IAM blade under role assignment `Storage Blob Data Contributor`.
 
-   - While in there, go to Containers and create one called `tfstatesbx`, we will point to this with our [providers.tf](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group/Deploy/providers.tf)
+   - While in there, go to Containers and create one called `tfstatesbx`, we will point to this with our [providers.tf](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-03-setup-azdo-terraform/Deploy/providers.tf)
 
 1. Now in Azure Devops, let's create a connection to Azure:
 
@@ -116,7 +116,7 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
    - Inside Azure, you will see a new App Registration named `AzureDevopsOrganization-Project-someGuid` that has Contributor rights at the sub level. 
      - I think this is only used for authentication because all deployments are using my `az-terraform` service principle in the pipeline. More on that later.
 
-1. Now create a quick Build pipeline. Go to Pipelines => New => Existing Repo => Point to the [build.yaml](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group/build.yaml) in the master branch.
+1. Now create a quick Build pipeline. Go to Pipelines => New => Existing Repo => Point to the [build.yaml](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-03-setup-azdo-terraform/build.yaml) in the master branch.
 
 1. If you try to run it, you will get an error saying to authorize connections. After allowing the connections, you will get another error about `no parrallel jobs have been purchased`:
 
@@ -147,16 +147,16 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
 
 1. Now that I have reviewed the changes, I created a new pipline that will actually create the resource group:
 
-   - Go to Pipelines => New => Existing Repo => Point to the [release.yaml](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group/release.yaml) in the master branch.
+   - Go to Pipelines => New => Existing Repo => Point to the [release.yaml](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-03-setup-azdo-terraform/release.yaml) in the master branch.
 
 
 1. If we go into Azure we can see that the Resource Group has been created! Note that the name may not match with the repo because I have changed many things but you get the idea:
 
-   - ![new-resource-group](https://automationadmin.com/assets/images/uploads/2022/05/rg-created.jpg){:class="img-responsive"}
+   - ![new-2022-05-03-setup-azdo-terraform](https://automationadmin.com/assets/images/uploads/2022/05/rg-created.jpg){:class="img-responsive"}
 
    - Also, if we go to the Activity log we can see that it was created by the user `az-terraform` and not the App Registration that Azure Devops automatically created. This is important because you need to allow this Enterprise Application access to many things that you want to build on future steps.
 
-   - ![new-resource-group-activity-log](https://automationadmin.com/assets/images/uploads/2022/05/service-principle.jpg){:class="img-responsive"}
+   - ![new-2022-05-03-setup-azdo-terraform-activity-log](https://automationadmin.com/assets/images/uploads/2022/05/service-principle.jpg){:class="img-responsive"}
 
 1. Now that everything is working, let's look at the files and explain how they work:
 
@@ -181,5 +181,5 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
    - `deploy/main.tf` is the main controller file that calls all the files under `./ResourceGroup` which is just a self-contained module for deploying a [Resource Group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group)  
      - You may be asking, "why a module?" Truth is, this is for scalability so that if you wanted to deploy a vnet for example, you could create a `vnet` folder along with all the inputs and outputs the resource will need.
      - You could remove the module call altogether and merge `resourcegroup/variables.tf`, `resourcegroup/main.tf`, `resourcegroup/outputs.tf`, all into `deploy/main.tf` directly if you wanted.
-     - Likewise, you could combine all these `*.tf` files into a single file like I used to when I was first learning terraform (see [vm](https://github.com/gerryw1389/terraform-examples/blob/main/vm/main.tf)) and have Terraform engine figure out the order but it is important to break things down into "modules".
+     - Likewise, you could combine all these `*.tf` files into a single file like I used to when I was first learning terraform (see [vm](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-06-terra-deploy-vm/main.tf)) and have Terraform engine figure out the order but it is important to break things down into "modules".
      - [Official recommended file structure](https://www.terraform.io/language/modules/develop/structure) which is covered on a [later post](https://automationadmin.com/2022/05/modify-repo-structure/)

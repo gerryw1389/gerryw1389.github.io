@@ -30,7 +30,7 @@ After following ["Create Terraform Service Principle"](https://automationadmin.c
    cd terra
    ```
 
-2. Upload [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/vm/main.tf) using the upload tool.
+2. Upload [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-06-terra-deploy-vm/main.tf) using the upload tool.
 
 3. Now we just run a series of commands using terraform cli:
 

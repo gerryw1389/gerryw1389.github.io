@@ -22,7 +22,7 @@ I think this is the first Logic App I have worked on that uses Oauth so that's n
 
 ### To Resolve:
 
-1. Source code is [here](https://github.com/gerryw1389/terraform-examples/tree/main/logic-apps/oauth-example-loop-bookings-results/oauth-example-loop-bookings-results.json)
+1. Source code is [here](https://github.com/gerryw1389/terraform-examples/tree/main/2020-12-17-la-loop-bookings-results/oauth-example-loop-bookings-results/oauth-example-loop-bookings-results.json)
 
 2. Be sure to find/replace for `double open brackets` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
 

@@ -19,7 +19,7 @@ So if you have a chain of Logic Apps and you want to be able to track where they
 
 ### To Resolve:
 
-1. Source code is [here](https://github.com/gerryw1389/terraform-examples/tree/main/logic-apps/queue-storage/queue-storage.json)
+1. Source code is [here](https://github.com/gerryw1389/terraform-examples/tree/main/2020-10-06-logic-apps-use-queue-messages-for-tracking/queue-storage/queue-storage.json)
 
 2. Be sure to find/replace for `double open brackets` to set your own values. Also keep in mind I had to make many changes to sanitize it so it is just a general idea of how the Logic App will work, you might have to tweak it.
 

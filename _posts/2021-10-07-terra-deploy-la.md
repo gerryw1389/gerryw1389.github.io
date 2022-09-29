@@ -20,9 +20,9 @@ After following ["Terraform: Deploy VM"](https://automationadmin.com/2021/10/ter
 
 ### To Resolve:
 
-1. Save an example exported Logic App template as `email_filter.json` [source](https://github.com/gerryw1389/terraform-examples/blob/main/logic-apps/email-filter-1/email_filter.json)
+1. Save an example exported Logic App template as `email_filter.json` [source](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-07-terra-deploy-la/email-filter-1/email_filter.json)
 
-2. Created [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/logic-apps/email-filter-1/main.tf)
+2. Created [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-07-terra-deploy-la/email-filter-1/main.tf)
 
 3. Using cloud shell bash, ran a Terraform deployment:
 
@@ -58,10 +58,10 @@ After following ["Terraform: Deploy VM"](https://automationadmin.com/2021/10/ter
 
    - Add an Action to the Logic App `email-filter`. Let's do `Initialize Variable` with variable called `strName` and a value of `gerry`.
    - Let's also clone the Logic App to a new one called `blah`. This is because we want to ensure that a new deployment doesn't wipe any other Logic Apps in the same RG. To do this, just go to Overview blade and then "clone".
-   - Now go to Export Template and save the export at `c:\scripts\email_filter.json` [source](https://github.com/gerryw1389/terraform-examples/blob/main/logic-apps/email-filter-2/email_filter.json)
+   - Now go to Export Template and save the export at `c:\scripts\email_filter.json` [source](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-07-terra-deploy-la/email-filter-2/email_filter.json)
    - IMPORTANT! In order to test that incremental overwrites, we need to REVERT the Logic App. This is simple:
      - On the Logic App blade, select Versions and `Promote` the original version of the Logic App.
-   - Create a new [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/logic-apps/email-filter-2/main.tf) with `Incremental` instead of `Complete` and then create a new directory to upload the two new files:
+   - Create a new [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-07-terra-deploy-la/email-filter-2/main.tf) with `Incremental` instead of `Complete` and then create a new directory to upload the two new files:
 
    ```shell
    cd clouddrive

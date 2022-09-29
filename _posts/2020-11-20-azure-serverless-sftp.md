@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-Following [this template](https://docs.microsoft.com/en-us/samples/azure-samples/sftp-creation-template/sftp-on-azure/) I was able to create a powershell script that when ran in the portal would deploy new instances of SFTP by connecting to our storage account and creating one share per user. This works great as a one off solution to have user's send you files and each user is to have their own chroot. Source is  maintained at Github [here](https://github.com/gerryw1389/terraform-examples/tree/main/logic-apps/serverless-sftp).
+Following [this template](https://docs.microsoft.com/en-us/samples/azure-samples/sftp-creation-template/sftp-on-azure/) I was able to create a powershell script that when ran in the portal would deploy new instances of SFTP by connecting to our storage account and creating one share per user. This works great as a one off solution to have user's send you files and each user is to have their own chroot. Source is  maintained at Github [here](https://github.com/gerryw1389/terraform-examples/tree/main/2020-11-20-azure-serverless-sftp/serverless-sftp).
 
 The way to use is:
 
@@ -27,10 +27,10 @@ The way to use is:
 
 ### To Resolve:
 
-1. First, create `run.ps1` in cloud shell and paste in [this](https://github.com/gerryw1389/terraform-examples/tree/main/logic-apps/serverless-sftp/run.ps1)
+1. First, create `run.ps1` in cloud shell and paste in [this](https://github.com/gerryw1389/terraform-examples/tree/main/2020-11-20-azure-serverless-sftp/serverless-sftp/run.ps1)
 
-2. Create the template file `t.json` and paste in [this](https://github.com/gerryw1389/terraform-examples/tree/main/logic-apps/serverless-sftp/t.json)
+2. Create the template file `t.json` and paste in [this](https://github.com/gerryw1389/terraform-examples/tree/main/2020-11-20-azure-serverless-sftp/serverless-sftp/t.json)
 
-3. Create the parameters file `p.json` and paste in [this](https://github.com/gerryw1389/terraform-examples/tree/main/logic-apps/serverless-sftp/p.json)
+3. Create the parameters file `p.json` and paste in [this](https://github.com/gerryw1389/terraform-examples/tree/main/2020-11-20-azure-serverless-sftp/serverless-sftp/p.json)
 
 4. What I do is keep these three files in a folder, and when needed copy the folder, rename it, tweak parameters, and deploy again for each department in my org that needs a SFTP folder to upload to.

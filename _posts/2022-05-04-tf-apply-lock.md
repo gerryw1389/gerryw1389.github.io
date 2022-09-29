@@ -20,7 +20,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
 ### To Resolve:
 
-1. So first thing as always is to go to the [resource](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_lock) on Terraform Docs for the AzureRM provider and found the example and applied it to [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group-w-lock/Deploy/main.tf):
+1. So first thing as always is to go to the [resource](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/management_lock) on Terraform Docs for the AzureRM provider and found the example and applied it to [main.tf](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-04-tf-apply-lock/Deploy/main.tf):
 
    ```terraform
    resource "azurerm_management_lock" "resource-group-level" {
@@ -47,9 +47,9 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
    ```
 
-   - This is actually a good learning lesson. What it is saying is that you don't use the output from the `azure_learning_rg` module because it does not have an output associated with it. Instead, you use `module.azure_learning_rg.res_out_rg_id` because that is defined in the [output.tf](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group-w-lock/ResourceGroup/outputs.tf)
+   - This is actually a good learning lesson. What it is saying is that you don't use the output from the `azure_learning_rg` module because it does not have an output associated with it. Instead, you use `module.azure_learning_rg.res_out_rg_id` because that is defined in the [output.tf](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-04-tf-apply-lock/ResourceGroup/outputs.tf)
 
-1. So after correcting and pushing, and then running the [build](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group-w-lock/build.yaml), we now get:
+1. So after correcting and pushing, and then running the [build](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-04-tf-apply-lock/build.yaml), we now get:
 
    ```
    Terraform will perform the following actions:
@@ -66,7 +66,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
    Plan: 1 to add, 0 to change, 0 to destroy.
    ```
 
-1. So next we run the [release](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group-w-lock/release.yaml):
+1. So next we run the [release](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-04-tf-apply-lock/release.yaml):
 
    ```
    azurerm_management_lock.resource-group-level: Creating...

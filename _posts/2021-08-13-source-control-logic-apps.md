@@ -74,7 +74,7 @@ Follow these steps to source control Logic Apps. In this example, I will create 
    }
    ```
 
-7. Copy and paste the ARM template for this logic app from [here](https://github.com/gerryw1389/terraform-examples/blob/main/logic-apps/email-filter-1/email_filter.json) into VSCode on your machine.
+7. Copy and paste the ARM template for this logic app from [here](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-07-terra-deploy-la/email-filter-1/email_filter.json) into VSCode on your machine.
    - Overwrite lines 335-354 (or wherever $connections begin and end)
    - In the Azure portal, go to Templates. Then select => New => Paste this in and deploy it!
 

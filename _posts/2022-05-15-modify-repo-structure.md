@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azdo-terraform/), I then wanted to format my repo in a way that will be scalable going forward. Source code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/resource-group-with-lock-with-template)
+Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azdo-terraform/), I then wanted to format my repo in a way that will be scalable going forward. Source code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-05-15-modify-repo-structure)
 
 ### To Resolve:
 
@@ -23,7 +23,7 @@ Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azd
 
 1. After doing that, I then decided that I will stick with 3 standard files for all terraform code: `variables.tf` for input variables, `main.tf` for building resources, and `outputs.tf` if it is some kind of module that will be returning values.
 
-1. In addition, my `main.tf` will always include a `providers` section at the top, a `locals` section second for any repeated code, and finally a `resources` section for all module calls and resources. I'm currently debating if I want a `data` section before or after the `resources` section, we will see. [Reference](https://github.com/gerryw1389/terraform-examples/blob/main/resource-group-with-lock-with-template/main.tf) for what I'm saying here.
+1. In addition, my `main.tf` will always include a `providers` section at the top, a `locals` section second for any repeated code, and finally a `resources` section for all module calls and resources. I'm currently debating if I want a `data` section before or after the `resources` section, we will see. [Reference](https://github.com/gerryw1389/terraform-examples/blob/main/2022-05-15-modify-repo-structure/main.tf) for what I'm saying here.
 
 1. The cool thing about going this route is I can now remove the following from my `build.yaml`:
 
