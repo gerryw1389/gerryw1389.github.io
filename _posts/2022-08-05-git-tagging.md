@@ -14,7 +14,7 @@ tags:
 
 ### Description
 
-I touched on this previously in [another post](), but I wanted to follow up with [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and how they are a core concept in designing Terraform [modules](https://www.terraform.io/language/modules/syntax).
+I touched on this previously in [another post](https://automationadmin.com/2022/08/calling-remote-modules), but I wanted to follow up with [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and how they are a core concept in designing Terraform [modules](https://www.terraform.io/language/modules/syntax).
 
 ### To Resolve
 
@@ -54,10 +54,11 @@ I touched on this previously in [another post](), but I wanted to follow up with
    - cd to the directory
    - create a branch and make my change. 
    - Push it and merge it back with main/master
-   - create a new tag like `v1.0.1`. See [here](https://github.com/gerryw1389/terraform-modules/blob/v1.0.1/resource-group/variables.tf) where I did this. 
+   - create a new tag like `v1.0.1`. See [here](https://github.com/gerryw1389/terraform-modules/blob/v1.0.1/resource-group/variables.tf) where I did this (ignore line 19, I copied/pasted and wasn't paying attention. I don't think a var can reference another var in a `default` block like that but you get the idea).
+ 
    - Then in my 100+ repos I can modify my code that called the module from:
 
-   ```
+   ```terraform
    module "azure_learning_rg" {
    source              = "git::https://github.com/gerryw1389/terraform-modules.git//resource-group?ref=v1.0.0"
    resource_group_name = "aa-${var.env_stage_abbr}-${var.region_abbr}-test-remote"
@@ -68,7 +69,7 @@ I touched on this previously in [another post](), but I wanted to follow up with
 
    - to 
 
-   ```
+   ```terraform
    module "azure_learning_rg" {
    source              = "git::https://github.com/gerryw1389/terraform-modules.git//resource-group?ref=v1.0.1"
    resource_group_name = "aa-${var.env_stage_abbr}-${var.region_abbr}-test-remote"
