@@ -4,7 +4,7 @@ date: 2022-08-02T07:10:21-05:00
 author: gerryw1389
 layout: single
 classes: wide
-permalink: /2022/08/2022-08-02-tf-no-service-connection
+permalink: /2022/08/tf-no-service-connection
 categories:
   - Azure
 tags:
@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-In this post, I will briefly outline how to use Azure Devops deployment into Azure without setting up a Service connection as mentioned [in my original post](https://automationadmin.com/2022/05/setup-azdo-terraform/). Code fo this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-02-tf-no-service-connection).
+In this post, I will briefly outline how to use Azure Devops deployment into Azure without setting up a Service connection as mentioned [in my original post](https://automationadmin.com/2022/05/setup-azdo-terraform/). Code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-02-tf-no-service-connection).
 
 
 ### To Resolve:
