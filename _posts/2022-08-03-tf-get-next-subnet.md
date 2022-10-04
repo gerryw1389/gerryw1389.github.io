@@ -81,3 +81,4 @@ resource "azurerm_subnet" "example" {
       Next, give me the next `desired_cidr` block available
    ```
 
+6. Update: [Here](https://github.com/gerryw1389/PS-FindNextCIDRRange) is a link to this in powershell. Feel free to send a pull request for improvements as it's currently really messy but has been working so far in my testing.
