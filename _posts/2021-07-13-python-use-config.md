@@ -58,30 +58,30 @@ One of the easiest ways you can differentiate between environments with python a
 
    ```yaml
    servers:
-   - host-a.domain.com
-   - host-b.domain.com
-   - networks:
-      - 10.20.20.0
-      - 10.30.30.30
+      - host-a.domain.com
+      - host-b.domain.com
+      - networks:
+         - 10.20.20.0
+         - 10.30.30.30
 
    endpoints:
-   - service_now: https://myendpoint-dev.com
-   - key: dev-adcd1234567890
+      - service_now: https://myendpoint-dev.com
+      - key: dev-adcd1234567890
    ```
 
    - Also create a `.prod.config.yaml` in the same directory with the values of:
 
    ```yaml
    servers:
-   - host-c.domain.com
-   - host-d.domain.com
-   - networks:
-      - 10.20.20.0
-      - 10.30.30.30
+      - host-c.domain.com
+      - host-d.domain.com
+      - networks:
+         - 10.20.20.0
+         - 10.30.30.30
 
    endpoints:
-   - service_now: https://myendpoint-prod.com
-   - key: prod-adcd1234567890
+      - service_now: https://myendpoint-prod.com
+      - key: prod-adcd1234567890
    ```
 
    - Then, either in its own file like `config.py` or inside your `helpers.py`, import them:

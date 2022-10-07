@@ -39,27 +39,27 @@ Well Terraform calls Stacks or Controller scripts ["module compositions"](https:
 
    ```yaml
    resources:
-   repositories:
-   - repository: MyRepo-subnet
-      type: git
-      name: MyProject/MyRepo-subnet
-      ref: main
+      repositories:
+      - repository: MyRepo-subnet
+         type: git
+         name: MyProject/MyRepo-subnet
+         ref: main
    ```
 
    - And then under steps:
 
    ```yaml
    steps:
-   - checkout: self        
-   - checkout: MyRepo-subnet
-   - task: PowerShell@2
-      displayName: Tokenize TF-Module Sources
-      env:
-         SYSTEM_ACCESSTOKEN: $(System.AccessToken)
-      inputs:
-         targetType: 'inline'
-         script: |
-         git config --global http.extraHeader 'Authorization: Bearer $(System.AccessToken)'
+      - checkout: self        
+      - checkout: MyRepo-subnet
+      - task: PowerShell@2
+         displayName: Tokenize TF-Module Sources
+         env:
+            SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+         inputs:
+            targetType: 'inline'
+            script: |
+            git config --global http.extraHeader 'Authorization: Bearer $(System.AccessToken)'
    ```
 
    - Doing these steps should allow one repo to pull the contents of another repo based on a git tagged version which will never change (a point in time) unless the called repo deletes the git tag and pins that same tag name to another commit which is bad practice if following [semantic versioning](https://semver.org/). I cover this more in [my other post](https://automationadmin.com/2022/08/git-tagging).

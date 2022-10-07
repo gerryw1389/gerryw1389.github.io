@@ -22,6 +22,7 @@ This will be a post of me following along with [the quickstart](https://docs.mic
 - Client function - a regular Azure Function that starts an orchestrator function. This example uses an HTTP triggered function.
 
 Note: You can see the code for this post at [my Github](https://github.com/gerryw1389/python/tree/main/scripts/azure-durable-functions-basic).
+{: .notice--success}
 
 ### To Resolve:
 
