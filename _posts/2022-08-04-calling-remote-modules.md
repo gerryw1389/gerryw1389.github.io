@@ -30,9 +30,12 @@ Well Terraform calls Stacks or Controller scripts ["module compositions"](https:
 1. So in your `main.tf` (or whatever file) for your application deployment, you will just make various calls to your remote modules like on [line 49 here](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-04-calling-remote-modules/main.tf).
 
    - Note the remote calls using the `source` attribute. Also note that these should always point to a specific tag. The tag can be generated through a release which I cover in [another post](https://automationadmin.com/2022/08/git-tagging).
+   {: .notice--success}
+   
    - Also note the passing of data between the module calls like in `module.learning-vnet.name` which works just like the [data](https://automationadmin.com/2022/07/tf-reference-current) block or any other Terraform block. See [line 57](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-04-calling-remote-modules/main.tf).
+   {: .notice--success}
 
-1. The next thing to be aware of when you call another module is your Azure Devops Pipeline. I'm not an expert on Azure Devops permissions so please bear with me if I'm wrong, but this is what I have done to get one repo in our Devops Organization to call a remote repo in our Devops Organization. See [here](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/multi-repo-checkout?view=azure-devops) for the docs. In the `build.yaml` add this to the top:
+2. The next thing to be aware of when you call another module is your Azure Devops Pipeline. I'm not an expert on Azure Devops permissions so please bear with me if I'm wrong, but this is what I have done to get one repo in our Devops Organization to call a remote repo in our Devops Organization. See [here](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/multi-repo-checkout?view=azure-devops) for the docs. In the `build.yaml` add this to the top:
 
    ```yaml
    resources:

@@ -21,6 +21,8 @@ github_username: gerryw1389
 github_repository: https://github.com/gerryw1389/gerryw1389.github.io
 minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+lunr:
+  search_within_pages: true
 comments:
   provider: "disqus"
   disqus:

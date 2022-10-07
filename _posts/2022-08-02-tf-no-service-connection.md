@@ -36,4 +36,7 @@ In this post, I will briefly outline how to use Azure Devops deployment into Azu
             az account set --subscription $(subscription-id)
    ```
 
-1. Note that if you populate your secrets from an Azure Keyvault, you will most likely need to authenticate as a KeyVault user, update your pipeline secrets, and then move on if you want to do this using only a Service Principle. Since I plan to migrate to Github Actions though, I will be doing something like [this](https://learn.microsoft.com/en-us/azure/developer/github/github-key-vault) instead.
+1. Note that if you populate your secrets from an Azure Keyvault, you will most likely need to authenticate as a KeyVault user, update your pipeline secrets, and then move on if you want to do this using only a Service Principle. 
+{: .notice--success}
+
+1. Since I plan to migrate to Github Actions though, I will be doing something like [this](https://learn.microsoft.com/en-us/azure/developer/github/github-key-vault) instead.
