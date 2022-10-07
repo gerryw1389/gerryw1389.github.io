@@ -16,8 +16,10 @@ tags:
 
 ### Description:
 
-Similar to my [Setup Azure Devops](https://automationadmin.com/2022/05/setup-azdo-terraform/) post, this post is how I connected to Azure via Github Actions instead of Azure Devops Pipelines. Code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-03-github-actions-setup).
+Similar to my [Setup Azure Devops](https://automationadmin.com/2022/05/setup-azdo-terraform/) post, this post is how I connected to Azure via Github Actions instead of Azure Devops Pipelines. 
 
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-03-github-actions-setup).
+{: .notice--success}
 
 ### To Resolve:
 

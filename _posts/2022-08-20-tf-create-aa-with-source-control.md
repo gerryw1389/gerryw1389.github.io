@@ -17,7 +17,10 @@ tags:
 
 ### Description:
 
-You can provision an Azure Automation Account and source control the runbooks in the same code. Code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-20-tf-create-aa-with-source-control).
+You can provision an Azure Automation Account and source control the runbooks in the same code. 
+
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-20-tf-create-aa-with-source-control).
+{: .notice--success}
 
 ### To Resolve:
 

@@ -17,7 +17,10 @@ tags:
 
 ### Description:
 
-As a continuation of my [original post](https://automationadmin.com/2020/08/create-azure-function-app-with-github-source-control), this is the steps I do to create a Function App these days. Note: You can see the code for this post at [my Github](https://github.com/gerryw1389/python/tree/main/scripts/azure-function-template-basic).
+As a continuation of my [original post](https://automationadmin.com/2020/08/create-azure-function-app-with-github-source-control), this is the steps I do to create a Function App these days. 
+
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/python/tree/main/scripts/azure-function-template-basic).
+{: .notice--success}
 
 ### To Resolve:
 

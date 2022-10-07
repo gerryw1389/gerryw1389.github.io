@@ -23,7 +23,11 @@ So strategically speaking, what you want to do is create two different types of 
    - Controller script that calls functions
    - [Stacks](https://en.wikipedia.org/wiki/Call_stack) that call sub routines.
 
-Well Terraform calls Stacks or Controller scripts ["module compositions"](https://www.terraform.io/language/modules/develop/composition) and the functions or small repeatable 'do-one-thing-and-one-thing-only' type code modules. The following is how you would go about doing this with Azure Devops Pipelines. Code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-04-calling-remote-modules).
+Well Terraform calls Stacks or Controller scripts ["module compositions"](https://www.terraform.io/language/modules/develop/composition) and the functions or small repeatable 'do-one-thing-and-one-thing-only' type code modules. The following is how you would go about doing this with Azure Devops Pipelines. 
+
+
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-04-calling-remote-modules).
+{: .notice--success}
 
 ### To Resolve
 

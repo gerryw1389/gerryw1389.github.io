@@ -16,7 +16,10 @@ tags:
 
 ### Description:
 
-So far, HCL has been an easy language to learn as you mostly just look at pointers and see what certain values are. I would say the hardest time I have had since starting is learning the [count](https://automationadmin.com/2022/07/tf-count) and [for_each](https://automationadmin.com/2022/07/tf-for-each) to deploying multiple reosurces and how to use them. In this post I will show how count is commonly not only used to deploy a group of resources, but conditionally deploy a resource based on any expression. Code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-07-tf-conditional-deploy).
+So far, HCL has been an easy language to learn as you mostly just look at pointers and see what certain values are. I would say the hardest time I have had since starting is learning the [count](https://automationadmin.com/2022/07/tf-count) and [for_each](https://automationadmin.com/2022/07/tf-for-each) to deploying multiple reosurces and how to use them. In this post I will show how count is commonly not only used to deploy a group of resources, but conditionally deploy a resource based on any expression. 
+
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-07-tf-conditional-deploy).
+{: .notice--success}
 
 ### To Resolve
 

@@ -15,8 +15,10 @@ tags:
 
 ### Description:
 
-In this post, I will briefly outline how to use Azure Devops deployment into Azure without setting up a Service connection as mentioned [in my original post](https://automationadmin.com/2022/05/setup-azdo-terraform/). Code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-02-tf-no-service-connection).
+In this post, I will briefly outline how to use Azure Devops deployment into Azure without setting up a Service connection as mentioned [in my original post](https://automationadmin.com/2022/05/setup-azdo-terraform/). 
 
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-08-02-tf-no-service-connection).
+{: .notice--success}
 
 ### To Resolve:
 
@@ -36,7 +38,7 @@ In this post, I will briefly outline how to use Azure Devops deployment into Azu
             az account set --subscription $(subscription-id)
    ```
 
-NOTE: Note that if you populate your secrets from an Azure Keyvault, you will most likely need to authenticate as a KeyVault user, update your pipeline secrets, and then move on if you want to do this using only a Service Principle. 
-{: .notice--success}
+   NOTE: Note that if you populate your secrets from an Azure Keyvault, you will most likely need to authenticate as a KeyVault user, update your pipeline secrets, and then move on if you want to do this using only a Service Principle. 
+   {: .notice--success}
 
 2. Since I plan to migrate to Github Actions though, I will be doing something like [this](https://learn.microsoft.com/en-us/azure/developer/github/github-key-vault) instead.

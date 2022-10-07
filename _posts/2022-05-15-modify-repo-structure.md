@@ -15,7 +15,10 @@ tags:
 
 ### Description:
 
-Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azdo-terraform/), I then wanted to format my repo in a way that will be scalable going forward. Source code for this post can be found [here](https://github.com/gerryw1389/terraform-examples/tree/main/2022-05-15-modify-repo-structure)
+Continuing from my [previous post](https://automationadmin.com/2022/05/setup-azdo-terraform/), I then wanted to format my repo in a way that will be scalable going forward. 
+
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-05-15-modify-repo-structure)
+{: .notice--success}
 
 ### To Resolve:
 
