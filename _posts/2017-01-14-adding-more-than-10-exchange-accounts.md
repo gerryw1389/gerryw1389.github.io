@@ -18,7 +18,7 @@ So I ran into an issue during a conversion process moving some clients to Exchan
 
 ### To Resolve:
 
-1. Run => regedit
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) regedit
 
 2. Navigate to: `HKEY_CURRENT_USER\Software\Microsoft\Exchange`
 

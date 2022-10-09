@@ -20,7 +20,7 @@ Sometimes printers will not want to install even if you have what you think is t
 
 ### To Resolve:
 
-1. Run => regedit
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) regedit
 
 2. Navigate to `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\Print Printers`.
 
@@ -32,7 +32,7 @@ Sometimes printers will not want to install even if you have what you think is t
 
 1. Do the steps in: [Document Stuck in the Queue](https://automationadmin.com/2016/05/document-stuck-in-queue/)
 
-2. Then, Run => `regedit`
+2. Then, [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `regedit`
 
 3. Navigate To: `HKEY_LOCAL_MACHINE\SYSTEM\System\CurrentControlSet\Control\Print\Environments\Windows NT x86`
 

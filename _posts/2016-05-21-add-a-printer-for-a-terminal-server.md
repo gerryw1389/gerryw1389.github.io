@@ -19,7 +19,7 @@ Do this if you want to add a printer to a terminal services session. This printe
 
 ### To Resolve:
 
-1. Run => `control printers`.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `control printers`.
 
 2. Select the "Add A Printer Wizard" => Click Local printer => clear the Automatically detect and install my Plug and Play printer => Next => under Ports, you will see several ports named TSxxx. These are client mapped ports. Click the port that corresponds to your client computer's name and port, and then click Next.
 

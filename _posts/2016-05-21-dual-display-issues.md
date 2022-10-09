@@ -16,7 +16,7 @@ Your second monitor will not be detected or you won't be able to navigate to the
 
 ### To Resolve:
 
-1. Run => desk.cpl and make sure both displays are connected and showing up in Windows.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) => desk.cpl and make sure both displays are connected and showing up in Windows.
 
 2. Take note of the orientation of the monitors => If on extended mode, Windows will allow you to drag Windows to the second screen according to this orientation. If the monitor is physically on the left and is the second monitor, you need to put them in that order (2,1).
 

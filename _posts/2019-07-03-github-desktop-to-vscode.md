@@ -27,7 +27,7 @@ I followed these steps to delete Github Desktop and just use VSCode for pushing 
    ```
 
 2. Uninstall any references to external programs
-   - Uninstall Git Desktop (Run => appwiz.cpl => Remove Github Desktop)
+   - Uninstall Git Desktop ([Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) appwiz.cpl => Remove Github Desktop)
    - Uninstall Credentials Manager:
      - `cd "C:\Program Files\Git\mingw64\libexec\git-core"`
      - `git-credential-manager.exe uninstall`

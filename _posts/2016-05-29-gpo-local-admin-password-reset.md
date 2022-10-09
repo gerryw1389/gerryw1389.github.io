@@ -29,4 +29,4 @@ NOTE: This does NOT follow best practices. You should implement [LAPS](https://a
 
 4. Go to Computer ConfigurationPreferencesLocal Users and Groups and right click in the empty space and select &#8220;New Local User&#8221;. In there it brings up the Properties box. Make sure to select &#8220;Update&#8221; for the action and the select your administrator account as the user name. Set the new password and tick the appropriate boxes at the bottom. After that is done, the policy will be applied to the computers in the OU on the next refresh (usually 30 min to 4 hours depending on size of domain).
 
-NOTE: This is version 1 of the GPO and will need to be replaced with a more secure version. The password for the admin account is not encrypted this way (but is scrambled) and can be de-scrambled using free tools off the Internet.
+5. NOTE: This is version 1 of the GPO and will need to be replaced with a more secure version. The password for the admin account is not encrypted this way (but is scrambled) and can be de-scrambled using free tools off the Internet.

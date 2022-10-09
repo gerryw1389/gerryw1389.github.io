@@ -26,7 +26,7 @@ Although I have these steps in a couple places, I wanted to make a single post w
 1. Using CIFS from from Windows Server => Windows client (most common):
 
    - Create the share using the steps above
-   - Run => `\\WindowsComputerName\ShareName`
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `\\WindowsComputerName\ShareName`
    - Enter the username and password from above
 
 2. Using CIFS from Windows Server => Linux Client (most common)

@@ -16,7 +16,7 @@ When you open multiple windows and they don't look as they should (laggy) or don
 
 ### To Resolve:
 
-1. Run => `devmgmt.msc` => Check the display drivers. Select the option to update the driver.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `devmgmt.msc` => Check the display drivers. Select the option to update the driver.
 
 2. Check the hardware manufacturers website and download the display adapter for the model of the workstation.
 

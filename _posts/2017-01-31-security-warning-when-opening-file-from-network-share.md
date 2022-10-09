@@ -17,7 +17,7 @@ So like most people, I don't store anything important on my local computer and h
 
 ### To Resolve:
 
-1. Run => `inetcpl.cpl` => Tools => Internet Options => Security tab => Local Intranet => Sites:
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `inetcpl.cpl` => Tools => Internet Options => Security tab => Local Intranet => Sites:
 
    - Check &#8220;automatically detect intranet network&#8221;
    - Go to Advanced => Add

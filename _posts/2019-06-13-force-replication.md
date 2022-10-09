@@ -19,7 +19,7 @@ Follow these steps to reset SYSVOL replication between DC's. I noticed this issu
 
 ### To Resolve:
 
-1. Logon to your primary DC and stop the DFS Replication service (Run => `Services.msc` => DFS Replication => Stop)
+1. Logon to your primary DC and stop the DFS Replication service ([Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `Services.msc` => DFS Replication => Stop)
 
 2. Open ADSI Edit (Should be under Admin tools) - ADSI Edit - Connection Settings - Default naming context
    - Navigate to the following
@@ -36,7 +36,7 @@ Follow these steps to reset SYSVOL replication between DC's. I noticed this issu
 4. Force Active Directory replication throughout the domain (Run the following on all DC's).
    - `repadmin /syncall primary_dc_name /APed`
 
-5. On the primary DC, start the DFS Replication service (Run => `Services.msc` => DFS Replication => Start)
+5. On the primary DC, start the DFS Replication service ([Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `Services.msc` => DFS Replication => Start)
 
    - Open up event viewer and navigate to Applications and Services Logs - DFS Replication.  Verify you see Event ID 4114. This may take a few minutes, keep refreshing.
 

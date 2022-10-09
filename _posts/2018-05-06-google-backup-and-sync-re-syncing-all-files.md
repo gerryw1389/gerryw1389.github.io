@@ -24,14 +24,14 @@ In my case, I got passed the two factor and selecting the folder issue, but Back
 ### To Resolve:
 
 1. First option is &#8220;Delete cloud_graph&#8221;:  
-   - Run => `%LocalAppData%\Google`  
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `%LocalAppData%\Google`  
    - Find Drive folder, enter it and delete `cloud_graph`  
    - Relaunch Backup and Sync. This will cause it to re-evaluate all files.
 
 2. Second option, the one I chose, is &#8220;Full (Advanced) Reinstall&#8221;:  
    - Quit Backup and Sync  
    - Uninstall it.  
-   - Run => `%LocalAppData%\Google`  
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `%LocalAppData%\Google`  
    - Delete the entire `Drive` folder.  
    - Reinstall it.
 

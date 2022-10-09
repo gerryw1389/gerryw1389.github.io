@@ -57,7 +57,7 @@ NOTE: All of our servers are Server2012r2.
    Delete all child objects
    ```
 
-5. Run => `eventvwr.msc`. What I did here was purposely try to login to another server with the wrong password and verified that an event 4776 was recorded. It was. If you want to use a one liner in Powershell you could do something like:
+5. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `eventvwr.msc`. What I did here was purposely try to login to another server with the wrong password and verified that an event 4776 was recorded. It was. If you want to use a one liner in Powershell you could do something like:
 
    ```powershell
    Get-EventLog -Logname Security | where { $_.EntryType -eq 'FailureAudit' -and $_.InstanceId -eq '4776' }

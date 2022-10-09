@@ -18,6 +18,6 @@ You will get a message that says `The Recycle Bin on Drive (whatever) has been c
 
 1. Click "Yes" on the error pop up.
 
-2. Run => `control folders` => Show hidden files.
+2. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `control folders` => Show hidden files.
 
 3. Find the `Recycler` folder or `$Recycle.Bin` on whichever drive the error was referring to and delete. It will be automatically recreated.

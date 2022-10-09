@@ -16,7 +16,7 @@ You will have multiple drops in your connection or no connection at all to the i
 
 ### To Resolve:
 
-1. Run => `eventvwr.msc` and see if there is a bunch of &#8220;ec1express&#8221; errors.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `eventvwr.msc` and see if there is a bunch of &#8220;ec1express&#8221; errors.
 
 2. Check link speed in the networking tab of task manager and see if it matches other computers in the same environment. Remember, link speed is the slowest speed between connections. If you have a Gigabit NIC but a 100Mb Switch, you will be running at 100Mb.
 

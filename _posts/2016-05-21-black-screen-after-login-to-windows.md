@@ -31,8 +31,8 @@ When you login to Windows, all you have is a black screen. Task manager and othe
 
 6. If none of the above works, we need to force the computer to crash and then try and find out what causes it. To do this, follow these steps:
 
-   - Run => `sysdm.cpl` => Advanced => Startup/Recovery => Make sure to set the path for kernel dumps
-   - Run => `regedit` => Navigate to: `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\kbdhid\Parameters` and create a REG_DWORD key called `CrashOnCtrlScroll` with a value of `0x01`
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `sysdm.cpl` => Advanced => Startup/Recovery => Make sure to set the path for kernel dumps
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `regedit` => Navigate to: `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\kbdhid\Parameters` and create a REG_DWORD key called `CrashOnCtrlScroll` with a value of `0x01`
    - Restart
    - Press the keys `(Right)Ctrl + Scroll Lock + Scroll Lock` to [cause a crash](https://msdn.microsoft.com/en-us/library/windows/hardware/ff545499%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396) 
    - Get back into Windows safe mode, launch WinDbg, type `analyze -v -hang` to see if particular process/thread/driver/object appears to be the cause of the issue.

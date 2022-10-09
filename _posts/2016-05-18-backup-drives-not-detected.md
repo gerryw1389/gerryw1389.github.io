@@ -20,7 +20,7 @@ When you plug in the backup drive, it will not show up in My Computer (Win+E) or
 
 2. Reseat the cable on both ends, see if the drive lights up when plugged in. This could rule out the cable and the drive at first glance.
 
-3. Run => `devmgmt.msc` and look for the drive to show up under USB Devices. See if there is a WD SES Driver installed if you already have the WD Drivers installed, it will show up here.
+3. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `devmgmt.msc` and look for the drive to show up under USB Devices. See if there is a WD SES Driver installed if you already have the WD Drivers installed, it will show up here.
 
 4. Uninstall all the "USB Root Hubs" and scan for H/W changes to re-install. In some cases, you will have to reboot for it to take effect.
 

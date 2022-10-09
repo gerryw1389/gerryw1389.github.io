@@ -16,7 +16,7 @@ Upon updating W10 to v1709, you will get an application that says `esif\_assist\
 
 ### To Resolve:
 
-1. (Win+R) Run => C:\windows\temp => Ctrl+A => Shift+Delete => Skip any in use.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `C:\windows\temp` => Ctrl+A => Shift+Delete => Skip any in use.
 
 2. If you didn't understand that, it means delete everything from `Windows\Temp` except for files that are in use. Then click close program, it should go away.
 

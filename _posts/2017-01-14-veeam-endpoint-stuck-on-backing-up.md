@@ -18,7 +18,7 @@ Follow these steps to reset the database for Veeam Endpoint in the event that it
 
 ### To Resolve:
 
-1. Run => `services.msc` => Stop the &#8220;Veeam Endpoint Backup Service&#8221;. If it won't, open up an admin command prompt and type: `sc query ex (service name)`. Note you can get this from the right clicking the service => Properties and copying the service name.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `services.msc` => Stop the &#8220;Veeam Endpoint Backup Service&#8221;. If it won't, open up an admin command prompt and type: `sc query ex (service name)`. Note you can get this from the right clicking the service => Properties and copying the service name.
 
 2. Open task manager and get the PID of the process that cooresponds to the service name. type: `taskkill /pid (pid number) /f`
 
@@ -37,7 +37,7 @@ Follow these steps to reset the database for Veeam Endpoint in the event that it
    Stop-Process $ServicePID -Force
    ```
 
-3. Run => regedit => Navigate to: `HKEY\_LOCAL_MACHINE\SOFTWARE\Veeam\Veeam Endpoint Backup`  
+3. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) regedit => Navigate to: `HKEY\_LOCAL_MACHINE\SOFTWARE\Veeam\Veeam Endpoint Backup`  
    - Create the following key if it is not there:
    - Name = `RecreateDatabase`
    - Type = `DWORD (32 bit)`

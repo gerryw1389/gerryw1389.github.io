@@ -21,12 +21,12 @@ To install a local printer to a workstation to be shared out on the network. Thi
 
 1. Install the printer locally according to manufacturers driver for the current OS.
 
-2. Make sure to select the option to &#8220;Share&#8221; the printer during install. When choosing a printer name, try and use one without spaces in it.
+2. Make sure to select the option to `Share` the printer during install. When choosing a printer name, try and use one without spaces in it.
 
 3. To Add the Printer From Another Workstation:
 
    - Remote in to another workstation to see if you can see the shared printer's computer by searching the computer name of the computer sharing the printer.
 
-   - Run => `\\(computername of computer sharing the printer)` and and it will display what that machine is sharing on the network. If you see the printer, just right click and select &#8220;connect&#8221;. This will install the printer locally.
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `\\(computername of computer sharing the printer)` and and it will display what that machine is sharing on the network. If you see the printer, just right click and select `connect`. This will install the printer locally.
    
    - If you cannot connect to the computer sharing the printer, you have a networking issue that needs to be addressed first.

@@ -22,5 +22,7 @@ A common task for a Systems Administrator is to migrate an older server to a new
 
 3. Rename the new original VM after you verified it's safe to remove. Remove any DNS records or DHCP reservations going to the old VM. Also ensure that all the data off the old VM is safe to be gone e.g. Scheduled Tasks, Data, Local Users, ect.
 
-4. Rename the new VM to the old VM's hostname if necessary. DO NOT DO THIS FOR DOMAIN CONTROLLERS (DC's)!
-{: .notice--danger}
+4. Rename the new VM to the old VM's hostname if necessary. 
+   
+   NOTE: DO NOT DO THIS FOR DOMAIN CONTROLLERS (DC's)!
+   {: .notice--danger}

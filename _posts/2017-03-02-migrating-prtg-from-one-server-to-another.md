@@ -26,7 +26,7 @@ So we wanted to move PRTG from one server to another. Seems simple enough, let's
 3. On the source computer, copy and paste the following into a folder, zip it, and transfer to the destination server:
 
    - Find the main files by launching PRTG Admin Tool => Core Server tab => Local Storage of Data files.. for me this was `C:\Program Data\PRTG` or something
-   - Run => `regedit` => Navigate to: `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Paessler\PRTG Network Monitor` => export this to the folder you will zip/transfer.
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `regedit` => Navigate to: `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Paessler\PRTG Network Monitor` => export this to the folder you will zip/transfer.
 
 4. On the original computer, disable the services we stopped, on the destination server, start them.
 

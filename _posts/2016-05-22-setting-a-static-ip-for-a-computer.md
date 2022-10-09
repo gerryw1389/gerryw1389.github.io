@@ -25,7 +25,7 @@ Most admins set servers and networking devices statically in a specific range an
 
 1. [run => cmd => ](https://automationadmin.com/2016/05/command-prompt-overview/) `ipconfig/all`. Is it setup statically already or DHCP? Sometimes you may want to place that computers DHCP address as a static IP. Either way, lets set it through the GUI:
 
-2. Run => `ncpa.cpl` => Local Area Connection => Right Click => Properties => Internet Protocol Version 4 Properties => Properties.
+2. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `ncpa.cpl` => Local Area Connection => Right Click => Properties => Internet Protocol Version 4 Properties => Properties.
 
 3. Change it from &#8220;Automatically..&#8221; to &#8220;Uses the following&#8221; and enter them there.
 
