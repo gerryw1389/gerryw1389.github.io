@@ -136,9 +136,9 @@ This page is just for reference. See my [dot files post](https://automationadmin
 
 7. For themes, you just have to enable &#8220;user themes = on&#8221; in the tweak tool and then:
 
-   - I want the &#8220;Numix Pack&#8221; so I download the tarball at [NumixPack](https://www.gnome-look.org/p/1137261/)
+   - I want the &#8220;Numix Pack&#8221; so I download the tarball at [NumixPack](https://www.gnome-look.org/p/1137261/)
    - Make sure you can see hidden files then copy the five folders (.config, .icons, .local, .themes, and wallpapers) to your /home/username folder. Say yes to merge.
-   - Before we configure the theme, we need to get &#8220;Breeze cursors&#8221;. Go to [Breeze Serie for Righties ](https://www.gnome-look.org/p/999991/) (I like the turquoise but you can pick whatever)
+   - Before we configure the theme, we need to get &#8220;Breeze cursors&#8221;. Go to [Breeze Serie for Righties ](https://www.gnome-look.org/p/999991/) (I like the turquoise but you can pick whatever)
    - Then just extract to your /usr/share/icons folder:
 
    ```shell
@@ -160,7 +160,7 @@ This page is just for reference. See my [dot files post](https://automationadmin
    sudo update-alternatives --config x-cursor-theme
    ```
 
-8. Lastly, in addition to regular `dnf install $something` from command line, I just used Firefox to go to chrome.com to download/install Google Chrome and then VS Code the same way. You can browse the internet and download RPM files. Repo would be better though as they are able to weed out malicious links with much more reliability.
+8. Lastly, in addition to regular `dnf install $something` from command line, I just used Firefox to go to chrome.com to download/install Google Chrome and then VS Code the same way. You can browse the internet and download RPM files. Repo would be better though as they are able to weed out malicious links with much more reliability.
 
 9. Will continue this as I tweak my image
 

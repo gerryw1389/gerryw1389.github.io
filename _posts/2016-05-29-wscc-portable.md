@@ -52,7 +52,7 @@ Being in the IT field, you will no doubt end up working on Windows boxes for var
 
 11. ProduKey => Shows your Windows Product key.
 
-12. Even though WSCC comes with [PS Tools](https://technet.microsoft.com/en-us/sysinternals/pstools.aspx), I usually download them and copy them to my `C:\Windows\System32` location. Here is where you can find them. Of these tools, PSExec is my most used. For example:
+12. Even though WSCC comes with [PS Tools](https://technet.microsoft.com/en-us/sysinternals/pstools.aspx), I usually download them and copy them to my `C:\Windows\System32` location. Here is where you can find them. Of these tools, PSExec is my most used. For example:
 
    ```powershell
    # To Run Remote .BAT file:

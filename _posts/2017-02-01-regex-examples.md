@@ -70,7 +70,7 @@ Find: `[ \t]+$`
 Replace: `(blank)`
 
 #### To remove leading line spaces:
-Find: `^[ \t]+`  
+Find: `^[ \t]+`  
 Replace: `(blank)`
 
 #### To remove leading and trailing line spaces:

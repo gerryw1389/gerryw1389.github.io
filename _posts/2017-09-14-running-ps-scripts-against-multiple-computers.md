@@ -16,7 +16,7 @@ tags:
 
 ### Description:
 
-In this post I will show you a way to run a test script against multiple machines. I would have a look at [Setting up PS Remoting](https://automationadmin.com/2016/05/setting-up-ps-remoting/), [PS Remoting GPO](https://automationadmin.com/2016/05/gpo-enable-psremoting/) for setting up the environment to ensure PS Remoting is Enabled.
+In this post I will show you a way to run a test script against multiple machines. I would have a look at [Setting up PS Remoting](https://automationadmin.com/2016/05/setting-up-ps-remoting/), [PS Remoting GPO](https://automationadmin.com/2016/05/gpo-enable-psremoting/) for setting up the environment to ensure PS Remoting is Enabled.
 
 ### To Resolve:
 
@@ -24,14 +24,14 @@ In this post I will show you a way to run a test script against multiple machine
 
    - Should look like:
 
-   - `C:\scripts\create-file.ps1` => copy the following and save:
+   - `C:\scripts\create-file.ps1` => copy the following and save:
 
    ```powershell
    New-Item -Itemtype Dir -Path C:\Scripts2
    New-Item -Itemtype File -Path C:\Scripts2\Test.Txt
    ```
 
-   - `C:\scripts\computers.txt` => just choose two remote machines on your network and enter them one line a piece:
+   - `C:\scripts\computers.txt` => just choose two remote machines on your network and enter them one line a piece:
 
    - This assumes domain environment where you have admin access to the remote machines. All machines must have also ran the command `Enable-PSRemoting -Force` at sometime prior. All machines must have Network Discovery enabled as well.
 
@@ -49,7 +49,7 @@ In this post I will show you a way to run a test script against multiple machine
    $Key | Out-File $KeyFile
    ```
 
-   - `C:\scripts\aespassword.txt` => To create, we need to open PS as admin and type:
+   - `C:\scripts\aespassword.txt` => To create, we need to open PS as admin and type:
 
    ```powershell
    $PasswordFile = "C:\Scripts\aespassword.txt"
@@ -60,7 +60,7 @@ In this post I will show you a way to run a test script against multiple machine
    $Password | ConvertFrom-SecureString -key $Key | Out-File $PasswordFile
    ```
 
-2. Now that those four files are created, we will create a script that will run the powershell script (`c:\scripts\create-file.ps1`) against the two remote machines (`c:\scripts\computers.txt`). So create a new file called  `c:\scripts\test-remote.ps1`. At the beginning of the script we will place a code block that pulls in our admin credentials (from `aespassword.txt` and `aes.key`) so we can run as a scheduled task if needed. Contents of `c:\scripts\test-remote.ps1`:
+2. Now that those four files are created, we will create a script that will run the powershell script (`c:\scripts\create-file.ps1`) against the two remote machines (`c:\scripts\computers.txt`). So create a new file called  `c:\scripts\test-remote.ps1`. At the beginning of the script we will place a code block that pulls in our admin credentials (from `aespassword.txt` and `aes.key`) so we can run as a scheduled task if needed. Contents of `c:\scripts\test-remote.ps1`:
 
    ```powershell
    $User = "domain.com\administrator"

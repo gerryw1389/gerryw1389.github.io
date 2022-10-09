@@ -28,7 +28,7 @@ Shutdown automatically
 
 Result:
 
-Vizio E43-C2  LED television and a 3rd gen Intel NUC.
+Vizio E43-C2  LED television and a 3rd gen Intel NUC.
 
 ### To Resolve:
 
@@ -41,7 +41,7 @@ Vizio E43-C2  LED television and a 3rd gen Intel NUC.
 
 3. Allow Chrome to launch on statup => Navigate to: `c:\Users\yourName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`. Substitue 'yourName' with the account name. Now drag and drop a Chrome shortcut in there. Right click the shortcut => Go to properties => add `--start-maximized` after chrome.exe in the Target field => OK => Close.
 
-4. Load tabs automatically =>  Enter `chrome://settings/onStartup` in the address bar, Add the URL(s) for the page(s) to load, OK and Close.
+4. Load tabs automatically =>  Enter `chrome://settings/onStartup` in the address bar, Add the URL(s) for the page(s) to load, OK and Close.
 
    - (Optional) Add "Auto Login" plugin to Chrome. Click on each dashboard tab and use the large floating capture button to capture the password into Auto Login. I found the best results capturing one tab/dashboard at a time. Add "TabCarousel" to Chrome. Configure TabCarousel to start with Chrome by checking "Start automatically". Configure the wait time between tab changes. I have three tabs to cycle so I set Flip Wait to "20000". TabCarousel tabs through all three tabs once per minute. **Auto Login occasionally takes a minute or three before it will login a dashboard.
 

@@ -16,7 +16,7 @@ tags:
 
 Shell scripting is the equivalent of using batch scripts in Windows, but for Linux. To begin, you should get familiar with Linux commands.
 
-Try visiting [here](https://community.linuxmint.com/tutorial/view/100), [here](http://www.gnu.org/software/bash/manual/bashref.html#Lists), and [here](http://tldp.org/LDP/abs/html/index.html) then moving on to further readings. Try reading this for more actual scripting after learning the basics. My last couple jobs have been primarily Windows networks so I haven't gotten too far into Linux beyond simple bash scripts.
+Try visiting [here](https://community.linuxmint.com/tutorial/view/100), [here](http://www.gnu.org/software/bash/manual/bashref.html#Lists), and [here](http://tldp.org/LDP/abs/html/index.html) then moving on to further readings. Try reading this for more actual scripting after learning the basics. My last couple jobs have been primarily Windows networks so I haven't gotten too far into Linux beyond simple bash scripts.
 
 1. Most scripts follow these rules
 

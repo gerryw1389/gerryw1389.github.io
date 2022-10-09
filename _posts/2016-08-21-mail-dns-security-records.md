@@ -17,7 +17,7 @@ This post is meant to consolidate the different email securities that are common
 
 ### To Resolve:
 
-1. The most common initial email security check to setup is **SPF records**. These records are used to prevent fake emails to appear to be sent by you. I describe the setup for this record in my [DNS Records post](https://automationadmin.com/2016/05/dns-records-overview/) but for convenience:
+1. The most common initial email security check to setup is **SPF records**. These records are used to prevent fake emails to appear to be sent by you. I describe the setup for this record in my [DNS Records post](https://automationadmin.com/2016/05/dns-records-overview/) but for convenience:
 
    - SPF Record Setup Example: `v=spf1 a mx ip4:12.218.xxx.xxx ip4:66.128.xxx.xxx/27 ~all`
    - `V=spf1` = Means it's defining a SPF record  
@@ -59,7 +59,7 @@ This post is meant to consolidate the different email securities that are common
    - hostname.example.com => A Record => 1.2.3.4
    - The name that is returned by the rDNS lookup needs to point back to the same IP address. [Source](http://ipadmin.junkemailfilter.com/rdns.php)
 
-4. **Demarc records** => Specify how mail servers should handle messages from your domain that don't have proper SPF and DKIM setup. I used these two guides [here](http://www.inmotionhosting.com/support/email/fighting-spam/dmarc-setup) and [here](http://www.zytrax.com/books/dns/ch9/dmarc.html). The main thing to note is that you need to setup DKIM and SPF before setting up Demarc records.
+4. **Demarc records** => Specify how mail servers should handle messages from your domain that don't have proper SPF and DKIM setup. I used these two guides [here](http://www.inmotionhosting.com/support/email/fighting-spam/dmarc-setup) and [here](http://www.zytrax.com/books/dns/ch9/dmarc.html). The main thing to note is that you need to setup DKIM and SPF before setting up Demarc records.
 
    - Demarc Record Setup Example: `v=DMARC1; p=quarantine; sp=none; ruf=mailto:tech@domain.com; rf=afrf; pct=100; ri=86400`
 

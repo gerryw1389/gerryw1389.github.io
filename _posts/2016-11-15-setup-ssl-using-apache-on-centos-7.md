@@ -117,7 +117,7 @@ After converting from NoIP to buying a domain and hosting it on CloudFlare, I wa
 
 10. At this point, you just restart httpd and you have SSL!
 
-11. The SSL Cert by Let's Encrypt is good for 90 days. You need to renew by running `./letsencrypt-auto renew`. You can see what it's listening to by running `grep -ir "^listen" /etc/httpd/*`
+11. The SSL Cert by Let's Encrypt is good for 90 days. You need to renew by running `./letsencrypt-auto renew`. You can see what it's listening to by running `grep -ir "^listen" /etc/httpd/*`
 
 12. Alternatively:
 

@@ -23,7 +23,7 @@ A good way to see this is to download one of my Modules off [Github](https://git
 
 ### To Resolve:
 
-1. So the modules can be named whatever you want. The first thing you do is create a guid for your template so it can be unique in case you ever post it online. You can use online sites like [GUID Generator](https://www.guidgenerator.com/) or just Powershell: `$GUID = [guid]::NewGuid().ToString() |Clip.exe`
+1. So the modules can be named whatever you want. The first thing you do is create a guid for your template so it can be unique in case you ever post it online. You can use online sites like [GUID Generator](https://www.guidgenerator.com/) or just Powershell: `$GUID = [guid]::NewGuid().ToString() |Clip.exe`
 
 2. Next you can create and edit your template.psd1 file:
 

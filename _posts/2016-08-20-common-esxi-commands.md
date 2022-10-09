@@ -23,7 +23,7 @@ I don't use VMWare in my environment, but I have used it in home labs and it app
 
    |Command| Description|
    |:---|:---|
-   |`find/cat/grep`| These three commands are crucial when trying to find specific files or text within a  file. The find command will locate a specific file, based on either a filename or a pattern. Cat is used to simply display the contents of a file, while grep can be used to search for specific text within a single or group of files.|
+   |`find/cat/grep`| These three commands are crucial when trying to find specific files or text within a  file. The find command will locate a specific file, based on either a filename or a pattern. Cat is used to simply display the contents of a file, while grep can be used to search for specific text within a single or group of files.|
    |`find /path/to/vm/folder –iname *delta*`| list all delta disks of a VM.|
    |`cat hostd.log | grep error`| search occurrences of &#8220;error&#8221; within the hostd.log|
    |`head/tail`| These two commands can be very useful when viewing the contents of a file. While the `cat` command is great for displaying the complete contents of a file, head and tail can be used to show either just the beginning or end part of the file, skipping the contents in the middle. tail can be extremely useful in times of troubleshooting, especially when specifying the `-f` flag to monitor log files in real time.|

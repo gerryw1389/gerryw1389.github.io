@@ -93,4 +93,4 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
 
 5. [keybindings.json](https://github.com/gerryw1389/misc/blob/main/vscode/keybindings.json) - Preferences: Open Keyboard Shortcuts File (json)
 
-6. Don't forget - Create VSCode PS profile: `Microsoft.VSCode_profile.ps1` in `C:\users\username\Documents\WindowsPowershell`
+6. Don't forget - Create VSCode PS profile: `Microsoft.VSCode_profile.ps1` in `C:\users\username\Documents\WindowsPowershell`

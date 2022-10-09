@@ -15,7 +15,7 @@ tags:
 ### Description:
 
 We wanted to find a way to lock the screen's after 10 minutes of inactivity. This is how to do it:  
-NOTE: If You Have All W8/Server2012+ Clients:
+NOTE: If You Have All W8/Server2012+ Clients:
 
 `Computer Configuration\Policies\Windows Settings\Security Settings\Local Policies\Security Options\Interactive logon`: Machine inactivity limit
 

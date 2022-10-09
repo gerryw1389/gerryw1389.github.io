@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-Setup LVM with LUKS Multi-Disk. For this lab I used 2 127 GB vhd's using Hyper-V and Fedora 25 Gnome.
+Setup LVM with LUKS Multi-Disk. For this lab I used 2 127 GB vhd's using Hyper-V and Fedora 25 Gnome.
 
 ### To Resolve:
 

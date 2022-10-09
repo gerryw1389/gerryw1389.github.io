@@ -32,7 +32,7 @@ This is not a definitive guide but if you can get through this list, you could b
 
 8. The rest of the MS ecosystem => SCCM, WSUS, MDT, PowerShell, AD, Exchange, InTune, O365, Sharepoint, IIS, DSC, MS SQL, .NET and every other product MS offers. At the very least know what it is and the basics, if the job requires you need to know more expand the knowledge into that specific thing as it comes up.
 
-9. Now after you get to a point where you are semi competent in the MS stack start to Learn Linux and repeat this until you can integrate Linux with Windows systems. We really live in an and world and no longer in an or world. Meaning we live in a Microsoft and Linux and Mac world, so expanding your knowledge into these realms is great. You may not need to be an expert outside of Microsoft, but having a base knowledge helps you work with the teams that manage other platforms.
+9. Now after you get to a point where you are semi competent in the MS stack start to Learn Linux and repeat this until you can integrate Linux with Windows systems. We really live in an and world and no longer in an or world. Meaning we live in a Microsoft and Linux and Mac world, so expanding your knowledge into these realms is great. You may not need to be an expert outside of Microsoft, but having a base knowledge helps you work with the teams that manage other platforms.
 
 10. Cloud Offerings => basically anything as a service you may not ever go full cloud but there will be times when certain things make more sense to put in the cloud versus on-prem and vice versa. Knowing how it works can only help you if you ever have to work in a hybrid model of infrastructure
 

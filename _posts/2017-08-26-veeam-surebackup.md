@@ -18,13 +18,13 @@ Veeam SureBackup is a way to tests your backup jobs automatically. You set them 
 
 ### To Resolve:
 
-1. Open the Veeam GUI and go to Backup Infrastructure => Sure Backup => Create => Name:Whatever => Point to a folder on whatever VM host you want for testing (one that is not being used a lot) => Leave all settings default => Next, Next, Next, Finish
+1. Open the Veeam GUI and go to Backup Infrastructure => Sure Backup => Create => Name:Whatever => Point to a folder on whatever VM host you want for testing (one that is not being used a lot) => Leave all settings default => Next, Next, Next, Finish
 
 2. Backup Infrastructure => Sure Backup => Application Groups => Create => I just chose a single W8.1 machine to test
 
 3. Go to Backup & Replication tab => New Sure Backups Job => Point to Sure backup job, Point to sure backup application group (Make sure to check the checkbox to &#8220;keep the application group running after job completes&#8221;) => Next, Next, Next, Finish (check Run the job when finished).
 
-4. Now we get to see it in action! RDP to your VM host and connect to the appliance via Hyper v  
+4. Now we get to see it in action! RDP to your VM host and connect to the appliance via Hyper v  
 
    ```escape
    login: root / SureBackupJobName_r # see ["How to log in to the Virtual Proxy Appliance"](https://www.veeam.com/kb1447) for your password

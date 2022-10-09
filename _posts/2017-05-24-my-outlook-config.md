@@ -21,7 +21,7 @@ This post is to serve as tweaks for my Outlook install.
 
 ### To Resolve:
 
-1. First, I like to remove the `action items` bar under senders name:
+1. First, I like to remove the `action items` bar under senders name:
 
 File => Mange Addins => Sign into OWA => Uncheck all
 

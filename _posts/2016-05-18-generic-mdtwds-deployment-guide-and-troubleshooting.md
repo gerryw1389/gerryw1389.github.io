@@ -21,7 +21,7 @@ The following guide is the generic overview of how to use WDS/MDT.
 
 1. Don't use physical machines, use Hyper-V/VMWare for everything
 
-2. Use PXE + WDS + MDT
+2. Use PXE + WDS + MDT
 
 3. Create a reference image first by creating a new task sequence, name it "Reference", use your vanilla OS as OS source, create a boot image, add this boot image to WDS, PXE boot a VM and boot from it. Install Windows manually, customize it accordingly, run windows update etc, and add the "big apps", like Office/Photoshop/Visual Studio. Shut it down. THEN TAKE A SNAPSHOT OF THIS VM.
 
@@ -33,7 +33,7 @@ The following guide is the generic overview of how to use WDS/MDT.
 
 7. Troubleshooting Boot Loops from Deployments:
 
-   - Issue: Deployment fails and machine constantly reboots to Windows PE. If this happens, the deployment task has failed but left a trace of itself on the computer's hard drive causing it to repeatedly retry  the same failing task.
+   - Issue: Deployment fails and machine constantly reboots to Windows PE. If this happens, the deployment task has failed but left a trace of itself on the computer's hard drive causing it to repeatedly retry the same failing task.
    - To Resolve:
    - From within the Windows PE environment, press `F8` to open a command prompt
    - Type `diskpart` into the command prompt

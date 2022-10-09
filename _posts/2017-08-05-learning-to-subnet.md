@@ -24,13 +24,13 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
 1. First know your subnet ranges:
 
    ```escape
-   Class A – has to start with a 0
+   Class A – has to start with a 0
 
    0 0000001 = 1
 
-   0 1111111 – 128
+   0 1111111 – 128
 
-   Class B – has to start with a 10
+   Class B – has to start with a 10
 
    10 00000 = 128
 
@@ -48,7 +48,7 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
    ```escape
    10.x.x.x /8
 
-   172.16.0.0  – 172.31.255.255 / 12
+   172.16.0.0  – 172.31.255.255 / 12
 
    192.168.x.x /16
    ```
@@ -57,9 +57,9 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
 
 
    ```escape
-   Mask:            128  192  224  240  248  252  254  255
+   Mask:            128  192  224  240  248  252  254  255
 
-   Bits Borrowed:   128  64   32   16   8    4    2    1
+   Bits Borrowed:   128  64   32   16   8    4    2    1
 
 
    Subnets = 2 to the power of borrowed bits
@@ -77,11 +77,11 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
    - Explanation: First look at the mask: 256 => `240` = 16, so you have the subnets going up in increments of 16, starting with zero (if subnet zero is permitted in the exam). Each subnet will need to have a subnet and a broadcast number, so this leaves 14 hosts per subnet. The subnets start at 0,16,32,48, 64, 80…224, 240 (the 0 and 240 are valid only if subnet zero is allowed).
 
    ```escape
-   Network       First Host    Last Host     Broadcast
-   172.16.5.0    172.16.5.1    172.16.5.14   172.16.5.15
-   172.16.5.16  172.16.5.17   172.16.5.30   172.16.5.31
-   172.16.5.32  172.16.5.33   172.16.5.62   172.16.5.63
-   172.16.5.64  172.16.5.65   172.16.5.78   172.16.5.79       
+   Network       First Host    Last Host     Broadcast
+   172.16.5.0    172.16.5.1    172.16.5.14   172.16.5.15
+   172.16.5.16  172.16.5.17   172.16.5.30   172.16.5.31
+   172.16.5.32  172.16.5.33   172.16.5.62   172.16.5.63
+   172.16.5.64  172.16.5.65   172.16.5.78   172.16.5.79       
    * We know it's in this range because 68 is between 65 and 78!
    ```
 
@@ -99,7 +99,7 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
    B. 255.255.255.192 / 26
    C. 255.255.255.224 / 27
    D. 255.255.255.240 / 28
-   E. 255.255.255.248 / 29
+   E. 255.255.255.248 / 29
    ```
 
    - Answer: B. Explanation = Questions you need to ask yourself:
@@ -213,7 +213,7 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
    ```
 
    - Answer: 
-   - In these situations, you want to answer to the lowest possible fit that you can, don-t make any room for expansion (not realistic).
+   - In these situations, you want to answer to the lowest possible fit that you can, don-t make any room for expansion (not realistic).
    - The answer is /25 because that would create two networks, each with up to 126 usable IP-s. 
    - It's tempting to think that you need to add the users and then pick a network that will support them but the question is usually asking what is the smallest subnet you can fit them in.
 
@@ -222,7 +222,7 @@ Subnetting can be tough! When studying for my CCNA, this is the subject I studie
 
    So we know a classful Class C network has 24 network bits and 8 host bits that equal 256 hosts (2^8 = 256). This is done by adding the values 128+64+32+16+8+4+2+1=255 plus one because in networking, 0 counts as the first number. So we end with 256, BUT we have to subtract 2 for the network (.0) and the broadcast addresses (.255) so really only 254 usable hosts that can be assigned IP addresses.
 
-   Well a /25 network is half of that. To get that just do the math, 2^7 = 128.  An easy way to picture this is to think of the N to H relationship. /25 will have one of the H bits borrowed for the subnet only giving you 64+32+16+8+4+2+1=127 hosts. But remember the rule with 0 (so you have 128) and how 2 IP-s are always subtracted, this leaves you with 126 usable hosts.
+   Well a /25 network is half of that. To get that just do the math, 2^7 = 128.  An easy way to picture this is to think of the N to H relationship. /25 will have one of the H bits borrowed for the subnet only giving you 64+32+16+8+4+2+1=127 hosts. But remember the rule with 0 (so you have 128) and how 2 IP-s are always subtracted, this leaves you with 126 usable hosts.
 
    You can follow this pattern to create a table:
 

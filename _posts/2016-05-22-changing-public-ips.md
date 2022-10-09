@@ -19,7 +19,7 @@ If you ever need to change public IP Addresses, follow these steps:
 
 ### To Resolve:
 
-1. Get the old public IP of the network by going to [ipchicken.com](http://ipchicken.com/) or however. Get the soon-to-be IP.
+1. Get the old public IP of the network by going to [ipchicken.com](http://ipchicken.com/) or however. Get the soon-to-be IP.
 
 2. Login to the router's web GUI through a web browser.
 

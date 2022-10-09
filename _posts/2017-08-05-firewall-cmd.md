@@ -23,7 +23,7 @@ In CentOS I created the following firewall zones:
    ```shell
    firewall-cmd --new-zone=gerry --permanent
    firewall-cmd --reload
-   firewall-cmd --set-default-zone=gerry #NOTE: You have to reload first before you can select a custom zone as your default zone
+   firewall-cmd --set-default-zone=gerry #NOTE: You have to reload first before you can select a custom zone as your default zone
    firewall-cmd --zone=gerry --add-source 192.168.0.20/32 --permanent
    firewall-cmd --zone=gerry --add-port=22/tcp --permanent
    firewall-cmd --zone=gerry --add-service=ssh --permanent

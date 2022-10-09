@@ -22,7 +22,7 @@ Sometimes, you may want to check the Windows Host file for bogus redirects by vi
 
 2. Once inside, make sure the bottom doesn't have any phony IP addresses to host names. While your in there, add the server to your network by going to the last line => enter the IP address of the server (which should be static) => Tab => the Servers Name. Example: `192.168.1.10  Server01`
 
-3. This is optional => Go to [Winhelp](http://winhelp2002.mvps.org/hosts.txt) and copy and paste this into the file to block advertisements while you are in there!
+3. This is optional => Go to [Winhelp](http://winhelp2002.mvps.org/hosts.txt) and copy and paste this into the file to block advertisements while you are in there!
 
 4. [run => cmd => ](https://automationadmin.com/2016/05/command-prompt-overview/)
 

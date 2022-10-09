@@ -72,6 +72,6 @@ I call this one a basic install because that's all it really is. I haven't confi
    tail -fn 50 stats.log
    ```
 
-6. Mine had some errors about &#8220;tls-events.rules&#8221; so I went back to the /etc/suricata/suricata.yaml and found that line and commented it out. Started seeing logs. That's about as far as I got for now&#8230;
+6. Mine had some errors about &#8220;tls-events.rules&#8221; so I went back to the /etc/suricata/suricata.yaml and found that line and commented it out. Started seeing logs. That's about as far as I got for now&#8230;
 
 7. Next task: Find a GUI front end as this is the server piece. Also need to tweak for my network.

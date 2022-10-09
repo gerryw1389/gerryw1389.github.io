@@ -20,7 +20,7 @@ Banners, passwords, ect
 #### To set the banner message (you will see this locally and remotely!)
 
    ```tcl
-   banner motd (banner start identification) banner message (banner end identification)
+   banner motd (banner start identification) banner message (banner end identification)
    Example:
    banner motd $***Unauthorized access to this device is prohibited!***$
    # The above command with set the banner to "Unauthorized access to this device is prohibited"

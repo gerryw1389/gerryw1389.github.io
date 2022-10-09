@@ -33,7 +33,7 @@ So I ran into an issue the other day&#8230; I have been using the default 16 GB 
    cmd /c "vboxmanage modifymedium disk vm-name.vdi --resize 51200"
    ```
 
-5. Download GParted iso and boot to that. Choose `33` for english and `0` for GUI. Select the disk and just expand all the way. Apply changes and then open Terminal and type `poweroff now`
+5. Download GParted iso and boot to that. Choose `33` for english and `0` for GUI. Select the disk and just expand all the way. Apply changes and then open Terminal and type `poweroff now`
 
 6. Boot into your VM and type:
 

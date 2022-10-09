@@ -55,7 +55,7 @@ NOTE: This did not work on my W10 install, but I don't use System Restore, I use
 
    - Enable it by following step 1 above. From CMD: `wmic shadowcopy call create Volume=c:\`
 
-   - Create a scheduled task => Open Task Schedule and create task => name it ShadowCopy_C (or any other name you want) => select the triggers, once it was at 07:00 and 12:00 every day => At the action tab write `wmic` => at the arguments => `shadowcopy call create Volume=C:\`  
+   - Create a scheduled task => Open Task Schedule and create task => name it ShadowCopy_C (or any other name you want) => select the triggers, once it was at 07:00 and 12:00 every day => At the action tab write `wmic` => at the arguments => `shadowcopy call create Volume=C:\`  
 
    - Do this for each drive
 

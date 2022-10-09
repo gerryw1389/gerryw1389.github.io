@@ -20,7 +20,7 @@ UPDATE: I would instead move to [Windows 10](https://www.deviantart.com/customiz
 
 ### To Resolve:
 
-1. First, head over to (skinpacks.com is no longer in use) and check out the different theme packs you can download. These contain two files, one of which is a CMD file you run to launch the installer. Upon completion, you are done!
+1. First, head over to (skinpacks.com is no longer in use) and check out the different theme packs you can download. These contain two files, one of which is a CMD file you run to launch the installer. Upon completion, you are done!
 
    - Example: Win7Client1 (VM) = Javis
 

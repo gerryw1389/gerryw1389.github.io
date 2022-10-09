@@ -71,7 +71,7 @@ I'm finally at a point with Powershell that I can write scripts that take longer
 
 2. The first thing I did was put them in a table like so (notice that I break between distinct groups that will help my code logic later): Column setup should be:
 
-   - Amount to be added (aggregated value of bills up until that day). So if it is the 16th, I will have to add: Groceries ($200), Groceries ($200), Hulu ($13), Water ($90), and ATT Cell ($45) to get a total of $547. I list 0548 only because I wanted my columns to line up, no other reason.
+   - Amount to be added (aggregated value of bills up until that day). So if it is the 16th, I will have to add: Groceries ($200), Groceries ($200), Hulu ($13), Water ($90), and ATT Cell ($45) to get a total of $547. I list 0548 only because I wanted my columns to line up, no other reason.
 
    - Amount that needs to be reserved for future bills => This starts with the total amount of all your bills and goes down as bills gets paid. It should be the same as column one but in reverse. So Total Bills => Column 1.
 

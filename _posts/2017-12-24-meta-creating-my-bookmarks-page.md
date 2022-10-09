@@ -19,7 +19,7 @@ As anyone who is into scripting must sometime learn, I need to learn how to use 
 
 Essentially:
 
-  1. Add random links to Google Bookmarks while I'm browsing. This is not to be confused with Chrome bookmarks. It is it's own site/ service ([bookmarks.google.com](https://bookmarks.google.com)) that I use for professional references and not my dank internet memes.
+  1. Add random links to Google Bookmarks while I'm browsing. This is not to be confused with Chrome bookmarks. It is it's own site/ service ([bookmarks.google.com](https://bookmarks.google.com)) that I use for professional references and not my dank internet memes.
   2. PS will download this file in line 6.
   3. The rest of the script just does find and replace of the strings.
   4. Once it is done, I just copy the completed to my post in WordPress. Done.

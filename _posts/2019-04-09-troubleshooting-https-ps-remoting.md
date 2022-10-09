@@ -65,7 +65,7 @@ Example: I want to allow `server.domain.com` on `10.10.10.10` to be able to Remo
    New-Item -Path WSMan:\LocalHost\Listener -Transport HTTPS -Address * -CertificateThumbPrint $Cert[-1].Thumbprint -Force
    ```
 
-   - Much better! Now if we `ls` the wsman:\localhost\listener directory, we see that it has a https listener that is bound to the correct cert. How do we know this? We verify of course. Just `ls`  the listener using autocomplete (tab key on your keyboard) and you will see its thumbprint. Just make sure it matches the thumbprint from the cert from the previous command.
+   - Much better! Now if we `ls` the wsman:\localhost\listener directory, we see that it has a https listener that is bound to the correct cert. How do we know this? We verify of course. Just `ls`  the listener using autocomplete (tab key on your keyboard) and you will see its thumbprint. Just make sure it matches the thumbprint from the cert from the previous command.
 
 3. Now we test. From server.domain.com, we run:
 

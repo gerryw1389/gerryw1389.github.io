@@ -99,7 +99,7 @@ So like many of my peers, I'm trying to move to [self-hosting](https://github.co
    - Do a find and replace in Regular Expression mode and set it like:
 
    ```escape
-   find = UID:.*
+   find = UID:.*
    replace = UID:whateveryouwant
    # save the file and exit.
    ```
@@ -108,7 +108,7 @@ So like many of my peers, I'm trying to move to [self-hosting](https://github.co
 
    - Copy your .ics to file to `/home/gerry/.var/lib/radicale/collections/calendar.ics` => it will start to create multiple events => that's okay.
 
-8. Now would be the time to open port on router and forward to your new CalDAV server if you want to access it out of your home. Make sure to create a firewall rule to `allow port 5232` open on your CentOS vm.
+8. Now would be the time to open port on router and forward to your new CalDAV server if you want to access it out of your home. Make sure to create a firewall rule to `allow port 5232` open on your CentOS vm.
 
 9. Once you have your login info, login and copy the URL to your server, it should end in a random GUID.
 

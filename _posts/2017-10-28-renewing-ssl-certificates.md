@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-Follow these steps to renew a SSL Cert. Also, take a look at Digicert's site: [Renewal FAQ](https://www.digicert.com/ssl-certificate-renewal/#renewal-faq)
+Follow these steps to renew a SSL Cert. Also, take a look at Digicert's site: [Renewal FAQ](https://www.digicert.com/ssl-certificate-renewal/#renewal-faq)
 
 Q: Why Do I Need to Install a New Certificate if I Am Only Renewing My Existing Certificate?
 
@@ -54,36 +54,36 @@ Copying the text as you probably don't need screenshots:
 ### How to Generate an SSL Certificate Renewal CSR in Microsoft IIS 8 and IIS 8.5
 
 Open Internet Information Services (IIS) Manager.  
-From the Start screen, type and click Internet Information Services (IIS) Manager.  
-In Internet Information Services (IIS) Manager, under Connections, click your server's Hostname.  
-In the center menu, in the IIS section, double-click the Server Certificates icon.
+From the Start screen, type and click Internet Information Services (IIS) Manager.  
+In Internet Information Services (IIS) Manager, under Connections, click your server's Hostname.  
+In the center menu, in the IIS section, double-click the Server Certificates icon.
 
-In the Actions menu, click Create Certificate Request to open the Request Certificate wizard.
+In the Actions menu, click Create Certificate Request to open the Request Certificate wizard.
 
-On the Distinguished Name Properties page, enter the following information:  
+On the Distinguished Name Properties page, enter the following information:  
 Common name Enter the name that will be used to access the certificate. This name is usually the fully-qualified domain name.  
-For example, www.domain.com or mail.domain.com.  
+For example, www.domain.com or mail.domain.com.  
 Organization Enter the legally registered name of your organization/company.  
 Organizational Unit Enter the name of your department within the organization. For example, you can enter IT or Web Security.  
 You can also leave the text box blank.  
 City/locality Enter the city in which your organization/company is located.  
 State/province Enter the state/province in which your organization/company is located.  
 Country/region Type or select your two-digit country code from the drop-down list.  
-If necessary, you can find your two-digit country code in our SSL Certificate Country Codes list.
+If necessary, you can find your two-digit country code in our SSL Certificate Country Codes list.
 
-Click Next.  
-On the Cryptographic Service Provider Properties page, enter the following information:  
-Cryptographic service provider In the drop-down list, select Microsoft RSA SChannel&#8230;, unless you have a specific cryptographic provider.  
-Bit length In the drop-down list, select 2048.
+Click Next.  
+On the Cryptographic Service Provider Properties page, enter the following information:  
+Cryptographic service provider In the drop-down list, select Microsoft RSA SChannel&#8230;, unless you have a specific cryptographic provider.  
+Bit length In the drop-down list, select 2048.
 
-Click Next.  
-On the File Name page, click the … box to browse to a location where you want to save the CSR file, enter the filename, and then click Open.
+Click Next.  
+On the File Name page, click the … box to browse to a location where you want to save the CSR file, enter the filename, and then click Open.
 
-If you only enter the filename without selecting a location, your CSR file is saved to the following location: C:\Windows\System32.  
-Make sure to note the filename and the location where you saved your CSR file. You need to open this file as a text file, copy the entire body of the text file (including the Begin New Certificate Request and End New Certificate Request tags), and paste it into the online order process when you are prompted.  
-Click Finish.  
-Next, log into the DigiCert® Management Console.  
-Under Order next to the order that you want to renew, click + to expand the options for the order and then, click Renew.
+If you only enter the filename without selecting a location, your CSR file is saved to the following location: C:\Windows\System32.  
+Make sure to note the filename and the location where you saved your CSR file. You need to open this file as a text file, copy the entire body of the text file (including the Begin New Certificate Request and End New Certificate Request tags), and paste it into the online order process when you are prompted.  
+Click Finish.  
+Next, log into the DigiCert® Management Console.  
+Under Order next to the order that you want to renew, click + to expand the options for the order and then, click Renew.
 
 Follow the instructions to place the order with DigiCert to renew your SSL Certificate.
 
@@ -92,25 +92,25 @@ Follow the instructions to place the order with DigiCert to renew your SSL Certi
 Installation Instructions to Renew your SSL Certificate: Windows 2012 Server  
 Save your certificate file to the IIS server from which the CSR was generated.  
 Open Internet Information Services (IIS) Manager.  
-From the Start screen, type and then click Internet Information Services (IIS) Manager.  
-In Internet Information Services (IIS) Manager, under Connections, click your server's Hostname.  
-In the center menu, in the IIS section, double-click the Server Certificates icon.
+From the Start screen, type and then click Internet Information Services (IIS) Manager.  
+In Internet Information Services (IIS) Manager, under Connections, click your server's Hostname.  
+In the center menu, in the IIS section, double-click the Server Certificates icon.
 
-In the Actions menu, click Complete Certificate Request to open the Complete Request Certificate wizard and complete your request.
+In the Actions menu, click Complete Certificate Request to open the Complete Request Certificate wizard and complete your request.
 
-On the Specify Certificate Authority Response page, under File name containing the certification authority's response, click the … box to browse to the .cer certificate file that DigiCert sent you, select the file, and then click Open.
+On the Specify Certificate Authority Response page, under File name containing the certification authority's response, click the … box to browse to the .cer certificate file that DigiCert sent you, select the file, and then click Open.
 
 Next, enter the following information:  
 Friendly name Enter a friendly name for the certificate. You will use this name to identify this certificate.  
-We recommend that you add DigiCert and the expiration date to the end of your friendly name, for example: yoursite-DigiCert-Nov2015.  
+We recommend that you add DigiCert and the expiration date to the end of your friendly name, for example: yoursite-DigiCert-Nov2015.  
 This information helps identify the issuer and expiration date for each certificate. It also helps distinguish multiple certificates with the same domain name.  
 Select a certificate store&#8230; In the drop-down list, select a certificate store.  
-Click OK.  
-In Internet Information Services (IIS) Manager, under Connections, expand your server's name, expand Sites, and then select the site on which you want to enable SSL.
+Click OK.  
+In Internet Information Services (IIS) Manager, under Connections, expand your server's name, expand Sites, and then select the site on which you want to enable SSL.
 
-In the Actions menu, under Edit Site, click Bindings.  
-In the Site Bindings window, select binding for https, and then click Edit.
+In the Actions menu, under Edit Site, click Bindings.  
+In the Site Bindings window, select binding for https, and then click Edit.
 
-In the Edit Site Binding window, in the SSL certificate drop-down list, select your newly installed SSL Certificate by its friendly name, and then click OK.
+In the Edit Site Binding window, in the SSL certificate drop-down list, select your newly installed SSL Certificate by its friendly name, and then click OK.
 
 Your new SSL Certificate should now be installed to your server.

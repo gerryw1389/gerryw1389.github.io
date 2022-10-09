@@ -56,7 +56,7 @@ Use these snippets if you ever want to setup IE for your clients in a specific w
    Set-Location "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains"
    ```
 
-#### To Configure Zones (These Settings Allow Scriptlets To Run Fully For Trusted Zone):
+#### To Configure Zones (These Settings Allow Scriptlets To Run Fully For Trusted Zone):
 
    ```powershell
    Set-Location "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2"

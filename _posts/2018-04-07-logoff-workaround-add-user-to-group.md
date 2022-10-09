@@ -16,7 +16,7 @@ When you access resources on Windows, Kerberos is used for authentication (with 
 
 1. If you force the use of NTLM, group membership changes are reflected immediately due to the way NTLM authentication works. Kerberos only works with DNS names so by accessing a resource via IP address Windows will be forced to use NTLM authentication.  
 
-2. If you purge the user's Kerberos tickets, a new TGT will be automatically fetched which will contain current group memberships. You can do this with the `klist purge`  command. Consequently, the command klist lists the user's current Kerberos tickets.
+2. If you purge the user's Kerberos tickets, a new TGT will be automatically fetched which will contain current group memberships. You can do this with the `klist purge`  command. Consequently, the command klist lists the user's current Kerberos tickets.
 
 ### To Resolve:
 

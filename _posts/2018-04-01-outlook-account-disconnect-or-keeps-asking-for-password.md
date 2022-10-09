@@ -27,7 +27,7 @@ Follow this post if you have Outlook constantly asking for a password, even if y
 
    - I've seen a lot of cases where Outlook will say &#8220;connecting to email1@domain.com&#8221; and will already pre-fill one of the choices as email2@domain.com. If it does this, choose &#8220;More Options&#8221; and manually type in &#8220;email1@domain.com&#8221; and its password.
 
-   - The key is to match whatever account is at the top next to &#8220;connecting to&#8221; that you cannot edit. Make sure you entered them once, just press the &#8220;X&#8221; in the top right corner. It doesn't matter if it acts like they are correct or not, the main thing is that we just enter them fresh and check the box to remember the passwords.
+   - The key is to match whatever account is at the top next to &#8220;connecting to&#8221; that you cannot edit. Make sure you entered them once, just press the &#8220;X&#8221; in the top right corner. It doesn't matter if it acts like they are correct or not, the main thing is that we just enter them fresh and check the box to remember the passwords.
 
 3. Close Outlook and re-enter back in Outlook normal mode by just selecting the Outlook icon as usual. Verify the status bar now says &#8220;Connected To: Microsoft Exchange&#8221; in the bottom right corner.
 

@@ -46,7 +46,7 @@ Cisco Discovery Protocol (proprietary) runs only on Cisco devices; it allows you
    - LLDP is a neighbor discovery protocol that is used for network devices to advertise information about themselves to other devices on the network. 
    - This protocol runs over the data-link layer, which allows two systems running different network layer protocols to learn about each other.  
    - LLDP supports a set of attributes that it uses to discover neighbor devices. 
-   - These attributes contain type, length, and value descriptions and are referred to as TLVs. 
+   - These attributes contain type, length, and value descriptions and are referred to as TLVs. 
    - LLDP supported devices can use TLVs to receive and send information to their neighbors. 
    - Details such as configuration information, device capabilities, and device identity can be advertised using this protocol.  
    - LLDP is disabled by default

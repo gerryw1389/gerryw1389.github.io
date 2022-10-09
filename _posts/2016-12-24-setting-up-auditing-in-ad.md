@@ -43,7 +43,7 @@ NOTE: All of our servers are Server2012r2.
 
 3. That's it for the GPO. Now open up ADUC and click on View => Advanced Settings. This is so that we can get the Audit tab for the next step.
 
-4. Right-click the top of the domain tree and bring up the properties. Select Security tab "Advanced" Auditing tab. Select the "Everyone" security principal, set Type to Success and Applies to: This object and all descendant objects.  For the permissions set the following:  
+4. Right-click the top of the domain tree and bring up the properties. Select Security tab "Advanced" Auditing tab. Select the "Everyone" security principal, set Type to Success and Applies to: This object and all descendant objects.  For the permissions set the following:  
 
    ```escape
    Write all properties  

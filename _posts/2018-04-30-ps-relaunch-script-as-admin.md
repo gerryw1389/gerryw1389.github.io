@@ -98,7 +98,7 @@ The following code can be used to relaunch unelevated scripts as elevated automa
    Invoke-RequireAdmin $script:MyInvocation
    ```
 
-3. For version 4+, just place the following at the top of  your script => [Source](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-4.0) :
+3. For version 4+, just place the following at the top of  your script => [Source](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-4.0) :
 
    ```powershell
    #Requires -RunAsAdministrator

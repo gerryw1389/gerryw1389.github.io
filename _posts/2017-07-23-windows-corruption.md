@@ -20,7 +20,7 @@ This post will be brief, but I wanted to create it because despite all our effor
 
 This is the System File Checker and will sometimes fix Windows corruption issues, sometimes.
 
-2. Try: DISM.exe /Online /Cleanup-image /Scanhealth
+2. Try: DISM.exe /Online /Cleanup-image /Scanhealth
 
 followed by
 

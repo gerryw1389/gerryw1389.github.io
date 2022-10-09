@@ -18,7 +18,7 @@ So if you ever want to create a cursor theme, follow these steps (or something s
 
 ### To Resolve:
 
-1. Go to Deviantart.com and download a couple themes. In this example, I'm going to use: [DIM v3.2 - NitroGreen](https://blooguy.deviantart.com/art/DIM-v3-1-NitroGreen-578318821) and [Oxygen Cursors](https://lavalon.deviantart.com/art/Oxygen-Cursors-76614092)
+1. Go to Deviantart.com and download a couple themes. In this example, I'm going to use: [DIM v3.2 - NitroGreen](https://blooguy.deviantart.com/art/DIM-v3-1-NitroGreen-578318821) and [Oxygen Cursors](https://lavalon.deviantart.com/art/Oxygen-Cursors-76614092)
 
 2. Create different file names for different cursors and manually create a INI file that has something like the following:
 
@@ -88,7 +88,7 @@ So if you ever want to create a cursor theme, follow these steps (or something s
 
    - If install isn't an option, type `rundll32 syssetup,SetupInfObjectInstallAction DefaultInstall 128 .\install.inf` from cmd. It will say install failed, but it works.
 
-DISCLAIMER: DO NOT DISTRIBUTE YOUR FINAL PRODUCT! This is most likely a violation of TOS and I will not be held accountable.
-{: .notice--danger}
+   DISCLAIMER: DO NOT DISTRIBUTE YOUR FINAL PRODUCT! This is most likely a violation of TOS and I will not be held accountable.
+   {: .notice--danger}
 
 4. This is for testing only and should be deleted once completed. The whole point is to understand how cursors can be created and distributed if you know how to create custom ANI files.

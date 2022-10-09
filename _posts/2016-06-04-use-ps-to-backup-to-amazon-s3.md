@@ -18,7 +18,7 @@ tags:
 
 So here is the situation: Our AS400 sends backups to our FTP daily. We needed a way to zip the files and upload them to Amazon S3. I found a way to do this PS, hopefully it will help someone out. To backup to Amazon S3 in Powershell, try the following:
 
-NOTE: These steps require you download and install [PSCX](https://pscx.codeplex.com/) and [AWS PS Tools](https://aws.amazon.com/powershell/)
+NOTE: These steps require you download and install [PSCX](https://pscx.codeplex.com/) and [AWS PS Tools](https://aws.amazon.com/powershell/)
 
 ### To Resolve:
 

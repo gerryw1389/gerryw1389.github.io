@@ -23,14 +23,14 @@ You will be getting errors/warnings stating:
 
 ### To Resolve:
 
-1. On the SQL server with this error, navigate to `C:\ProgramData\Veeam\Backup` and view the log:
+1. On the SQL server with this error, navigate to `C:\ProgramData\Veeam\Backup` and view the log:
 
    ```escape
-   WARN                            Cannot truncate SQL logs for database: (DBNAME)  Code = 0x80040e31  
-   6/22/2016 1:12:46 AM   4640  WARN                             Code meaning = IDispatch error #3121  
-   6/22/2016 1:12:46 AM   4640  WARN                             Source = Microsoft OLE DB Provider for SQL Server  
-   6/22/2016 1:12:46 AM   4640  WARN                             Description = Query timeout expired  
-   6/22/2016 1:12:46 AM   4640  WARN                            No OLE DB Error Information found: hr = 0x80004005
+   WARN                            Cannot truncate SQL logs for database: (DBNAME)  Code = 0x80040e31  
+   6/22/2016 1:12:46 AM   4640  WARN                             Code meaning = IDispatch error #3121  
+   6/22/2016 1:12:46 AM   4640  WARN                             Source = Microsoft OLE DB Provider for SQL Server  
+   6/22/2016 1:12:46 AM   4640  WARN                             Description = Query timeout expired  
+   6/22/2016 1:12:46 AM   4640  WARN                            No OLE DB Error Information found: hr = 0x80004005
    ```
 
 2. Open up SQL Server Management Studio and add the following user to the database that is failing the credentials:

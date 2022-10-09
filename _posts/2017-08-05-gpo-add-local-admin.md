@@ -18,9 +18,9 @@ This GPO will add a domain account as a local admin on all workstations.
 
 ### To Resolve:
 
-1. First you need to create a security group called Local Admin: Log onto a Domain Controller, open Active Directory Users and Computers (`dsa.msc`) Create a security Group name it Local Admin. From Menu Select Action => New => Group => Name the group as Local Admin. Add the members to Local Admin group. I will add two users say Tom and Bob.
+1. First you need to create a security group called Local Admin: Log onto a Domain Controller, open Active Directory Users and Computers (`dsa.msc`) Create a security Group name it Local Admin. From Menu Select Action => New => Group => Name the group as Local Admin. Add the members to Local Admin group. I will add two users say Tom and Bob.
 
-2. Next you need to create a group policy called "Local Admin GPO":  Open Group Policy Management Console (`gpmc.msc`) Right click on Group Policy Objects => select New => Type the name of the policy &#8220;Local Admin GPO&#8221;
+2. Next you need to create a group policy called "Local Admin GPO":  Open Group Policy Management Console (`gpmc.msc`) Right click on Group Policy Objects => select New => Type the name of the policy &#8220;Local Admin GPO&#8221;
 
 3. Configure the policy to add the "Local Admin" group as Administrators: Here you will add the Local Admin group to the Local Admin GPO policy and put them in the groups you wish them to use. Right click "Local Admin GPO" Policy then select Edit.  
    - Expand `Computer configuration\Policies\Windows Settings\Security Settings\Restricted Groups` In the Left pane on Restricted Groups, Right Click and select "Add Group"  

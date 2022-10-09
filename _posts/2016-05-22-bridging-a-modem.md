@@ -31,7 +31,7 @@ At some point or another, you may find it necessary to bridge a modem in order t
 
    - Once inside the modem, change it's IP address to match your network but on a different subnet. For example, the router is configured to be on 192.168.1.0, place the modem on 192.168.2.1. This is not neccessary but it helps when troubleshooting in the future.
 
-   - After changing the IP address, look for a &#8220;LAN Subnet&#8221; section. This is the IP's the modem hands out on DHCP. Make sure the subnet matches that of the same subnet your modem's IP address is. For example, if your modem IP is  192.168.0.1, see that it hands out 192.168.0.2-100 or something.
+   - After changing the IP address, look for a &#8220;LAN Subnet&#8221; section. This is the IP's the modem hands out on DHCP. Make sure the subnet matches that of the same subnet your modem's IP address is. For example, if your modem IP is  192.168.0.1, see that it hands out 192.168.0.2-100 or something.
 
    - Ensure that you have internet access. Open up a new tab and browse to a website or bring up a command prompt and start pinging well known WAN tests (i.e. 8.8.8.8 or 8.8.4.4)
 

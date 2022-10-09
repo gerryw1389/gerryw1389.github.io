@@ -18,13 +18,13 @@ Follow these steps to enable a central location for your organization's GPO's.
 
 ### To Resolve:
 
-1. Create a folder called &#8220;PolicyDefinitions&#8221; at `C:\Windows\sysvol\domain\Policies\`
+1. Create a folder called &#8220;PolicyDefinitions&#8221; at `C:\Windows\sysvol\domain\Policies\`
 
 2. Copy everything from `C:\Windows\PolicyDefinitions` to that location.
 
 3. Install ADMX templates to that location => copy all .admx to that locations root, copy your language *.adml to that location under the correct folder (for example en-us)
 
-4. Now if you look at a GPO's settings you should see Policy definitions (ADMX files) retrieved from the central store.
+4. Now if you look at a GPO's settings you should see Policy definitions (ADMX files) retrieved from the central store.
 
 5. Someone on /r/sysadmin was saying something about an error they were having so I'm just copying/pasting the fix here:
 

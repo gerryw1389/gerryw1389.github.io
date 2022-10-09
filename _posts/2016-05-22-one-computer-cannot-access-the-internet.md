@@ -27,7 +27,7 @@ The goal with these situations is to find out if you lost LAN/WAN which means it
 
 2. If it's not cabling, we need to check the network setup:
 
-   - Run => `ncpa.cpl` => Local Area Connection => Right Click => Properties => Internet Protocol Version 4 Properties => Properties => See if it's set to &#8220;Automatically Obtain&#8230;&#8221; DHCP or &#8220;Uses the following&#8230;&#8221; Static. If static, see what the DNS is. Set it this way:
+   - Run => `ncpa.cpl` => Local Area Connection => Right Click => Properties => Internet Protocol Version 4 Properties => Properties => See if it's set to &#8220;Automatically Obtain&#8230;&#8221; DHCP or &#8220;Uses the following&#8230;&#8221; Static. If static, see what the DNS is. Set it this way:
 
    - If the computer is on a domain, set the primary DNS to the DC's IP address and leave the secondary DNS blank.
 

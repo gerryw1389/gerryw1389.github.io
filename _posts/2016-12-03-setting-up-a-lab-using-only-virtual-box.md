@@ -65,7 +65,7 @@ So I have had a home lab on my computer for years at home, but I tasked myself o
    - Go to Firewall => Rules => LAN. Create one called &#8220;Safe' and set it like:
 
    ```escape
-   Source =  LAN Net  
+   Source =  LAN Net  
    Destination Alias - SafeAddresses  
    Allow and log
    ```

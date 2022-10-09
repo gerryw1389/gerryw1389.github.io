@@ -16,7 +16,7 @@ tags:
 
 ### Description:
 
-To add on to my previous post [here](https://automationadmin.com/2016/05/ps-package-managers/), I wanted to find a way to revise my install scripts for faster automation of Windows 10 installs. I know I should be using [WDS with MDT](https://automationadmin.com/2016/05/wds-with-mdt/) and have configured in my homelab, but in the power of self learning => I just wanted to see what I could do with Powershell alone with  the OEM image (I know, bring on the down votes!)
+To add on to my previous post [here](https://automationadmin.com/2016/05/ps-package-managers/), I wanted to find a way to revise my install scripts for faster automation of Windows 10 installs. I know I should be using [WDS with MDT](https://automationadmin.com/2016/05/wds-with-mdt/) and have configured in my homelab, but in the power of self learning => I just wanted to see what I could do with Powershell alone with  the OEM image (I know, bring on the down votes!)
 
 ### To Resolve:
 

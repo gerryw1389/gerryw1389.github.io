@@ -45,11 +45,11 @@ Sometimes, you will be locked out of an account due to not knowing the password,
 
 ### Hirens Boot CD
 
-1. Download the ISO image of Hiren's BootCD from its official website (about 593 MB). Burn the ISO file to your CD (or USB stick) using the freeware ISO2Disc.
+1. Download the ISO image of Hiren's BootCD from its official website (about 593 MB). Burn the ISO file to your CD (or USB stick) using the freeware ISO2Disc.
 
 2. After getting Hiren's BootCD ready, Boot your Windows 10 computer from CD (Change boot order on BIOS to set CD/DVD-ROM as the first boot device). Remember to change UEFI boot with Legacy and disable Secure Boot temporarily in BIOS.
 
-3. You will be prompted with the Hiren's CD Menu, from there select Offline NT/2000/XP/Vista/7 Password Changer and press Enter. Don't use Kon-Boot as it doesn't support Windows 10/8 password bypass.
+3. You will be prompted with the Hiren's CD Menu, from there select Offline NT/2000/XP/Vista/7 Password Changer and press Enter. Don't use Kon-Boot as it doesn't support Windows 10/8 password bypass.
 
 4. Hit Enter when you see the boot prompt.
 
@@ -57,17 +57,17 @@ Sometimes, you will be locked out of an account due to not knowing the password,
 
 6. Now it will ask to confirm the registry path (Windows/System32/config). The default registry path will be correct so just press Enter.
 
-7. We're going to reset forgotten Windows password, so choose the default choice Password reset [sam system security] by pressing Enter.
+7. We're going to reset forgotten Windows password, so choose the default choice Password reset [sam system security] by pressing Enter.
 
-8. Choose the default choice Edit user data and passwords and press Enter again.
+8. Choose the default choice Edit user data and passwords and press Enter again.
 
 9. You will now see the user accounts on you computer. Type the username whose password you want to change and press Enter.
 
    - Type 1 and press Enter. This will clear/remove the password of your selected account.
-   - Now type ! And hit Enter to quit the User Editor menu.
-   - Enter q to exit chntpw Main Interactive Menu and press Enter.
+   - Now type ! And hit Enter to quit the User Editor menu.
+   - Enter q to exit chntpw Main Interactive Menu and press Enter.
 
-10. Important step! Here must type y so it saves your password reset changes!
+10. Important step! Here must type y so it saves your password reset changes!
 
 ### Sticky Keys Trick:
 

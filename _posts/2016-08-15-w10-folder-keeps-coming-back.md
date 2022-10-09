@@ -16,6 +16,6 @@ I had an issue once where I would delete a folder and it kept coming back! It wa
 
 ### To Resolve:
 
-1. Open `%Appdata%\Microsoft\Windows\Libraries`
+1. Open `%Appdata%\Microsoft\Windows\Libraries`
 
-2. Right click the CameraRoll folder properties. Remove the directory. I guess Windows thought that was going to be my go-to folder for pictures or something.
+2. Right click the CameraRoll folder properties. Remove the directory. I guess Windows thought that was going to be my go-to folder for pictures or something.

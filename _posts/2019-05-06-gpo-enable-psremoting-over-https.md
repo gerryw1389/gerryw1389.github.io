@@ -19,7 +19,7 @@ This script will be similar to my regular allow PS remoting script, but this is 
 
 ### To Resolve:
 
-1. First, [go the domain's PDC and edit  the GPOs Firewall](https://automationadmin.com/2019/04/gpo-cannot-edit-setting-in-windows-firewall-with-advanced-security/) rule:
+1. First, [go the domain's PDC and edit  the GPOs Firewall](https://automationadmin.com/2019/04/gpo-cannot-edit-setting-in-windows-firewall-with-advanced-security/) rule:
 
    - `Computer Configuration\Policies\Windows Settings\Security Settings\Windows Firewall with Advanced Security`
    - Inbound Rules => Allow 5986 => specify IP addresses
@@ -36,7 +36,7 @@ This script will be similar to my regular allow PS remoting script, but this is 
    - `Computer Configuration\Policies\Windows Settings\Security Settings\Administrative Templates\Windows Components/Windows Remote Shell`  
    - Allow Remote Shell Access => Enabled
 
-4. Finally,  set the service to startup automatically
+4. Finally,  set the service to startup automatically
 
    - `Computer Configuration\Preferences\Control Panel\Services\`  
    - WinRM => Set to automatic startup

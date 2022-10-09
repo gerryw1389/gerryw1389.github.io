@@ -27,7 +27,7 @@ Over the years I have bounced around different organizers such as TreeNotesDB, O
 
    Rich Text:  
    Custom Background => #CCFFCC and #0B0909  
-   2017-08-21: Changed to #0BAF0B => green / #2A2828 => grey and #06FAED for links  
+   2017-08-21: Changed to #0BAF0B => green / #2A2828 => grey and #06FAED for links  
    Miscellaneous = Uncheck show white spaces and highlight current line
 
    Plain Text and Code:  

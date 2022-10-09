@@ -16,7 +16,7 @@ So I have been getting a lot of Outlook credential issues lately so I thought I 
 
 ### To Resolve:
 
-1. To launch from a run command: control /name microsoft.credentialmanager
+1. To launch from a run command: control /name microsoft.credentialmanager
 
 2. To Clear Completely:
 

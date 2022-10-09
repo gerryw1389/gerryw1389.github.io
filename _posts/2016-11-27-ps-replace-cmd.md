@@ -39,7 +39,7 @@ As Microsoft moves forward with Powershell (has it already been out for 10 years
    cmd /c "net user administrator /active:no"
    ```
 
-3. Use the Stop-Parsing symbol `--%` so that Powershell won't parse symbols such as parenthesis and brackets: Ex: `icacls c:\logs\* /grant Administrator:(D,WDAC)` will fail in PowerShell. `icacls --% c:\logs\* /grant Administrator:(D,WDAC)` will work
+3. Use the Stop-Parsing symbol `--%` so that Powershell won't parse symbols such as parenthesis and brackets: Ex: `icacls c:\logs\* /grant Administrator:(D,WDAC)` will fail in PowerShell. `icacls --% c:\logs\* /grant Administrator:(D,WDAC)` will work
 
 4. Lastly for Windows 10 users, make sure to replace CMD with Powershell by going to Settings => Taskbar => Replace CMD with Powershell. This will only give Powershell options with the Win+X menu.
 

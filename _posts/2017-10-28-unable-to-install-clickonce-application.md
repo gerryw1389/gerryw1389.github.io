@@ -20,6 +20,6 @@ The user will be trying to install a ClickOnce Application and will be getting a
 
 ### To Resolve:
 
-1. `Regedit` => `HKLM\SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager‌​\PromptingLevel\Inte‌​rnet` => Set to `Enabled`
+1. `Regedit` => `HKLM\SOFTWARE\MICROSOFT\.NETFramework\Security\TrustManager‌​\PromptingLevel\Inte‌​rnet` => Set to `Enabled`
 
 2. This is caused by the [Click Once Trust Prompt Behavior](https://msdn.microsoft.com/en-us/library/ee308453.aspx)

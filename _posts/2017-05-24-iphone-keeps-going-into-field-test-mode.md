@@ -16,7 +16,7 @@ Follow these steps if you have an iPhone that keeps going into &#8220;field test
 
 ### To Resolve:
 
-1. Open notes and type: `*3001#12345#*`
+1. Open notes and type: `*3001#12345#*`
 
 2. Copy it and paste it into the Dial Pad to call it.
 

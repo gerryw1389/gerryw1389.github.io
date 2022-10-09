@@ -77,7 +77,7 @@ So, the last time I moved some folders around between my drives I setup a new Pl
 
 7. It would be better to create a credentials file and put that in your home directory and access it that way:
 
-   - From [https://wiki.ubuntu.com/MountWindowsSharesPermanently](https://wiki.ubuntu.com/MountWindowsSharesPermanently)
+   - From [https://wiki.ubuntu.com/MountWindowsSharesPermanently](https://wiki.ubuntu.com/MountWindowsSharesPermanently)
 
    ```escape
    The quickest way to auto-mounting a password-protected share is to edit /etc/fstab (with root privileges), to add this line:

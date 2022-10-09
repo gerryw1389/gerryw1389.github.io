@@ -18,7 +18,7 @@ Had an issue the other day where a user wasn't able to remote into our servers b
 
 1. Have the user create a .rdp configuration to the destination computer on the domain.
 
-2. Include the following property (open using notepad => add to last line):
+2. Include the following property (open using notepad => add to last line):
 
    ```powershell
    enablecredsspsupport:i:0

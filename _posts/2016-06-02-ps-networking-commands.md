@@ -287,7 +287,7 @@ I still mainly use CMD commands for these, but this is a list of networking rela
    - IPCONFIG/RELEASE and IPCONFIG /RENEW => I would place in a function like:
 
    ```powershell
-   $DHCPAdapters = Get-WmiObject –Class Win32_NetworkAdapterConfiguration | Where { $_.IpEnabled -eq $true -and $_.DhcpEnabled -eq $true } 
+   $DHCPAdapters = Get-WmiObject –Class Win32_NetworkAdapterConfiguration | Where { $_.IpEnabled -eq $true -and $_.DhcpEnabled -eq $true } 
    foreach ($DHCP in $DHCPAdapters)
    {
    $DHCP.ReleaseDHCPLease() | Out-Null

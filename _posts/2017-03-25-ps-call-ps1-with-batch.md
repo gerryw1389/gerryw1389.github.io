@@ -42,7 +42,7 @@ I almost never run Powershell script directly. Instead I usually create a batch 
    - Place all your PS Scripts in there with batch files with the exact same file name (or just edit the file to hard code the file name, meh) in the above directory.
    - Create a scheduled task:
      - User is System, Run with Highest Privileges checked
-     - Schedule: Usually Daily 12:10 AM, Repeat every 10 minutes for one day for constant scripts or just daily/weekly for regular scripts.
+     - Schedule: Usually Daily 12:10 AM, Repeat every 10 minutes for one day for constant scripts or just daily/weekly for regular scripts.
      - Actions: Point to the batch file: C:\scripts\powercheck.bat (for example) and start-in = C:\scripts\
      - That's it, scripts will run reliably over and over. Never had issues with Scheduled Tasks or running any scripts&#8230;.
 

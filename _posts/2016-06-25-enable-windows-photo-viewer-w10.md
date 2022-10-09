@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-The biggest issue I have faced with end users moving to Windows 10 is the fact that it butchers most common file extensions. It does this by replacing programs you are used to using with certain file types with their crappy versions. I personally use [XNView](http://www.xnview.com/en/xnview/) for photo  viewing, but a number of my users like to use the Windows Photo Viewer.
+The biggest issue I have faced with end users moving to Windows 10 is the fact that it butchers most common file extensions. It does this by replacing programs you are used to using with certain file types with their crappy versions. I personally use [XNView](http://www.xnview.com/en/xnview/) for photo  viewing, but a number of my users like to use the Windows Photo Viewer.
 
 First, right click a .jpg and see if you can "open with" Windows Photo Viewer. If it doesn't show up in the list, then run the following reg import and then try again:
 

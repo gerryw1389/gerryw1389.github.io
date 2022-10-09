@@ -46,7 +46,7 @@ I used the following guide in learning how to setup Powershell with HTML reporti
 
    ```powershell
    $Header = @"
-   Title of my Report 
+   Title of my Report 
    "@
    $Pre = "Header"
    $Post = "Footer"
@@ -70,9 +70,9 @@ I used the following guide in learning how to setup Powershell with HTML reporti
    }
    $Myobject = Get-Service
    $Header = @"
-    
+    
    Title Of My Report
-    
+    
    "@
    $Pre = "Header"
    $Post = "Footer"

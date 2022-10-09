@@ -34,7 +34,7 @@ or
 
 ### Passion:
 
-Added recently because over the years I have met a couple professionals that work in IT because "it's just means to an end" or "to collect a paycheck". The problem with individuals like this is they need to have passion or they will get left behind. "So what do you mean by passion?" you may ask. Well, there's a difference between going to school and getting and IT degree and just "going through the motions" compared to those who want to find out "how does this work underneath?". For example, if you look at my [tweaks tag](https://automationadmin.com/tags/#tweaks) and [setup tag](https://automationadmin.com/tags/#setup) on this site, you will see that what I'm usually doing is:
+Added recently because over the years I have met a couple professionals that work in IT because "it's just means to an end" or "to collect a paycheck". The problem with individuals like this is they need to have passion or they will get left behind. "So what do you mean by passion?" you may ask. Well, there's a difference between going to school and getting and IT degree and just "going through the motions" compared to those who want to find out "how does this work underneath?". For example, if you look at my [tweaks tag](https://automationadmin.com/tags/#tweaks) and [setup tag](https://automationadmin.com/tags/#setup) on this site, you will see that what I'm usually doing is:
 
   1. Installing something as it is intended to be installed.
   2. Finding out how I would create the program if I were to be the distributor or creator by looking at how it works underneath.

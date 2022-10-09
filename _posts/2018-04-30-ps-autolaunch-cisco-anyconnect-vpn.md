@@ -71,7 +71,7 @@ DISCLAIMER: This was abandoned because we want to go the official route using Ci
    }
    ```
 
-   - This is to be ran once, it just saves the username and password to a file in c:\scripts\start-vpn\public\ called &#8220;info.dat&#8221;. I know, not secure, but this is just testing. We will eventually need to find a way to store in Credential Manager or encrypt somehow.
+   - This is to be ran once, it just saves the username and password to a file in c:\scripts\start-vpn\public\ called &#8220;info.dat&#8221;. I know, not secure, but this is just testing. We will eventually need to find a way to store in Credential Manager or encrypt somehow.
 
 4. Now populate &#8220;create-sched.ps1&#8221;:
 

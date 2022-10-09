@@ -121,7 +121,7 @@ Before you do anything, you need to construct a closed network. I used VMware wo
 
 ### Someone Added:  
 
-1. Deploy a Hyper-V host.  Create some redundant domain controller guest VMs, create a domain, and test failover of your domain controllers.
+1. Deploy a Hyper-V host.  Create some redundant domain controller guest VMs, create a domain, and test failover of your domain controllers.
 
 2. Create Active Directory Enterprise CA
 

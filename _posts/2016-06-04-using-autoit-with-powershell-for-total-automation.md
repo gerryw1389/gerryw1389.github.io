@@ -18,7 +18,7 @@ categories:
 
 2. It's super easy to convert a script into an executable. Right click => compile. When combined with a powershell script converted to an exe, it outputs a single encrypted exe that you can then push to clients for a quick PS script without messing with anything.
 
-   - I decided to test it using my [uninstall/reinstall custom ClickOnce application powershell script](https://automationadmin.com/2016/12/ps-clickonce-app-uninstall-reinstall/)
+   - I decided to test it using my [uninstall/reinstall custom ClickOnce application powershell script](https://automationadmin.com/2016/12/ps-clickonce-app-uninstall-reinstall/)
 
 ### To Resolve:
 

@@ -18,4 +18,4 @@ If you ever want to convert a script to an executable, there is a script for tha
 
 ### To Resolve:
 
-1. All credit goes to [Ingo Karstein](http://blog.karstein-consulting.com) => [PS2EXE](https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-Convert-PowerShell-9e4e07f1)
+1. All credit goes to [Ingo Karstein](http://blog.karstein-consulting.com) => [PS2EXE](https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-Convert-PowerShell-9e4e07f1)

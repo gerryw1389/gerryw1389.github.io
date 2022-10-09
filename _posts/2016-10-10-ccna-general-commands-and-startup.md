@@ -72,7 +72,7 @@ troubleshooting commands: ping, show ip route, show interfaces
    show ip cef
    show ip cef detail
    show Processes
-   show Processes memory
+   show Processes memory
    show memory
    show privilege # privileges go from 0-15 with 15 being "root"
    show mac-address-table # shows mac table

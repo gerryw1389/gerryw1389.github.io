@@ -107,4 +107,4 @@ Let's say you need to attach a second disk to a linux VM with LVM setup, this is
 
 1. reboot
 
-2. After reboot, run `df -h`  you should see the filesystem!
+2. After reboot, run `df -h`  you should see the filesystem!

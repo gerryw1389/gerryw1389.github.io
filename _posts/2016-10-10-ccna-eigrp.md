@@ -141,7 +141,7 @@ If there is a FS that doesn't make the cut, it will still be used – just not r
 
 DV (Distance Vector) protocol loop prevention:  
 Maximum distance => Hop limits  
-Route poisoning =>  a method that prevents a certain network from sending data packets to a path destination that has already became invalid.  
+Route poisoning =>  a method that prevents a certain network from sending data packets to a path destination that has already became invalid.  
 Triggered updates => Don't have to wait to send an update  
 Split horizon => Cannot send messages on interface that received them.  
 Hold down timers => Have to wait a certain time before a route can come back up.
