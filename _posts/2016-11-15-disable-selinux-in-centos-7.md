@@ -23,20 +23,20 @@ NOTE: I have had to do this because it was stopping me from making changes to my
 
 1. Type:
 
-```shell
-sudo vim /etc/selinux/config
+   ```shell
+   sudo vim /etc/selinux/config
 
-# Set it from:
-SELINUX=enforcing 
+   # Set it from:
+   SELINUX=enforcing 
 
-# To 
-SELINUX=disabled
+   # To 
+   SELINUX=disabled
 
-# Reboot
+   # Reboot
 
-# After reboot, run 
-getenforce
+   # After reboot, run 
+   getenforce
 
-# Ensure it comes back with:
-disabled
-```
+   # Ensure it comes back with:
+   disabled
+   ```

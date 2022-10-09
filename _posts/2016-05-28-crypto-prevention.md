@@ -148,7 +148,7 @@ In light of all the crypto viruses going around, I found this great guide on Red
    Select from dropdown: "1-PreventCrypto"
    ```
 
-   - File Server Resource Manager (Local) => right-click: Configure options&#8230;
+   - File Server Resource Manager (Local) => right-click: Configure options
 
    ```escape
    -Email Notifications tab  
@@ -173,7 +173,7 @@ In light of all the crypto viruses going around, I found this great guide on Red
    - Use an anti-virus product and/or Malwarebytes on end-user workstations, ensure it is updating
 
 4. Cleanup procedure
-   - Either you received an email from FSRM with the details, or you suddenly realized all server shares are missing&#8230;
+   - Either you received an email from FSRM with the details, or you suddenly realized all server shares are missing
    - On the server which detected the bad files go to Event Viewer > Windows Logs > Application  
    - Look for a Warning entry from SRMSVC as the source, the General box contains the details of the username and filename which triggered the shares to be removed
    - Unplug the offending user's machine from the network

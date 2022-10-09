@@ -150,7 +150,7 @@ So I needed an excuse to follow the `Rocky verus Alma` debate that has been goin
    - First, to view containers that are running, run: `docker ps`
    - To see all containers regardless of status: `docker ps -a`. This is important because you CANNOT reuse a container name or image name so you have to delete container or image if you want to use them again.
    - The longer way to view containers: `docker container ls`
-   - To delete a container: `docker rm 4743b12994cb --force`. Note: In this case `4743b12994cb` was the container id and I used `--force` because the container was running. If you stop it first you should be able to delete cleanly. You can also pass in the container name.
+   - To delete a container: `docker rm 4743b12994cb --force`. In this case `4743b12994cb` was the container id and I used `--force` because the container was running. If you stop it first you should be able to delete cleanly. You can also pass in the container name.
    - To stop a container: `docker stop myapp2-running`. You can use `start` and `restart` as well.
    - Apparently, the previous commands are shorter ways of writing out `docker container rm` or `docker container stop` or `docker container $subcommand`
 

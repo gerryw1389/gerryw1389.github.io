@@ -18,6 +18,7 @@ tags:
 This is a quick user backup solution for users on a domain. We needed to setup a backup for users over the network that would backup their documents, favorites, and desktop.
 
 NOTE: We only have like 80 users on our domain so YMMV. If you have a large user base this is not suggested.
+{: .notice--success}
 
 ### 
 

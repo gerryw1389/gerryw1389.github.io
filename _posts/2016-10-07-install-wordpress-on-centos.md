@@ -56,9 +56,12 @@ This assumes you have already followed the steps in [Setting Up LAMP On CentOS](
    define('DB_PASSWORD', 'password');
    ```
 
-3. Now open up a browser and go to: `http://serverDomainNameOrIpAddress` # NOTE: mine wouldn't start so I rebooted the server, then it worked!
+3. Now open up a browser and go to: `http://serverDomainNameOrIpAddress` 
 
-4. Now get WordPress to start on startup:
+   - NOTE: mine wouldn't start so I rebooted the server, then it worked!
+   {: .notice--success}
+
+5. Now get WordPress to start on startup:
 
    ```shell
    # Find your firewall zone for your nic
@@ -68,11 +71,11 @@ This assumes you have already followed the steps in [Setting Up LAMP On CentOS](
    firewall-cmd --zone=public --add-port=80/tcp --permanent
    ```
 
-5. Now setup DDNS following my guide at [Setting Up DDNS For Your Home](https://automationadmin.com/2016/10/setting-up-ddns-for-home/).
+6. Now setup DDNS following my guide at [Setting Up DDNS For Your Home](https://automationadmin.com/2016/10/setting-up-ddns-for-home/).
 
-6. Forward the ports in your router which is described in the same post. Done!
+7. Forward the ports in your router which is described in the same post. Done!
 
-7. If you ever want to uninstall WordPress, just do the following:
+8. If you ever want to uninstall WordPress, just do the following:
 
    ```shell
    # Delete everything under /var/www/html. NOTE: I'm a Powershell guy so I really wish there was a -whatif switch for this. Instead I just echo the command first to check the dirs and then delete them.

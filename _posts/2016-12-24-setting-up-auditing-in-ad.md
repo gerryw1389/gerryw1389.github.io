@@ -16,7 +16,10 @@ tags:
 
 ### Description:
 
-So the other day, I was going through the Event Viewer on one of our domain controllers and noticed that we haven't setup Auditing up. Yelp! Follow this post to setup auditing in your environment. NOTE: All of our servers are Server2012r2.
+So the other day, I was going through the Event Viewer on one of our domain controllers and noticed that we haven't setup Auditing up. Yelp! Follow this post to setup auditing in your environment. 
+
+NOTE: All of our servers are Server2012r2.
+{: .notice--success}
 
 ### To Resolve:
 

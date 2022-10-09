@@ -53,7 +53,7 @@ In this guide, we will be able to get better ideas of alerts because my organiza
    | project LocalTimestamp , RunbookName_s , ResultType 
    ```
 
-   - NOTE: Change the `5h` to whatever time zone you are in, for me it is Central Time
+   - Change the `5h` to whatever time zone you are in, for me it is Central Time
    - Alert Logic: `Number of results`, `greater than`, `0`
    - Evaluation based on: Period in minutes `5`, Frequency in minutes `5`
    - Action Groups: 'email_automation_team'
@@ -74,7 +74,7 @@ In this guide, we will be able to get better ideas of alerts because my organiza
    | project LocalTimestamp , RunbookName_s ,  StreamType_s , ResultDescription
    ```
 
-   - NOTE: Change the `5h` to whatever time zone you are in, for me it is Central Time
+   - Change the `5h` to whatever time zone you are in, for me it is Central Time
    - Alert Logic: `Number of results`, `greater than`, `0`
    - Evaluation based on: Period in minutes `5`, Frequency in minutes `5`
    - Action Groups: 'email_automation_team'

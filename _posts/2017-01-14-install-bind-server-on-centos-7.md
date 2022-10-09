@@ -13,11 +13,14 @@ categories:
 
 ### Description:
 
-Follow these steps to configure a Centos7 box as a DNS server. NOTE: Make sure not to overlook the periods &#8220;.&#8221; at the end of your host names!
+Follow these steps to configure a Centos7 box as a DNS server. 
+
+Make sure not to overlook the periods `.` at the end of your host names!
+{: .notice--danger}
 
 ### To Resolve:
 
-1. Open up a terminal and type: sudo yum install bind bind-utils #NOTE: Bind is now installed and it process is known as &#8220;named&#8221;
+1. Open up a terminal and type: `sudo yum install bind bind-utils`. Bind is now installed and it process is known as `named`
 
 2. First we add our trusted hosts:
 
@@ -131,7 +134,7 @@ Follow these steps to configure a Centos7 box as a DNS server. NOTE: Make sure n
    sudo named-checkconf
    ```
 
-   - I failed mine. I had to place &#8220;/named&#8221; in my &#8220;include &#8220;/etc/named/named.conf.local&#8221;;&#8221; statement from step 2. My brain saw /named/named and just reduced it haha.
+   - I failed mine. I had to place `/named` in my `include "/etc/named/named.conf.local";` statement from step 2. My brain saw /named/named and just reduced it haha.
 
 8. Now we check our forward zone config:
 

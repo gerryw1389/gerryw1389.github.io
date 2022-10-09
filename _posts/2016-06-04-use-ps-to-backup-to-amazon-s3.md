@@ -22,7 +22,7 @@ NOTE: These steps require you download and install [PSCX](https://pscx.codeplex.
 
 ### To Resolve:
 
-1. In the SFTP VM: Copy and paste this into Powershell ISE (or Notepad and save as .ps1). Save to &#8220;C:\Scripts&#8221; (substitute your information below):
+1. In the SFTP VM: Copy and paste this into Powershell ISE (or Notepad and save as .ps1). Save to `C:\Scripts` (substitute your information below):
 
    ```powershell
    # Step 1: Import Modules
@@ -52,7 +52,7 @@ NOTE: These steps require you download and install [PSCX](https://pscx.codeplex.
 
 3. Go to [IAM](https://console.aws.amazon.com/iam/). From there go to Groups => Name: Administrators => Policies: Administrator Access => Finish.
 
-4. Now go to Users => name: (AdminAccountName) => Download credentials. Make sure to add that user to the Administrators group and assign the admin password via &#8220;Manage Password&#8221;.
+4. Now go to Users => name: (AdminAccountName) => Download credentials. Make sure to add that user to the Administrators group and assign the admin password via `Manage Password`.
 
 5. Now that the account is setup, we can run the script in step 1.
 

@@ -14,9 +14,12 @@ tags:
 
 ### Description:
 
-While creating VMs in Virtual Box is an easy task, Windows will want their money for each install you do. Follow these steps to bypass activation for VMs NOT TO BE USED IN PRODUCTION.
+While creating VMs in Virtual Box is an easy task, Windows will want their money for each install you do.
 
-Disclaimer: I will use the same one in the article&#8230; Please do not use this for your production environment, separate windows licenses must be purchased on production usage. This is only for the local test environment and temporary usage.
+Follow these steps to bypass activation for VMs NOT TO BE USED IN PRODUCTION.
+{: .notice--danger}
+
+Disclaimer: I will use the same one in the article. Please do not use this for your production environment, separate windows licenses must be purchased on production usage. This is only for the local test environment and temporary usage.
 
 ### To Resolve:
 
@@ -36,4 +39,4 @@ Disclaimer: I will use the same one in the article&#8230; Please do not use this
 
 ### References:
 
-["Practical Programming and Architecture "](http://luchen1021.blogspot.com/2011/12/create-cloneable-virtualbox-vm-without.html)
+["Practical Programming and Architecture"](http://luchen1021.blogspot.com/2011/12/create-cloneable-virtualbox-vm-without.html)

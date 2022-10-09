@@ -15,17 +15,17 @@ tags:
 
 ### Description:
 
-In an Active Directory environment, create a script similiar to this to backup user's desktop and &#8220;My Documents&#8221; folders:
+In an Active Directory environment, create a script similiar to this to backup user's desktop and `My Documents` folders:
 
 Logon and Logoff Scripts will need to be in the following folders:
 
-   - C:\Windows\System32\GroupPolicy\UserScripts\Logoff  
-   - C:\Windows\System32\GroupPolicy\UserScripts\Logon
+   - `C:\Windows\System32\GroupPolicy\UserScripts\Logoff` 
+   - `C:\Windows\System32\GroupPolicy\UserScripts\Logon`
 
 While Startup and Shutdown Scripts will need to be in these folders:
 
-   - C:\Windows\System32\GroupPolicy\MachineScripts\Shutdown  
-   - C:\Windows\System32\GroupPolicy\MachineScripts\Startup
+   - `C:\Windows\System32\GroupPolicy\MachineScripts\Shutdown` 
+   - `C:\Windows\System32\GroupPolicy\MachineScripts\Startup`
 
 ### To Resolve:
 
@@ -63,18 +63,18 @@ While Startup and Shutdown Scripts will need to be in these folders:
    robocopy C:\Users\%username%\Pictures \\fileserver\userbackups\Backups\%username%\Pictures /mir /z /e /R:10 /W:10 /mt:4
    ```
 
-   Since I do not use those folders, but my own personal folder, I just created a batch file and a &#8220;simple task&#8221; in `taskschd.msc`:
+   - Since I do not use those folders, but my own personal folder, I just created a batch file and a &#8220;simple task&#8221; in `taskschd.msc`:
 
    ```escape
    cd c:\windows\system32  
    robocopy C:\_gwill Z:\Backups\gerry.williams\_gwill /mir /z /e /R:10 /W:10 /mt:4
    ```
 
-   I set it to run every day at 5 am.
+   - I set it to run every day at 5 am.
+
+8. I'm looking into something like [this](https://blogs.technet.microsoft.com/heyscriptingguy/2012/02/23/use-powershell-to-back-up-modified-files-to-the-network) instead 
 
 ### References:
 
 ["How do I map user accounts and directories to a server or NAS?"](http://superuser.com/questions/730494/how-do-i-map-user-accounts-and-directories-to-a-server-or-nas)  
-["Setting up a Logon Script through GPO in Windows Server 2008"](https://www.petri.com/setting-up-logon-script-through-gpo-windows-server-2008)  
-
-Note: I'm looking into something like [this](https://blogs.technet.microsoft.com/heyscriptingguy/2012/02/23/use-powershell-to-back-up-modified-files-to-the-network) instead  
+["Setting up a Logon Script through GPO in Windows Server 2008"](https://www.petri.com/setting-up-logon-script-through-gpo-windows-server-2008)

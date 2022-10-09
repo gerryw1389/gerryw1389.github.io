@@ -17,7 +17,8 @@ tags:
 
 These commands have to do with the filesystem, services, ext:
 
-NOTE: Almost all command prompt commands work just as well in Powershell. Search the &#8220;batch&#8221; label to see examples of them.
+NOTE: Almost all command prompt commands work just as well in Powershell. Search the [Scripting-CMD](https://automationadmin.com/tags/#scripting-cmd) label to see examples of them.
+{: .notice--success}
 
 #### To Create A Text File of All Files Older Than 6 Months Old:
 
@@ -97,7 +98,7 @@ NOTE: Almost all command prompt commands work just as well in Powershell. Search
    Get-Process | Where Handles -Gt 900 | Sort Handles -Descending
    ```
 
-#### To Get A List of All Critical Events From A Group of Computers Listed At &#8220;Servers.Txt&#8221;:  
+#### To Get A List of All Critical Events From A Group of Computers Listed At `Servers.Txt`:  
    - NOTE: You must have enabled remoting on these computers for this to work.
 
    ```powershell
@@ -110,7 +111,7 @@ NOTE: Almost all command prompt commands work just as well in Powershell. Search
    Get-Eventlog -Log System –Newest 1000 | Where-Object {$_.Eventid –Eq '1074'} | Format-Table Machinename, Username, Timegenerated –Autosize
    ```
 
-#### To Get Free Disk Space For Drive &#8220;C:&#8221;:
+#### To Get Free Disk Space For Drive `C:`:
 
    ```powershell
    Get-Ciminstance Win32_Logicaldisk -Filter "Deviceid='C:'" | Select @{N='Freegb' ; E={$_.Freespace / 1gb -As [Int]}}
@@ -154,10 +155,10 @@ NOTE: Almost all command prompt commands work just as well in Powershell. Search
    Get-Wmiobject -Class Win32_Operatingsystem -Namespace Rootcimv2 -Computer (Computername)| Select __Server,@{Label='Lastbootuptime';Expression={$_.Converttodatetime($_.Lastbootuptime)} }
    ```
 
-#### To Get The Last Boot Time For A Remote Computer AND Change ColumnName __SERVER To &#8220;Computer Name&#8221; AND Export To A CSV:
+#### To Get The Last Boot Time For A Remote Computer AND Change ColumnName __SERVER To ComputerName AND Export To A CSV:
 
    ```powershell
-   Get-Wmiobject -Class Win32_Operatingsystem -Namespace Rootcimv2 -Computer (Computername) | Select @{Label='Computername' ;E={$_.__Server}},@{Label='Lastbootuptime' ;Expression={$_.Converttodatetime($_.Lastbootuptime)} } | Export-Csv Lastboottime.Csv
+   Get-Wmiobject -Class Win32_Operatingsystem -Namespace Rootcimv2 -Computer (Computername) | Select @{Label='ComputerName' ;E={$_.__Server}},@{Label='Lastbootuptime' ;Expression={$_.Converttodatetime($_.Lastbootuptime)} } | Export-Csv Lastboottime.Csv
    ```
 
 ### File System:

@@ -193,5 +193,3 @@ This post will be following [Ben's post](https://ben.neise.co.uk/2016/09/05/vro-
 7. After it was all said and done, this is what it looks like in the logs:
 
    - ![fact](https://automationadmin.com/assets/images/uploads/2019/12/fact.jpg){:class="img-responsive"}
-
-   - Note: I will continue this post with a workflow with parameters at a later date.

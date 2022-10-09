@@ -50,7 +50,7 @@ These commands are for general switching and creating ports in a Cisco router/sw
 
 #### To create an access port: 
 
-   - NOTE: All ports should be access ports by default, we still configure them to make sure. Switch to switch or switch to router should be trunk ports.
+   - All ports should be access ports by default, we still configure them to make sure. Switch to switch or switch to router should be trunk ports.
 
    ```tcl
    Switch(config)#interface f0/5

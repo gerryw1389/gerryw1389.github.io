@@ -16,7 +16,10 @@ tags:
 ### Description:
 
 So in the past I wrote about a way to call PS1 files with Batch files to `bypass Executionpolicy` and run scripts as admin, if you have not seen that post => it is [here](https://automationadmin.com/2017/03/ps-call-ps1-with-batch/). What this script does is create a batch file for each of my script automatically.  
-This script works great if you have a module, but you want to run each of your scripts in your `public` folder one by one for whatever reason. One major note about using this script though is you will have to `MANUALLY UNCOMMENT THE FUNCTION CALL AT THE END OF EACH SCRIPT`.
+This script works great if you have a module, but you want to run each of your scripts in your `public` folder one by one for whatever reason. 
+
+One major note about using this script though is you will have to `MANUALLY UNCOMMENT THE FUNCTION CALL AT THE END OF EACH SCRIPT`.
+{: .notice--danger}
 
 So the use case would be something like this:
 

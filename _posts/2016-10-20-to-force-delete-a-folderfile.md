@@ -26,40 +26,40 @@ I don't know why this keeps coming up, but I have the hardest time deleting file
 
    ```powershell
    rmdir (foldername) /s 
-   :: Gives error
+   # Gives error
 
    del *.* 
-   :: Gives error
+   # Gives error
 
    takeown /f (foldername) /r /d y 
-   :: Gives error
+   # Gives error
    ```
 
 3. Since those don't work, lets try doing it running as NTAUTHORITY\SYSTEM: type
 
    ```powershell
-   :: NOTE: This assumes you have PSTools installed and added to your PATH variable.
+   # NOTE: This assumes you have PSTools installed and added to your PATH variable.
    psexec -sid cmd.exe
 
    whoami 
-   :: Should return system
-   :: Try step 2 again, still no go
+   # Should return system
+   # Try step 2 again, still no go
    ```
 
    - You used to be able to run:
 
    ```powershell
    at 11:10 /interactive cmd.exe
-   :: Where 11:10 is the current time (HH:MM 24 hour) plus 1 minute.
-   :: The /interactive switch has been depreciated though.
+   # Where 11:10 is the current time (HH:MM 24 hour) plus 1 minute.
+   # The /interactive switch has been depreciated though.
    ```
 
 
 4. Right click each file with the Unlocker windows explorer extension => Delete on next reboot. This works!
 
-5. If you have a &#8220;path too long&#8221; error, just type:
+5. If you have a `path too long` error, just type:
 
    ```powershell
    robocopy c:\empty C:\deleteme /purge
-   :: NOTE: This will delete that folder (c:\deleteme) and all subfolders for you!
+   # NOTE: This will delete that folder (c:\deleteme) and all subfolders for you!
    ```

@@ -33,6 +33,7 @@ Follow this basic tutorial to setup an Azure Function with Github as the source 
    - requirements.psd1
 
    - Note: Make sure `my-http-function`, `host.json`, `profile.ps1`, and `requirements.psd1` are at the root of your repo or the next steps will fail!
+   {: .notice--danger}
 
 3. In azure: Create app service plan - Create app 'my-function-app' - Add function 'httptrigger1' and it will include some default powershell in `run.ps1`.
 

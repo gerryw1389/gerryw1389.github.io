@@ -98,7 +98,7 @@ This is the format I use for using Powershell to edit registry entries.
    }
    ```
 
-   - NOTE: Here is a combination of each of them (set a value if it doesn't exist by testing it first):
+   - Here is a combination of each of them (set a value if it doesn't exist by testing it first):
 
    ```powershell
    Filter Timestamp

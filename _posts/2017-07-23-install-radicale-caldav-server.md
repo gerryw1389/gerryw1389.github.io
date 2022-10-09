@@ -19,7 +19,7 @@ So like many of my peers, I'm trying to move to [self-hosting](https://github.co
 
 ### To Resolve:
 
-1. If you haven't already, create a CentOS 7 VM that you use as a &#8220;base&#8221; image that you can clone. I have one with MATE installed that I spin up every now and then to run updates. We will start by making a clone and logging in.
+1. If you haven't already, create a CentOS 7 VM that you use as a base image that you can clone. I have one with MATE installed that I spin up every now and then to run updates. We will start by making a clone and logging in.
 
 2. The first thing we need to do is setup a python environment, I used [this](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-centos-7) guide:
 
@@ -92,7 +92,7 @@ So like many of my peers, I'm trying to move to [self-hosting](https://github.co
    # Save and exit - Now Radicale requires a password!
    ```
 
-5. Now you can run Radicale by just typing &#8220;radicale&#8221;. The website has a way to set it up as a service using systemd, but I couldn't get it to work because I'm a newb with linux. Instead, I just set it as a startup application using MATE's Startup Applications as &#8220;/usr/bin/radicale&#8221;. Only downside is I will have to login after each reboot. I'm sure I will create a cron for this later o_O
+5. Now you can run Radicale by just typing `radicale`. The website has a way to set it up as a service using systemd, but I couldn't get it to work because I'm a newb with linux. Instead, I just set it as a startup application using MATE's Startup Applications as `/usr/bin/radicale`. Only downside is I will have to login after each reboot. I'm sure I will create a cron for this later o_O
 
 6. Next step is to import your google calendar. Download it via the web and then edit it with Notepad++. We need to remove the UID's that Google uses or Radicale won't import properly. This is the error you will get: `Muliple VEVENT components with different UIDs in object: "p64bb8045e8sdfskv90ean9gesi6vggoogle.com", "o1vl26smvm4vdfs7oed9h155kb598google.com"` or something to that effect.
 
@@ -106,9 +106,9 @@ So like many of my peers, I'm trying to move to [self-hosting](https://github.co
 
 7. Now we just import it to your radicale profile:
 
-   - Copy your .ics to file to /home/gerry/.var/lib/radicale/collections/calendar.ics => it will start to create multiple events => that's okay.
+   - Copy your .ics to file to `/home/gerry/.var/lib/radicale/collections/calendar.ics` => it will start to create multiple events => that's okay.
 
-8. Now would be the time to open port on router and forward to your new CalDAV server if you want to access it out of your home. Make sure to create a firewall rule to allow port 5232 open on your CentOS vm.
+8. Now would be the time to open port on router and forward to your new CalDAV server if you want to access it out of your home. Make sure to create a firewall rule to `allow port 5232` open on your CentOS vm.
 
 9. Once you have your login info, login and copy the URL to your server, it should end in a random GUID.
 

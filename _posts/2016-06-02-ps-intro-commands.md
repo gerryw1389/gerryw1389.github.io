@@ -17,20 +17,21 @@ tags:
 
 These are entry level Powershell Commands and how the language works:
 
-NOTE: Almost all command prompt commands work just as well in Powershell. Search the &#8220;batch&#8221; label to see examples of them.
+NOTE: Almost all command prompt commands work just as well in Powershell. Search the [Scripting-CMD](https://automationadmin.com/tags/#scripting-cmd) label to see examples of them.
+{: .notice--success}
 
 ### Syntax
 
-1. Cmdlets are small scripts that follow a dash-separated verb-noun convention such as &#8220;Get-Process&#8221;. Similar Verbs with Different Actions:
+1. Cmdlets are small scripts that follow a dash-separated verb-noun convention such as `Get-Process`. Similar Verbs with Different Actions:
 
    - New- Creates a new resource  
-   - Set- Modifies an existing resource  
-   - Get- Retrieves an existing resource  
-   - Read- Gets information from a source, such as a file  
-   - Find- Used to look for an object  
-   - Search- Used to create a reference to a resource  
-   - Start- (asynchronous) begin an operation, such as starting a process  
-   - Invoke- (synchronous) perform an operation such as running a command
+   - Set- Modifies an existing resource  
+   - Get- Retrieves an existing resource  
+   - Read- Gets information from a source, such as a file  
+   - Find- Used to look for an object  
+   - Search- Used to create a reference to a resource  
+   - Start- (asynchronous) begin an operation, such as starting a process  
+   - Invoke- (synchronous) perform an operation such as running a command
 
 2. Parameters: Each verb-noun named cmdlet may have many parameters to control cmdlet functionality.
 

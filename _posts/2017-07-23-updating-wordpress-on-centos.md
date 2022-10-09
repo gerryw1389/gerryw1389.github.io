@@ -18,13 +18,13 @@ Updating WordPress is a manual process for me since I host it locally. Here are 
 
 ### To Resolve:
 
-1. Get the latest WordPress zip (or tar.gz) file: Download to my ~/Downloads via Firefox. Sure I could curl/wget, but meh.
+1. Get the latest WordPress zip (or tar.gz) file: Download to my `~/Downloads` via Firefox. Sure I could curl/wget, but meh.
 
 2. Unpack the zip file that you downloaded.
 
 3. Deactivate plugins.
 
-4. First, we want to remove what we need full replacements for (NOTE: I use a ~/trash folder instead of rm -rf) :
+4. First, we want to remove what we need full replacements for (I use a `~/trash` folder instead of rm -rf) :
 
 ```shell
 sudo systemctl stop httpd

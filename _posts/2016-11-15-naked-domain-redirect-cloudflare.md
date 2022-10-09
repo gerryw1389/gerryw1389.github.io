@@ -14,7 +14,10 @@ tags:
 
 ### Description:
 
-I needed a way for people to get to my site without having to type &#8220;www&#8221; in the address bar. I first used a service called &#8220;[wwwizer](http://wwwizer.com/naked-domain-redirect)&#8221; but then found that you can do this WITHIN CloudFlare by setting up &#8220;Page Rules&#8221;. NOTE: You only get 3 with a free domain, but you only need 1 for this.
+I needed a way for people to get to my site without having to type `www` in the address bar. I first used a service called `[wwwizer](http://wwwizer.com/naked-domain-redirect)` but then found that you can do this WITHIN CloudFlare by setting up `Page Rules`. 
+
+NOTE: You only get 3 with a free domain, but you only need 1 for this.
+{: .notice--success}
 
 ### To Resolve:
 

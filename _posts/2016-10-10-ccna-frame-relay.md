@@ -78,6 +78,7 @@ tags:
 #### Frame Relay Switch:
 
    - NOTE: You don't have to know this for the exam, but it's good to know anyway!
+   {: .notice--success}
 
    ```tcl
    Router#conf t

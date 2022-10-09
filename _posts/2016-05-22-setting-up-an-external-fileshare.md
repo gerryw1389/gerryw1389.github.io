@@ -18,6 +18,7 @@ tags:
 You may need to be able to share files with clients outside of your internal network. I ran into a situation like this some time ago at my last job. Since we are already hosting a website, we just added a new site to our web server for users to download files from there.
 
 NOTE: For files that are sensitive by nature, it is absolutely essential not to follow this guide => this is for files you don't care who gets. I recommends a SFTP server for secure file transfers.
+{: .notice--success}
 
 ### To Resolve:
 

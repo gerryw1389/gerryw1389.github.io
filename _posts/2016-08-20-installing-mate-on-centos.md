@@ -51,7 +51,7 @@ I'm a big fan of the MATE desktop for my Linux distro's. As such, I found a neat
    systemctl set-default graphical.target
    ```
 
-   - NOTE: You will most likely want the Gnome Disk Utility as it the easiest way to interface with your disks. Once installed it can be found in: Applications => Accessories => Disks
+   - You will most likely want the Gnome Disk Utility as it the easiest way to interface with your disks. Once installed it can be found in: Applications => Accessories => Disks
 
    - Do this by running:
 

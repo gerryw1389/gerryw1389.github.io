@@ -28,10 +28,10 @@ Setup LVM with LUKS Multi-Disk. For this lab I used 2 127 GB vhd's using Hyper-
 
 4. Now on the next screen, we configure our disks:
 
-   NOTE: Rules
+   - Rules
 
-   boot partition = /boot needs to be at least 250MB.
-   swap needs to be 1024 MB+ (for a 4GB VM). For best results, follow:
+   - boot partition = /boot needs to be at least 250MB.
+   - swap needs to be 1024 MB+ (for a 4GB VM). For best results, follow:
 
    |Amount of RAM in the System|Recommended Amount of Swap Space|
    |:---:|:---:|

@@ -14,7 +14,9 @@ tags:
 
 ### Description:
 
-Robocopy is a built-in Windows tool that is used to copy files from one location to another in seamless way. It is used by administrators for its efficiency and convenience. Here are some example uses. NOTE: Replace &#8220;(source) (destination)&#8221; with UNC paths or mapped drive letters. Also, don't put the trailing backslash in path names as Robocopy will treat this as an escape character.
+Robocopy is a built-in Windows tool that is used to copy files from one location to another in seamless way. It is used by administrators for its efficiency and convenience. Here are some example uses. 
+
+NOTE: Replace `(source) (destination)` with UNC paths or mapped drive letters. Also, don't put the trailing backslash in path names as Robocopy will treat this as an escape character.
 
 See [here](http://ss64.com/nt/robocopy.html) for uses.
 

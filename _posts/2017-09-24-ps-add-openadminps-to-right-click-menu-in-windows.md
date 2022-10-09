@@ -16,7 +16,10 @@ tags:
 
 So I had a previous post where I talked about adding a line to [my setup of QuickCliq](https://automationadmin.com/2017/07/quickcliq-config/) to run a batch to run PS as admin and it works great, still use all the time. I started digging and found a way you can add it to right click menu as well in Windows itself.
 
-NOTE: I still highly recommend using my QuickCliq setup to run batch files as it has shortcut commands and you can add/take away real easily without playing around in the registry. I tried to refactor the script below as this (see below), and it doesn't work => it moves the &#8220;Open PS here  (Admin) to the main menu and just looks tacky. I'm usually good about refactoring scripts, but I screwed this one up somehow?
+NOTE: I still highly recommend using my QuickCliq setup to run batch files as it has shortcut commands and you can add/take away real easily without playing around in the registry.
+{: .notice--success}
+
+I tried to refactor the script below as this (see below), and it doesn't work => it moves the &#8220;Open PS here  (Admin) to the main menu and just looks tacky. I'm usually good about refactoring scripts, but I screwed this one up somehow?
 
    ```powershell
    $Paths = @()

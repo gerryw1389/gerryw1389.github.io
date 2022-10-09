@@ -100,7 +100,8 @@ Note that when setting up firewall rules you simply use the syntax `Allow $port 
    |MySQL|6448|-|
    |MySQL|6449|-|
 
-   - NOTE: If the server has Netbios (NBT) enabled, it listens on UDP ports 137, 138, and on TCP ports 139, 445. If it has NBT disabled, it listens on TCP port 445 only. 
+   - NOTE: If the server has Netbios (NBT) enabled, it listens on UDP ports 137, 138, and on TCP ports 139, 445. If it has NBT disabled, it listens on TCP port 445 only.
+   {: .notice--success}
 
    - **In addition to this list, feel free to check my [Protocols per Layer](https://automationadmin.com/2016/05/protocols-per-layer/) post.**
 

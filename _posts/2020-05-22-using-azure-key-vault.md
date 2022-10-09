@@ -60,6 +60,7 @@ So inside an Azure Automation Account, you can call credentials securely but wha
    - Inside a VM on the network you restricted to, login to Azure Portal and do stuff in GUI
 
      - NOTE: I kept getting '403 forbidden' when I went to portal.azure.com from the VM in IE and found that the private network endpoint I created didn't stick. I added it again and clicked save. Seems to work now.
+     {: .notice--success}
 
    - Use Powershell:
 

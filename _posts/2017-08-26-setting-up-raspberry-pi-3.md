@@ -31,7 +31,7 @@ So I ordered a PI 3 off Amazon the other day and wanted to document how I set it
 
 3. Plug everything in with power being last
 
-4. Sign in with pi/raspberry and then type &#8220;startx&#8221; NOTE: I didn't have to do this as it booted straight to the desktop.
+4. Sign in with pi/raspberry and then type `startx`. For me for some reason, I didn't have to do this as it booted straight to the desktop.
 
 ### Post Config:
 

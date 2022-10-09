@@ -17,14 +17,16 @@ tags:
 
 So I have this certain family member that always seems to record videos 90 degrees clockwise and it drives me crazy when trying to import them into Plex. I tried various software to rotate the videos and nothing could do it in bulk without paying. So I hacked together the following solution using Powershell and FFMPEG.
 
-Example: I want to bulk rotate (90 degrees COUNTERclockwise) the following files &#8220;c:\temp\vid.mp4&#8243;,&#8221;c:\temp\vid2.mp4&#8221;, and &#8220;c:\temp\vid3.mp4&#8221;  
+Example: I want to bulk rotate (90 degrees COUNTERclockwise) the following files `c:\temp\vid.mp4`,`c:\temp\vid2.mp4`, and `c:\temp\vid3.mp4`  
+
 NOTE: This assumes you have the ffmpeg executable at c:\temp\ffmpeg\bin\ffmpeg.exe.
+{: .notice--success}
 
 ### To Resolve:
 
 1. Get a video file from somewhere and copy it three times to c:\temp where the ffmpeg folder lies. Rename to match above (vid.mp4, vid2.mp4, and vid3.mp4).
 
-2. Create a file called &#8220;files.txt&#8221; in C:\temp and paste the following:
+2. Create a file called `files.txt` in C:\temp and paste the following:
 
    ```powershell
    c:\temp\vid.mp4
@@ -82,6 +84,6 @@ NOTE: This assumes you have the ffmpeg executable at c:\temp\ffmpeg\bin\ffmpeg.e
 
    - Edit the original files.txt and put in the full path of the movies you want to rotate.
 
-   - Double click run.bat to launch the first powershell script. It will dump a file to the given directory called &#8220;FilesToProcess.txt&#8221;. This file is simply a command that will be ran using FFMPEG in the next script for each video file.
+   - Double click run.bat to launch the first powershell script. It will dump a file to the given directory called `FilesToProcess.txt`. This file is simply a command that will be ran using FFMPEG in the next script for each video file.
 
    - Double click run2.bat and it will launch separate processes to bulk rotate your videos.

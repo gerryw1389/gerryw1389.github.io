@@ -18,7 +18,7 @@ I haven't done this yet, but I wanted to take notes for when I do this. Follow t
 
 ### To Resolve:
 
-1. Setup computer the way you want
+1. Setup computer the way you want
 
 2. Run:
 

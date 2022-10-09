@@ -17,6 +17,7 @@ tags:
 Follow these steps to update the a local administrator account via GPO. Note in GPO's: If you want to make a computer change, you need to apply the policy to computer OU's, if you want to make a user change, you need to make a policy for User OU's.
 
 NOTE: This does NOT follow best practices. You should implement [LAPS](https://automationadmin.com/2017/08/laps-deployment/) instead.
+{: .notice--danger}
 
 ### To Resolve:
 

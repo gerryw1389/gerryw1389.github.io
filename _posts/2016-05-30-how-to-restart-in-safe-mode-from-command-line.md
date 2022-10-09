@@ -22,7 +22,8 @@ If you ever want to reboot a computer in safe mode from within Windows follow th
 
 2. Alternatively, follow the steps below to go the `BCDedit` route. Make sure to keep a backup of your `Bcdedit` settings before continuing.
 
-   - Open either an elevated command prompt or a command prompt at boot. Run the following: `bcdedit` and take note of your {current} settings. NOTE: Under the Windows Boot Loader sections, make note of the identifier value (ex: {current}) for the OS description (ex: Windows 7) that you want to use in steps c, d, or e below.
+   - Open either an elevated command prompt or a command prompt at boot. Run the following: `bcdedit` and take note of your {current} settings. 
+   - Under the Windows Boot Loader sections, make note of the identifier value (ex: {current}) for the OS description (ex: Windows 7) that you want to use in steps c, d, or e below.
 
 3. Do either step below for what you would like to do.
 

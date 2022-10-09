@@ -30,7 +30,7 @@ So we wanted to move PRTG from one server to another. Seems simple enough, let's
 
 4. On the original computer, disable the services we stopped, on the destination server, start them.
 
-5. Poke around the PRTG Admin Tool and correct where appropriate. Then launch the web GUI and do the same there. Most of my stuff just imported just fine. NOTE: We don't have remote probes setup so please follow the guide if you do, I recommend following it anyways as my environment is real simple and this is just basic notes.
+5. Poke around the PRTG Admin Tool and correct where appropriate. Then launch the web GUI and do the same there. Most of my stuff just imported just fine. We don't have remote probes setup so please follow the guide if you do, I recommend following it anyways as my environment is real simple and this is just basic notes.
 
 6. After making sure everything is correct, I then had to go to my switches and redirect their [SNMP traffic](https://automationadmin.com/2017/02/configuring-snmp/) to the new destination server.
 

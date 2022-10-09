@@ -38,7 +38,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
             az account set --subscription $(subscription-id)
    ```
 
-   NOTE: Note that if you populate your secrets from an Azure Keyvault, you will most likely need to authenticate as a KeyVault user, update your pipeline secrets, and then move on if you want to do this using only a Service Principle. 
+   NOTE: If you populate your secrets from an Azure Keyvault, you will most likely need to authenticate as a KeyVault user, update your pipeline secrets, and then move on if you want to do this using only a Service Principle. 
    {: .notice--success}
 
 2. Since I plan to migrate to Github Actions though, I will be doing something like [this](https://learn.microsoft.com/en-us/azure/developer/github/github-key-vault) instead.

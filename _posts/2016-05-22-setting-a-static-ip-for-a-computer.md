@@ -14,7 +14,10 @@ categories:
 
 Some Network Admins like to have their workstations set to static IP's through a certain range. This means that the computer is telling the router that if it will have internet/local access, it will be at a specific address rather than the router just handing it whatever in the DHCP range.
 
-NOTE: It is considered bad practice nowadays to have client computers with static IP's. Most admins set servers and networking devices statically in a specific range and all the client computers to DHCP. If a computer must have a static IP, it is almost always done at the server level and not on the actual client (they will be set to DHCP but will have a reservation at the server).
+NOTE: It is considered bad practice nowadays to have client computers with static IP's. 
+{: .notice--success}
+
+Most admins set servers and networking devices statically in a specific range and all the client computers to DHCP. If a computer must have a static IP, it is almost always done at the server level and not on the actual client (they will be set to DHCP but will have a reservation at the server).
 
 ### To Resolve:
 

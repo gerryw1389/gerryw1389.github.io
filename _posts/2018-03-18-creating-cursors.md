@@ -89,4 +89,5 @@ So if you ever want to create a cursor theme, follow these steps (or something s
    - If install isn't an option, type `rundll32 syssetup,SetupInfObjectInstallAction DefaultInstall 128 .\install.inf` from cmd. It will say install failed, but it works.
 
 4. DISCLAIMER: DO NOT DISTRIBUTE YOUR FINAL PRODUCT! This is most likely a violation of TOS and I will not be held accountable. This is for testing only and should be deleted once completed. The whole point is to understand how cursors can be created and distributed if you know how to create custom ANI files.
+{: .notice--danger}
 

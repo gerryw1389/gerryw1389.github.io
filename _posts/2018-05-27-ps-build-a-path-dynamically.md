@@ -49,4 +49,4 @@ foreach ($p in $PathList)
 }
 ```
 
-NOTE: What this loop does is add each part of the path, $p, into the $NewPath array. It then creates that part of the path if it doesn't exist already. So the first iteration will create &#8220;HKCU:&#8221; but this obviously exists so it will skip to the next one &#8220;HKCU:\SOFTWARE&#8221; and so on until it has stepped through all directories.
+5. What this loop does is add each part of the path, `$p`, into the `$NewPath` array. It then creates that part of the path if it doesn't exist already. So the first iteration will create `HKCU:`; but this obviously exists so it will skip to the next one `HKCU:\SOFTWARE` and so on until it has stepped through all directories.
