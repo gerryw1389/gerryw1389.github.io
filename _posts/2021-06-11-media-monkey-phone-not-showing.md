@@ -18,7 +18,7 @@ So I got tired of following my post on how to update [Plex Playlists](https://au
 
 ### To Resolve:
 
-1. Go to Device Manager (win+r => devmgmt.msc)
+1. Go to Device Manager ([Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) => `devmgmt.msc`)
 
 2. Find your phone under "Portable Devices"
 

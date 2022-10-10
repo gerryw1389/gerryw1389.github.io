@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-I'm an avid Win+R user, I use it all the time with a [list of common shortcuts](https://automationadmin.com/2016/05/keyboard-shortcuts-and-run-commands-use-them/) in Windows. One thing I try to do is add programs I use often to the list.
+I'm an avid [`Run`](https://automationadmin.com/2016/05/command-prompt-overview/) user, I use it all the time with a [list of common shortcuts](https://automationadmin.com/2016/05/keyboard-shortcuts-and-run-commands-use-them/) in Windows. One thing I try to do is add programs I use often to the list.
 
 ### To Resolve:
 

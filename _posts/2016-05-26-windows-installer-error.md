@@ -31,6 +31,6 @@ If you get an error that says &#8220;An installation package for the product Mic
 
 ### To Resolve:
 
-1. Run => appwiz.cpl => find &#8220;SQL Server 2005 Client&#8221; => uninstall.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `appwiz.cpl` => find &#8220;SQL Server 2005 Client&#8221; => uninstall.
 
 2. Then try running your installer again.

@@ -16,7 +16,7 @@ Sometimes, .NET Framework errors can cause issues in the Windows environment. Fo
 
 ### To Resolve:
 
-1. Run => appwiz.cpl => uninstall all &#8220;.NET&#8221; related programs from your computer.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `appwiz.cpl` => uninstall all &#8220;.NET&#8221; related programs from your computer.
 
 2. Run the .NET removal tool found [here](https://blogs.msdn.microsoft.com/) 
 

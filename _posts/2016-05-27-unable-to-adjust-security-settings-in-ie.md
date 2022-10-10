@@ -18,5 +18,5 @@ Inside of the Internet Properties box, you cannot drag the bar down or change an
 
 1. To uninstall it:
 
-   - For Server 03/ XP: Run => appwiz.cpl => uncheck it in Add/ Remove Windows Components.
+   - For Server 03/ XP: [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `appwiz.cpl` => uncheck it in Add/ Remove Windows Components.
    - For Server 08/ W7: Start => Server Manager => Configure IE ESC- Disable both options.

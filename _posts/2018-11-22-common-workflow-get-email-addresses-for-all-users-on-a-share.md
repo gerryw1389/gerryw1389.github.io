@@ -31,7 +31,7 @@ For example, we want to get the emails for all users who access shares on a file
 
 2. Now copy that CSV locally and open it up.
 
-   <img class="alignnone size-full wp-image-5590" src="https://automationadmin.com/assets/images/uploads/2018/11/groups-1.jpg" alt="" width="748" height="729" srcset="https://automationadmin.com/assets/images/uploads/2018/11/groups-1.jpg 748w, https://automationadmin.com/assets/images/uploads/2018/11/groups-1-300x292.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" /> 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/groups-1.jpg){:class="img-responsive"}
 
 3. Use Excel's &#8220;Text to columns&#8221; feature on the Data tab in the ribbon to convert the text to columns.
 
@@ -55,11 +55,11 @@ For example, we want to get the emails for all users who access shares on a file
 
    - Now on line one, just type: `$users = @(` and press enter:
 
-   <img class="alignnone size-full wp-image-5591" src="https://automationadmin.com/assets/images/uploads/2018/11/groups-2.jpg" alt="" width="452" height="521" srcset="https://automationadmin.com/assets/images/uploads/2018/11/groups-2.jpg 452w, https://automationadmin.com/assets/images/uploads/2018/11/groups-2-260x300.jpg 260w" sizes="(max-width: 452px) 100vw, 452px" /> 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/groups-2.jpg){:class="img-responsive"}
 
    - Now go to the last line and delete the comma and place a closing parenthesis to close the array.
 
-   <img class="alignnone size-full wp-image-5592" src="https://automationadmin.com/assets/images/uploads/2018/11/groups-3.jpg" alt="" width="293" height="383" srcset="https://automationadmin.com/assets/images/uploads/2018/11/groups-3.jpg 293w, https://automationadmin.com/assets/images/uploads/2018/11/groups-3-230x300.jpg 230w" sizes="(max-width: 293px) 100vw, 293px" /> 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/groups-3.jpg){:class="img-responsive"}
 
 7. Now that you have an array, you can do just about anything you need to do. For example:
 

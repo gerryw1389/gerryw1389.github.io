@@ -29,6 +29,6 @@ There is no check associated with overdue servers, but they should be addressed 
 
 4. For &#8220;Upload Error&#8221; in the Agent's GUI:
 
-   - Make sure there is a secondary DNS on the NIC. Run => ncpa.cpl => Right click on the NIC => Local Area Connection => Properties => IPv4 Settings => Set a static secondary, typically 4.2.2.2 or 8.8.8.8 (Google's Open DNS Server's)
+   - Make sure there is a secondary DNS on the NIC. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `ncpa.cpl` => Right click on the NIC => Local Area Connection => Properties => IPv4 Settings => Set a static secondary, typically 4.2.2.2 or 8.8.8.8 (Google's Open DNS Server's)
 
    - You will also see that some webpage's not resolving but you can ping them by IP. This is a tall tale sign of a DNS issue.

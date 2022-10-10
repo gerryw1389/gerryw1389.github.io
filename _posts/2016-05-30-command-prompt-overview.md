@@ -21,7 +21,7 @@ The Windows Command Prompt is a command line way to administer Windows systems p
 
    - While in the shell during an administrative session, you are running as the admin. Don't believe me? Type `whoami` and compare that to a normal Command Prompt session.
 
-2. Run (keyboard shortcut Win + R) => cmd => press Enter. This will get you an unelevated session and should work for some tasks like commands that get statuses (read only), but will rarely work when you need to make a change to the system (modify / write).  
+2. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) => `cmd` => press Enter. This will get you an unelevated session and should work for some tasks like commands that get statuses (read only), but will rarely work when you need to make a change to the system (modify / write).  
 
 In addition to the Command Prompt, the preferred administration tool to use in Windows nowadays is Powershell. There are multiple ways to launch it:
 
@@ -29,7 +29,7 @@ In addition to the Command Prompt, the preferred administration tool to use in W
 
    - While in the shell during an administrative session, you are running as the admin. Don't believe me? Type `whoami` and compare that to a normal Command Prompt session.
 
-2. Run (keyboard shortcut Win + R) => powershell => press Enter. This will get you an unelevated session and should work for some tasks like commands that get statuses (read only), but will rarely work when you need to make a change to the system (modify / write).  
+2. Run (keyboard shortcut `Win` + `R`) => `powershell` => press Enter. This will get you an unelevated session and should work for some tasks like commands that get statuses (read only), but will rarely work when you need to make a change to the system (modify / write).  
 
 3. The popular `Win+X` menu now defaults to Powershell so you can essentially use `Win+x+a` to launch an admin powershell window (`win+x+i` for non-admin) from any modern W10 desktop!
 
@@ -37,7 +37,7 @@ Related, you might want to check out my post on Conemu which combines Command Pr
 
 ### To Resolve:
 
-1. Use Ctrl-C to Abort a Command = If you have a script running or want to terminate a process, use this shortcut to stop it immediately.
+1. Use `Ctrl+C` to Abort a Command = If you have a script running or want to terminate a process, use this shortcut to stop it immediately.
 
 2. View a Command's Results One Page (or Line) at a Time - Just press the space bar to advance by page or press the Enter key to advance one line at a time.
 

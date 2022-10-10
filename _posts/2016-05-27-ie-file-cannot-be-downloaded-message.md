@@ -16,7 +16,7 @@ If you get a &#8220;File could not be downloaded&#8221; when downloading an appl
 
 ### To Resolve:
 
-1. &#8220;Reset&#8221; the Internet settings via Internet Properties. Run => inetcpl.cpl => &#8220;Advanced&#8221; Tab => &#8220;Reset&#8221; => Make sure to leave the &#8220;Delete Personal Settings&#8221; unchecked. This should be one of the first steps for most IE issues. Firefox and Chrome have similar functions.
+1. &#8220;Reset&#8221; the Internet settings via Internet Properties. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `inetcpl.cpl` => &#8220;Advanced&#8221; Tab => &#8220;Reset&#8221; => Make sure to leave the &#8220;Delete Personal Settings&#8221; unchecked. This should be one of the first steps for most IE issues. Firefox and Chrome have similar functions.
 
 2. If this doesn't work, create a new Windows profile and try to download the file from there. There is some cases where a corrupt profile may be the reason for this error.
 

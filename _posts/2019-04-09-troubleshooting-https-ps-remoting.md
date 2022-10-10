@@ -77,7 +77,7 @@ Example: I want to allow `server.domain.com` on `10.10.10.10` to be able to Remo
    NOTE: I made `$servers` an array because the logic is that you will use a comma separated list of servers or do something like `$servers = get-content c:\scripts\servers.txt` to get a list of a bunch of servers.
    {: .notice--success}
 
-4. Verify that the firewall has that port opened **at the host level** on the target machine. Open firewall.cpl => Advanced settings => Sort by port => Look to see that it is enabled. From PS:
+4. Verify that the firewall has that port opened **at the host level** on the target machine. Open [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `firewall.cpl` => Advanced settings => Sort by port => Look to see that it is enabled. From PS:
 
    ```powershell
    # look for Enabled to be 'yes'

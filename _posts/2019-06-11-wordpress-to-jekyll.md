@@ -125,11 +125,8 @@ This guide used the following infrastructure:
 
 8. After the site is working, the next step is to ensure that images get replaced
 
-   ```escape
-   To a find/replace:
-   <img class="alignnone size-full wp-image-5719" src="https://www.gerrywilliams.net/wp-content/uploads/2019/04/sccm.jpg" alt="" width="1338" height="816" srcset="https://www.gerrywilliams.net/wp-content/uploads/2019/04/sccm.jpg 1338w, https://www.gerrywilliams.net/wp-content/uploads/2019/04/sccm-300x183.jpg 300w, https://www.gerrywilliams.net/wp-content/uploads/2019/04/sccm-768x468.jpg 768w, https://www.gerrywilliams.net/wp-content/uploads/2019/04/sccm-1024x625.jpg 1024w" sizes="(max-width: 1338px) 100vw, 1338px" /> 
-   ```
-
+   - To a find/replace:
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm.jpg){:class="img-responsive"}
    - In vscode, do a recursive replace `https://www.gerrywilliams.net/wp-content` to `https://gerryw1389.github.io/assets/images`
 
 9. Then update DNS => A records and subdomain forward 

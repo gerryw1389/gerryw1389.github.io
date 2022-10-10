@@ -23,7 +23,7 @@ Being in the IT field, you will no doubt end up working on Windows boxes for var
    - [http://live.sysinternals.com/](https://live.sysinternals.com/)  
    - [http://www.nirsoft.net/panel/](http://www.nirsoft.net/panel/)
 
-3. You can call any of these applications from any computer's run line (Win+R) meaning:
+3. You can call any of these applications from any computer's [Run command](https://automationadmin.com/2016/05/command-prompt-overview/) meaning:
 
    - `Win+R + http://live.sysinternals.com/autoruns.exe` = Launches the autoruns application (or downloads it so you can run it)  
    - `Win+R + http://www.nirsoft.net/panel/bluescreenview.exe` = Launches the bluescreenview application

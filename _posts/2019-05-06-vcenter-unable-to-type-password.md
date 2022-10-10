@@ -20,9 +20,8 @@ So using the HTML5 version of vCenter sometimes will work, sometimes won't. The 
 
 1. I found this out because I kept getting `login incorrect` as seen below:
 
-   <img class="alignnone size-full wp-image-5756" src="https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc.jpg" alt="" width="717" height="335" srcset="https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc.jpg 717w, https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-300x140.jpg 300w" sizes="(max-width: 717px) 100vw, 717px" /> 
-
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc.jpg){:class="img-responsive"}
 
 2. Which worked fine when I used the console to connect:
 
-   <img class="alignnone size-full wp-image-5757" src="https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-2.jpg" alt="" width="446" height="229" srcset="https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-2.jpg 446w, https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-2-300x154.jpg 300w" sizes="(max-width: 446px) 100vw, 446px" />
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-2.jpg){:class="img-responsive"}

@@ -31,7 +31,7 @@ I would start by creating a spreadsheet of all the commands (manually type them 
 
    - `resmon` => Resource Monitor => Lets you see in real time what the status is of the CPU, Memory, Disk, and Network in more details that your common Task Manager (taskmgr).
 
-2. Okay, now the list of Run Commands: (Keyboard Keys Win + R)
+2. Okay, now the list of Run Commands: (Keyboard Keys: [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) + *command from below* )
 
    |Application Launched| Command|
    |:---:|:---:|

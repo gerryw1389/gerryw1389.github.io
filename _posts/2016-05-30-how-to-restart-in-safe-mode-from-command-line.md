@@ -31,7 +31,7 @@ If you ever want to reboot a computer in safe mode from within Windows follow th
 
    ```powershell
    bcdedit /set {identifier} safeboot minimal
-   :: For example: If I wanted to have Windows 7 boot into Safe Mode using the values in the screenshot under step 2, I would type this command below and press Enter:
+   # For example: If I wanted to have Windows 7 boot into Safe Mode using the values in the screenshot under step 2, I would type this command below and press Enter:
    bcdedit /set {current} safeboot minimal
    ```
 
@@ -41,7 +41,7 @@ If you ever want to reboot a computer in safe mode from within Windows follow th
 
    ```powershell
    bcdedit /set {identifier} safeboot network
-   :: For example: If I wanted to have Windows 7 boot into Safe Mode with networking using the values in the screenshot under step 2, I would type this command below and press Enter:
+   # For example: If I wanted to have Windows 7 boot into Safe Mode with networking using the values in the screenshot under step 2, I would type this command below and press Enter:
    bcdedit /set {current} safeboot network
    ```
 

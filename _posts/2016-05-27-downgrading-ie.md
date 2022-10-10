@@ -16,7 +16,7 @@ Over and over again, browsers will update and specific sites will not work with 
 
 ### To Resolve:
 
-1. Run => appwiz.cpl => find &#8220;View Installed Updates&#8221; => Scroll down to the Microsoft Windows section and uninstall the "Windows Internet Explorer X" entry.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `appwiz.cpl` => find &#8220;View Installed Updates&#8221; => Scroll down to the Microsoft Windows section and uninstall the "Windows Internet Explorer X" entry.
 
 2. Many times that section will be missing, follow the steps in DCOM Settings For Missing Windows Update Settings to restore it.
 

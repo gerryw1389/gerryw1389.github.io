@@ -16,6 +16,6 @@ Google Instant Search will be returning blank pages in from google.com searches.
 
 ### To Resolve:
 
-1. Run => `inetcpl.cpl` => Delete cookies/cache from General tab.
+1. [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `inetcpl.cpl` => Delete cookies/cache from General tab.
 
 2. If you put Google.com in compatibility view, this seems to resolve the error.

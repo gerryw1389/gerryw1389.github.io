@@ -34,7 +34,7 @@ Vizio E43-C2  LED television and a 3rd gen Intel NUC.
 
 1. Setup the NUC to boot automatically => Boot => F2 => BIOS. Advanced => Power => Wake System From S5. Leave "Wakeup Date" as "0" to enable daily wakes. Enter an hour in 24-hour format in "Wakeup Hour". I chose "8". Enter a minute in "Wakeup Minute". I chose "30". Press F10 to "Save and exit"
 
-   - The Intel NUC requires a tweak in Windows 10 to come out of S5. Inside Windows, follow these steps to setup: Run => Powercfg.cpl => Choose What the Power Buttons Do => Change settings that are currently unavailable => Disable/Uncheck "Fast Startup (Recommended)". Save Changes.  
+   - The Intel NUC requires a tweak in Windows 10 to come out of S5. Inside Windows, follow these steps to setup: Run => `Powercfg.cpl` => Choose What the Power Buttons Do => Change settings that are currently unavailable => Disable/Uncheck "Fast Startup (Recommended)". Save Changes.  
    Optional => Set clock to 8:25 and shutdown.
 
 2. Setup a limited user account with a password => Now setup auto-logon. To do this, Run => `userpasswords2` => Select the account => Disable/uncheck "Users must enter a user name and password to use this computer" => Apply => OK twice.

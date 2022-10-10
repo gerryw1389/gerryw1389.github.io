@@ -82,7 +82,7 @@ This is part of a 3 part series:
 
 4. Add local firewall rules to both of the new nodes:
 
-   - firewall.cpl => Advanced Firewall => Inbound Rules => Add
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `firewall.cpl` => Advanced Firewall => Inbound Rules => Add
    - Name: JenkinsMasterNode
    - Ports: 22, 8089
    - Scope: 10.20.20.4

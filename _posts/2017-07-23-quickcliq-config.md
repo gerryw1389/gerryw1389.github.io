@@ -18,7 +18,7 @@ tags:
 
 ### To Resolve:
 
-1. Since it is portable, you launch by double clicking the .exe. First setup a keyboard shortcut. I use &#8220;Alt+Q&#8221;. Here is my setup:
+1. Since it is portable, you launch by double clicking the .exe. First setup a keyboard shortcut. I use `Alt+Q`. Here is my setup:
 
    <img class="alignnone size-full wp-image-4532" src="https://automationadmin.com/assets/images/uploads/2017/07/quickcliq.png" alt="" width="376" height="540" srcset="https://automationadmin.com/assets/images/uploads/2017/07/quickcliq.png 376w, https://automationadmin.com/assets/images/uploads/2017/07/quickcliq-209x300.png 209w" sizes="(max-width: 376px) 100vw, 376px" /> 
 
@@ -42,18 +42,18 @@ tags:
 3. I use QuickCliq for two main things:
 
    - Application launcher for installed and portable programs on my Google Drive
-   - Script launcher => I place various batch files in my google drive and then use QuickCliq to run them, works really well for &#8220;on demand&#8221; backups, one offs, [AutoHotKey](https://automationadmin.com/2017/07/autohotkey/), starting processes as admin, and basically any other reason you would run a script 🙂
+   - Script launcher => I place various batch files in my google drive and then use QuickCliq to run them, works really well for on-demand backups, one offs, [AutoHotKey](https://automationadmin.com/2017/07/autohotkey/), starting processes as admin, and basically any other reason you would run a script 🙂
 
 4. Examples:
 
-   - Launch Powershell as admin => ps.bat:
+   - Launch Powershell as admin => `ps.bat`:
 
    ```powershell
    @echo off
    powershell.exe start-process powershell -verb runas
    ```
 
-   - Launch Powershell ISE as admin => ise.bat:
+   - Launch Powershell ISE as admin => `ise.bat`:
 
    ```powershell
    @echo off

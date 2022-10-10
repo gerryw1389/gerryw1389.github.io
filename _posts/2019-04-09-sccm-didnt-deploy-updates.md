@@ -16,15 +16,15 @@ tags:
 
 We had an issue where we checked the updates on Wednesday night and they showed 2 compliant and 63 pending. This can be normal as long as there is no errors. The next morning we came in to check on the updates and found the same screen:  
 
-   <img class="alignnone size-full wp-image-5719" src="https://automationadmin.com/assets/images/uploads/2019/04/sccm.jpg" alt="" width="1338" height="816" srcset="https://automationadmin.com/assets/images/uploads/2019/04/sccm.jpg 1338w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-300x183.jpg 300w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-768x468.jpg 768w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-1024x625.jpg 1024w" sizes="(max-width: 1338px) 100vw, 1338px" /> 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm.jpg){:class="img-responsive"}
 
 We then checked the deployment package and the software update group and it showed they were downloaded and deployed:  
 
-   <img class="alignnone size-full wp-image-5720" src="https://automationadmin.com/assets/images/uploads/2019/04/sccm-2.jpg" alt="" width="1338" height="573" srcset="https://automationadmin.com/assets/images/uploads/2019/04/sccm-2.jpg 1338w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-2-300x128.jpg 300w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-2-768x329.jpg 768w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-2-1024x439.jpg 1024w" sizes="(max-width: 1338px) 100vw, 1338px" /> 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm-2.jpg){:class="img-responsive"}
 
 But many of the clients only showed Endpoint updates, not Windows Updates installed:
 
-   <img class="alignnone size-full wp-image-5721" src="https://automationadmin.com/assets/images/uploads/2019/04/sccm-3.jpg" alt="" width="914" height="566" srcset="https://automationadmin.com/assets/images/uploads/2019/04/sccm-3.jpg 914w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-3-300x186.jpg 300w, https://automationadmin.com/assets/images/uploads/2019/04/sccm-3-768x476.jpg 768w" sizes="(max-width: 914px) 100vw, 914px" /> 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm-3.jpg){:class="img-responsive"}
 
 ### To Resolve:
 

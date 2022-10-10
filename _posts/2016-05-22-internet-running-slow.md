@@ -34,7 +34,7 @@ Their test:
 
 2. If it is the connection, start testing the possibilities: faulty cable, faulty switch port, or (rarely) faulty NIC on the workstation.
 
-3. Most of the time it's a browser issue. Reset IE if they are using it: Run => `inetcpl.cpl` => Advanced Tab => Reset => Make sure to leave the Delete Personal Settings unchecked. This should be one of the first steps for most IE issues. Firefox and Chrome have similar functions.
+3. Most of the time it's a browser issue. Reset IE if they are using it: [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `inetcpl.cpl` => Advanced Tab => Reset => Make sure to leave the Delete Personal Settings unchecked. This should be one of the first steps for most IE issues. Firefox and Chrome have similar functions.
 
 4. See if it's a network setup issue:
 
@@ -44,7 +44,7 @@ Their test:
 
 5. See if it's a cable/NIC issue: Use the keyboard shorcut `CTRL+SHIFT+ESC` to bring up the Task Manager (you can also Run => taskmgr). Navigate to the Networking Tab and check the link speed. Does it match those on the rest of the network? Remember a network typically matches it's slowest Link Speed.
 
-   - Run => `devmgmt.msc` => find the Network Adapters => Right click on yours and check it's settings. Set everything to Automatic/ Negotiable.
+   - [Run =>](https://automationadmin.com/2016/05/command-prompt-overview/) `devmgmt.msc` => find the Network Adapters => Right click on yours and check it's settings. Set everything to Automatic/ Negotiable.
 
 6. If the computer has any kind of cloud backup, it can cause internet slowness. I can ping &#8220;google.com&#8221; with nothing running and get replies in the 20 to 70 ms response time, but if I have MediaFire or GoogleDrive running, my replies go up to about 700ms. The simple test is to pause your online sync and run a long ping to google.com, if it speeds up in around 5 minutes or so, you have your answer.
 
