@@ -43,7 +43,7 @@ remote_theme: mmistakes/minimal-mistakes@4.16.5
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 50 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: US # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -81,9 +81,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gerryw1389"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/gerry-williams/"
+    - label: "Reddit"
+      icon: "fab fa-reddit-alien"
+      url: "https://www.reddit.com/user/gerryw1389/"
     - label: "Popular Posts"
       icon: "fas fa-fw fa-link"
       url: "https://automationadmin.com/2016/02/popular-posts"
