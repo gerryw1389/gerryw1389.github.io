@@ -29,9 +29,7 @@ After upgrading my laptop to Windows 10 with the free upgrade, it didn't take lo
 
 4. On the next screen, look at your different partitions. /dev/sda1 and 2 should be your Windows installation. You need to create at least two more out of the free space: One will be your /root and /home partitions and the other will be your swap partition. This part is up to you, but I just chose to have /root and /home on the same 160 GB space and I chose to create a swap partition of around 7 GB. Make sure you choose &#8220;ext4&#8221; for the Linux partition and &#8220;/&#8221; as the mount point.
 
-
-   <img class="alignnone size-full wp-image-649" src="https://automationadmin.com/assets/images/uploads/2016/09/dual-boot-win10-linux-mint.png" alt="dual-boot-win10-linux-mint" width="695" height="517" srcset="https://automationadmin.com/assets/images/uploads/2016/09/dual-boot-win10-linux-mint.png 695w, https://automationadmin.com/assets/images/uploads/2016/09/dual-boot-win10-linux-mint-300x223.png 300w" sizes="(max-width: 695px) 100vw, 695px" />
-
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/dual-boot-win10-linux-mint.png){:class="img-responsive"}
 
 5. Now this part I most likely messed up because I had to do this twice. The first time, I just click Install Now after the previous step and the computer never let me go into Linux. It just booted Windows every time, Grub was no where to be found (even after holding shift after the BIOS). So I redid the steps up to this point and changed the &#8220;Device for boot loader selection&#8221; to equal the one that said &#8220;Windows 7 (loader)&#8221; so that it would overwrite. After this, just select Install Now and do defaults until reboot.
 

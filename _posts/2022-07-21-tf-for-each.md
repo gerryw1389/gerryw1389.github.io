@@ -1,5 +1,5 @@
 ---
-title: 'TF: For_Each Loop'
+title: 'Terraform: For_Each Loop'
 date: 2022-07-21T07:10:21-05:00
 author: gerryw1389
 layout: single

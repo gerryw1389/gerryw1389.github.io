@@ -24,5 +24,5 @@ At my current job, we use in-line UPS units to power our servers. There is a cou
 
 2. In the event the batteries go bad in these, you just buy replacement batteries and hook them up as follows:
 
-   <img class="aligncenter wp-image-623 size-large" src="https://automationadmin.com/assets/images/uploads/2016/09/battery-alignment-1024x598.jpg" alt="battery-alignment" width="720" height="420" srcset="https://automationadmin.com/assets/images/uploads/2016/09/battery-alignment-1024x598.jpg 1024w, https://automationadmin.com/assets/images/uploads/2016/09/battery-alignment-300x175.jpg 300w, https://automationadmin.com/assets/images/uploads/2016/09/battery-alignment-768x448.jpg 768w" sizes="(max-width: 720px) 100vw, 720px" />
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/battery-alignment-1024x598.jpg){:class="img-responsive"}
    

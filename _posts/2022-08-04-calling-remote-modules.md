@@ -1,5 +1,5 @@
 ---
-title: 'TF: Calling Remote Modules'
+title: 'Terraform: Calling Remote Modules'
 date: 2022-08-04T07:10:21-05:00
 author: gerryw1389
 layout: single

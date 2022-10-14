@@ -16,7 +16,8 @@ tags:
 
 Sometimes printers will not want to install even if you have what you think is the right driver. Here is one example. You will get an error similar to this:
 
-  <img class="alignnone size-full wp-image-627" src="https://automationadmin.com/assets/images/uploads/2016/09/errors-installing-a-printer.jpg" alt="errors-installing-a-printer" width="383" height="437" srcset="https://automationadmin.com/assets/images/uploads/2016/09/errors-installing-a-printer.jpg 383w, https://automationadmin.com/assets/images/uploads/2016/09/errors-installing-a-printer-263x300.jpg 263w" sizes="(max-width: 383px) 100vw, 383px" />
+  - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/errors-installing-a-printer.jpg){:class="img-responsive"}
+
 
 ### To Resolve:
 

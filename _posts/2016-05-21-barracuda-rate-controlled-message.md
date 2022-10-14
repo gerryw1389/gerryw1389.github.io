@@ -32,8 +32,7 @@ The user will send a request to look at a group of emails with the following err
 
 2. If you see a bunch of messages being sent in a short amount of time, chances are => the user has been infected. Or one of the machines that use that email has been infected, the best thing to do is to change their password.
 
-   <img class="alignnone size-large wp-image-636" src="https://automationadmin.com/assets/images/uploads/2016/09/barracuda-rate-controlled-1024x568.png" alt="barracuda-rate-controlled" width="720" height="399" srcset="https://automationadmin.com/assets/images/uploads/2016/09/barracuda-rate-controlled-1024x568.png 1024w, https://automationadmin.com/assets/images/uploads/2016/09/barracuda-rate-controlled-300x166.png 300w, https://automationadmin.com/assets/images/uploads/2016/09/barracuda-rate-controlled-768x426.png 768w, https://automationadmin.com/assets/images/uploads/2016/09/barracuda-rate-controlled.png 1593w" sizes="(max-width: 720px) 100vw, 720px" />
-
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/barracuda-rate-controlled-1024x568.png){:class="img-responsive"}
 
 3. Login to &#8220;YourEmailServer&#8221; => find their account under Mailboxes and ask them to give you a password to change it to.
 

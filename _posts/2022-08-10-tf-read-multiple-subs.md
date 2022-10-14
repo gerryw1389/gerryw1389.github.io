@@ -1,5 +1,5 @@
 ---
-title: 'TF: Read Multiple Subscriptions'
+title: 'Terraform: Read Multiple Subscriptions'
 date: 2022-08-10T07:10:21-05:00
 author: gerryw1389
 layout: single

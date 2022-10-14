@@ -23,4 +23,5 @@ After one successful printer, a HP Printer will spool all subsequent documents a
 
 2. You can also try going to the Printer Properties => Device Settings => Printer Status Notifications => Change to &#8220;Disabled&#8221;
 
-   <img class="alignnone size-full wp-image-663" src="https://automationadmin.com/assets/images/uploads/2016/09/hp-printer-spooling-issue.png" alt="hp-printer-spooling-issue" width="472" height="530" srcset="https://automationadmin.com/assets/images/uploads/2016/09/hp-printer-spooling-issue.png 472w, https://automationadmin.com/assets/images/uploads/2016/09/hp-printer-spooling-issue-267x300.png 267w" sizes="(max-width: 472px) 100vw, 472px" />
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/hp-printer-spooling-issue.png){:class="img-responsive"}
+

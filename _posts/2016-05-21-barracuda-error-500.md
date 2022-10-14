@@ -14,8 +14,7 @@ categories:
 
 User will send a request saying they are not receiving emails from one client. All other emails work fine (They can even send to that client).
 
-  <img class="alignnone size-medium wp-image-635" src="https://automationadmin.com/assets/images/uploads/2016/09/barracuda-error-550-300x183.png" alt="barracuda-error-550" width="300" height="183" srcset="https://automationadmin.com/assets/images/uploads/2016/09/barracuda-error-550-300x183.png 300w, https://automationadmin.com/assets/images/uploads/2016/09/barracuda-error-550.png 713w" sizes="(max-width: 300px) 100vw, 300px" />
-
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/barracuda-error-550-300x183.png){:class="img-responsive"}
 
 ### To Resolve:
 

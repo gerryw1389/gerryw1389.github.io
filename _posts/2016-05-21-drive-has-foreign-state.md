@@ -17,14 +17,13 @@ tags:
 
 Inside Dell OM, you have a drive seperated from the others that has a state of &#8220;foreign&#8221;.
 
-  <img class="size-full wp-image-647 aligncenter" src="https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state.png" alt="drive-has-foreign-state" width="924" height="217" srcset="https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state.png 924w, https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-300x70.png 300w, https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-768x180.png 768w" sizes="(max-width: 924px) 100vw, 924px" />
-
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state.png){:class="img-responsive"}
 
 ### To Resolve:
 
 1. Navigate up to the controller properties (Perc 6/i Integrated => Information/Configuration Tab in this case). On &#8220;Controller Tasks&#8221; select &#8220;Foreign Configiration Operations&#8221; and then execute.
 
-  <img class="size-full wp-image-648 aligncenter" src="https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-2.png" alt="drive-has-foreign-state-2" width="1375" height="275" srcset="https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-2.png 1375w, https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-2-300x60.png 300w, https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-2-768x154.png 768w, https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-2-1024x205.png 1024w" sizes="(max-width: 1375px) 100vw, 1375px" />
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/drive-has-foreign-state-2.png){:class="img-responsive"}
 
 2. Navigate back to the drive and select the option of &#8220;Assign Global Hot Spare&#8221; and select Execute. This will start the rebuild process automatically.
 

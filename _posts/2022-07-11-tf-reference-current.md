@@ -1,5 +1,5 @@
 ---
-title: 'TF: Reference Current Infra'
+title: 'Terraform: Reference Current Infra'
 date: 2022-07-11T07:10:21-05:00
 author: gerryw1389
 layout: single

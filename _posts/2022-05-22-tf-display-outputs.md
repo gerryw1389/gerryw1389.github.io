@@ -1,5 +1,5 @@
 ---
-title: 'TF: Display Outputs'
+title: 'Terraform: Display Outputs'
 date: 2022-05-22T07:10:21-05:00
 author: gerryw1389
 layout: single

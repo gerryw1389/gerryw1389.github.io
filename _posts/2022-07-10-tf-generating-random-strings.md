@@ -1,5 +1,5 @@
 ---
-title: 'TF: Generating Random Strings'
+title: 'Terraform: Generating Random Strings'
 date: 2022-07-10T07:10:21-05:00
 author: gerryw1389
 layout: single

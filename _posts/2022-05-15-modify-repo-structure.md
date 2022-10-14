@@ -1,5 +1,5 @@
 ---
-title: Terraform Modify Repo Structure
+title: 'Terraform: Modify Repo Structure'
 date: 2022-05-15T07:10:21-05:00
 author: gerryw1389
 layout: single

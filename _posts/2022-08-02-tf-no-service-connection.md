@@ -1,5 +1,5 @@
 ---
-title: 'TF: Using AzDo With No Service Connection'
+title: 'Terraform: Using AzDo With No Service Connection'
 date: 2022-08-02T07:10:21-05:00
 author: gerryw1389
 layout: single

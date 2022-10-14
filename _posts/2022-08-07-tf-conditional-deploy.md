@@ -1,5 +1,5 @@
 ---
-title: 'TF: Conditional Deploy'
+title: 'Terraform: Conditional Deploy'
 date: 2022-08-07T07:10:21-05:00
 author: gerryw1389
 layout: single

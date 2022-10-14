@@ -1,5 +1,5 @@
 ---
-title: 'TF: Input Variable Checking'
+title: 'Terraform: Input Variable Checking'
 date: 2022-07-14T07:10:21-05:00
 author: gerryw1389
 layout: single

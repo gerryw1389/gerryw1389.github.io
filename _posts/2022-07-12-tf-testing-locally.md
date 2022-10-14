@@ -1,5 +1,5 @@
 ---
-title: 'TF: Testing Locally'
+title: 'Terraform: Testing Locally'
 date: 2022-07-12T07:10:21-05:00
 author: gerryw1389
 layout: single

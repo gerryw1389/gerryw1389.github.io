@@ -1,5 +1,5 @@
 ---
-title: 'TF: Get Next Subnet'
+title: 'Terraform: Get Next Subnet'
 date: 2022-08-03T07:15:21-05:00
 author: gerryw1389
 layout: single

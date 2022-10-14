@@ -1,5 +1,5 @@
 ---
-title: 'TF: Deploy Powershell Function App'
+title: 'Terraform: Deploy Powershell Function App'
 date: 2022-10-07T07:10:21-05:00
 author: gerryw1389
 layout: single

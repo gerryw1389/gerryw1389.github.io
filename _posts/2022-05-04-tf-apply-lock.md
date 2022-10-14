@@ -1,5 +1,5 @@
 ---
-title: Terraform Apply Lock
+title: 'Terraform: Apply Lock'
 date: 2022-05-04T07:10:21-05:00
 author: gerryw1389
 layout: single
