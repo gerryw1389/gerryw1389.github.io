@@ -391,3 +391,5 @@ The [`for_each` loop in terraform](https://www.terraform.io/language/meta-argume
    ```
 
    - What's happening here? Well iterating through a list of strings is much less detailed than maps because both [`each.key` and `each.value` will be the same when iterating through a list](https://www.terraform.io/language/meta-arguments/for_each#the-each-object).
+
+1. More examples can be found on my [testing locally](https://automationadmin.com/2022/07/tf-testing-locally) post.

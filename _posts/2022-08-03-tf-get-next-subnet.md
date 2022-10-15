@@ -54,6 +54,8 @@ resource "azurerm_subnet" "example" {
    }
    ```
 
+   - Details can be seen in [`main.tf`](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf)
+
 3. But how to you handle when multiple calls to the subnet are made at the same time since Terraform evaluates all at once? For this one of my coworkers modified the function to have a `previous_address` parameter that you could pass the Function App and it would use that as a basis before generating a new subnet. Then when you called our custom subnet module you had to pass that attribute as another CIDR block.
 
 4. Another limitation is this Function App will not work if you create a blank VNET with no default subnets like through Terraform. Not sure why the Azure Rest API even allows you to create a VNET with no subnets in the first place. But the fix is to manually in the UI go and create a default subnet like a /24 and then call the Function App.

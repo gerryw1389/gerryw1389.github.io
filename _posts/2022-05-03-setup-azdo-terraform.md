@@ -183,3 +183,8 @@ In this post, I will outline the steps I performed to sign up for Azure Devops a
      - You could remove the module call altogether and merge `resourcegroup/variables.tf`, `resourcegroup/main.tf`, `resourcegroup/outputs.tf`, all into `deploy/main.tf` directly if you wanted.
      - Likewise, you could combine all these `*.tf` files into a single file like I used to when I was first learning terraform (see [vm](https://github.com/gerryw1389/terraform-examples/blob/main/2021-10-06-terra-deploy-vm/main.tf)) and have Terraform engine figure out the order but it is important to break things down into "modules".
      - [Official recommended file structure](https://www.terraform.io/language/modules/develop/structure) which is covered on a [later post](https://automationadmin.com/2022/05/modify-repo-structure/)
+
+1. Other resources:
+   - [Stack Overflow post](https://stackoverflow.com/questions/33157516/best-practices-when-using-terraform/38749508#38749508)
+   - [Terraform Learn](https://learn.hashicorp.com/tutorials/terraform/pattern-module-creation?in=terraform/modules)
+

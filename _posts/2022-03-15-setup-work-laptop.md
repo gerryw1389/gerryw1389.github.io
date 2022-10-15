@@ -83,14 +83,11 @@ So at each place I work, I like to setup a folder structure on my Windows Laptop
    $extensions = @(
       "hashicorp.terraform",
       "liwei.relax-eyes-theme",
-      "keepass",
-      "kubernetes-helm",
-      "kubernetes-cli",
-      "k9s",
-      "ms-vscode-remote.remote-ssh",    
+      "ms-vscode-remote.remote-ssh",
       "ms-vscode.powershell",
       "redhat.vscode-yaml",
-      "vscode-icons-team.vscode-icons"
+      "vscode-icons-team.vscode-icons",
+      "yzane.markdown-pdf"
    )
 
    foreach ($ext in $extensions)
