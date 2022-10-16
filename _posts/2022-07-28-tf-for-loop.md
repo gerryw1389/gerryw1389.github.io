@@ -18,7 +18,7 @@ tags:
 
 The [ `for` loop in terraform](https://www.terraform.io/language/expressions/for) is used to transform one "complex object" into another "complex object". Here are some examples. The main thing to pay attention to is the output of the loop:
 
-   - If you see `[ for b in blah ]` you know that the output will be a `list` object by the `[` and `]` characters.
+   - If you see `[ for b in blah ]` you know that the output will be a `list` object by the `[` and `]` characters. Note that you can cast to a set by using the [`toset()`](https://www.terraform.io/language/functions/toset) function if passing to something else that requires a set.
    - If you see `{ for b in blah }` you know that the output will be a `map` object by the `{` and `}` characters.
 
 ### To Resolve:

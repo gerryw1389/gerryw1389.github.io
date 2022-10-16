@@ -33,7 +33,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
 1. So in your `main.tf` (or whatever file) for your application deployment, you will just make various calls to your remote modules like on [line 49 here](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-04-calling-remote-modules/main.tf).
 
-   - Note the remote calls using the `source` attribute. Also note that these should always point to a specific tag. The tag can be generated through a release which I cover in [another post](https://automationadmin.com/2022/08/git-tagging).
+   - Note the remote calls using the `source` argument. Also note that these should always point to a specific tag. The tag can be generated through a release which I cover in [another post](https://automationadmin.com/2022/08/git-tagging).
    {: .notice--success}
    
    - Also note the passing of data between the module calls like in `module.learning-vnet.name` which works just like the [data](https://automationadmin.com/2022/07/tf-reference-current) block or any other Terraform block. See [line 57](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-04-calling-remote-modules/main.tf).

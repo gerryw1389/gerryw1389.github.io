@@ -17,7 +17,7 @@ tags:
 
 ### Description:
 
-So let's say you are building a [subnet module](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet) and you want it to dynamically calculate the next available CIDR Range to fill in the required `address_range` attribute, how would you do this? Here is a post on a possible solution.
+So let's say you are building a [subnet module](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet) and you want it to dynamically calculate the next available CIDR Range to fill in the required `address_range` parameter, how would you do this? Here is a post on a possible solution.
 
 ```terraform
 resource "azurerm_subnet" "example" {
@@ -56,7 +56,10 @@ resource "azurerm_subnet" "example" {
 
    - Details can be seen in [`main.tf`](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf)
 
-3. But how to you handle when multiple calls to the subnet are made at the same time since Terraform evaluates all at once? For this one of my coworkers modified the function to have a `previous_address` parameter that you could pass the Function App and it would use that as a basis before generating a new subnet. Then when you called our custom subnet module you had to pass that attribute as another CIDR block.
+3. But how to you handle when multiple calls to the subnet are made at the same time since Terraform evaluates all at once? For this one of my coworkers modified the function to have a `previous_address` parameter that you could pass the Function App and it would use that as a basis before generating a new subnet. Then when you called our custom subnet module you had to pass that argument as another CIDR block.
+
+   - NOTE: Remember that a parameter is a function definition and an argument is the value passed to it. [MSDN references](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/differences-between-parameters-and-arguments) like a parameter is a 'P'arking space and an argument is an 'A'utomobile. Many different automobiles can fit into a single parking space, i.e. different arguments can be passed to a single defined parameter.
+   {: .notice--success}
 
 4. Another limitation is this Function App will not work if you create a blank VNET with no default subnets like through Terraform. Not sure why the Azure Rest API even allows you to create a VNET with no subnets in the first place. But the fix is to manually in the UI go and create a default subnet like a /24 and then call the Function App.
 

@@ -20,7 +20,7 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
 
 ### To Resolve:
 
-1. So option 1 is to use count and check for a condtion to deploy a single resource like shown above:
+1. So `Option 1` is to use count and check for a condtion to deploy a single resource like shown below:
 
    ```terraform
    module "azure_learning_rg" {
@@ -36,7 +36,7 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
 
    - Cool, so it will conditionally deploy that one Resource Group and its associated lock.
 
-1. Option 2 is the same as option 1, but will deploy multiple resources. Here I will create a file called `C:\scripts\tf\local-state\blah.tf` :
+1. `Option 2` is the same as option 1, but will deploy multiple resources. Here I will create a file called `C:\scripts\tf\local-state\blah.tf` :
 
    ```terraform
    terraform {
@@ -135,7 +135,7 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
    Plan: 3 to add, 0 to change, 0 to destroy.
    ```
 
-   - OK, so this will deploy the same number of resources as the number of elements my list object `resource_groups` and will assign whatever their value is to the `name` parameter for [`azurerm_resource_group`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group#name).
+   - OK, so this will deploy the same number of resources as the number of elements my list object `resource_groups` and will assign whatever their value is to the `name` argument for [`azurerm_resource_group`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group#name).
 
    - Cool, but we [discussed this before](https://automationadmin.com/2022/07/tf-for-each), you should [always use for_each instead](https://www.terraform.io/language/meta-arguments/count#when-to-use-for_each-instead-of-count) so that you can update it freely without destroying and recreating all resources:
 
@@ -232,11 +232,12 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
 
    - Here is the "before":
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-1.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-1.jpg){:class="img-responsive"}
 
    - For example, let's update the code to add 'bob' and 'jim' resource groups:
 
    ```terraform
+   # <...> omitted for brevity
    locals {
    resource_groups = [
       { name = "one" },
@@ -286,9 +287,9 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
 
    - And apply:
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-2.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-2.jpg){:class="img-responsive"}
 
-2. OK, so that last example is one where you can use a "flag" to optionally deploy a setting as seen in this [`main.tf`](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf) around line 25 for `server_farm_delegation `.
+2. OK, so `Option 3` is where you can use a "flag" to optionally deploy a setting as seen in this [`main.tf`](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf) around line 25 for `server_farm_delegation`.
 
    - Notice that this makes use of the [`dynamic`](https://www.terraform.io/language/expressions/dynamic-blocks) blocks which will deploy settings optionally.
    - Like the documentation states, these should be [used sparingly](https://www.terraform.io/language/expressions/dynamic-blocks#best-practices-for-dynamic-blocks) as they can be confusing when used too often.

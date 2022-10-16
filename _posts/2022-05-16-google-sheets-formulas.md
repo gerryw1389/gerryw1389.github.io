@@ -41,7 +41,7 @@ Let me start by saying I'm not an Excel/Sheets guru by any means. This post is j
 
    - Absolute: `=D8+$C$4`
 
-1. To create a column with dates that are one month from today, just use the formula: `=EDATE(A28,1)` where `A28` is `=TODAY()`. The EDATE function will just add the number of months in second parameter.
+1. To create a column with dates that are one month from today, just use the formula: `=EDATE(A28,1)` where `A28` is `=TODAY()`. The EDATE function will just add the number of months in second argument.
 
 1. For compound interest, I usually do something like : `=((D54+E54)*H54)+D54+E54` if the D column is an initial balance, the E column is a yearly add balance, and the H column is the interest like .07 for example.
 

@@ -22,7 +22,7 @@ This works well when you have logic like "I need all Storge Accounts with this t
 
 ### To Resolve:
 
-1. The example they use is that of network spokes peering to a Hub network
+1. The example they use (in the `azurerm_resources` link above) is that of network spokes peering to a Hub network:
 
    ```terraform
    # Get resources by type, create spoke vNet peerings

@@ -77,7 +77,7 @@ I touched on this previously in [another post](https://automationadmin.com/2022/
    }
    ```
 
-   - See how the `ref=` went up a version and now with the new version of the module the `tags` attribute is no longer required? That is how this works.
+   - See how the `ref=` went up a version and now with the new version of the module the `tags` parameter is no longer required? That is how this works.
    - So in my 100+ repos I can point to my modules repo pinning to a tag version that will/will not make tags optional. This is a basic example that shows the concept.
 
 1. So using this technique, you can have different versions of your modules being called scattered all through the enterprise. I haven't tested moving a tag like `latest` but I would imagine that any breaking changes like `v2.0.1` to `3.1` would cause everything to break so I don't think that would be a good idea. Not sure, will check back in a couple years but for now I will keep pinning module calls to tags to keep things simple and then set a scheduled task to go and update my module calls every now and then to the latest version by testing the new variables/ect.

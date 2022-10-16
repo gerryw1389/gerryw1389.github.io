@@ -123,21 +123,24 @@ Use the following code blocks to test reading multiple subscriptions at the same
 
 1. So what is happening?
 
-   - First, there are two `provider` blocks but only 1 has an `alias` attribute. Terraform will use the first provider when it queries `data "azurerm_resources" "storageaccount" ` because that is the default provider.
+   - First, there are two `provider` blocks but only 1 has an `alias` parameter. Terraform will use the first provider when it queries `data "azurerm_resources" "storageaccount" ` because that is the default provider.
    - Then, it will use the second provider when it queries `data "azurerm_resources" "storageaccount_sub2"` because we provided `provider =  azurerm.subscription-2` to it.
-   - That's it really, the only gotcha with providers is that sometimes you have to pass them as a map object like when you call a `module` but when you call a `data` or `resource` you pass it as an attribute. For example:
+   - That's it really, the only gotcha with providers is that sometimes you have to pass them as a map object like when you call a `module` but when you call a `data` or `resource` you pass it as an argument. For example:
 
    ```terraform
    ## Calling module has two provider blocks like the example above: one with alias `spoke-subscription` and the other other with alias `hub-subscription`
    module "learning-subnet" {
    source                                      = "git::https://some/path/terraform-modules//Subnet?ref=v4.1.0"
-   <..> # other attributes removed for brevity
+   <..> # other arguments removed for brevity
    providers = {
       azurerm.spoke = azurerm.spoke-subscription
       azurerm.hub    = azurerm.hub-subscription
    }
    }
    ```
+
+   - NOTE: Remember that a parameter is a function definition and an argument is the value passed to it. [MSDN references](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/differences-between-parameters-and-arguments) like a parameter is a 'P'arking space and an argument is an 'A'utomobile. Many different automobiles can fit into a single parking space, i.e. different arguments can be passed to a single defined parameter.
+   {: .notice--success}
 
    - Then in the subnet module, it will have preset `provider` block defined that expect to be passed in:
 

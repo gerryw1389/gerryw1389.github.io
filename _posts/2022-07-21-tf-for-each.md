@@ -16,7 +16,7 @@ tags:
 
 ### Description:
 
-The [`for_each` loop in terraform](https://www.terraform.io/language/meta-arguments/for_each) accepts a map or a set of strings, and creates an instance for each item in that map or set.
+The [`for_each` loop in terraform](https://www.terraform.io/language/meta-arguments/for_each) accepts a map or a set of strings, and creates an instance for each item in that map or set. It is more dynamic than the [`count`](https://automationadmin.com/2022/07/tf-count) meta argument in that you can add elements to the map or set in any index without effecting the other elements. More details can be seen [here](https://www.terraform.io/language/meta-arguments/count#when-to-use-for_each-instead-of-count) on TF docs.
 
 ### To Resolve:
 
@@ -137,7 +137,7 @@ The [`for_each` loop in terraform](https://www.terraform.io/language/meta-argume
    }
    ```
 
-   - So it is giving whater you put in the `name` property the `key` value in the object it creates and at the same time it is copying whatever in `access_type` over to the `container_access_type` attribute needed for the [container](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_container#container_access_type) resource.
+   - So it is giving whater you put in the `name` property the `key` value in the object it creates and at the same time it is copying whatever in `access_type` over to the `container_access_type` parameter needed for the [container](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_container#container_access_type) resource.
 
    - We can see this if we change
 
@@ -200,9 +200,9 @@ The [`for_each` loop in terraform](https://www.terraform.io/language/meta-argume
       ]
    ```
 
-   - From there, we can access `each.value.name` and we know it will be `blob-1`, `blob-2`, and `blob-3` so we can assign these to `name` attribute for the `azurerm_storage_container` resource. Likewise, we can assign `each.value.access_type` in the same order so that `blob-1` will get `private`, `blob-2` will get `blob` and `blob-3` will get `container`. We can verify these by checking [the docs](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_container#container_access_type) to confirm they are acceptable values.
+   - From there, we can access `each.value.name` and we know it will be `blob-1`, `blob-2`, and `blob-3` so we can assign these to `name` parameter for the `azurerm_storage_container` resource. Likewise, we can assign `each.value.access_type` in the same order so that `blob-1` will get `private`, `blob-2` will get `blob` and `blob-3` will get `container`. We can verify these by checking [the docs](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_container#container_access_type) to confirm they are acceptable values.
 
-   - Although this looks complex, it will be my preferred way to pass values when iterating through loops since you could access as many `each.value.property` keys as you please which makes this great for passing many options to each specific instance.
+   - Although this looks complex, it will be my preferred way to pass values when iterating through loops since you could access as many `each.value.property` keys as you please which makes this great for passing many arguments to each specific instance.
 
    - Unlike `count`, each of the values will always be mapped to a specific resource. We can see this on the plan that it doesn't access them by index but instead by name which makes this far superior to count:
 

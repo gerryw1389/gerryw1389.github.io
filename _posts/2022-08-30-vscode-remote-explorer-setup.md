@@ -110,12 +110,18 @@ Continuing from my [previous post](https://automationadmin.com/2022/03/setup-wor
 
    - I know I can create a list of repos where my trunk branch is `main` and another where my trunk branch is `master` and then do a `for loop` but I don't mind just copy/paste/tweaking the scripts sometimes.
 
-1. Next, after I have all my repos synced to the linux box, I then just add the shortcuts to my local laptops VSCode Remote Explorer by using `File => Open Folder` from the REMOTE servers VScode instance:
+1. Next, after I have all my repos synced to the linux box, I wanted a way to SSH directly into a specific folder on the remote server instead of my `/home/myuser/repo/` folder which has like 20+ repos and will generate a long tree in my VScode's Explorer view. Here is how I added "shortcuts" in my Remote Explorer:
+   - First I ssh'd to my remote server to the `/home/myuser/` folder the same as before.
+   - Next, in the remote SSH Vscode window, I went to `File => Open Folder` and pointed to the path of one of my repos `/home/myuser/repo/myrepo1`
+   - Next, it prompted me for the password again and it opened up a window scoped to just that path.
+   - Now, you can exit all vscode windows from your local machine and it will just "show up" in the Remote Explorer view under your target server.
+   - Cool, but like I said, I have 20+ repos, do I have to do this for all of them? I think so :/ , at the time of this writing I don't know of [any other way](https://code.visualstudio.com/docs/remote/ssh#_remember-hosts-and-advanced-settings) to bulk add a bunch of remote folders.
 
-   - In order to isolate specific repos, what you do is:
-   - SSH into that box and from the SSH session
-   - click on `File => Open Folder` and then put in a full path like `/home/myuser/repo/myrepo1`
+1. But I did find a way to make it somewhat faster, you just keep 'looping' from one folder to the next once you connect to the Remote SSH vscode window:
+   - SSH into your remote server and from that SSH session:
+   - Click on `File => Open Folder` and then put in a full path like `/home/myuser/repo/myrepo1`
    - Enter your credentials
-   - Then from that window, click on `File => Open Folder` and then put in a full path like `/home/myuser/repo/myrepo2`
-   - and keep doing this over and over...
-   - I don't know of [any other way](https://code.visualstudio.com/docs/remote/ssh#_remember-hosts-and-advanced-settings) for specific folders to show up under your remote server.
+   - Then from THAT window, click on `File => Open Folder` and then put in a full path like `/home/myuser/repo/myrepo2`
+   - And keep doing this over and over ...
+   - When you are done, your host computer's Remote Explorer should have a "shortcut" for all folders you looped through instead of repeating the previous step 20+ times.
+

@@ -1,5 +1,5 @@
 ---
-title: 'Graph API: Read Extension Attributes'
+title: 'Graph API: Read Extension s'
 date: 2020-08-21T14:27:17-05:00
 author: gerryw1389
 layout: single

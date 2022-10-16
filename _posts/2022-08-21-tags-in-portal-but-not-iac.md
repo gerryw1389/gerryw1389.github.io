@@ -20,23 +20,58 @@ So one of the first things that came up when I was using Terraform was I would r
 
 ### To Resolve:
 
-1. So let's say you have a `./modules/nic` folder in your repo that is used to modularize the [`azurerm_network_interface`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_interface) resource in its `./modules/nic/main.tf` and you calling like so:
+1. So let's say you have a `./modules/nic` folder in your repo and in another part of your repo, you are calling it like so:
 
    ```terraform
    module "vm_nic" {
-      name                = "example-nic"
-      location            = azurerm_resource_group.example.location
-      resource_group_name = azurerm_resource_group.example.name
+      source                                = "./modules/nic"
+      name                                  = "example-nic"
+      location                              = azurerm_resource_group.example.location
+      resource_group_name                   = azurerm_resource_group.example.name
+      ip_conf_name                          = "internal"
+      ip_conf_subnet_id                     = azurerm_subnet.example.id
+      ip_conf_private_ip_address_allocation = "Dynamic"
+   }
+   ```
+
+1. The first thing you need to do is go to the file `./modules/nic/main.tf` (or wherever the `azurerm_network_interface` resource is being set in the module, usually main.tf) and add a `tags` parameter. 
+
+   - NOTE: Remember that a parameter is a function definition and an argument is the value passed to it. [MSDN references](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/differences-between-parameters-and-arguments) like a parameter is a 'P'arking space and an argument is an 'A'utomobile. Many different automobiles can fit into a single parking space, i.e. different arguments can be passed to a single defined parameter.
+   {: .notice--success}
+
+
+   - So it may look like this before:
+
+   ```terraform
+   resource "azurerm_network_interface" "example" {
+      name                = var.name
+      location            = var.location
+      resource_group_name = var.resource_group_name
 
       ip_configuration {
-         name                          = "internal"
-         subnet_id                     = azurerm_subnet.example.id
-         private_ip_address_allocation = "Dynamic"
+         name                          = var.ip_conf_name
+         subnet_id                     = var.ip_conf_subnet_id
+         private_ip_address_allocation = var.ip_conf_private_ip_address_allocation
       }
    }
    ```
 
-1. The first thing you need to do is find out if the resource supports a `tags` parameter. It [does](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_interface#tags).
+   - And this after
+
+   ```terraform
+   resource "azurerm_network_interface" "example" {
+      name                = var.name
+      location            = var.location
+      resource_group_name = var.resource_group_name
+
+      ip_configuration {
+         name                          = var.ip_conf_name
+         subnet_id                     = var.ip_conf_subnet_id
+         private_ip_address_allocation = var.ip_conf_private_ip_address_allocation
+      }
+      tags = var.tags
+   }
+   ```
 
    - Next, add a `./modules/nic/variables.tf` which you probably have already since it is a module, but just make sure it exists and then add the following variable to it:
 
@@ -46,27 +81,22 @@ So one of the first things that came up when I was using Terraform was I would r
    }
    ```
 
-   - Then inside of its `main.tf` add the tags attribute so it can be passed in (`tags = var.tags`).
-
-1. Finally, go back to where you call the module and add in the new parameter by modifying the module call:
+2. Finally, go back to where you call the module and add in the new argument by modifying the module call:
 
    ```terraform
    module "vm_nic" {
-      name                = "example-nic"
-      location            = azurerm_resource_group.example.location
-      resource_group_name = azurerm_resource_group.example.name
-
-      ip_configuration {
-         name                          = "internal"
-         subnet_id                     = azurerm_subnet.example.id
-         private_ip_address_allocation = "Dynamic"
-      }
-      
-      tags = { Source = "Terraform" }
+      source                                = "./modules/nic"
+      name                                  = "example-nic"
+      location                              = azurerm_resource_group.example.location
+      resource_group_name                   = azurerm_resource_group.example.name
+      ip_conf_name                          = "internal"
+      ip_conf_subnet_id                     = azurerm_subnet.example.id
+      ip_conf_private_ip_address_allocation = "Dynamic"
+      tags                                  = { Source = "Terraform" }
    }
    ```
 
-1. Now re-run your pipeline and it shouldn't say anything about removing a tag because you set it yourself in IaC.
+3. Now re-run your pipeline and it shouldn't say anything about removing a tag because you set it yourself in IaC.
 
    - NOTE: You can repeat this process in many ways, not just tags. For example, any time `terraform plan` says it will be removing something, you can modify your code to add it instead to keep Iac in sync with your currently deployed resources, it just takes investigation.
    {: .notice--success}
