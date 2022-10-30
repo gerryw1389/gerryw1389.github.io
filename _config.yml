@@ -23,10 +23,6 @@ minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon",
 search: true
 lunr:
   search_within_pages: true
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "automationadmin-com"
 
 # Build settings
 markdown: kramdown
