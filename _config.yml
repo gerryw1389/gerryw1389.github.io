@@ -105,7 +105,7 @@ defaults:
       layout: single # was compress
       author_profile: true
       read_time: true
-      comments: true # was false
+      comments: false
       sidebar:
         nav: "categories"
       share: true
