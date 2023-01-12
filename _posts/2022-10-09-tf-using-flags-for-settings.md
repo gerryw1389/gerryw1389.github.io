@@ -232,7 +232,7 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
 
    - Here is the "before":
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-1.jpg){:class="img-responsive"}
+   - ![rg-for-each-1](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-1.jpg){:class="img-responsive"}
 
    - For example, let's update the code to add 'bob' and 'jim' resource groups:
 
@@ -287,7 +287,7 @@ As you start developing Terraform [compositions](https://automationadmin.com/202
 
    - And apply:
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-2.jpg){:class="img-responsive"}
+   - ![rg-for-each-2](https://automationadmin.com/assets/images/uploads/2022/10/rg-for-each-2.jpg){:class="img-responsive"}
 
 2. OK, so `Option 3` is where you can use a "flag" to optionally deploy a setting as seen in this [`main.tf`](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf) around line 25 for `server_farm_delegation`.
 
