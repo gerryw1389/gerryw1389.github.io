@@ -24,7 +24,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
 ### To Resolve:
 
-1. First, I ran a plan and it said it would create [5 resources](https://github.com/gerryw1389/terraform-examples/actions/runs/3205584699).
+1. First, I ran a plan and it said it would create 5 resources.
 
    NOTE: This is a basic example so I did not include Log Analytics or anything I would normally do in an Enterprise Environment.
    {: .notice--success}

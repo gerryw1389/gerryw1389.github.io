@@ -25,13 +25,12 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
 1. First, take a look at [main](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-07-tf-conditional-deploy/main.tf) and notice the `count`. See how if `var.region` is `southcentralus` the count will equal `1` and if false, it will equal `0`? That means that if I pass that value to that var it will deploy the resource and if I pass any other value it won't.
 
-   - This can be seen [here](https://github.com/gerryw1389/terraform-examples/actions/runs/3165731412/jobs/5154975241) where I pass the value by letting its default value inside `variables.tf` deploy it. 
-   - Notice it deletes my older RG and deploys the new one.
-   - This is because `region` is set to `southcentralus` by default in [`variables.tf`](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-07-tf-conditional-deploy/variables.tf), you have to pass in a different value if you want it to not be that value. That is how the `default` block works with variables.
+   - If I were to run this as is it will create the Resource Group because `region` is set to `southcentralus` by default in [`variables.tf`](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-07-tf-conditional-deploy/variables.tf). You have to pass in a different value if you don't want it be that value, that is how the `default` block works with variables.
 
-1. In an example where the condition will equal `0` and NOT deploy the resource, we simply pass any other value to variable `region` and let the condition fail the check:
-   - This can be seen [here](https://github.com/gerryw1389/terraform-examples/actions/runs/3165740011/jobs/5154990092) where it doesn't deploy it because I set the region to `eastus` at [line 50 here](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-07-tf-conditional-deploy-release.yaml) and instead deletes the Resource Group that was deployed from my previous run. 
-   - Also take note that both `module azure_learning_rg` and `resource azurerm_management_lock` both have to make that same reference? This is because you can't tie a lock to a resource that doesn't exist silly :)
+1. In an example where the condition will equal `0` and NOT deploy the resource, we simply pass any other value to variable `region` and let the condition fail the check (since it will only deploy is region is `southcentralus` which is the default:
+
+   - For example, if I set region to `eastus` at [line 50 here](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-07-tf-conditional-deploy/release.yaml) and run an apply, it will delete the Resource Group previously deployed because the count would now be `0` instead of `1`. 
+   - Also take note that both `module azure_learning_rg` and `resource azurerm_management_lock` both have to make that same reference. This is because you can't tie a lock to a resource that doesn't exist silly :)
 
 1. See [here](https://github.com/kumarvna/terraform-azurerm-virtual-machine/blob/v2.3.0/main.tf) for many examples of conditional deploys.
 

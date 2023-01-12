@@ -32,7 +32,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
    AZURE_TENANT_ID
    ```
 
-2. Next, in your repo, you will create a `.github` folder and a `workflows` subfolder. Then you can create as many `*.yml` files as you want and these will be the same as your `azure-pipelines.yaml` you may be used to if you are coming from AzDo. For now, while I'm still new at Terraform, I will continue to separate my [builds](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-03-github-actions-setup-build.yaml) and my [releases](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-03-github-actions-setup-release.yaml) in seperate files so I created the seperate.
+2. Next, in your repo, you will create a `.github` folder and a `workflows` subfolder. Then you can create as many `*.yml` files as you want and these will be the same as your `azure-pipelines.yaml` you may be used to if you are coming from AzDo. For now, while I'm still new at Terraform, I will continue to separate my [builds](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-03-github-actions-setup/build.yaml) and my [releases](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-03-github-actions-setup/release.yaml) in seperate files so I created the seperate.
 
 3. OK, so first thing to do is to turn of Continous Integration for now so that we can only run these pipelines from the UI. We will turn it back on later once we have everything working as intended. For that, you will use the [on](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on) keyword with the [workflow-dispatcher](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow) flow.
 
@@ -66,7 +66,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
          shell: bash
    ```
 
-1. Anyways, running our build we can see that it successfully connect to Azure and [runs a plan](https://github.com/gerryw1389/terraform-examples/actions/runs/3159862219).
+1. Anyways, running our build we can see that it successfully connect to Azure and runs a plan.
 
    - One thing I noticed different between how I have Azure Devops working and Github Actions is that I'm no longer passing the storage account's Access Key as a var [like I was before](https://github.com/gerryw1389/terraform-examples/blob/main/2022-08-02-tf-no-service-connection/build.yaml) (see line 38).
 
@@ -82,4 +82,4 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    - Putting this together means that currently Github Actions is using my Service Principle to store the state file in blob storage using Shared Key authorization.
 
-1. Another thing about Github Actions is that since the `.github/workflows` folders are at the root of the repo, I have it setup to where I will `cd` to the correct folder in my steps ( [see lines 33 and 44](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-03-github-actions-setup-build.yaml) ) and then create a pipeline [for each blog post](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/) to share about.
+1. Another thing about Github Actions is that since the `.github/workflows` folders are at the root of the repo, I have it setup to where I will `cd` to the correct folder in my steps ( [see lines 33 and 44](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-03-github-actions-setup/build.yaml) ) and then create a pipeline [for each blog post](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/) to share about.

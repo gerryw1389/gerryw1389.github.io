@@ -18,6 +18,8 @@ tags:
 
 Quick post about how you can use the [`timestamp`](https://www.terraform.io/language/functions/timestamp), [`timeadd`](https://www.terraform.io/language/functions/timeadd), and [`formatdate`](https://www.terraform.io/language/functions/formatdate) functions in Terraform to set localized times for tagging your resources. More details from [this post](https://clebergasparoto.com/how-to-manipulate-date-and-time-with-terraform), example below.
 
+Update: This has been fixed in a new post, please view it [here](https://automationadmin.com/2022/11/tf-calculated-tags)!
+
 ### To Resolve:
 
 1. The following `locals` block will build a string that will look like: `2022-10-15-09:10 AM PST` for example:

@@ -56,14 +56,24 @@ resource "azurerm_subnet" "example" {
 
    - Details can be seen in [`main.tf`](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf)
 
-3. But how to you handle when multiple calls to the subnet are made at the same time since Terraform evaluates all at once? For this one of my coworkers modified the function to have a `previous_address` parameter that you could pass the Function App and it would use that as a basis before generating a new subnet. Then when you called our custom subnet module you had to pass that argument as another CIDR block.
+1. But how to you handle when multiple calls to the subnet are made at the same time since Terraform evaluates all at once? For this one of my coworkers modified the function to have a `previous_address` parameter that you could pass the Function App and it would use that as a basis before generating a new subnet. Then when you called our custom subnet module you had to pass that argument as another CIDR block.
 
    - NOTE: Remember that a parameter is a function definition and an argument is the value passed to it. [MSDN references](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/differences-between-parameters-and-arguments) like a parameter is a 'P'arking space and an argument is an 'A'utomobile. Many different automobiles can fit into a single parking space, i.e. different arguments can be passed to a single defined parameter.
    {: .notice--success}
 
-4. Another limitation is this Function App will not work if you create a blank VNET with no default subnets like through Terraform. Not sure why the Azure Rest API even allows you to create a VNET with no subnets in the first place. But the fix is to manually in the UI go and create a default subnet like a /24 and then call the Function App.
+1. A key point about the [subnet module](https://github.com/gerryw1389/terraform-modules/blob/main/subnet/main.tf) that you will have to remember is to add the lifecycle block to ignore address prefixes because the data block will run every time you evaulate a subnet and we only needed it that first run. This can be done by adding a lifecycle block in the module itself like so:
 
-5. Honestly, I'm a powershell/python guy myself so I would just rewrite this Function App using [python with http trigger](https://automationadmin.com/2020/11/azure-function-python-http-template) (also see my [other examples](https://automationadmin.com/tags/#azure-functionapps) ) to handle all this logic but I'm pretty busy these days :)
+   ```
+   lifecycle {
+      ignore_changes = [
+         address_prefixes
+      ]
+   }
+   ```
+
+1. Another limitation is this Function App will not work if you create a blank VNET with no default subnets like through Terraform. Not sure why the Azure Rest API even allows you to create a VNET with no subnets in the first place. But the fix is to manually in the UI go and create a default subnet like a /24 and then call the Function App.
+
+1. Honestly, I'm a powershell/python guy myself so I would just rewrite this Function App using [python with http trigger](https://automationadmin.com/2020/11/azure-function-python-http-template) (also see my [other examples](https://automationadmin.com/tags/#azure-functionapps) ) to handle all this logic but I'm pretty busy these days :)
 
    - The requirments for this web app would be:
    - Required inputs: `subscription_id`, `vnet_resource_group`, `vnet_name`, `desired_cidr`
@@ -86,4 +96,4 @@ resource "azurerm_subnet" "example" {
       Next, give me the next `desired_cidr` block available
    ```
 
-6. Update: [Here](https://github.com/gerryw1389/PS-FindNextCIDRRange) is a link to this in powershell. Feel free to send a pull request for improvements as it's currently really messy but has been working so far in my testing.
+1. Update: [Here](https://github.com/gerryw1389/PS-FindNextCIDRRange) is a link to this in powershell. Feel free to send a pull request for improvements as it's currently really messy but has been working so far in my testing.

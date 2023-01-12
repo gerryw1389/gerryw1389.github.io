@@ -24,7 +24,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
 ### To Resolve:
 
-1. First, I ran a plan and it said it would create [9 resources](https://github.com/gerryw1389/terraform-examples/actions/runs/3168733939).
+1. First, I ran a plan and it said it would create 9 resources.
 
 1. Then I ran the apply and it failed because I haven't registered the provider yet:
 
@@ -55,7 +55,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 ╵
 ```
 
-1. So I corrected the timezones and schedule and it was [successful](https://github.com/gerryw1389/terraform-examples/actions/runs/3168768699). Here is what it did:
+1. So I corrected the timezones and schedule and it was successful. Here is what it did:
 
    - Created rg: `aa-sbx-scus-aa-rg`
    - Created automation account: `aa-sbx-scus-aa`
@@ -109,4 +109,4 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    ```
 
-1. I then ran my [destroy workflow](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-20-tf-create-aa-with-source-control-destroy.yaml) to save on costs.
+1. I then ran my [destroy workflow](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2022-08-20-tf-create-aa-with-source-control/destroy.yaml) to save on costs.

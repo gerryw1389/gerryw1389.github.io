@@ -20,6 +20,8 @@ tags:
 
 Quick post here but I wanted to find a way to add a tag in the Azure portal for all resources deployed by the pipeline caller since in some instances the Terraform pipeline may use a Service Principle that is shared by all members of a team. This helps reduce confusion because the Activity Log in the portal will just show that the Service Principle created a resource on a specific date but not who actually ran the pipeline to create the resources.
 
+Update: This has been fixed in a new post, please view it [here](https://automationadmin.com/2022/11/tf-calculated-tags)!
+
 ### To Resolve:
 
 1. The proposed fix is to add the `Build.RequestedFor` and `Build.RequestedForEmail` [automatic variables](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml) from Azure Devops into the pipeline like so:
