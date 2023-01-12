@@ -1,5 +1,5 @@
 ---
-title: 'Terraform: Setup New Subscriptions'
+title: 'Terraform: Setup New Subscription'
 date: 2022-10-20T07:10:21-05:00
 author: gerryw1389
 layout: single
@@ -134,19 +134,34 @@ In order for my blog to mirror my organization more, I decided to buy a few more
    ::debug::Terraform exited with code 0.
    ```
 
+   - Initially I had gotten the error:
+
+   ```
+   azurerm_management_group.mgmt_hub_nonprod: Creation complete after 30s [id=/providers/Microsoft.Management/managementGroups/58839054-cbf1-49cc-83e4-df3caf6fc58e]
+   ╷
+   │ Error: [DEBUG] Error assigning Subscription ID "***" to Management Group "6ed437f4-c81d-497d-9f54-51c14a7c0969": managementgroups.SubscriptionsClient#Create: Failure responding to request: StatusCode=400 -- Original Error: autorest/azure: Service returned an error. Status=400 Code="BadRequest" Message="Permission to write and delete on resources of type 'Microsoft.Authorization/roleAssignments' is required on the subscription or its ancestors." Details=[{"raw":"Subscription ID: '/subscriptions/***'"}]
+   │ 
+   │   with azurerm_management_group.mgmt_hub_prod,
+   │   on main.tf line 53, in resource "azurerm_management_group" "mgmt_hub_prod":
+   │   53: resource "azurerm_management_group" "mgmt_hub_prod" {
+   │
+   ```
+
+   - But this was because my `az-terraform` Service Principle only had `Contributor` access and needed `Owner`. Once I gave it owner and re-ran, everything worked as expected.
+
    - Sure enough when viewing in the UI we see them:
 
    - ![resource-groups](https://automationadmin.com/assets/images/uploads/2022/10/resource-groups.jpg){:class="img-responsive"}
 
-1. Now that we have proof of concept, we have a few options:
+2. Now that we have proof of concept, we have a few options:
 
    - One, we can have one giant repo where we pass in all these vars, build providers, and create resources in each subscription like in the example.
    - Two, we can create one repo per subscription and only pass in its var as `subscription_id` and not use all four at once. How often will we be deploying apps to all four subscriptions? Probably never.
    - Three, we can use something like Terragrunt (UPDATE LINK) to deploy to subscriptions dynamically.
 
-1. Anyways, it is common when you first setup a new sub to build framework like the examples below:
+3. Anyways, it is common when you first setup a new sub to build framework like the examples below:
 
-1. To build Management groups you would do something like:
+4. To build Management groups you would do something like:
 
    ```terraform
    # Read in parent
@@ -175,7 +190,7 @@ In order for my blog to mirror my organization more, I decided to buy a few more
 
    - ![mgmt-groups-2](https://automationadmin.com/assets/images/uploads/2022/10/mgmt-2.jpg){:class="img-responsive"}
 
-1. Next, you just keep creating resources and running applies. Eventually you might get an error about a provider not being registered:
+5. Next, you just keep creating resources and running applies. Eventually you might get an error about a provider not being registered:
 
    ```escape
    Error: creating/updating Virtual Network: (Name "xx-xx-xxx-x" / Resource Group "xx-xx-x-x-x-x"): network.VirtualNetworksClient#CreateOrUpdate: Failure sending request: StatusCode=409 -- Original Error: Code="MissingSubscriptionRegistration" Message="The subscription is not registered to use namespace 'Microsoft.Network'. See https://aka.ms/rps-not-found for how to register subscriptions." Details=[{"code":"MissingSubscriptionRegistration","message":"The subscription is not registered to use namespace 'Microsoft.Network'. See https://aka.ms/rps-not-found for how to register subscriptions.","target":"Microsoft.Network"}]
