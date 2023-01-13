@@ -17,6 +17,11 @@ tags:
 
 So a previous issue I discussed was 'how do I have terraform calculate a tag but only one time but also NOT try to change the tag on every apply?' This was discussed in [Pipeline Caller Tag](https://automationadmin.com/2022/09/pipeline-caller) and [LastUpdated](https://automationadmin.com/2022/09/tf-lastupdated-tag) posts. Here is a solution to that problem - store the information in your statefile.
 
+
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-modules/tree/main/calc-tags).
+{: .notice--success}
+
+
 ### To Resolve:
 
 1. Create a module that pulls in these providers:

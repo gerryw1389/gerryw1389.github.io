@@ -18,6 +18,9 @@ tags:
 
 In order for my blog to mirror my organization more, I decided to buy a few more `pay-as-you-go` subscriptions from Azure. After buying the subs, they show up under the `Tenant Root Group` Management group with default names. All I have done in the UI is move them under my `Automation Admin` management group and renamed them. Since my [az-terraform](https://automationadmin.com/2022/05/setup-azdo-terraform/) Service Principle has contributor at the management group level, I should be able to use Terraform to manage all resources in these subscriptions. I wanted to write a post on what you could do with terraform to setup a new subscription. Let's go.
 
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2022-10-20-tf-new-subscription).
+{: .notice--success}
+
 ### To Resolve:
 
 1. First, a view of what to work with:
