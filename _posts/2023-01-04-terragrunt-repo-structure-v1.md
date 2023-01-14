@@ -134,6 +134,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    - In that same command we are doing something that is real important for you to understand, we are passing a directory for the `--terragrunt-working-dir`. This is important because if you don't pay attention here, you could run plans against all your subscriptions at the same time! Not a big deal since it is a plan but one of the main [selling points of terragrunt](https://terragrunt.gruntwork.io/docs/features/execute-terraform-commands-on-multiple-modules-at-once/). Let's just run this once for now to see what happens...
 
+   - NOTE: Unfortunately, I have to paste the logs here because Github deletes them, sorry, just scroll!
 
    ```escape
    Prepare all required actions
@@ -265,9 +266,9 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
    - Well `var.region_abbr` is under the `./east` folder so it should be `eus` as we [expect](https://github.com/gerryw1389/terraform-examples/blob/main/2023-01-04-terragrunt-repo-structure-v1/infra-config/nonprod/hub/east/region.hcl)
    - OK so that is a lot of work for what it is, maybe not use Terragrunt?
 
-1. Well hold on, first let's try a different environment/region and see what happens. Simply changing `--terragrunt-working-dir infra-config/nonprod/hub/east/deployment` to `--terragrunt-working-dir infra-config/prod/hub/southcentral/deployment` gives us `"aa-prod-scus-mgmt-rg"`, wowza, that's pretty cool!
+2. Well hold on, first let's try a different environment/region and see what happens. Simply changing `--terragrunt-working-dir infra-config/nonprod/hub/east/deployment` to `--terragrunt-working-dir infra-config/prod/hub/southcentral/deployment` gives us `"aa-prod-scus-mgmt-rg"`, wowza, that's pretty cool!
 
-1. OK, so let's talk about what will happen if we execute it from higher up? Well, let's try. Changing `--terragrunt-working-dir infra-config/prod/hub/southcentral/deployment` to `--terragrunt-working-dir infra-config/prod` shows it will create 4 Resource Groups at the same time in each subscription!
+3. OK, so let's talk about what will happen if we execute it from higher up? Well, let's try. Changing `--terragrunt-working-dir infra-config/prod/hub/southcentral/deployment` to `--terragrunt-working-dir infra-config/prod` shows it will create 4 Resource Groups at the same time in each subscription! NOTE: Unfortunately, I have to paste the logs here because Github deletes them, sorry, just scroll!
 
    ```escape
    Prepare all required actions
