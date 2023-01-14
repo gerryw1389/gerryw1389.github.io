@@ -160,7 +160,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    - One, we can have one giant repo where we pass in all these vars, build providers, and create resources in each subscription like in the example.
    - Two, we can create one repo per subscription and only pass in its var as `subscription_id` and not use all four at once. How often will we be deploying apps to all four subscriptions? Probably never.
-   - Three, we can use something like Terragrunt (UPDATE LINK) to deploy to subscriptions dynamically.
+   - Three, we can use something like [Terragrunt](https://automationadmin.com/2023/01/terragrunt-repo-structure-v1) to deploy to subscriptions dynamically.
 
 3. Anyways, it is common when you first setup a new sub to build framework like the examples below:
 

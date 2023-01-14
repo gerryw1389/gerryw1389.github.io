@@ -19,6 +19,9 @@ So if your organization uses a [hub and spoke](https://learn.microsoft.com/en-us
 
 Note that is one of the [official ways](https://developer.hashicorp.com/terraform/language/modules/develop/composition#data-only-modules) to use Terraform.
 
+Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-modules/tree/main/data-sources).
+{: .notice--success}
+
 ### To Resolve:
 
 1. First create a module called 'data_sources' or something like that. Mine is here => [data-sources](https://github.com/gerryw1389/terraform-modules/tree/main/data-sources)
@@ -39,11 +42,11 @@ Note that is one of the [official ways](https://developer.hashicorp.com/terrafor
 
    - NOTE: I used to build providers inside the module but I kept getting errors in my terraform plan saying this was [depreciated](https://developer.hashicorp.com/terraform/language/modules/develop/providers#legacy-shared-modules-with-provider-configurations) and that you should pass them in instead. Makes sense, modules should have very little except vars and code.
 
-1. Next, just start doing [data lookups](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/data_event_hub.tf) (example [here](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/data_law.tf)) where you query resources from your hub network based on environment.
+1. Next, just start doing data lookups like [here](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/data_event_hub.tf), [here](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/data_law.tf), and [here](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/data_priv_dns.tf) where you query resources from your hub network based on environment.
 
    - Couple things to note here:
    - We are querying both Nonprod and Prod environments as well as South Central and East regions and getting their resources at the same time.
-   - We are accessing whatever properties are available of those resources like `name`, `id`, ect.
+   - We are accessing whatever properties are available of those resources like `name`, `id`, ect. and exporting them as outputs.
 
 3. Ok, so now we have `module.dataLookup.law_pe_rg` and `module.dataLookup.law_pe_name`, how does that help? Well the real power of this you can use a [lookup](https://developer.hashicorp.com/terraform/language/functions/lookup) function in your module composition like [so](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/examples/common.tf) :
 
@@ -60,4 +63,4 @@ Note that is one of the [official ways](https://developer.hashicorp.com/terrafor
 
    - For example, every time I need to pass a `log_analytics_workspace_id`, I can just pass `local.law_id` blindly and know it will perform the lookup for me!
 
-1. NOTE: I have recently started playing with Terragrunt (UPDATE LINK) and it seems like it does the same thing but without a module call/lookup. I will update on it shortly.
+1. NOTE: I have recently started playing with [Terragrunt](https://automationadmin.com/2023/01/terragrunt-repo-structure-v1) and it seems like it does the same thing but without a module call/lookup. I will update on it shortly.
