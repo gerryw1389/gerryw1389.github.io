@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-This post builds on [Terragrunt Repo Structure V1](https://automationadmin.com/2023-01-04-terragrunt-repo-structure-v1) by adding a few improvements:
+This post builds on [Terragrunt Repo Structure V1](https://automationadmin.com/2023/01/terragrunt-repo-structure-v1) by adding a few improvements:
 
    - It removes the 8 `terragrunt.hcl` files in the different directories
    - It shows how to split code if you want to have special use cases in environments by changing the `source` attribute in terragrunt.

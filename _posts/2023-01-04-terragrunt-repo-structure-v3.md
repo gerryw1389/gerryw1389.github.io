@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-This post builds on [Terragrunt Repo Structure V1](https://automationadmin.com/2023-01-04-terragrunt-repo-structure-v1) by simply showing the pros/cons of embedding terraform files in the same structure as terragrunt files.
+This post builds on [Terragrunt Repo Structure V1](https://automationadmin.com/2023/01/terragrunt-repo-structure-v1) by simply showing the pros/cons of embedding terraform files in the same structure as terragrunt files.
 
 Note: You can see the code for this post on [my Github repo](https://github.com/gerryw1389/terraform-examples/tree/main/2023-01-04-terragrunt-repo-structure-v3). [Github Actions are here](https://github.com/gerryw1389/terraform-examples/blob/main/.github/workflows/2023-01-04-terragrunt-repo-structure-v3/).
 {: .notice--success}
