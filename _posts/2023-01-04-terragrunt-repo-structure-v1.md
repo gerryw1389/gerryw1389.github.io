@@ -112,7 +112,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    - Level 5: [terragrunt.hcl](https://github.com/gerryw1389/terraform-examples/blob/main/2023-01-04-terragrunt-repo-structure-v1/infra-config/nonprod/spoke/southcentral/deployment/terragrunt.hcl) => You will see this file placed 8 times - one for each environment, subscription, and region. The `deployment` is just an arbitrary name for an application deployment. I could have done `weather.io`, `bob`, or `my-app` if I wanted.
 
-1. So we have level 5 terragrunt.hcl files in 8 places with the same code in each, I thought the point was to be DRY (Don't repeat yourself), sounds like you are! All I can say is "give me a break, I'm still learning! lol" But seriously, I think what is happening will reveal itself to be useful if we just continue on okay?
+1. So we have level 5 terragrunt.hcl files in 8 places with the same code in each, I thought the point was to be DRY (Don't repeat yourself), sounds like you are! All I can say is "give me a break, I'm still learning! lol" But seriously, I think what is happening will reveal itself to be useful if we just continue on okay? UPDATE: This is fixed and covered in [Terragrunt Repo Structure V2](https://automationadmin.com/2023/01/terragrunt-repo-structure-v2).
 
 1. OK, so let's break down the sections in [terragrunt.hcl](https://github.com/gerryw1389/terraform-examples/blob/main/2023-01-04-terragrunt-repo-structure-v1/infra-config/nonprod/spoke/southcentral/deployment/terragrunt.hcl). 
 
@@ -651,6 +651,14 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    - Then for each one, it is passing their customized `locals` as `inputs` to the terraform code that is up at the `infra` folder [way way above it](https://github.com/gerryw1389/terraform-examples/tree/main/2023-01-04-terragrunt-repo-structure-v1/infra). This is because if you read their `source` for terraform, it says `source = "${find_in_parent_folders("infra")}"`
 
-1. But what if you wanted to have code in nonprod that is different than prod? Or east that is different from southcentralus? Well then under the infra folder, create sub-folders like `./nonprod` or `./east` and then change your source to be `source = "${find_in_parent_folders("infra")}//nonprod"` or `source = "${find_in_parent_folders("infra")}//east"` accordingly. Heck, I have even gone as far as placing terraform code in the same directory as the `terragrunt.hcl` file and calling it like `source = ./"` but it's a better idea to keep your terraform and terragrunt code separated.
+1. But what if you wanted to have code in nonprod that is different than prod? Or east that is different from southcentralus?
+
+   - You have two fixes, one is you set a bunch of [flags](https://automationadmin.com/2022/10/tf-using-flags-for-settings) as your input variables like `includes_resource_group` and if that is true, conditionally deploy that resource.
+   - Second is you create separate folder under `./infra` and point to that instead, like `./infa/nonprod` and `./infa/prod` then update your source like `source = "${find_in_parent_folders("infra")}//nonprod"` in your terragrunt.hcl. I cover this in [Terragrunt Repo Structure V2](https://automationadmin.com/2023/01/terragrunt-repo-structure-v2).
+
+
+1. What if you don't feel like copying that same `terragrunt.hcl` 8 times? Well I found the fix for this shortly after posting this, you just use `includes` and point higher up. I cover this in [Terragrunt Repo Structure V2](https://automationadmin.com/2023/01/terragrunt-repo-structure-v2)
+
+1. As a last example (for now), I wanted to show that you can mix your terragrunt and terraform code in the same structure and just reference terraform from terragrunt by using `source = ./"` in your terragrunt file and keeping them in the same folder structure. I cover this in [Terragrunt Repo Structure V3](https://automationadmin.com/2023/01/terragrunt-repo-structure-v3). Keep in mind this is not recommended since you end up repeating alot which defeats the purpose of terragrunt.
 
 1. That's it for now, will continue to post about Terragrunt in the future. Main reference I used was [this repo](https://github.com/rubiconba/devops-lecture-terragrunt) to get started. Thanks to those contributors!
