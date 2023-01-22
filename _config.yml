@@ -38,10 +38,10 @@ kramdown:
 remote_theme: mmistakes/minimal-mistakes@4.16.5
 
 # Outputting
-permalink: /:categories/:title/
+permalink: "pretty"
 paginate: 20 # amount of posts to show
 paginate_path: /page:num/
-timezone: US # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "US/Central" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
