@@ -34,7 +34,7 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
    1. Text2
    ```
 
-2. To get it to show line numbers for code blocks, inside `_config.yml` I set:
+1. To get it to show line numbers for code blocks, inside `_config.yml` I set:
 
    ```escape
    # per https://github.com/jekyll/jekyll/issues/4619
@@ -50,12 +50,7 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
       line_numbers: true
    ```
 
-3. Add the 'Suggest An Edit' at the end of every article (thanks [https://www.brianbunke.com/](https://www.brianbunke.com/)!:
-
-   - [Edit this file](https://github.com/gerryw1389/gerryw1389.github.io/blob/master/_layouts/single.html) (see around line 79)  
-   - Also edit `config.yml` and add in `github_repository: https://github.com/gerryw1389/gerryw1389.github.io` under the 'Site Settings' section
-
-4. Recently, I wanted to change the font to be smaller, I did this by editing `/assets/css/main.scss` and putting in:
+1. Recently, I wanted to change the font to be smaller, I did this by editing `/assets/css/main.scss` and putting in:
 
    ```escape
    --- 
@@ -71,18 +66,20 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
    html {
       font-size: 12px; // originally 16px
       @include breakpoint($medium) {
-         font-size: 14px; // originally 18px
+         font-size: 16px; // originally 18px
       }
 
       @include breakpoint($large) {
-         font-size: 16px; // originally 20px
+         font-size: 18px; // originally 20px
       }
 
       @include breakpoint($x-large) {
-         font-size: 18px; // originally 22px
+         font-size: 20px; // originally 22px
       }
    }
    ```
+
+   - So font size went from `18 => 16`, `20 => 18`, and `22 => 20` for each type
 
 5. For left sidebar options for single posts, I use the following at `_data/naviagation.yml`:
 
@@ -100,14 +97,13 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
          url: https://www.paypal.com/paypalme2/gerryw1389
    ```
 
-6. For Google Adsense I pasted code into `includes/footer/custom.html` and `includes/head/custom.html` and then on `_layouts/default.html` I made sure that:
-   - The line `{% include head/custom.html %}` was between the `<head>` tags
-   - The line `{% include footer/custom.html %}` was between the `<footer>` tags
+1. For Google Adsense I pasted code into `includes/head/custom.html`
    - More [info on my blog](https://automationadmin.com/2019/10/google-adsense-and-disqus) if needed
+   - I recently moved from disqus to [utterances](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments) per the docs.
 
-7. Anything I might have missed should be [here](https://automationadmin.com/2019/08/wordpress-to-jekyll-changes/)
+1. Change dates from `%B %d, %Y` to `%Y-%m-%d` by adding under `defaults:` the sub values `show_date: true` and `date_format` per [docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates)
 
-8. Change dates from `%B %d, %Y` to `%Y-%m-%d` by doing a find and replace. I originally added `show_date` and `date_format` per [docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates) but I think since I'm overwriting `_layouts/single.html` that it ignores the general config.yml.
+1. Anything I might have missed should be [here](https://automationadmin.com/2019/08/wordpress-to-jekyll-changes/)
 
 ### DISCLAIMER
 
