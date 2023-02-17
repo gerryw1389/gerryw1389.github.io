@@ -18,7 +18,7 @@ subtitle: "A blog on engineering and administering various Automation technologi
 email: admin@automationadmin.com
 description: A blog on engineering and administering various Automation technologies
 github_username: gerryw1389
-github_repository: https://github.com/gerryw1389/gerryw1389.github.io
+github_repository: gerryw1389/gerryw1389.github.io
 minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 search: true # true, false (default)
