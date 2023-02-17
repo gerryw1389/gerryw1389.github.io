@@ -1,7 +1,7 @@
 # Ref => https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.20.0"
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Plugins
