@@ -1,32 +1,22 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Ref => https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Automation Admin
-subtitle: "A blog on engineering and administering various Automation technologies"
-email: admin@automationadmin.com
-description: A blog on engineering and administering various Automation technologies
-github_username: gerryw1389
-github_repository: gerryw1389/gerryw1389.github.io
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-search: true # true, false (default)
-search_full_content: true # true, false (default)
-search_provider: google # lunr (default), algolia, google
-google:
-  search_engine_id: 43ce0de971d0f4f85
-  instant_search: false # false (default), true
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Reading Files
+include:
+  - _pages
 
 # Build settings
 markdown: kramdown
@@ -39,7 +29,37 @@ kramdown:
     block:
       line_numbers: true
 
-remote_theme: mmistakes/minimal-mistakes@4.16.5
+# Site Settings
+locale: "en-US"
+title: "Automation Admin"
+subtitle: "A blog on engineering and administering various Automation technologies"
+description: "A blog on engineering and administering various Automation technologies"
+name: "gerryw1389"
+url: "https://automationadmin.com"
+repository: "gerryw1389/gerryw1389.github.io"
+
+# Search
+search: true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: google # lunr (default), algolia, google
+google:
+  search_engine_id: 43ce0de971d0f4f85
+  instant_search: false # false (default), true
+
+# Comments
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-73268434-2"
+    anonymize_ip: false # default
 
 # Outputting
 permalink: "pretty"
@@ -47,31 +67,7 @@ paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: "US/Central" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-remote-theme
-
+# Site Author
 author:
   name: ""
   avatar: "/assets/images/gerryw.png"
@@ -90,13 +86,7 @@ author:
       icon: "fas fa-bookmark"
       url: "https://automationadmin.com/2016/02/bookmarks"
 
-comments:
-  provider: "utterances"
-  utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
-    label: "comment" # Optional - must be existing label.
-
+# Site footer
 footer:
   links:
     - label: "Home"
@@ -106,16 +96,25 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gerryw1389"
 
+# Archive Pages
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Defaults
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single # was compress
+      layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       sidebar:
         nav: "categories"
       share: true
@@ -129,16 +128,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-73268434-2"
-    anonymize_ip: false # default
