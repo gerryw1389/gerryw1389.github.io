@@ -90,6 +90,13 @@ author:
       icon: "fas fa-bookmark"
       url: "https://automationadmin.com/2016/02/bookmarks"
 
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
 footer:
   links:
     - label: "Home"
