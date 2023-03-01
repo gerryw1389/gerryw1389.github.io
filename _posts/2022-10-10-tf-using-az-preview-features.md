@@ -24,7 +24,7 @@ Follow this post to use features not yet available in Terraform but are availabl
    - Microsoft releases a new [AzureRM API](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview) endpoint for new/existing resources.
    - Hashicorp Terraform developers write [Go lang wrappers](https://github.com/hashicorp/terraform) around the new API.
    - They release a new version of the [AzureRM provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest) to Terraform Registry.
-   - We then consume that version in our modules/enterprise deployments and provide options for our developers to deploy resource in Azure following **our custom business rules**.
+   - We then consume that version in our modules/infrastructure compositions and provide options for our developers to deploy resource in Azure following **our custom business rules**.
 
 1. So what happens is sometimes we need to use a feature that is available at the AzureRM level but is not yet provided via Terraform.
 

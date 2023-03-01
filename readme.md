@@ -36,18 +36,16 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
 
 1. To get it to show line numbers for code blocks, inside `_config.yml` I set:
 
-   ```escape
-   # per https://github.com/jekyll/jekyll/issues/4619
+   ```yaml
    markdown: kramdown
    kramdown:
    syntax_highlighter: rouge
    syntax_highlighter_opts:
-      default_lang: csharp
-      css_class: 'highlight'
+      css_class: "highlight"
       span:
-      line_numbers: false
+         line_numbers: false
       block:
-      line_numbers: true
+         line_numbers: true
    ```
 
 1. Recently, I wanted to change the font to be smaller, I did this by editing `/assets/css/main.scss` and putting in:
@@ -99,11 +97,13 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
 
 1. For Google Adsense I pasted code into `includes/head/custom.html`
    - More [info on my blog](https://automationadmin.com/2019/10/google-adsense-and-disqus) if needed
-   - I recently moved from disqus to [utterances](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments) per the docs.
+   - I recently moved from disqus to [utterances](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments) per the Parent Theme's docs.
 
 1. Change dates from `%B %d, %Y` to `%Y-%m-%d` by adding under `defaults:` the sub values `show_date: true` and `date_format` per [docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates)
 
-1. Anything I might have missed should be [here](https://automationadmin.com/2019/08/wordpress-to-jekyll-changes/)
+1. Anything I might have missed should be [here](https://automationadmin.com/2019/08/wordpress-to-jekyll-changes).
+
+1. NOTE: I'm currently stuck on version 4.16.5 due to [an issue I discussed here](https://automationadmin.com/2023/01/unable-to-update-theme). It's probably an easy fix but I haven't figured it out yet :/
 
 ### DISCLAIMER
 
