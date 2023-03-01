@@ -4,7 +4,7 @@ date: 2023-02-27T07:10:21-05:00
 author: gerryw1389
 layout: single
 classes: wide
-permalink: /2022/10/terraform-template
+permalink: /2023/02/terraform-template
 categories:
   - Azure
 tags:
