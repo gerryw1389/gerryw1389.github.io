@@ -5,6 +5,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Lab"
+    url: /lab/
   - title: "About"
     url: /about/
 
