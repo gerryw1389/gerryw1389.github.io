@@ -29,8 +29,8 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
      - [Scripting-RestAPI](https://automationadmin.com/tags/#scripting-restapi)
      - [VersionControl](https://automationadmin.com/tags/#versioncontrol)
    - This position used Azure Services with a focus in Automation, but it didn't focus at all on Infrastructure as Code but instead used [serverless](https://automationadmin.com/2021/01/function-apps-with-logic-apps) automation.
-   - This is where I shifted focus from on-prem automation to cloud automation once my company got Express Route setup with Azure. Also, [this post](https://automationadmin.com/2018/11/aws-sysadmin-guide/) helped me change my mindset at that time.
-   - Another great mind chaning post was [this](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/) one.
+   - This is where I shifted focus from on-prem automation to cloud automation specifically in Azure. Also, [this post](https://automationadmin.com/2018/11/aws-sysadmin-guide/) helped me change my mindset at that time.
+   - Another great career changing post was [this](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/) one.
 
 3. Systems Administrator:
    - Post Tags/Categories: [Powershell](https://automationadmin.com/tags/#scripting-powershell), [Windows Server](https://automationadmin.com/categories/#windowsserver), [Linux Server](https://automationadmin.com/tags/#linuxserver)
@@ -64,7 +64,7 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
      - I'm a fan of [skills checklists](https://roadmap.sh/devops) so that I'm always learning something new, see above.
    - Be a tinker by nature:
      - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. For example, it drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json).
-     - Do you regularly go out of your way to learn how $x works? See [this list](https://github.com/Kickball/awesome-selfhosted) of things you can install in your [homelab](https://automationadmin.com/tags/#test-lab).
+     - Do you regularly go out of your way to learn how $x works? See [this list](https://github.com/Kickball/awesome-selfhosted) of things you can install in your [homelab](https://automationadmin.com/tags/#virtualizationsoftware) (newer version [here](https://automationadmin.com/lab)).
        - See my [setup](https://automationadmin.com/tags/#setup) tag for example.
        - After you stand something up, take notes of each step and then post them on [a blog](https://automationadmin.com/2019/06/wordpress-to-jekyll/) so you can showcase your skills.
          - This can be a self hosted Wordpress instance or preferably, Github Pages with many blog links pointing to your Github repos.
@@ -94,4 +94,4 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
 
 ### Archived:
 
-Looking for the older version of this page? Check [here](https://automationadmin.com/2016/01/archived-about-me)
+Looking for the older version of this page? Check [here](https://automationadmin.com/2016/01/archived-about-me).
