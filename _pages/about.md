@@ -5,26 +5,18 @@ layout: single
 classes: wide
 ---
 
-Hello, my name is Gerry and I currently work as a Cloud Systems Engineer at an enterprise company. My current focus is leveraging Infrastruce As Code (IaC) to deploy resources into Azure by utilizing multi-step Pipelines to accomplish this. In addition, I like to leverage any technologies for automation with powershell or python. This blog serves as a place to store and search my lessons learned over time, maybe you can find it helpful as well.
+Hello, my name is Gerry and I wrote this blog to store information about lessons I have learned over time through my career from Tech Support => SysAdmin => Cloud Engineer => Eventually Cloud Architect. Can you trust the content? *Maybe*, I would just use it as one source amongst others if you are researching an issue and come across one of my posts. This blog is not meant to answer anything directly and is more scratch notes as I [move through my Devops journey](https://roadmap.sh/devops) so please don't hold me accountable for anything. See the repo's [license](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/LICENSE) for more legal terms. I do hold the [Azure Solutions Architect](https://www.credly.com/users/gerry-williams.5513fbdf/badges) certification and have plenty of official work experience in my field working with rather large enterprise companies so I'm not unqualified, but I also don't present or speak at conferences either. Just your average SysAdmin/Cloud Engineer looking to learn more everyday. Anyways, thank you for reading and if you wish to [donate](https://www.paypal.com/paypalme/gerryw1389) there is a link on the sidebar (for posts, not pages!) and if you wish to discuss or improve any posts just open a Github issue by commenting at the bottom of any post since I have [setup Utterances](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments). Thanks for stopping by!
 
 ### My Interests Over Time:
 
-1. Cloud Systems Engineer (current):
-   - Daily tools used: 
-     - Deploying of all Azure Services using Azure Devops/Github Actions + Terraform. Everything is done through IaC instead of Azure Portal. Challenge mode on!
-     - AKS deployment/management. Will post more on this in the future but for now just learning how to use [kubectl and k9s](https://automationadmin.com//2022/07/kubectl-k9s) for interacting with deployed clusters. Stay tuned.
-     - Powershell + Python scripting to be ran by Azure Automation/Logic Apps/Function Apps. This will never change as scripting is an [incredibly valuable skill](https://automationadmin.com/2020/02/importance-of-learning-scripting/) that can be used anywhere/anytime for automation.
-   - So instead of using the Azure portal to deploy serverless applications, I now mostly write them in Terraform and deploy with Azure Devops.
-   - In previous positions, I always [source controlled](https://automationadmin.com/tags/#versioncontrol) what I could so this is just the next logical step.
+1. Cloud Systems Engineer (current) / Junior Cloud Architect :
+   - Post Tags/Categories: [**Terraform**](https://automationadmin.com/tags/#infrastructureprovisioning), [Azure](https://automationadmin.com/categories/#azure), [Azure Devops/Github Actions](https://automationadmin.com/tags/#cicd), [Git](https://automationadmin.com/tags/#versioncontrol) 
+   - My most major focus has been "Deploying of all Azure Services using Azure Devops/Github Actions + Terraform". Everything is done through IaC instead of Azure Portal. Challenge mode on!
+   - AKS deployment/management. Will post more on this in the future but for now just learning how to use [kubectl and k9s](https://automationadmin.com//2022/07/kubectl-k9s) for interacting with deployed clusters. Stay tuned.
+   - Powershell + Python scripting to be ran by [Azure Devops Scheduled Tasks](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/scheduled-triggers?view=azure-devops&tabs=yaml)/Azure Automation/Logic Apps/Function Apps. This will never change as scripting is an [incredibly valuable skill](https://automationadmin.com/2020/02/importance-of-learning-scripting/) that can be used anywhere/anytime for automation.
 
-1. Automation Engineer:
-   - Azure, Github, Docker, Python, Ansible
-   - I'm trying to be serverless as much as possible so I use Azure Functions and Azure Containers when possible
-     - See my [Azure](https://automationadmin.com/categories/#azure) category and [cloud](https://automationadmin.com/tags/#cloud) tag for example.
-   - Try to check the skills in: [How to be a Cloud SysAdmin](https://automationadmin.com/2018/11/aws-sysadmin-guide/)
-   - Must read [post](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/)
-   - Trying to [break in?](https://roadmap.sh/devops) Get to learning. More info can be found on [this recurring thread](https://www.reddit.com/r/devops/comments/koijyu/monthly_getting_into_devops_thread_202101/)
-   - Most common tags for 2021 so far:
+2. Automation Engineer:
+   - Post Tags/Categories:
      - [Azure-Automation](https://automationadmin.com/tags/#azure-automation)
      - [Azure-FunctionApps](https://automationadmin.com/tags/#azure-functionapps)
      - [Azure-KeyVault](https://automationadmin.com/tags/#azure-keyvault)
@@ -36,26 +28,40 @@ Hello, my name is Gerry and I currently work as a Cloud Systems Engineer at an e
      - [Scripting-Python](https://automationadmin.com/tags/#scripting-python)
      - [Scripting-RestAPI](https://automationadmin.com/tags/#scripting-restapi)
      - [VersionControl](https://automationadmin.com/tags/#versioncontrol)
+   - This position used Azure Services with a focus in Automation, but it didn't focus at all on Infrastructure as Code but instead used [serverless](https://automationadmin.com/2021/01/function-apps-with-logic-apps) automation.
+   - This is where I shifted focus from on-prem automation to cloud automation once my company got Express Route setup with Azure. Also, [this post](https://automationadmin.com/2018/11/aws-sysadmin-guide/) helped me change my mindset at that time.
+   - Another great mind chaning post was [this](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/) one.
 
-2. Systems Administrator:
-   - Powershell, Windows Server
+3. Systems Administrator:
+   - Post Tags/Categories: [Powershell](https://automationadmin.com/tags/#scripting-powershell), [Windows Server](https://automationadmin.com/categories/#windowsserver), [Linux Server](https://automationadmin.com/tags/#linuxserver)
    - I was a Windows SysAdmin but tried at every job to use Linux instead (where it makes sense (not for Active Directory for example)):
      - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
      - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/)
-   - Having trouble breaking in? See [this post](https://automationadmin.com/2016/05/breaking-into-sa-jobs/)
-   - Already in? [how far in?](https://www.docs.google.com/spreadsheets/d/1FBr20VIOePQH2aAH2a_6irvdB1NOTHZaD8U5e2MOMiw/pub?output=html) Please don't be cocky, read [the wiki](https://www.reddit.com/r/sysadmin/wiki/bootcamp/) to always improve your skills.
+   - Having trouble breaking in? See [this post](https://automationadmin.com/2016/05/breaking-into-sa-jobs/) for my advice.
+   - Already in? [How far in?](https://www.docs.google.com/spreadsheets/d/1FBr20VIOePQH2aAH2a_6irvdB1NOTHZaD8U5e2MOMiw/pub?output=html) Please don't be cocky, read [the wiki](https://www.reddit.com/r/sysadmin/wiki/bootcamp/) to always improve your skills.
 
-3. Remote Support Tech:
-   - Mostly break fix and learning to script
-   - Learn to troubleshoot
+4. Remote Support Tech:
+   - Mostly break fix and learning to script.
+   - Learning to troubleshoot.
    - Everyone should read this at [the beginning of your career](http://www.catb.org/esr/faqs/smart-questions.html) and really understand what it is saying. This is not to be condescending, but I refuse to help people who do not try to help themselves. 80% of people who ask me questions about something are doing it out of sheer laziness - no more, redirect them to this page and ask them "show me where you got stuck..."
 
-4. How to Advance:
+### General Advice
+
+1. For those that are new to the field of IT, my advice is to learn the following skills in the following order:
+
+   - Foundational knowledge: Hardware, Software, Networking. These are the core of IT systems with Software being the largest. But at a minimum you should know:
+     - [Hardware](https://automationadmin.com/categories/#hardware): What components go into a computer - from disk drives, to memory sticks (RAM), to Raid Arrays and on. This may get less and less relevant as time goes on where Cloud providers extract this away but it is still important as we may shift back on-prem in the future once vendor lockin is not as strong. Currently cloud providers such as GCP, AWS, and Azure have attractive pricing to bring companies to their platform but once they capture a large enough market there is nothing stopping them from increasing their pricing because they know it will take enterprises years to migrate back on-prem. And obviously being publically traded companies they actually have to do this to increase share holder value so keep this in mind.
+     - Software: This goes from anything between what an Operating System is, to user installed programs, to Server Applications versus Client Applications. 
+     - [Networking](https://automationadmin.com/categories/#networking): I personally feel that every person in IT should be CCNA certified at the beginning of their career no matter what path they choose. Not because I'm a Cisco shill, quite the opposite actually, I don't care what provider but you need to know the basics: Private IP verus Public IP, NAT, Firewall Rules, ect. At a minimum, you should try to [visualize a path](https://automationadmin.com/2020/08/basic-network-troubleshooting) networking traffic takes between two devices.
+   - So you will never master everything in those categories as each are infinite in depth where you can spend your whole career getting deeper and deeper, so you should strive to have a SysAdmin level knowledge (hint: go for [level 50](https://www.docs.google.com/spreadsheets/d/1FBr20VIOePQH2aAH2a_6irvdB1NOTHZaD8U5e2MOMiw/pub?output=html) ) in each.
+   - The best advice above all is to learn to troubleshoot. The way you troubleshoot something is you have to visualize how it works as deep as you can. Have you heard of the ["what happens when you google?"](https://github.com/alex/what-happens-when) repo? Do this but with **EVERYTHING** that you can.
+
+2. How to Advance:
    - Look for a [new demanding job](https://thedailywtf.com/articles/Up-or-Out-Solving-the-IT-Turnover-Crisis) once you feel you have learned all you can and you don't see upwards mobility.
      - Make sure to [interview them](https://automationadmin.com/2016/04/interview-questions/) more than they interview you :)
      - Try to give your current position 3 years minimum, it can look bad if you jump ship too often.
    - Try to never be the smartest person the room
-     - I'm a fan of skills checklists so that I'm always learning something new, see above.
+     - I'm a fan of [skills checklists](https://roadmap.sh/devops) so that I'm always learning something new, see above.
    - Be a tinker by nature:
      - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. For example, it drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json).
      - Do you regularly go out of your way to learn how $x works? See [this list](https://github.com/Kickball/awesome-selfhosted) of things you can install in your [homelab](https://automationadmin.com/tags/#test-lab).

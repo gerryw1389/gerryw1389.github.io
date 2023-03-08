@@ -18,7 +18,7 @@ I recently updated my [About](https://automationadmin.com/about/) page to stress
 
 1. I'm a fan of levels when it comes to my career. i.e. you start here and work you way up.
 
-   - Devops => [devops.sh](https://roadmap.sh/devops) - I share this reference often and find it a good visual to how to progress in IT if you wish to keep climbing upwards. There is no doubt that Devops/SRE's are the top of talent in IT right now unless you go full stack developer according to [levels.fyi](https://www.levels.fyi/Salaries/Software-Engineer/Site-Reliability/)
+   - Devops => [roadmap.sh/devops](https://roadmap.sh/devops) - I share this reference often and find it a good visual to how to progress in IT if you wish to keep climbing upwards. There is no doubt that Devops/SRE's are the top of talent in IT right now unless you go full stack developer according to [levels.fyi](https://www.levels.fyi/Salaries/Software-Engineer/Site-Reliability/)
    - SysAdmin => [Reddits bootcamp is a good start](https://www.reddit.com/r/sysadmin/wiki/bootcamp/)
 
 1. So why scripting? What does it matter?
