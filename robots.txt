@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://automationadmin.com/sitemap.xml
