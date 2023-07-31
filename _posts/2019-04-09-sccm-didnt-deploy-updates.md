@@ -16,15 +16,15 @@ tags:
 
 We had an issue where we checked the updates on Wednesday night and they showed 2 compliant and 63 pending. This can be normal as long as there is no errors. The next morning we came in to check on the updates and found the same screen:  
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm.jpg){:class="img-responsive"}
+   - ![sccm](https://automationadmin.com/assets/images/uploads/2019/04/sccm.jpg){:class="img-responsive"}
 
 We then checked the deployment package and the software update group and it showed they were downloaded and deployed:  
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm-2.jpg){:class="img-responsive"}
+   - ![sccm-2](https://automationadmin.com/assets/images/uploads/2019/04/sccm-2.jpg){:class="img-responsive"}
 
 But many of the clients only showed Endpoint updates, not Windows Updates installed:
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/sccm-3.jpg){:class="img-responsive"}
+   - ![sccm-3](https://automationadmin.com/assets/images/uploads/2019/04/sccm-3.jpg){:class="img-responsive"}
 
 ### To Resolve:
 

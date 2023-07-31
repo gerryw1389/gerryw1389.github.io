@@ -38,12 +38,11 @@ NOTE: I don't have any actual hardware devices to install this to so I am using 
 
 7. Go to Storage => Volumes and make sure you change the permissions for the volume to Windows.
 
-   <img class="alignnone size-full wp-image-654" src="https://automationadmin.com/assets/images/uploads/2016/09/freenas-1.png" alt="freenas-1" width="762" height="532" srcset="https://automationadmin.com/assets/images/uploads/2016/09/freenas-1.png 762w, https://automationadmin.com/assets/images/uploads/2016/09/freenas-1-300x209.png 300w" sizes="(max-width: 762px) 100vw, 762px" />
-
+   - ![freenas-1](https://automationadmin.com/assets/images/uploads/2016/09/freenas-1.png){:class="img-responsive"}
 
 8. Go to: Sharing => Block (isSCSI) => Portals (subtab). Select &#8220;add portal&#8221; and then select the IP address it gives you or select one from the drop down.
 
-   <img class="alignnone size-full wp-image-655" src="https://automationadmin.com/assets/images/uploads/2016/09/freenas-2.png" alt="freenas-2" width="905" height="367" srcset="https://automationadmin.com/assets/images/uploads/2016/09/freenas-2.png 905w, https://automationadmin.com/assets/images/uploads/2016/09/freenas-2-300x122.png 300w, https://automationadmin.com/assets/images/uploads/2016/09/freenas-2-768x311.png 768w" sizes="(max-width: 905px) 100vw, 905px" />
+   - ![freenas-2](https://automationadmin.com/assets/images/uploads/2016/09/freenas-2.png){:class="img-responsive"}
 
 9. Now go to the Initiators tab and &#8220;add initiators&#8221;. These are the clients that will connect, select the default &#8220;ALL&#8221; in here or specific hostnames/IP's.
 
@@ -51,14 +50,11 @@ NOTE: I don't have any actual hardware devices to install this to so I am using 
 
 11. On the Add Target tab, create a target name and associate it with the appropriate portal.
 
-
-  <img class="alignnone size-full wp-image-656" src="https://automationadmin.com/assets/images/uploads/2016/09/freenas-3.png" alt="freenas-3" width="726" height="372" srcset="https://automationadmin.com/assets/images/uploads/2016/09/freenas-3.png 726w, https://automationadmin.com/assets/images/uploads/2016/09/freenas-3-300x154.png 300w" sizes="(max-width: 726px) 100vw, 726px" />
-
+   - ![freenas-3](https://automationadmin.com/assets/images/uploads/2016/09/freenas-3.png){:class="img-responsive"}
 
 12. On the extents tab, make up a name for an extent, select to browse to your volume from the previous step and append the name on the end of it, then create a size in bytes (Mine is roughly 40 GB in the example). It is recommended to choose &#8220;File&#8221; extents over device extents from what I have read on the intertubes.
 
-  <img class="alignnone size-full wp-image-628" src="https://automationadmin.com/assets/images/uploads/2016/09/freenas-4.jpg" alt="freenas-4" width="532" height="532" srcset="https://automationadmin.com/assets/images/uploads/2016/09/freenas-4.jpg 532w, https://automationadmin.com/assets/images/uploads/2016/09/freenas-4-150x150.jpg 150w, https://automationadmin.com/assets/images/uploads/2016/09/freenas-4-300x300.jpg 300w" sizes="(max-width: 532px) 100vw, 532px" />
-
+   - ![freenas-4](https://automationadmin.com/assets/images/uploads/2016/09/freenas-4.png){:class="img-responsive"}
 
 13. On the Associated Targets tab, select the target name you created and the extent name in the drop downs, click OK.
 

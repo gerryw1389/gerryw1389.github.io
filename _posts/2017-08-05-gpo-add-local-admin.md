@@ -27,7 +27,7 @@ This GPO will add a domain account as a local admin on all workstations.
    - In the Add Group dialog box, select browse and type Local Admin and then click "Check Names"  
    - Click OK twice to close the dialog box.  
    - Click Add under "This group is a member of:" Add the "Administrators" Group. Add "Remote Desktop Users" Click OK twice.
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2017/08/gpo-local-admin.png){:class="img-responsive"} 
+   - ![gpo-local-admin](https://automationadmin.com/assets/images/uploads/2017/08/gpo-local-admin.png){:class="img-responsive"} 
 
    - NOTE: It is important to NOT touch the `Members of this group` field as that will allow ONLY those you select and remove anything else. We are adding to, not taking away!
    {: .notice--danger}

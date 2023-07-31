@@ -20,8 +20,8 @@ So using the HTML5 version of vCenter sometimes will work, sometimes won't. The 
 
 1. I found this out because I kept getting `login incorrect` as seen below:
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc.jpg){:class="img-responsive"}
+   - ![vcenter-vmrc](https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc.jpg){:class="img-responsive"}
 
 2. Which worked fine when I used the console to connect:
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-2.jpg){:class="img-responsive"}
+   - ![vcenter-vmrc-2](https://automationadmin.com/assets/images/uploads/2019/05/vcenter-vmrc-2.jpg){:class="img-responsive"}

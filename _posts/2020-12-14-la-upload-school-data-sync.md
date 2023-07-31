@@ -25,6 +25,6 @@ Follow this post to use Auzre Logic Apps instead of Power Automate to upload fil
 
 3. Pics
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/sds1.jpg){:class="img-responsive"}
+   - ![sds1](https://automationadmin.com/assets/images/uploads/2020/12/sds1.jpg){:class="img-responsive"}
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/sds2.jpg){:class="img-responsive"}
+   - ![sds2](https://automationadmin.com/assets/images/uploads/2020/12/sds2.jpg){:class="img-responsive"}

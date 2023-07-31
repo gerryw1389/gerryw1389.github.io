@@ -91,7 +91,7 @@ After following ["Terraform: Deploy VM"](https://automationadmin.com/2021/10/ter
    - If you go to Deployments blade on the Resource Group, you can see the deployment `la_deployment_2021-10-06-20-05-29`
    - The Logic App should now have the `strName` variable initialized thus overwriting the previously "promoted" version.
    - If you go to the Activity tab blade, you will see 'Event Initiated by' is equal to `az-terraform-sp` [as expected](https://automationadmin.com/2021/10/create-terra-az-ad-app).
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2021/10/tf-apply.jpg){:class="img-responsive"}
+   - ![tf-apply](https://automationadmin.com/assets/images/uploads/2021/10/tf-apply.jpg){:class="img-responsive"}
 
 7. So what's the problem? The Logic App deployed! Well the problem seems to be that Terraform treats ARM deployments different from the resources they deploy so when you do an update to an existing Logic App, they get out of whack in many scenarios. Here is one [issue](https://github.com/hashicorp/terraform-provider-azurerm/issues/6045) but I had found others. I will need to look into this more.
 

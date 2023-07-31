@@ -25,6 +25,6 @@ In this example, I use Logic Apps to reach out to a Service Now instance using B
 
 3. Pics
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/basic-auth1.jpg){:class="img-responsive"}
+   - ![basic-auth1](https://automationadmin.com/assets/images/uploads/2020/12/basic-auth1.jpg){:class="img-responsive"}
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/basic-auth-2.jpg){:class="img-responsive"}
+   - ![basic-auth-2](https://automationadmin.com/assets/images/uploads/2020/12/basic-auth-2.jpg){:class="img-responsive"}

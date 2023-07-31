@@ -18,4 +18,4 @@ permalink: /2019/06/testing-jekyll/
 
    - testing for something
 
-2. ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/04/could-not-request-cert.png){:class="img-responsive"}
+2. ![could-not-request-cert](https://automationadmin.com/assets/images/uploads/2019/04/could-not-request-cert.png){:class="img-responsive"}

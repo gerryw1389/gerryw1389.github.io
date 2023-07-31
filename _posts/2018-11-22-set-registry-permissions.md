@@ -20,10 +20,10 @@ This function will take ownership of a registry key as a specified user and set 
 
 1. Before:
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/set-reg-1.png){:class="img-responsive"}
+   - ![set-reg-1](https://automationadmin.com/assets/images/uploads/2018/11/set-reg-1.png){:class="img-responsive"}
 
 2. After running `Set-RegkeyPermissions -RegistryKey "HKCU:\Gerry\NoAccess" -Username "gerry"`
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2.png){:class="img-responsive"}
+   - ![set-reg-2](https://automationadmin.com/assets/images/uploads/2018/11/set-reg-2.png){:class="img-responsive"}
 
 3. Source is maintained under [gwConfiguration](https://github.com/gerryw1389/powershell/blob/main/gwConfiguration/Public/Set-RegistryPermission.ps1)
