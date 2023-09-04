@@ -74,8 +74,8 @@ First, follow the link in the references to download the program and the Operati
 
 10. Viewing the password using GUI: ADUC => Right Click => Attribute Editor tab => ms-Mcs-AdmPwd
 
-   - ![laps](https://automationadmin.com/assets/images/uploads/2017/08/laps.jpg){:class="img-responsive"} 
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2017/08/laps.jpg){:class="img-responsive"} 
 
 11. If you have a Helpdesk Team with the required rights from step 5, you can have them install the management tools which includes the LAPS UI application:
 
-   - ![laps-2](https://automationadmin.com/assets/images/uploads/2017/08/laps-2.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2017/08/laps-2.jpg){:class="img-responsive"}

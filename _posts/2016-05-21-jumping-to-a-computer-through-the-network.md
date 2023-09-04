@@ -21,7 +21,8 @@ Many times when you are having issues getting to a computer through the internet
 
 1. Get on any computer on the network that has internet. Run [Netscan](https://www.softperfect.com/products/networkscanner/) and find the computer you want to connect to. Right click on the computer name in the list and select to open &#8220;Computer Management&#8221; on that computer.
 
-   - ![jumping-to-a-computer-through-the-network](https://automationadmin.com/assets/images/uploads/2016/09/jumping-to-a-computer-through-the-network.png){:class="img-responsive"}
+  <img class="alignnone size-full wp-image-671" src="https://automationadmin.com/assets/images/uploads/2016/09/jumping-to-a-computer-through-the-network.png" alt="jumping-to-a-computer-through-the-network" width="645" height="489" srcset="https://automationadmin.com/assets/images/uploads/2016/09/jumping-to-a-computer-through-the-network.png 645w, https://automationadmin.com/assets/images/uploads/2016/09/jumping-to-a-computer-through-the-network-300x227.png 300w" sizes="(max-width: 645px) 100vw, 645px" />
+
 
 2. Once inside that computer's Computer Management console, navigate to the Services tab. Enable the Remote Registry Service.
 

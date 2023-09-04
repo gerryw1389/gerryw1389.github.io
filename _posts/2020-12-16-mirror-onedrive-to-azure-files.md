@@ -26,8 +26,8 @@ So I like to use an Azure Files (from an Azure Storage Account) that mounts to h
 
 3. Pics
 
-   - ![mirror1](https://automationadmin.com/assets/images/uploads/2020/12/mirror1.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/mirror1.jpg){:class="img-responsive"}
 
-   - ![mirror2](https://automationadmin.com/assets/images/uploads/2020/12/mirror2.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/mirror2.jpg){:class="img-responsive"}
 
 4. What makes this Logic App especially useful is that you have an array of folder names, and for each of them you loop through and move the files to the storage account!

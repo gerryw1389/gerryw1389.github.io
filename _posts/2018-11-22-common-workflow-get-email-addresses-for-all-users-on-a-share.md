@@ -31,7 +31,7 @@ For example, we want to get the emails for all users who access shares on a file
 
 2. Now copy that CSV locally and open it up.
 
-   - ![groups-1](https://automationadmin.com/assets/images/uploads/2018/11/groups-1.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/groups-1.jpg){:class="img-responsive"}
 
 3. Use Excel's &#8220;Text to columns&#8221; feature on the Data tab in the ribbon to convert the text to columns.
 
@@ -55,11 +55,11 @@ For example, we want to get the emails for all users who access shares on a file
 
    - Now on line one, just type: `$users = @(` and press enter:
 
-   - ![groups-2](https://automationadmin.com/assets/images/uploads/2018/11/groups-2.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/groups-2.jpg){:class="img-responsive"}
 
    - Now go to the last line and delete the comma and place a closing parenthesis to close the array.
 
-   - ![groups-3](https://automationadmin.com/assets/images/uploads/2018/11/groups-3.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2018/11/groups-3.jpg){:class="img-responsive"}
 
 7. Now that you have an array, you can do just about anything you need to do. For example:
 

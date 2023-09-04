@@ -38,11 +38,14 @@ Follow these steps to setup High Availability between two or more servers. Note 
 
    - So this was a little bit of a hastle for me because I had my iSCSI share on the same subnet as my internal network. To fix, I added another network adapter with it's own subnet and configured FreeNAS, the DHCP server on my DC, and my two VM's all point to the new segregated iSCSI subnet.
 
-   - ![hyper-v-ha-1](https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-1.png){:class="img-responsive"}
+  <img class="alignnone size-full wp-image-664" src="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-1.png" alt="hyper-v-ha-1" width="788" height="311" srcset="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-1.png 788w, https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-1-300x118.png 300w, https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-1-768x303.png 768w" sizes="(max-width: 788px) 100vw, 788px" />
 
-1. Back to the good stuff, now we create a cluster by launching &#8220;create a cluster&#8221;. So give it a name and make sure only to select your subnet and give it an IP address. The screenshot below was the first time I ran this and I ended up failing miserably. The second time I was on DHCP and it automatically selected both network cards and took DHCP as a valid source, so I went with it.
 
-   - ![hyper-v-ha-2](https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-2.png){:class="img-responsive"}
+4. Back to the good stuff, now we create a cluster by launching &#8220;create a cluster&#8221;. So give it a name and make sure only to select your subnet and give it an IP address. The screenshot below was the first time I ran this and I ended up failing miserably. The second time I was on DHCP and it automatically selected both network cards and took DHCP as a valid source, so I went with it.
+
+
+  <img class="alignnone size-full wp-image-665" src="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-2.png" alt="hyper-v-ha-2" width="683" height="358" srcset="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-2.png 683w, https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-2-300x157.png 300w" sizes="(max-width: 683px) 100vw, 683px" />
+
 
 5. At this point you have a cluster! Now, to to your cluster => Roles => Configure Role => Virtual Machines => Next => Finish.
 
@@ -52,14 +55,13 @@ Follow these steps to setup High Availability between two or more servers. Note 
 
 8. On both servers, open up Hyper-V Manager, go to Hyper-V Settings and change the default storage to your newly created Volume 1 path. I created a sub-folder for each host name in my cluster so their VM's can be separated.
 
-   - ![hyper-v-ha-3](https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-3.png){:class="img-responsive"}
+  <img class="alignnone size-full wp-image-666" src="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-3.png" alt="hyper-v-ha-3" width="732" height="130" srcset="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-3.png 732w, https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-3-300x53.png 300w" sizes="(max-width: 732px) 100vw, 732px" />
 
 9. Now comes the fun part. Spin up the VM's on each server and then on one of them, right click on the VM and choose Move => Live Migration => Select Node => Choose the other server in the list. It will move the VM over in about 30 seconds!
 
-   - ![hyper-v-ha-4](https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-4.png){:class="img-responsive"}
+  <img class="alignnone size-full wp-image-667" src="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-4.png" alt="hyper-v-ha-4" width="751" height="352" srcset="https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-4.png 751w, https://automationadmin.com/assets/images/uploads/2016/09/hyper-v-ha-4-300x141.png 300w" sizes="(max-width: 751px) 100vw, 751px" />
 
    - If you really want to play with this. Move both VM's to the same server and then go to Nodes => Select the server with both running VMs => Right Click => More => Stop Cluster Service. Then hurry and go to your Roles tab in the navigation tree and watch them migrate over to the other server without an issue. Check the Youtube video in the links for a visual representation.
-
 
 ### References:
 

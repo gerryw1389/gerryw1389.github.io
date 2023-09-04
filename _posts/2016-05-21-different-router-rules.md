@@ -26,4 +26,4 @@ You will learn quickly that every router is unique. Through experience, you will
 
 1. Under the &#8220;System Settings&#8221; options, there is a &#8220;Local Domain&#8221; option, make sure to put in the network's Workgroup's name or Domain's name here. By default it will show up as &#8220;.home&#8221; and could interfere with networking.
 
-   - ![different-router-rules](https://automationadmin.com/assets/images/uploads/2016/09/different-router-rules.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/different-router-rules.png){:class="img-responsive"}

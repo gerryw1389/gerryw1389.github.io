@@ -15,7 +15,7 @@ categories:
 
 Nowadays, it is important to understand how cloud computing works. Below is an example of each:
 
-   - ![cloud-computing](https://automationadmin.com/assets/images/uploads/2016/09/cloud-computing.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/cloud-computing.png){:class="img-responsive"}
 
 1. **Infrastructure as a Service (IaaS)** => is a cloud model which allows organizations to outsource computing equipment and resources such as servers, storage, networking as well as services, such as load balancing and content delivery networks. The IaaS provider owns and maintains the equipment while the organization rents out the specific services it needs, usually on a &#8220;pay as you go&#8221; basis. IaaS Providers: Amazon Web Services (AWS), Windows Azure, Google Compute Engine, Rackspace Open Cloud, IBM SmartCloud Enterprise, HP Enterprise Converged Infrastructure  
   

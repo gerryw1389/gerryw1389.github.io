@@ -43,4 +43,4 @@ Follow this guide to connect to a NFS mount from a Windows machine.
 
 5. 2019-06 Update: One thing to check is the `NFS Settings` tab in File Explorer to get the appropriate UID and GID to set
    - For example:
-   - ![nfs-settings](https://automationadmin.com/assets/images/uploads/2019/06/nfs-settings.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2019/06/nfs-settings.png){:class="img-responsive"}

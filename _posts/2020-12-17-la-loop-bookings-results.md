@@ -28,8 +28,8 @@ I think this is the first Logic App I have worked on that uses Oauth so that's n
 
 3. Pics
 
-   - ![booking-1](https://automationadmin.com/assets/images/uploads/2020/12/booking1.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/booking1.jpg){:class="img-responsive"}
 
-   - ![booking-2](https://automationadmin.com/assets/images/uploads/2020/12/booking2.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/booking2.jpg){:class="img-responsive"}
 
-   - ![booking-3](https://automationadmin.com/assets/images/uploads/2020/12/booking3.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/booking3.jpg){:class="img-responsive"}

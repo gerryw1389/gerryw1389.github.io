@@ -16,11 +16,11 @@ Faulty switches can have many ways of presenting themselves. Most of the time th
 
 - Workstation to Server, 3GB Data folder:
 
-   - ![faulty-switch-1](https://automationadmin.com/assets/images/uploads/2016/09/faulty-switch-1.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/faulty-switch-1.png){:class="img-responsive"}
 
 - Server to Workstation, 3GB Data folder (same folder):
 
-   - ![faulty-switch-2](https://automationadmin.com/assets/images/uploads/2016/09/faulty-switch-2.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/faulty-switch-2.png){:class="img-responsive"}
 
 ### To Resolve:
 

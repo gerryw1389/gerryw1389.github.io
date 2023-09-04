@@ -26,6 +26,6 @@ So I have, the past, setup an Azure Container Group that accepts files to be pla
 
 3. Pics
 
-   - ![mirror-storage](https://automationadmin.com/assets/images/uploads/2020/12/mirror-storage.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/mirror-storage.jpg){:class="img-responsive"}
 
-   - ![mirror-storage2](https://automationadmin.com/assets/images/uploads/2020/12/mirror-storage2.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/mirror-storage2.jpg){:class="img-responsive"}

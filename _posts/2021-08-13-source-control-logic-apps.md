@@ -84,12 +84,12 @@ Follow these steps to source control Logic Apps. In this example, I will create 
 
 9.  Lastly, just verify that everything worked by going to your storage account => File Shares => logic-apps => `unique-values.csv`. 
    
-   - ![unique-values-file](https://automationadmin.com/assets/images/uploads/2021/10/unique-values-file.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2021/10/unique-values-file.jpg){:class="img-responsive"}
    
    - Does it look like what you emailed yourself? Congrats! 
 
    - Lastly, just go to Log Analytics => Logs => just paste `LogicApps_CL` and view the results. 
 
-   - ![log-analytics](https://automationadmin.com/assets/images/uploads/2021/10/log-analytics.jpg){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2021/10/log-analytics.jpg){:class="img-responsive"}
 
 10. Send an email again and try with the subject of `SOMETHING UNIQUE 2`. Did it run the same way?

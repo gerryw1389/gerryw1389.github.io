@@ -14,7 +14,7 @@ categories:
 
 User will send a request saying they are not receiving emails from one client. All other emails work fine (They can even send to that client).
 
-   - ![barracuda-error-550](https://automationadmin.com/assets/images/uploads/2016/09/barracuda-error-550.png){:class="img-responsive"}
+   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/barracuda-error-550-300x183.png){:class="img-responsive"}
 
 ### To Resolve:
 
