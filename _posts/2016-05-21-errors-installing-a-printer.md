@@ -16,7 +16,7 @@ tags:
 
 Sometimes printers will not want to install even if you have what you think is the right driver. Here is one example. You will get an error similar to this:
 
-  - ![image-title-here](https://automationadmin.com/assets/images/uploads/2016/09/errors-installing-a-printer.jpg){:class="img-responsive"}
+  - ![errors-installing-a-printer](https://automationadmin.com/assets/images/uploads/2016/09/errors-installing-a-printer.jpg){:class="img-responsive"}
 
 
 ### To Resolve:

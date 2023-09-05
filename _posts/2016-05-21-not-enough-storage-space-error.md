@@ -14,8 +14,8 @@ tags:
 
 ### Description:
 
-When one workstation cannot connect to the server with the following error, do the following to resolve:  
-  <img class="alignnone size-full wp-image-681" src="https://automationadmin.com/assets/images/uploads/2016/09/not-enough-storage.png" alt="not-enough-storage" width="338" height="125" srcset="https://automationadmin.com/assets/images/uploads/2016/09/not-enough-storage.png 338w, https://automationadmin.com/assets/images/uploads/2016/09/not-enough-storage-300x111.png 300w" sizes="(max-width: 338px) 100vw, 338px" />
+When one workstation cannot connect to the server with the following error, do the following to resolve:
+   - ![not-enough-storage](https://automationadmin.com/assets/images/uploads/2016/09/not-enough-storage.png){:class="img-responsive"}
 
 ### To Resolve:
 

@@ -15,7 +15,7 @@ categories:
 Subnetting can be tough! When studying for my CCNA, this is the subject I studied the hardest on. You need to do practice problem after practice problem until you feel confident!
 
    - Use this chart:
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2017/08/chart.png){:class="img-responsive"}
+   - ![chart(https://automationadmin.com/assets/images/uploads/2017/08/chart.png){:class="img-responsive"}
 
    - Source: [http://www.quest4.org/ccna/subnet\_cheat\_sheet.htm](http://www.quest4.org/ccna/subnet_cheat_sheet.htm)
 

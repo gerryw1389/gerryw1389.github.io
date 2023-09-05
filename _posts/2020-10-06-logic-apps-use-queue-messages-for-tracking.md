@@ -25,6 +25,6 @@ So if you have a chain of Logic Apps and you want to be able to track where they
 
 3. Pics
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/queue1.jpg){:class="img-responsive"}
+   - ![queue1](https://automationadmin.com/assets/images/uploads/2020/12/queue1.jpg){:class="img-responsive"}
 
-   - ![image-title-here](https://automationadmin.com/assets/images/uploads/2020/12/queue2.jpg){:class="img-responsive"}
+   - ![queue2](https://automationadmin.com/assets/images/uploads/2020/12/queue2.jpg){:class="img-responsive"}
