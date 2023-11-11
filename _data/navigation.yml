@@ -9,6 +9,8 @@ main:
     url: /lab/
   - title: "About"
     url: /about/
+  - title: "Disclosures"
+    url: /terms/
 
 categories:
   - title: Home

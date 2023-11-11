@@ -5,6 +5,17 @@ layout: single
 classes: wide
 ---
 
+### Disclaimer
+
+The information in this blog is provided “AS IS” with no warranties, and confers no rights.
+
+This blog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my opinion.
+
+Feel free to challenge me, disagree with me, or tell me I’m completely nuts in the comments section of each blog entry, but I reserve the right to delete any comment for any reason whatsoever (abusive, profane, rude, or anonymous comments) – so keep it polite, please.
+
+- [Source of the disclamer](https://sampleblogdisclaimer.blogspot.com/)
+- [Source of the next sections](https://mmistakes.github.io/minimal-mistakes/terms/) - I am not a fan of copy/pasting other peoples content, but I feel that a general broad policy like this is a good starting point!
+
 ## Privacy Policy
 
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
@@ -44,7 +55,7 @@ Google Adsense, a third party affiliate marketing network, uses cookies to help 
 
 I make money on this website through affiliate programs. If you click an affiliate link or ad banner and buy the product, you help support this website because I'll get a percentage of that sale.
 
-Currently I'm an affiliate for Amazon and Google Adsense.
+Currently I'm an affiliate for Google Adsense.
 
 What this means for you:
 
