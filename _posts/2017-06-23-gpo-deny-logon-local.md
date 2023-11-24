@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/06/gpo-deny-logon-local/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

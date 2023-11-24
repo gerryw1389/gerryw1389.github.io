@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/08/learning-to-subnet/
-categories:
+tags:
   - Networking
 ---
 <!--more-->

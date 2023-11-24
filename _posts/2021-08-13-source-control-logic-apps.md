@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/08/source-control-logic-apps
-categories:
+tags:
   - WebSoftware
 tags:
-  - Cloud
   - Azure-LogicApps
   - VersionControl
 ---

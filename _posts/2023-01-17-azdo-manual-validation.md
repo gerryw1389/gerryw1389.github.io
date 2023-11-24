@@ -5,8 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2023/01/azdo-manual-validation
-categories:
-  - WedSoftware
+tags:
+  - WebSoftware
 tags:
   - CICD
 ---

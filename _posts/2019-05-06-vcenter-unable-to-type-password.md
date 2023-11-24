@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/05/vcenter-unable-to-type-password/
-categories:
+tags:
   - LocalSoftware
 tags:
   - VirtualizationSoftware

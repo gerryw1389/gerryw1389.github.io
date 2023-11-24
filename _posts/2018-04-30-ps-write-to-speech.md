@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/ps-write-to-speech/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

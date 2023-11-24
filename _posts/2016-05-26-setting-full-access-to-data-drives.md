@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/setting-full-access-to-data-drives/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

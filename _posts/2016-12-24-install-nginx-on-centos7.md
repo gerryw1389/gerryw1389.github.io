@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/12/install-nginx-on-centos7/
-categories:
+tags:
   - Linux
 tags:
   - LinuxServer

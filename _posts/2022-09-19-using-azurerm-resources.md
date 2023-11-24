@@ -5,12 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/09/using-azurerm-resources
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - Scripting-HCL
+  - Azure
+  - Terraform
 ---
 <!--more-->
 

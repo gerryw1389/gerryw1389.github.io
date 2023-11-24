@@ -5,12 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2023/02/terraform-template
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - CICD
+  - Azure
+  - AzureDevops
+  - Terraform
 ---
 <!--more-->
 

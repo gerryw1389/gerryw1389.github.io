@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/09/generic-automation-interview-questions
-categories:
+tags:
   - SysAdmin
 tags:
   - Scripting-Powershell

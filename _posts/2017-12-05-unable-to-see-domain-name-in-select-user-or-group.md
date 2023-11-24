@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/12/unable-to-see-domain-name-in-select-user-or-group/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

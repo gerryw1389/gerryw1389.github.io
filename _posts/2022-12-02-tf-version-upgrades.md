@@ -5,11 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/12/tf-version-upgrades
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - Terraform
 ---
 <!--more-->
 

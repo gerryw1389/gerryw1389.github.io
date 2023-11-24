@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/11/bulk-tagging-logic-apps
-categories:
+tags:
   - Azure
 tags:
   - Azure-LogicApps

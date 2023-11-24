@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/windows-7-exe-fix/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

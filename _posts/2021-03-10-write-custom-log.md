@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/03/write-custom-log/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
   - Azure-LogAnalytics
 ---

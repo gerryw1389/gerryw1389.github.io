@@ -5,7 +5,7 @@ author: gerryw13189
 layout: single
 classes: wide
 permalink: 2020/06/python-basic-syntax
-categories:
+tags:
   - Linux
 tags:
   - Scripting-Python

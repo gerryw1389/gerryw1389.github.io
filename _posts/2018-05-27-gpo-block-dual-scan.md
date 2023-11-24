@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/05/gpo-block-dual-scan/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

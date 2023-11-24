@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/05/ps-write-to-table-storage
-categories:
+tags:
   - Azure
 tags:
   - Scripting-Powershell

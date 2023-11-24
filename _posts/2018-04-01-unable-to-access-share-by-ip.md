@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/unable-to-access-share-by-ip/
-categories:
+tags:
   - Networking
 ---
 <!--more-->

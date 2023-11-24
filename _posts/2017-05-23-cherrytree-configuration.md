@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/05/cherrytree-configuration/
-categories:
+tags:
   - LocalSoftware
 tags:
   - PersonalConfig

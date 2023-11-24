@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/07/azdo-common-tasks
-categories:
+tags:
   - WebSoftware
 tags:
   - CICD

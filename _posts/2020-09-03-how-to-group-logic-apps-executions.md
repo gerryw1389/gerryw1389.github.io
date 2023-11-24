@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/09/how-to-group-logic-apps-executions
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
   - Azure-LogAnalytics
 ---

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/07/root-password-expired/
-categories:
+tags:
   - Linux
 tags:
   - LinuxServer

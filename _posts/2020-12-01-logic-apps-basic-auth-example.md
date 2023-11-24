@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/12/logic-apps-basic-auth-example
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
 ---
 <!--more-->

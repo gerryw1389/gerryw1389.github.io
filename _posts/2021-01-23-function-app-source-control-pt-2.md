@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/01/function-app-source-control-pt-2/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - VersionControl
   - Azure-FunctionApps
   - Scripting-Python

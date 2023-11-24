@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/12/ps-bulk-renaming-extensions/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

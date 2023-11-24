@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/disable-selinux-in-centos-7/
-categories:
+tags:
   - Linux
   - Security
 tags:

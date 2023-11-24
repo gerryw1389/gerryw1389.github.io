@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/05/sharing-files-in-linux-and-windows/
-categories:
+tags:
   - Linux
   - Networking
 tags:

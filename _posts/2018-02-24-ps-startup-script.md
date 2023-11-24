@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/02/ps-startup-script/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

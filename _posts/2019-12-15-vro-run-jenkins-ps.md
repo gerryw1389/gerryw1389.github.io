@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/12/vro-run-jenkins-ps/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

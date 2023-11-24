@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/unable-to-adjust-security-settings-in-ie/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

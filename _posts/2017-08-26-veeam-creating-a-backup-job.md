@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/08/veeam-creating-a-backup-job/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Backup

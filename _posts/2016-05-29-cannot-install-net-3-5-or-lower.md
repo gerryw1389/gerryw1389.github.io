@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/cannot-install-net-3-5-or-lower/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-CMD

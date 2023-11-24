@@ -5,11 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/12/ssh-auth-for-serverless-sftp-on-azure
-categories:
+tags:
   - Azure
   - Linux
 tags:
-  - Cloud
   - Azure-ContainerInstances
 ---
 <!--more-->

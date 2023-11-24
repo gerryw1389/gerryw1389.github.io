@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/08/w10-task-scheduler-one-or-more-of-the-specified-arguments-are-not-valid/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

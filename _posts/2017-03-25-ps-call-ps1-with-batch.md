@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/03/ps-call-ps1-with-batch/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-CMD

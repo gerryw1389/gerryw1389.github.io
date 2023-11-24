@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/05/wannacry-virus/
-categories:
+tags:
   - Windows
 tags:
   - Viruses

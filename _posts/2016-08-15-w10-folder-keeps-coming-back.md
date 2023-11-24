@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/08/w10-folder-keeps-coming-back/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

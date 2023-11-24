@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/09/gitignore-issue
-categories:
+tags:
   - LocalSoftware
 tags:
   - VersionControl

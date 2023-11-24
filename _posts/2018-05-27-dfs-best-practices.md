@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/05/dfs-best-practices/
-categories:
+tags:
   - WindowsServer
 tags:
   - WindowsServer-Roles

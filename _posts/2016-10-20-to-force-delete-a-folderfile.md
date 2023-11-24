@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/10/to-force-delete-a-folderfile/
-categories:
+tags:
   - Windows
   - Security
 tags:

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/09/move-git-from-backup-and-sync
-categories:
+tags:
   - Windows
 tags:
   - VersionControl

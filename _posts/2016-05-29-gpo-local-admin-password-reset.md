@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/gpo-local-admin-password-reset/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

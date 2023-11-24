@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/10/ps-function-app-az-module-issue
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Scripting-Powershell
   - Azure-FunctionApps
 ---

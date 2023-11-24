@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/03/extend-var-partition
-categories:
+tags:
   - Linux
 tags:
   - Scripting-Bash

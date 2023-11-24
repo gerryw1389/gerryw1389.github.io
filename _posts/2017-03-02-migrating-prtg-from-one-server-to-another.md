@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/03/migrating-prtg-from-one-server-to-another/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Monitoring

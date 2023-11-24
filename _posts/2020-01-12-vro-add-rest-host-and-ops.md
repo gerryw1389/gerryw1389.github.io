@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/vro-add-rest-host-and-ops/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Orchestration

@@ -5,11 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/11/nested-conditions-pep-example
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - Terraform
 ---
 <!--more-->
 

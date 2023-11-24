@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/05/windows-installer-error-1719/
-categories:
+tags:
   - LocalSoftware
   - Windows
 ---

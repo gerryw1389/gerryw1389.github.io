@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/03/deploy-jenkins-windows-node
-categories:
+tags:
   - LocalSoftware
 tags:
   - Orchestration

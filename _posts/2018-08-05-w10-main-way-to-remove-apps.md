@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/08/w10-main-way-to-remove-apps/
-categories:
+tags:
   - Windows
 tags:
   - Regedit

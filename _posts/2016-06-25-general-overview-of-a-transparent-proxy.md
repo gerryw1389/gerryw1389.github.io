@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/general-overview-of-a-transparent-proxy/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/08/ad-wont-replicate-after-restore/
-categories:
+tags:
   - WindowsServer
 tags:
   - ActiveDirectory

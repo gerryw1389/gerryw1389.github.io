@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/08/ps-multiline-inputbox/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

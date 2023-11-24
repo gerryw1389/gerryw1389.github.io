@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/06/rename-hybrid-ad-autopilot-device
-categories:
+tags:
   - Azure
   - Windows
 tags:

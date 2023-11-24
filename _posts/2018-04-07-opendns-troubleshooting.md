@@ -5,11 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/opendns-troubleshooting/
-categories:
+tags:
   - WebSoftware
   - Networking
-tags:
-  - Cloud
 ---
 <!--more-->
 

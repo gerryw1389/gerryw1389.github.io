@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/add-second-disk-to-linux-vm/
-categories:
+tags:
   - Linux
 tags:
   - Scripting-Bash

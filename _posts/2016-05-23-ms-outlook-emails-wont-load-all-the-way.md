@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/ms-outlook-emails-wont-load-all-the-way/
-categories:
+tags:
   - LocalSoftware
 tags:
   - MSOffice

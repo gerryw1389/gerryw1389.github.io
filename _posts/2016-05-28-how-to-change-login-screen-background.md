@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/how-to-change-login-screen-background/
-categories:
+tags:
   - Windows
 tags:
   - Regedit

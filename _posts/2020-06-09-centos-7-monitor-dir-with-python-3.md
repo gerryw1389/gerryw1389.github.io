@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2020/06/centos-7-monitor-dir-with-python-3
-categories:
+tags:
   - Linux
 tags:
   - Scripting-Python

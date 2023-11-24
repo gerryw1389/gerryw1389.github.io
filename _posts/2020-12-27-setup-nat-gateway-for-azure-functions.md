@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/12/setup-nat-gateway-for-azure-functions
-categories:
+tags:
    - Azure
 tags:
-   - Cloud
    - Azure-FunctionApps
    - Azure-NATGateways
    - Scripting-Python

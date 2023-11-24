@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/10/setting-a-static-ip-in-centos/
-categories:
+tags:
   - Linux
 tags:
   - LinuxServer

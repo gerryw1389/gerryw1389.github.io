@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/ps-set-environment-vars-for-system/
-categories:
+tags:
   - Windows
   - Security
 tags:

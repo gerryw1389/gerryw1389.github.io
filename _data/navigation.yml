@@ -1,8 +1,6 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "Lab"
@@ -21,16 +19,14 @@ categories:
     children:
       - title: "Buy me a coffee ❤"
         url: https://www.paypal.com/paypalme2/gerryw1389
-  - title: Popular Categories
-    children:
-      - title: "Azure"
-        url: https://automationadmin.com/categories/#azure
-      - title: "Linux"
-        url: https://automationadmin.com/categories/#linux
-      - title: "SysAdmin"
-        url: https://automationadmin.com/categories/#sysadmin
   - title: Popular Tags
     children:
+      - title: "Azure"
+        url: https://automationadmin.com/tags/#azure
+      - title: "Linux"
+        url: https://automationadmin.com/tags/#linux
+      - title: "SysAdmin"
+        url: https://automationadmin.com/tags/#sysadmin
       - title: "Cloud"
         url: https://automationadmin.com/tags/#cloud
       - title: "VersionControl"

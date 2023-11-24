@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/07/how-to-access-cisco-devices-with-putty/
-categories:
+tags:
   - Hardware
 tags:
   - Router

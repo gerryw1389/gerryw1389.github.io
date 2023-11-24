@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/use-log-analytics-with-azure-automation-for-alerts
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Orchestration
   - Azure-LogAnalytics
   - Azure-Automation

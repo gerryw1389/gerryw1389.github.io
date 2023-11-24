@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/08/lastpass-to-keepass-conversion/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Tweaks

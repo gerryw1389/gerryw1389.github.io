@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/best-practice-dns-settings-on-domain-controllers/
-categories:
+tags:
   - Networking
   - SysAdmin
   - WindowsServer

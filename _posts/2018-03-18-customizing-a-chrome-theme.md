@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/03/customizing-a-chrome-theme/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Tweaks

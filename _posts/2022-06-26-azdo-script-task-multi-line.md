@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/06/azdo-script-task-multi-line
-categories:
+tags:
   - WebSoftware
 tags:
   - CICD

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/07/github-desktop-to-vscode/
-categories:
+tags:
   - Windows
 tags:
   - PersonalConfig

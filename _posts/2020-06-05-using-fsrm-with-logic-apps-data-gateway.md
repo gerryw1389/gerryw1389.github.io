@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/06/using-fsrm-with-logic-apps-data-gateway
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-On-premisesDataGateways
 ---
 <!--more-->

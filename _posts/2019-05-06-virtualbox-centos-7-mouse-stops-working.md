@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/05/virtualbox-centos-7-mouse-stops-working/
-categories:
+tags:
   - Linux
 tags:
   - LinuxServer

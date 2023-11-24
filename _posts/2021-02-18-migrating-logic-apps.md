@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/02/migrating-logic-apps/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
 ---
 <!--more-->

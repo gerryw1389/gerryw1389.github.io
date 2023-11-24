@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/disable-sslv3-in-centos/
-categories:
+tags:
   - Linux
 ---
 <!--more-->

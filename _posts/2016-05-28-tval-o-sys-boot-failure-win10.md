@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/tval-o-sys-boot-failure-win10/
-categories:
+tags:
   - Hardware
 tags:
   - Pre-Boot

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/07/plex-naming-conventions
-categories:
+tags:
   - LocalSoftware
   - Linux
 tags:

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/ms-office-2010-issues-dec-2015/
-categories:
+tags:
   - LocalSoftware
 tags:
   - MSOffice

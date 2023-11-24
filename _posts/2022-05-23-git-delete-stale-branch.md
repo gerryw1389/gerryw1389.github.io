@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/05/git-delete-stale-branch/
-categories:
+tags:
   - LocalSoftware
 tags:
   - VersionControl

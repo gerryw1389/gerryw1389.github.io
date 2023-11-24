@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/how-to-be-a-windows-sysadmin/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/12/ps-ad-replication-health-checks/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

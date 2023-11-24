@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/09/setting-up-a-hyper-v-lab/
-categories:
+tags:
   - Networking
 tags:
   - TestLab

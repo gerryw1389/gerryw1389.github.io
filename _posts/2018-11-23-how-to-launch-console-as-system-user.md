@@ -6,7 +6,7 @@ layout: single
 classes: wide
 classes: wide
 permalink: /2018/11/how-to-launch-console-as-system-user/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/01/migrate-master-to-main
-categories:
+tags:
   - SysAdmin
 tags:
-  - Cloud
   - VersionControl
 ---
 <!--more-->

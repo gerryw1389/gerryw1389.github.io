@@ -5,10 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/use-aws-cli-with-azure-sso
-categories:
-  - Windows
 tags:
-  - Cloud
+  - Windows
 ---
 <!--more-->
 

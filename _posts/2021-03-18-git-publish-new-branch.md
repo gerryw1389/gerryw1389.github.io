@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/03/git-publish-new-branch/
-categories:
+tags:
   - SysAdmin
 tags:
   - VersionControl

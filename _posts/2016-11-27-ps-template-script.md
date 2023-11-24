@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/ps-template-script/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

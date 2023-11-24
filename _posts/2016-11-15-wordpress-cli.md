@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/wordpress-cli/
-categories:
+tags:
   - LocalSoftware
 tags:
   - WebServer

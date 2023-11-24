@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/02/regex-examples/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Regex

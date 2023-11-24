@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/12/docker-with-python-image
-categories:
+tags:
   - Linux
 tags:
-  - Cloud
   - VirtualizationSoftware
   - Scripting-Bash
   - Scripting-Python

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/03/w10-esifassist64-has-stopped-working/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

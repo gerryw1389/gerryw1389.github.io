@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/12/taking-notes-between-linux-and-windows/
-categories:
+tags:
   - Linux
 tags:
   - Tweaks

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/07/how-to-make-a-youtube-playlist/
-categories:
+tags:
   - Windows
 tags:
   - MediaEditing

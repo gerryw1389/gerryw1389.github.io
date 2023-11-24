@@ -5,10 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/07/opendns-config/
-categories:
-  - Networking
 tags:
-  - Cloud
+  - Networking
 ---
 <!--more-->
 

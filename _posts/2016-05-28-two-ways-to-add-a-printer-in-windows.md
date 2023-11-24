@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/two-ways-to-add-a-printer-in-windows/
-categories:
+tags:
   - Hardware
   - Windows
 tags:

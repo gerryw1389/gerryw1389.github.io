@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/03/setup-work-laptop
-categories:
+tags:
   - SysAdmin
 tags:
   - PersonalSoftware

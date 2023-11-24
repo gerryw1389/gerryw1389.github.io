@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/puppet-could-not-request-certificate/
-categories:
+tags:
   - LocalSoftware
 tags:
   - ConfigManagement

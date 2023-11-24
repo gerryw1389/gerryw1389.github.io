@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/veeam-error-failed-to-prepare-guest-for-volume-snapshot/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Backup

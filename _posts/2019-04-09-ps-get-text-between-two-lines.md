@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/ps-get-text-between-two-lines/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

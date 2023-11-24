@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/12/rhel7-deploy-jenkins/
-categories:
+tags:
   - Linux
 tags:
   - Orchestration 

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/12/scripting-windows-updates-installs/
-categories:
+tags:
   - Windows
 tags:
   - Updates

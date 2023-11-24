@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/02/jenkins-source-job-in-gitlab/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Orchestration

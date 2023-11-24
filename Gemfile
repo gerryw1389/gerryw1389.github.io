@@ -6,3 +6,4 @@ gem "jekyll-remote-theme"
 gem "rake"
 gem "html-proofer"
 gem 'faraday', '~> 0.17.3'
+gem "webrick", "~> 1.8"

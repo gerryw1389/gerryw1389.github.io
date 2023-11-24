@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/02/connect-to-github-private-repo/
-categories:
+tags:
   - LocalSoftware
 tags:
   - VersionControl

@@ -5,12 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/08/tf-create-aa-with-source-control
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - Scripting-HCL
+  - Azure
+  - Terraform
+tags:
   - Azure-Automation
 ---
 <!--more-->

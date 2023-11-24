@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/moving-to-cloudflare/
-categories:
+tags:
   - Networking
 tags:
-  - Cloud
   - Setup
 ---
 <!--more-->

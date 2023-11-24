@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/05/creating-a-central-store-for-gpos/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

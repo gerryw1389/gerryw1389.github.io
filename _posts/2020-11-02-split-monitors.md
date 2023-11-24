@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/11/split-monitors
-categories:
+tags:
   - Windows
 tags:
   - PersonalConfig

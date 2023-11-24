@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/foreign-device-configuration-detected/
-categories:
+tags:
   - Hardware
   - WindowsServer
 tags:

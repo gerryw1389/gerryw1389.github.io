@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/05/ps-build-a-path-dynamically/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

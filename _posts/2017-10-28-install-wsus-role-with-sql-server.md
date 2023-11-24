@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/10/install-wsus-role-with-sql-server/
-categories:
+tags:
   - WindowsServer
 tags:
   - WindowsServer-Roles

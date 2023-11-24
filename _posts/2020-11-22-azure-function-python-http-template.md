@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/11/azure-function-python-http-template
-categories:
+tags:
   - Azure
 tags:
   - Scripting-Python

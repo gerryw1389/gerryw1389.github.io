@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/w10-upgrade-block-from-w7/
-categories:
+tags:
   - Windows
 tags:
   - Tweaks

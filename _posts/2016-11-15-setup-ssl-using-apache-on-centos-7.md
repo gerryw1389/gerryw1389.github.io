@@ -5,11 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/setup-ssl-using-apache-on-centos-7/
-categories:
+tags:
   - Linux
   - Networking
 tags:
-  - Cloud
   - Certificates
   - WebServer
   - Setup

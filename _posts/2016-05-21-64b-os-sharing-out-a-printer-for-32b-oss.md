@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/64b-os-sharing-out-a-printer-for-32b-oss/
-categories:
+tags:
   - Networking
   - Windows
 tags:

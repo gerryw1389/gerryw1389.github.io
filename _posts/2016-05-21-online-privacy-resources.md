@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/online-privacy-resources/
-categories:
+tags:
   - SysAdmin
   - Security
 ---

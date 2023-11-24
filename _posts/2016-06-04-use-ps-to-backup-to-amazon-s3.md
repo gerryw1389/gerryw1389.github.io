@@ -5,11 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/use-ps-to-backup-to-amazon-s3/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell
-  - Cloud
   - FileSystem
 ---
 <!--more-->

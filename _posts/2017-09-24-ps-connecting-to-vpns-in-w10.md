@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/09/ps-connecting-to-vpns-in-w10/
-categories:
+tags:
   - Networking
 tags:
   - Router

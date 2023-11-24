@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/12/apply-cis-benchmarks/
-categories:
+tags:
   - Linux
 tags:
   - ConfigManagement

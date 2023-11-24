@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/01/security-warning-when-opening-file-from-network-share/
-categories:
+tags:
   - Networking
   - Windows
 ---

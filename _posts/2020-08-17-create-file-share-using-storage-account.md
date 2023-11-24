@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/08/create-file-share-using-storage-account
-categories:
+tags:
   - Azure
 tags:
   - Azure-StorageAccounts

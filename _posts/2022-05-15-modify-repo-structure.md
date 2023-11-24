@@ -5,11 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/05/modify-repo-structure/
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - Terraform
 ---
 <!--more-->
 

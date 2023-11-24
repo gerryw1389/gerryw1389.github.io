@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/06/random-ps-snippets/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

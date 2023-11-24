@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/05/using-azure-key-vault
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-KeyVault
 ---
 <!--more-->

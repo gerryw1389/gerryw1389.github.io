@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/07/remote-development-wslserver-not-found
-categories:
+tags:
   - Linux
 tags:
   - VirtualizationSoftware

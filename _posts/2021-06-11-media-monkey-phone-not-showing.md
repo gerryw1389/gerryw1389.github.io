@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/06/media-monkey-phone-not-showing
-categories:
+tags:
   - LocalSoftware
 tags:
   - MediaEditing

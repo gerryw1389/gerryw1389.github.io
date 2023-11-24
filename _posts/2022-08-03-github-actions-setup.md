@@ -5,12 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/08/github-actions-setup
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - CICD
+  - Azure
+  - Github
+  - Terraform
 ---
 <!--more-->
 

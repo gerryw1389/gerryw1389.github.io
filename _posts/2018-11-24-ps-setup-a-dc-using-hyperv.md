@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/ps-setup-a-dc-using-hyperv/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

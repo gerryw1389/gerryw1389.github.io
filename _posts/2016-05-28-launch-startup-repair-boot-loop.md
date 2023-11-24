@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/launch-startup-repair-boot-loop/
-categories:
+tags:
   - Hardware
 tags:
   - Pre-Boot

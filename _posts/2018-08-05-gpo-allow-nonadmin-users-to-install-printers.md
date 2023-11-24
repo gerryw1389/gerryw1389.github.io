@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/08/gpo-allow-nonadmin-users-to-install-printers/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

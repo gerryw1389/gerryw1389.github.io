@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/04/how-kms-works/
-categories:
+tags:
   - WindowsServer
 tags:
   - WindowsServer-Roles

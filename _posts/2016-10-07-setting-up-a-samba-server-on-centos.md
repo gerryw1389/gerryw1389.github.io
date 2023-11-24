@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/10/setting-up-a-samba-server-on-centos/
-categories:
+tags:
   - Linux
 tags:
   - LinuxServer

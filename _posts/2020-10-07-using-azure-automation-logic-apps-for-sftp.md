@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/10/using-azure-automation-logic-apps-for-sftp
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
   - Azure-StorageAccounts
   - Azure-Automation

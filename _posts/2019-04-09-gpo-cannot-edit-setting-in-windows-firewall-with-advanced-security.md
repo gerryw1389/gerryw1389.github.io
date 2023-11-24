@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/gpo-cannot-edit-setting-in-windows-firewall-with-advanced-security/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

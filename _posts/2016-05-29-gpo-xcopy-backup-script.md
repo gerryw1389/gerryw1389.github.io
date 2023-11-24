@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/gpo-xcopy-backup-script/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

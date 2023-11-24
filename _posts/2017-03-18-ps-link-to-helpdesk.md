@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/03/ps-link-to-helpdesk/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

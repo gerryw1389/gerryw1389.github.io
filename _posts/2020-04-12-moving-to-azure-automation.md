@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/moving-to-azure-automation
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Orchestration
   - Azure-Automation
   - VersionControl

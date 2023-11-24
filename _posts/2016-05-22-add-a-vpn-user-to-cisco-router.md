@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/add-a-vpn-user-to-cisco-router/
-categories:
+tags:
   - Hardware
   - Networking
 tags:

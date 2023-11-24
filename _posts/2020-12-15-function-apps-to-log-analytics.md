@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/12/function-apps-to-log-analytics
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogAnalytics
 ---
 <!--more-->

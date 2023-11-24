@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/06/jekyll-local-testing/
-categories:
+tags:
   - Linux
 tags:
   - WebServer

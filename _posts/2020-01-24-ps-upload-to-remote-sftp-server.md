@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/ps-upload-to-remote-sftp-server/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

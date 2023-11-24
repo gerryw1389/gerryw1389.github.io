@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/service-stuck-starting-or-stopping/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

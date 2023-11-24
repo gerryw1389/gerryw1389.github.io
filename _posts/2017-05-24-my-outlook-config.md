@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/05/my-outlook-config/
-categories:
+tags:
   - LocalSoftware
   - LocalSoftware
 tags:

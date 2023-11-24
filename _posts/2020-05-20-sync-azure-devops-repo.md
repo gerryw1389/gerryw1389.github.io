@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/05/sync-azure-devops-repo
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-Devops
 ---
 <!--more-->

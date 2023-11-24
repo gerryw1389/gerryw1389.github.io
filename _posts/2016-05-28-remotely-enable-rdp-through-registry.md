@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/remotely-enable-rdp-through-registry/
-categories:
+tags:
   - SysAdmin
 tags:
   - Regedit

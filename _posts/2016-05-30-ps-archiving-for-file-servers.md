@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/ps-archiving-for-file-servers/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

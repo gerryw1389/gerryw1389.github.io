@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/08/setup-a-new-computer/
-categories:
+tags:
   - SysAdmin
 tags:
   - Tweaks

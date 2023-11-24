@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/05/show-all-users-at-sign-in/
-categories:
+tags:
   - Windows
 tags:
   - Regedit

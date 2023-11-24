@@ -5,11 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/10/tf-using-az-preview-features
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - Terraform
 ---
 <!--more-->
 

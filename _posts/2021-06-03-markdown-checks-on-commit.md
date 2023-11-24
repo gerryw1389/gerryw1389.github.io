@@ -5,10 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/06/markdown-checks-on-commit
-categories:
-  - Azure
 tags:
-  - Cloud
+  - Azure
+  - Github
+tags:
   - CICD
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/08/use-ps-ffmpeg-to-bulk-rotate-movies/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Scripting-Powershell

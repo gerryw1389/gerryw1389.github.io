@@ -5,13 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/09/pipeline-caller
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - Scripting-HCL
-  - Azure-Devops
+  - Azure
+  - AzureDevops
+  - Terraform
 ---
 <!--more-->
 

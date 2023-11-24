@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/setup-pi-hole/
-categories:
+tags:
   - Hardware
   - Networking
 tags:

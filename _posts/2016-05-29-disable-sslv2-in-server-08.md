@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/disable-sslv2-in-server-08/
-categories:
+tags:
   - Windows
   - Security
 tags:

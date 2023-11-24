@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/07/apc-serial-port-issue/
-categories:
+tags:
   - Hardware
 ---
 <!--more-->

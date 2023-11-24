@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/difference-between-host-unreachable-and-request-timed-out/
-categories:
+tags:
   - Networking
   - SysAdmin
 ---

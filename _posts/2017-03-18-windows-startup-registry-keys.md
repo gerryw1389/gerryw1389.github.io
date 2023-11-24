@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/03/windows-startup-registry-keys/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

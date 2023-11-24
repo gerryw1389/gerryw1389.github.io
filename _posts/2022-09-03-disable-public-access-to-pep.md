@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/09/disable-public-access-to-pep
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Scripting-Powershell
 ---
 <!--more-->

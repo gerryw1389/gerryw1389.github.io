@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/dual-boot-w10linux-mint/
-categories:
+tags:
   - Linux
 tags:
   - Setup

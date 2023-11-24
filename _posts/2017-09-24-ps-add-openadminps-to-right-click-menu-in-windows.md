@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/09/ps-add-openadminps-to-right-click-menu-in-windows/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

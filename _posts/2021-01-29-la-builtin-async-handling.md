@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/01/la-builtin-async-handling/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/gfi-av-check-failing/
-categories:
+tags:
   - Hardware
 tags:
   - Monitoring

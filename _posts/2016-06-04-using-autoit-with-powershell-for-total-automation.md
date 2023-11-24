@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/using-autoit-with-powershell-for-total-automation/
-categories:
+tags:
   - LocalSoftware
 ---
 <!--more-->

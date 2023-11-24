@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/09/bulk-extract-images-from-word-docs/
-categories:
+tags:
   - LocalSoftware
 ---
 <!--more-->

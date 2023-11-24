@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/deploy-vro-v8-0-1-instance
-categories:
+tags:
   - LocalSoftware
 tags:
   - Orchestration

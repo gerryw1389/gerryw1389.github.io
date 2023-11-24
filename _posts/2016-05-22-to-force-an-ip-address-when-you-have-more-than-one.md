@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/to-force-an-ip-address-when-you-have-more-than-one/
-categories:
+tags:
   - Networking
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/08/create-a-bootable-usb-from-commandline/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-CMD

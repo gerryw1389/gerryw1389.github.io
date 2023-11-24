@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/ps-find-if-user-computer-exists-without-ad-module/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/01/setting-up-a-reverse-proxy-on-centos7/
-categories:
+tags:
   - Linux
 ---
 <!--more-->

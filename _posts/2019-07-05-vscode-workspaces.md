@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/07/vscode-workspaces/
-categories:
+tags:
   - LocalSoftware
 ---
 <!--more-->

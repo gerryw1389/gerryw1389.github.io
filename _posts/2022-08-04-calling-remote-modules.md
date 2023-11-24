@@ -5,11 +5,11 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/08/calling-remote-modules
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - AzureDevops
+  - Terraform
+tags:
   - VersionControl
 ---
 <!--more-->

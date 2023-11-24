@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/06/mixed-environment-shutdown-script/
-categories:
+tags:
   - Windows
   - Linux
 tags:

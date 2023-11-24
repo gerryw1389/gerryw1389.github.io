@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/hyper-v-to-create-a-new-vm/
-categories:
+tags:
   - WindowsServer
 tags:
   - WindowsServer-Roles

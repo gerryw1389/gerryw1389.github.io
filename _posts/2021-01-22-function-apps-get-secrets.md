@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/01/function-apps-get-secrets/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-KeyVault
   - Azure-FunctionApps
   - Scripting-Python

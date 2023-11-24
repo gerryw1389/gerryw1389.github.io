@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/08/fast-windows-updates-install/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/fsrm-reset-quota/
-categories:
+tags:
   - WindowsServer
 tags:
   - WindowsServer-Roles

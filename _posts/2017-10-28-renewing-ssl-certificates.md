@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/10/renewing-ssl-certificates/
-categories:
+tags:
   - WindowsServer
 tags:
   - Certificates

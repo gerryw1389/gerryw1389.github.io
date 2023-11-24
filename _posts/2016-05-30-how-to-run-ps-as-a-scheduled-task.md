@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/how-to-run-ps-as-a-scheduled-task/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/troubleshooting-https-ps-remoting/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

@@ -5,12 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/05/tf-apply-lock/
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - Scripting-HCL
+  - Azure
+  - Terraform
 ---
 <!--more-->
 

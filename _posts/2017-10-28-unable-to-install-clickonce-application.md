@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/10/unable-to-install-clickonce-application/
-categories:
+tags:
   - Windows
 tags:
   - Regedit

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/how-to-restart-in-safe-mode-from-command-line/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-CMD

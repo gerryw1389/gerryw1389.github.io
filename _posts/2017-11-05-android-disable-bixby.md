@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/11/android-disable-bixby/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

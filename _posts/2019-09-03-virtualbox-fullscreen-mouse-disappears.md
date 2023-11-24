@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/09/virtualbox-fullscreen-mouse-disappears/
-categories:
+tags:
   - LocalSoftware
 tags:
   - VirtualizationSoftware

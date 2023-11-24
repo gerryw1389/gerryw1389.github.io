@@ -5,10 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/06/multiple-fa-one-repo
-categories:
-  - WebSoftware
 tags:
-  - Cloud
+  - WebSoftware
+  - Github
+tags:
   - Azure-FunctionApps
   - CICD
 ---

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/01/veeam-endpoint-stuck-on-backing-up/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Backup

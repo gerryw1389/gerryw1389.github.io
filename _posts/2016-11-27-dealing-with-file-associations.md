@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/dealing-with-file-associations/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

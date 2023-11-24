@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/10/how-to-access-wordpress-when-you-cannot/
-categories:
+tags:
   - LocalSoftware
 tags:
   - WebServer

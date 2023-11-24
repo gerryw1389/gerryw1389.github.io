@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/connect-windows-to-github
-categories:
+tags:
   - WebSoftware
 tags:
   - VersionControl

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/vro-read-write-service-now/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Orchestration

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/09/ps-why-I-use-my-template-for-logging/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

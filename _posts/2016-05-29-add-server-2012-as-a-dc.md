@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/add-server-2012-as-a-dc/
-categories:
+tags:
   - WindowsServer
 tags:
   - ActiveDirectory

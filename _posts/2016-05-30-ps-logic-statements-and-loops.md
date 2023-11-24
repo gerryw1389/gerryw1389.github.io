@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/ps-logic-statements-and-loops/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

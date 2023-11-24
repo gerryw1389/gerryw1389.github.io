@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/setting-a-static-ip-for-a-computer/
-categories:
+tags:
   - Networking
 ---
 <!--more-->

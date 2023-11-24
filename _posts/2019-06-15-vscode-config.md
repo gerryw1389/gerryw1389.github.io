@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/06/vscode-config
-categories:
+tags:
   - LocalSoftware
 tags:
   - PersonalConfig

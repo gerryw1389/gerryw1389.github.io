@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/04/functions-local/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-FunctionApps
 ---
 <!--more-->

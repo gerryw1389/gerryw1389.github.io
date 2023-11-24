@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/09/uninstall-software-in-safe-mode/
-categories:
+tags:
   - Windows
 tags:
   - Regedit

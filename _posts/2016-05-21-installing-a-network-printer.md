@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/installing-a-network-printer/
-categories:
+tags:
   - Networking
   - Windows
 tags:

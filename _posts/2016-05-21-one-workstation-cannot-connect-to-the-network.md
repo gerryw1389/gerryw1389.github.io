@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/one-workstation-cannot-connect-to-the-network/
-categories:
+tags:
   - Networking
 ---
 <!--more-->

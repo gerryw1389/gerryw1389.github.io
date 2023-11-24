@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/10/google-adsense-and-disqus
-categories:
+tags:
   - WebSoftware
 ---
 <!--more-->

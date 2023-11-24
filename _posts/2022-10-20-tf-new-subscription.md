@@ -5,11 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/10/tf-new-subscription
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - Terraform
+tags:
   - Scripting-Powershell
 ---
 <!--more-->

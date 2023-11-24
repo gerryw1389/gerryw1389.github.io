@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/12/installing-equinox-gtk-engine-in-fedora/
-categories:
+tags:
   - Linux
 tags:
   - LinuxClient

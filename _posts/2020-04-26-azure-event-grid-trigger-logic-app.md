@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/azure-event-grid-trigger-logic-app
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Orchestration
   - Azure-LogicApps
   - Azure-EventGrid

@@ -5,10 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/08/aws-edit-fw-rule/
-categories:
-  - WebSoftware
 tags:
-  - Cloud
+  - WebSoftware
 ---
 <!--more-->
 

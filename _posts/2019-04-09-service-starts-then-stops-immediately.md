@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/service-starts-then-stops-immediately/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

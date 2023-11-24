@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2020/06/developing-python-on-windows-wsl
-categories:
+tags:
   - Linux
   - Windows
 tags:

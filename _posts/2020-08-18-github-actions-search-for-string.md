@@ -5,8 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/08/github-actions-search-for-string
-categories:
-  - WebSoftware
+tags:
+  - Github
 tags:
   - VersionControl
   - CICD

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/08/gpo-add-local-admin/
-categories:
+tags:
   - WindowsServer
 tags:
   - GroupPolicy

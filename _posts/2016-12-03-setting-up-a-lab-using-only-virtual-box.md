@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/12/setting-up-a-lab-using-only-virtual-box/
-categories:
+tags:
   - Networking
 tags:
   - Router

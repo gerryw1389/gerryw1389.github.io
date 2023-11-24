@@ -5,11 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/sharepoint-causing-excel-crash-fix/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-CMD
-  - Cloud
   - Updates
 ---
 <!--more-->

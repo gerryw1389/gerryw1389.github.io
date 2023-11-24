@@ -5,11 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2023/01/terragrunt-repo-structure-v1
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
+  - Azure
+  - Github
+  - Terraform
 ---
 <!--more-->
 

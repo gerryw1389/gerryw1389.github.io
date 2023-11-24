@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/09/running-ps-scripts-against-multiple-computers/
-categories:
+tags:
   - Windows
   - SysAdmin
 tags:

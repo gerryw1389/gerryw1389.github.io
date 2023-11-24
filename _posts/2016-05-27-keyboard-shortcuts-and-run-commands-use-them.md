@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/keyboard-shortcuts-and-run-commands-use-them/
-categories:
+tags:
   - SysAdmin
   - Windows
 ---

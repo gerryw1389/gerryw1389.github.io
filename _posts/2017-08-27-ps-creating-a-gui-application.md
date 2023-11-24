@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/08/ps-creating-a-gui-application/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

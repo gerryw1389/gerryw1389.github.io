@@ -5,12 +5,11 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/04/bash-pipeline-tasks
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - CICD
+  - Azure
+  - AzureDevops
+tags:
+  - Scripting-Bash
 ---
 <!--more-->
 

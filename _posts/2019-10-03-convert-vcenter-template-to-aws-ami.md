@@ -5,10 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/10/convert-vcenter-template-to-aws-ami
-categories:
-  - WebSoftware
 tags:
-  - Cloud
+  - WebSoftware
 ---
 <!--more-->
 

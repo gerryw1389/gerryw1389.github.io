@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/02/allow-rdp-user-to-reset-domain-password/
-categories:
+tags:
   - Networking
 ---
 <!--more-->

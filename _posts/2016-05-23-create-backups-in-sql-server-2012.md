@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/create-backups-in-sql-server-2012/
-categories:
+tags:
   - WindowsServer
 tags:
   - SQL

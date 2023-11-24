@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/06/docker-windows-host-with-wsl2
-categories:
+tags:
   - Linux
   - Windows
 tags:

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/11/domain-admin-pw-reset/
-categories:
+tags:
   - WindowsServer
 tags:
   - ActiveDirectory

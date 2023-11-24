@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/10/logic-apps-use-queue-messages-for-tracking
-categories:
+tags:
   - Azure
 tags:
   - Azure-LogicApps

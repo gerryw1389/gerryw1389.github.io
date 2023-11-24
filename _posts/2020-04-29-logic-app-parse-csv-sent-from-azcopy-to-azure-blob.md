@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/04/logic-app-parse-csv-sent-from-azcopy-to-azure-blob
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Orchestration
   - Azure-StorageAccounts
   - Azure-LogicApps

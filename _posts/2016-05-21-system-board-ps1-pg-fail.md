@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/system-board-ps1-pg-fail/
-categories:
+tags:
   - Hardware
   - WindowsServer
 tags:

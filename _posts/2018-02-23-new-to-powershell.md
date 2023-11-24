@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/02/new-to-powershell/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/09/ps-azure-credentials
-categories:
+tags:
   - Azure
 tags:
   - Scripting-Powershell

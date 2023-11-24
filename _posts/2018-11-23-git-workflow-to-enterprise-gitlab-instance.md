@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/git-workflow-to-enterprise-gitlab-instance/
-categories:
+tags:
   - Linux
 tags:
   - VersionControl

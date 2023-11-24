@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/application-not-appearing-after-launch/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/08/basic-network-troubleshooting
-categories:
+tags:
   - SysAdmin
   - Networking
 ---

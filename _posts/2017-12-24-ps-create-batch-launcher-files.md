@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/12/ps-create-batch-launcher-files/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

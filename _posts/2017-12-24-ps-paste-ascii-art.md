@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/12/ps-paste-ascii-art/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

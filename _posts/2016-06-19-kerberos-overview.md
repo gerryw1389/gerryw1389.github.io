@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/kerberos-overview/
-categories:
+tags:
   - SysAdmin
   - WindowsServer
 ---

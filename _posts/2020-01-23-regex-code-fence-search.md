@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/regex-code-fence-search/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Regex

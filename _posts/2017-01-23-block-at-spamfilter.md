@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/01/block-at-spamfilter/
-categories:
+tags:
   - Security
 ---
 <!--more-->

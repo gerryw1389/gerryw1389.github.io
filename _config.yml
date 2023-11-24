@@ -98,9 +98,9 @@ footer:
       url: "https://github.com/gerryw1389"
 
 # Archive Pages
-category_archive:
-  type: liquid
-  path: /categories/
+# category_archive:
+#   type: liquid
+#   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/02/ps-max-concurrent-shells-error
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

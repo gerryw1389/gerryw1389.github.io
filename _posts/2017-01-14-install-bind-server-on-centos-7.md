@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/01/install-bind-server-on-centos-7/
-categories:
+tags:
   - Networking
   - Linux
 ---

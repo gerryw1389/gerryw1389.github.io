@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/event-55-system-structure-corrupt/
-categories:
+tags:
   - Windows
 tags:
   - Monitoring

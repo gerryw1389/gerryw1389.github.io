@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/05/google-backup-and-sync-re-syncing-all-files/
-categories:
+tags:
   - LocalSoftware
 ---
 <!--more-->

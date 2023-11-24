@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/08/graph-api-read-extension-attributes
-categories:
+tags:
   - WebSoftware
   - Azure
 tags:

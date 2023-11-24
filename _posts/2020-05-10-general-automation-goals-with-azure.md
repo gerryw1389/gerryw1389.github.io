@@ -5,10 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/05/general-automation-goals-with-azure
-categories:
-  - Azure
 tags:
-  - Cloud
+  - Azure
 ---
 <!--more-->
 

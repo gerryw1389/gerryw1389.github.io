@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/bsods-stop-error-codes/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/to-make-a-domain-account-a-local-admin-account/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

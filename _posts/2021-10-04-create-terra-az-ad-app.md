@@ -5,10 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/10/create-terra-az-ad-app
-categories:
-  - Azure
 tags:
-  - Cloud
+  - Azure
 ---
 <!--more-->
 

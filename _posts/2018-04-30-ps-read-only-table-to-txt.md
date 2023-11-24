@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/ps-read-only-table-to-txt/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

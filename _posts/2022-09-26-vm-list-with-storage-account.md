@@ -5,12 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/09/vm-list-with-storage-account
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - Scripting-HCL
+  - Azure
+  - Terraform
+tags:
   - Scripting-Powershell
   - Azure-Automation
 ---

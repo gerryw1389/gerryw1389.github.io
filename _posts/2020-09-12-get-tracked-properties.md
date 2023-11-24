@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/09/get-tracked-properties
-categories:
+tags:
   - Azure
 tags:
   - Azure-LogicApps

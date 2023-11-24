@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/11/new-to-python
-categories:
+tags:
   - Linux
 ---
 <!--more-->

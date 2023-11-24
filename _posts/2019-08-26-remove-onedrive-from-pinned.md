@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/08/remove-onedrive-from-pinned/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

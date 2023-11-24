@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/setting-up-barracuda-archiver/
-categories:
+tags:
   - Hardware
 tags:
   - Setup

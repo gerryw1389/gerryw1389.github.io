@@ -5,11 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/05/run-every-minute-to-event-based
-categories:
+tags:
   - SysAdmin
   - Azure
-tags:
-  - Cloud
 ---
 <!--more-->
 

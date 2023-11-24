@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/hosted-exchange-for-godaddy-email/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

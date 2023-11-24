@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/veeam-jobs-stuck-in-stopping-state/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Backup

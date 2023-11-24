@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2023/01/update-changelog
-categories:
+tags:
   - LocalSoftware
 tags:
   - VersionControl

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/move-spiceworks-from-one-computer-to-another/
-categories:
+tags:
   - WindowsServer
 tags:
   - Migration

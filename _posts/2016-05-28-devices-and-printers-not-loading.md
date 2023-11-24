@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/devices-and-printers-not-loading/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-CMD

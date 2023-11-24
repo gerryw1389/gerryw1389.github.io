@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/azure-create-ps-app/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Scripting-RestAPI
 ---
 <!--more-->

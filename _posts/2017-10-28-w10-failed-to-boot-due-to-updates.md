@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/10/w10-failed-to-boot-due-to-updates/
-categories:
+tags:
   - Windows
 tags:
   - Pre-Boot

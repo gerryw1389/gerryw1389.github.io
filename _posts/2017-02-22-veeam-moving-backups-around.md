@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/02/veeam-moving-backups-around/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Backup

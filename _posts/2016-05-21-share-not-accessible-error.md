@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/share-not-accessible-error/
-categories:
+tags:
   - Networking
 tags:
   - FileSystem

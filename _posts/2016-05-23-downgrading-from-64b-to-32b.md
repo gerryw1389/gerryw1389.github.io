@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/downgrading-from-64b-to-32b/
-categories:
+tags:
   - LocalSoftware
 tags:
   - MSOffice

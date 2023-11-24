@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/common-workflow-get-email-addresses-for-all-users-on-a-share/
-categories:
+tags:
   - SysAdmin
 tags:
   - Scripting-Powershell

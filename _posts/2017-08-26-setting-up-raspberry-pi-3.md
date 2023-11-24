@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/08/setting-up-raspberry-pi-3/
-categories:
+tags:
   - Hardware
 tags:
   - Setup

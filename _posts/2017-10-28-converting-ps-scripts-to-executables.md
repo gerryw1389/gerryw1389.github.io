@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/10/converting-ps-scripts-to-executables/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

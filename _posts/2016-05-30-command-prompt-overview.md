@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/command-prompt-overview/
-categories:
+tags:
   - SysAdmin
 tags:
   - Scripting-CMD

@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/08/sftp-data-factory
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-DataFactory
 ---
 <!--more-->

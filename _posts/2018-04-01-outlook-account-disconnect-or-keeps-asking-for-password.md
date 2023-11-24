@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/outlook-account-disconnect-or-keeps-asking-for-password/
-categories:
+tags:
   - LocalSoftware
 tags:
   - MSOffice

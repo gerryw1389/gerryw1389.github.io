@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/predected-drive-failure/
-categories:
+tags:
   - Hardware
   - WindowsServer
 tags:

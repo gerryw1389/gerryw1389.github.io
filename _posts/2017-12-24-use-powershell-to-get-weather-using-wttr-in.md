@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/12/use-powershell-to-get-weather-using-wttr-in/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

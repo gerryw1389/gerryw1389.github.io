@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/06/request-san-cert/
-categories:
+tags:
   - WindowsServer
 tags:
   - Certificates

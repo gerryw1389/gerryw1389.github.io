@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/01/vro-run-jenkins-pt-2/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Orchestration

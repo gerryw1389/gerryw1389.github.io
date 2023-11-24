@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/sccm-deploy-batch-file/
-categories:
+tags:
   - SysAdmin
   - WindowsServer
 tags:

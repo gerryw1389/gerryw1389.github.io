@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/breaking-into-sa-jobs/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

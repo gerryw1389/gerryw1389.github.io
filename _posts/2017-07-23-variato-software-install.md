@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/07/variato-software-install/
-categories:
+tags:
   - LocalSoftware
 ---
 <!--more-->

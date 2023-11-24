@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/12/la-loop-bookings-results
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-LogicApps
   - Scripting-RestAPI
 ---

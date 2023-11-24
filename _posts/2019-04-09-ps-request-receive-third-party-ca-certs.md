@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/ps-request-receive-third-party-ca-certs/
-categories:
+tags:
   - Networking
   - Windows
 tags:

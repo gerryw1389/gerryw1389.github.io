@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/using-docker-to-install-openvas-on-centos/
-categories:
+tags:
   - Linux
 tags:
   - VirtualizationSoftware

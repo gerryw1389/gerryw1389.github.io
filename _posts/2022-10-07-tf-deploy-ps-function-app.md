@@ -5,12 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/10/tf-deploy-ps-function-app
-categories:
-  - Azure
 tags:
-  - Cloud
-  - InfrastructureProvisioning
-  - Scripting-HCL
+  - Azure
+  - Terraform
+tags:
   - Azure-FunctionApps
 ---
 <!--more-->

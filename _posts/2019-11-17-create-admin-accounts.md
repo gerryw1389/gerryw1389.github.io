@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/11/create-admin-accounts/
-categories:
+tags:
   - WindowsServer
 tags:
   - Scripting-Powershell

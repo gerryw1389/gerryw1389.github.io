@@ -5,10 +5,10 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/04/ga-run-script-on-approval/
-categories:
-  - Azure
 tags:
-  - Cloud
+  - Azure
+  - Github
+tags:
   - CICD
   - Scripting-Python
   - Azure-ApiManagement

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/08/vscode-remote-explorer-setup
-categories:
+tags:
   - Azure
 tags:
   - VersionControl

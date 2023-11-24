@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/test-lab-domain-setup/
-categories:
+tags:
   - Networking
   - WindowsServer
 tags:

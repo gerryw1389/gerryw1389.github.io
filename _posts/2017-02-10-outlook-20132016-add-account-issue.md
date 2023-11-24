@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/02/outlook-20132016-add-account-issue/
-categories:
+tags:
   - Windows
   - LocalSoftware
 tags:

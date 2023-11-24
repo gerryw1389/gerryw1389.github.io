@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/monitoring-a-suspicious-computer/
-categories:
+tags:
   - LocalSoftware
 tags:
   - Monitoring

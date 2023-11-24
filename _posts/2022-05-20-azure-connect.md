@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2022/05/azure-connect/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Scripting-Powershell
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/01/using-powershell-to-access-gmail-api/
-categories:
+tags:
   - WebSoftware
 tags:
   - Scripting-Powershell

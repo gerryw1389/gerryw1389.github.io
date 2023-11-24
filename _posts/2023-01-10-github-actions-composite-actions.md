@@ -5,8 +5,8 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2023/01/github-actions-composite-actions
-categories:
-  - WebSoftware
+tags:
+  - Github
 tags:
   - CICD
 ---

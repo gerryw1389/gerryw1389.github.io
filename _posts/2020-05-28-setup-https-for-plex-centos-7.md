@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2020/05/setup-https-for-plex-centos-7
-categories:
+tags:
   - LocalSoftware
   - Linux
 tags:

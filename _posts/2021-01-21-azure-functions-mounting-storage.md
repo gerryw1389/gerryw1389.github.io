@@ -5,10 +5,9 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2021/01/azure-functions-mounting-storage/
-categories:
+tags:
   - Azure
 tags:
-  - Cloud
   - Azure-FunctionApps
   - Azure-StorageAccounts
   - Scripting-Python

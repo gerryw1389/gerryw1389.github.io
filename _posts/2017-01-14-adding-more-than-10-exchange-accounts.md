@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/01/adding-more-than-10-exchange-accounts/
-categories:
+tags:
   - LocalSoftware
 tags:
   - MSOffice

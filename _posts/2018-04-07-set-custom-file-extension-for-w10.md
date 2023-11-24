@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/04/set-custom-file-extension-for-w10/
-categories:
+tags:
   - Windows
 tags:
   - GroupPolicy

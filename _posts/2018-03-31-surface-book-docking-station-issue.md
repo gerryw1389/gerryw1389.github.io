@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/03/surface-book-docking-station-issue/
-categories:
+tags:
   - Hardware
 ---
 <!--more-->

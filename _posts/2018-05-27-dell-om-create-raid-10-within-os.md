@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/05/dell-om-create-raid-10-within-os/
-categories:
+tags:
   - LocalSoftware
   - Hardware
 tags:

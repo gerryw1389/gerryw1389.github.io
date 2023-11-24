@@ -3,7 +3,7 @@ title: PS Script Not Running As Scheduled Task
 date: 2019-05-06T12:22:11+00:00
 layout: single
 classes: wide
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

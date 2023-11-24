@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2019/04/vro-mysql-driver-not-installed/
-categories:
+tags:
   - Linux
 tags:
   - Orchestration

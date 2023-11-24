@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2017/11/ad-best-practices/
-categories:
+tags:
   - SysAdmin
 tags:
   - ActiveDirectory

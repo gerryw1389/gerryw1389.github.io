@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: 2019/11/commands-bash-powershell/
-categories:
+tags:
   - Linux
   - Windows
 tags:

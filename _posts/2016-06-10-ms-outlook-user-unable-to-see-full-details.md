@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/06/ms-outlook-user-unable-to-see-full-details/
-categories:
+tags:
   - LocalSoftware
 tags:
   - MSOffice

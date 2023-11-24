@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/w10-clean-upgrade/
-categories:
+tags:
   - Windows
 ---
 <!--more-->

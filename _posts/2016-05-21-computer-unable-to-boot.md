@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/computer-unable-to-boot/
-categories:
+tags:
   - Hardware
 tags:
   - Pre-Boot

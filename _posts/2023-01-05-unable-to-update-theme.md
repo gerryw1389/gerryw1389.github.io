@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2023/01/unable-to-update-theme
-categories:
+tags:
   - Linux
 tags:
   - WebServer

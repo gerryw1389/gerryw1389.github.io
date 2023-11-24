@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/aws-sysadmin-guide/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/04/interview-questions/
-categories:
+tags:
   - SysAdmin
 ---
 <!--more-->

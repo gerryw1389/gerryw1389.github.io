@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2018/11/set-registry-permissions/
-categories:
+tags:
   - Windows
 tags:
   - Scripting-Powershell

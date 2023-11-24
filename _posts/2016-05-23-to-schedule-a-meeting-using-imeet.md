@@ -5,7 +5,7 @@ author: gerryw1389
 layout: single
 classes: wide
 permalink: /2016/05/to-schedule-a-meeting-using-imeet/
-categories:
+tags:
   - LocalSoftware
 ---
 <!--more-->
