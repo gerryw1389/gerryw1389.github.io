@@ -13,10 +13,10 @@ This blog does not represent the thoughts, intentions, plans or strategies of my
 
 Feel free to challenge me, disagree with me, or tell me I’m completely nuts in the comments section of each blog entry, but I reserve the right to delete any comment for any reason whatsoever (abusive, profane, rude, or anonymous comments) – so keep it polite, please.
 
-- [Source of the disclamer](https://sampleblogdisclaimer.blogspot.com/)
+- [Source of the disclaimer](https://sampleblogdisclaimer.blogspot.com/)
 - [Source of the next sections](https://mmistakes.github.io/minimal-mistakes/terms/) - I am not a fan of copy/pasting other peoples content, but I feel that a general broad policy like this is a good starting point!
 
-## Privacy Policy
+### Privacy Policy
 
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
@@ -43,15 +43,15 @@ Third-party advertisers may also place and read cookies on your browser and/or u
 
 If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
 
-#### Google Analytics
+### Google Analytics
 
 Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
 
-#### Google Adsense
+### Google Adsense
 
 Google Adsense, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. You can read [Google Adsense Privacy Policy](http://support.google.com/adsense/bin/answer.py?hl=en&answer=48182).
 
-## Disclosure Policy
+### Disclosure Policy
 
 I make money on this website through affiliate programs. If you click an affiliate link or ad banner and buy the product, you help support this website because I'll get a percentage of that sale.
 

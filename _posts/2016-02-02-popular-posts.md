@@ -28,7 +28,7 @@ tags:
 2. Terraform:
    - [Terraform: Introduction](https://automationadmin.com/2022/07/tf-intro)
    - [Terraform: Read Multiple Subscriptions](https://automationadmin.com/2022/08/tf-read-multiple-subs)
-   - Just read all the posts under the [Infrastructure Provisioning](https://automationadmin.com/tags/#infrastructureprovisioning) tag :)
+   - Just read all the posts under the [Terraform](https://automationadmin.com/tags/#terraform) tag :)
 
 3. Git:
    - [Connecting To Private Github Repo](https://automationadmin.com/2018/02/connect-to-github-private-repo/)
