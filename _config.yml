@@ -1,7 +1,7 @@
 # Ref => https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # 4.16.5
 minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Plugins
@@ -70,9 +70,9 @@ timezone: "US/Central" # https://en.wikipedia.org/wiki/List_of_tz_database_time_
 
 # Site Author
 author:
-  name: ""
+  name: "gerryw1389"
   avatar: "/assets/images/gerryw.png"
-  bio: ""
+  bio: "Experienced Cloud Engineer"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

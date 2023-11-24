@@ -10,7 +10,7 @@ permalink: /2016/01/first-post/
 
 ### Description:
 
-This post will be dated Jan 1, 2016 but in reality, I have been moving sites for a while. I started out with a Google website that acted as a knowledge base when I worked tech support, then I moved it to a blogger site, and now I am finally hosting my own WordPress site! Long story short, posts from here up to October are really just me migrating old posts and tweaking the categories and tags, anything past that I hope to keep up to date as my career progresses and I [never stop learning](https://www.reddit.com/r/sysadmin/wiki/bootcamp)!
+This post will be dated Jan 1, 2016 but in reality, I have been moving sites for a while. I started out with a Google website that acted as a knowledge base when I worked tech support, then I moved it to a blogger site, and now I am finally hosting my own WordPress site! Long story short, posts from here up to October are really just me migrating old posts and tweaking the tags, anything past that I hope to keep up to date as my career progresses and I [never stop learning](https://www.reddit.com/r/sysadmin/wiki/bootcamp)!
 
 ### History
 

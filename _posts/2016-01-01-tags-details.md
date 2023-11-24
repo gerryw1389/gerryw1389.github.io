@@ -1,10 +1,10 @@
 ---
-title: Categories and Tags
+title: Tags Details
 date: 2016-01-01T08:53:02+00:00
 author: gerryw1389
 layout: single
 classes: wide
-permalink: /2016/01/categories-tags/
+permalink: /2016/01/tags-details/
 tags:
   - LocalSoftware
 tags:
@@ -18,23 +18,7 @@ This post helps navigate the categories and tags on this site by giving meanings
 
 ### To Resolve:
 
-1. Categories:
-
-
-   |Category | Meaning | Group|
-   |--- | --- |--- |
-   |Hardware | Hardware related stuff - servers, racks, UPS units, ect.| Hardware|
-   |Networking | Networking related stuff| Networking|
-   |LocalSoftware | Anything regarding settings for a specific program|Software|
-   |WebSoftware | Settings for a program that exists as a SaaS like Sharepoint Online or Office 365|Software|
-   |SysAdmin | Catch all category for references, learning, or general posts|Concepts|
-   |Security | Usually posts with protocols, hardening systems, ect.|Concepts|
-   |Linux | Linux related posts|Operating Systems|
-   |Unix | Unux related posts|Operating Systems|
-   |Windows | Windows related posts|Operating Systems|
-   |WindowsServer | Windows Server related posts|Operating Systems|
-
-2. Tags
+1. Tags
 
    |Category | Meaning | Group|
    |--- | --- |--- |
@@ -80,3 +64,13 @@ This post helps navigate the categories and tags on this site by giving meanings
    |Viruses| Posts for back in the helpdesk days with Windows clients | Concepts|
    |WebServer | IIS, Apache, Nginx, Github Pages (Jekyll) | Software|
    |WindowsServer-Roles| Anything regarding Windows Server roles | Concepts|
+   |Hardware | Hardware related stuff - servers, racks, UPS units, ect.| Hardware|
+   |Networking | Networking related stuff| Networking|
+   |LocalSoftware | Anything regarding settings for a specific program|Software|
+   |WebSoftware | Settings for a program that exists as a SaaS like Sharepoint Online or Office 365|Software|
+   |SysAdmin | Catch all category for references, learning, or general posts|Concepts|
+   |Security | Usually posts with protocols, hardening systems, ect.|Concepts|
+   |Linux | Linux related posts|Operating Systems|
+   |Unix | Unux related posts|Operating Systems|
+   |Windows | Windows related posts|Operating Systems|
+   |WindowsServer | Windows Server related posts|Operating Systems|

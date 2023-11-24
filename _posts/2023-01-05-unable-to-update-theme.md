@@ -7,7 +7,6 @@ classes: wide
 permalink: /2023/01/unable-to-update-theme
 tags:
   - Linux
-tags:
   - WebServer
 ---
 <!--more-->
@@ -20,7 +19,7 @@ When I update to any version past `4.15.5` which is [what I'm currently pinned t
 
 `"", "avatar"=>"/assets/images/gerryw.png", "bio"=>"", "links"=>[{"label"=>"GitHub", "icon"=>"fab fa-fw fa-github", "url"=>"https://github.com/gerryw1389"}, {"label"=>"Reddit", "icon"=>"fab fa-reddit-alien", "url"=>"https://www.reddit.com/user/gerryw1389/"}, {"label"=>"Popular Posts", "icon"=>"fas fa-fw fa-link", "url"=>"https://automationadmin.com/2016/02/popular-posts"}, {"label"=>"Bookmarks", "icon"=>"fas fa-bookmark", "url"=>"https://automationadmin.com/2016/02/bookmarks"}]}">`
 
-All other pages like 'About', 'Categories', and even individual posts don't have this issue.
+All other pages like 'About' and even individual posts don't have this issue.
 
 ### To Resolve:
 
@@ -53,3 +52,13 @@ All other pages like 'About', 'Categories', and even individual posts don't have
 	- *"Fix site.url in Organization/Person JSON-LD schema."* - but when I look at that issue, I'm unable to discern how that relates to my blog.
    - But I'm not sure which of these changed what. Need to look into this at some point. I'm fine pinned to this version for now though.
 	- It very well may be one of the other issues that was fixed. All I know is upgrading to any version past this one causes the issue even if I go to the latest release today which is [`v4.24.0`](https://github.com/mmistakes/minimal-mistakes/commits/4.24.0)
+
+1. Update 2023-11: I found the fix for this, it was simply to set the `name` or `bio` setting in `_config.yml`. Once I did this, the issue went away:
+
+   ```
+   # Site Author
+   author:
+   name: "gerryw1389"
+   avatar: "/assets/images/gerryw.png"
+   bio: "Experienced Cloud Engineer"
+   ```

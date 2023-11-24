@@ -23,15 +23,14 @@ categories:
     children:
       - title: "Azure"
         url: https://automationadmin.com/tags/#azure
+      - title: "Powershell"
+        url: https://automationadmin.com/tags/#scripting-powershell
+      - title: "Terraform"
+        url: https://automationadmin.com/tags/#terraform
       - title: "Linux"
         url: https://automationadmin.com/tags/#linux
       - title: "SysAdmin"
         url: https://automationadmin.com/tags/#sysadmin
-      - title: "Cloud"
-        url: https://automationadmin.com/tags/#cloud
       - title: "VersionControl"
         url: https://automationadmin.com/tags/#versioncontrol
-      - title: "Powershell"
-        url: https://automationadmin.com/tags/#scripting-powershell
-      - title: "InfrastructureProvisioning"
-        url: https://automationadmin.com/tags/#infrastructureprovisioning
+

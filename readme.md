@@ -17,11 +17,9 @@ Minimal Mistakes => The blog's [parent theme](https://github.com/mmistakes/minim
    layout: single
    classes: wide
    permalink: /copy file name WITHOUT Extension - ex: /2019/08/opendns/
-   categories:
-   - WebSoftware
    tags:
-   - Cloud
-   - Azure-LogicApps
+     - Azure
+     - Terraform
    ---
    <!--more-->
 

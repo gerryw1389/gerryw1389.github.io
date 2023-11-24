@@ -81,4 +81,4 @@ tags:
 
 8. Other:
    - [Top Xkcd's](https://automationadmin.com/2018/08/top-xkcds/)
-   - [Meta - Categories and Tags for this site](https://automationadmin.com/2016/01/categories-tags/)
+   - [Meta - Tags details for this site](https://automationadmin.com/2016/01/tags-details/)
