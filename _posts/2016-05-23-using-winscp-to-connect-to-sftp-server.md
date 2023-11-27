@@ -8,6 +8,7 @@ permalink: /2016/05/using-winscp-to-connect-to-sftp-server/
 tags:
   - LocalSoftware
   - SysAdmin
+  - PKI
 ---
 <!--more-->
 

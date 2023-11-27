@@ -7,8 +7,8 @@ classes: wide
 permalink: /2018/02/connect-to-github-private-repo/
 tags:
   - LocalSoftware
-tags:
   - VersionControl
+  - PKI
 ---
 <!--more-->
 

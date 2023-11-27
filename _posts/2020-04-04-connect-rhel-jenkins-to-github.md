@@ -7,8 +7,8 @@ classes: wide
 permalink: /2020/04/connect-rhel-jenkins-to-github
 tags:
   - WebSoftware
-tags:
   - VersionControl
+  - PKI
 ---
 <!--more-->
 

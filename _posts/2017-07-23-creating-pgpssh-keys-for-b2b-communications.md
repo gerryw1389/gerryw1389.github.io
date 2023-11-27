@@ -7,6 +7,7 @@ classes: wide
 permalink: /2017/07/creating-pgpssh-keys-for-b2b-communications/
 tags:
   - Security
+  - PKI
 ---
 <!--more-->
 

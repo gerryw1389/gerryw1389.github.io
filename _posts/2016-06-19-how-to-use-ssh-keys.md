@@ -8,6 +8,7 @@ permalink: /2016/06/how-to-use-ssh-keys/
 tags:
   - Linux
   - Security
+  - PKI
 ---
 <!--more-->
 

@@ -10,6 +10,7 @@ tags:
 tags:
   - PersonalConfig
   - NoteTaking
+  - VsCode
 ---
 <!--more-->
 

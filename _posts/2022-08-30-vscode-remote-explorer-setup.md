@@ -12,6 +12,8 @@ tags:
   - Scripting-Bash
   - LinuxServer
   - NoteTaking
+  - PKI
+  - VsCode
 ---
 <!--more-->
 

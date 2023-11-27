@@ -8,8 +8,8 @@ permalink: /2020/12/ssh-auth-for-serverless-sftp-on-azure
 tags:
   - Azure
   - Linux
-tags:
   - Azure-ContainerInstances
+  - PKI
 ---
 <!--more-->
 

@@ -10,6 +10,7 @@ tags:
 tags:
   - VersionControl
   - NoteTaking
+  - VsCode
 ---
 <!--more-->
 

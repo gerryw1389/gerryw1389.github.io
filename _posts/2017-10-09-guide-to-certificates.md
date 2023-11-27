@@ -8,6 +8,7 @@ permalink: /2017/10/guide-to-certificates/
 tags:
   - SysAdmin
   - Security
+  - PKI
 ---
 <!--more-->
 

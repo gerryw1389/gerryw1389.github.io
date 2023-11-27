@@ -132,13 +132,13 @@ This post assumes you have [WSL](https://automationadmin.com/2017/09/windows-sub
 
 1. Lately, to update testing locally, I have been doing the following
 
-```
-cd /mnt/c/my-website
-rm Gemfile.lock
-gem update
-bundle install
-bundle update --bundler
-bundle exec jekyll serve
-```
+   ```shell
+   cd /mnt/c/my-website
+   rm Gemfile.lock
+   gem update
+   bundle install
+   bundle update --bundler
+   bundle exec jekyll serve
+   ```
 
 - No issues at this time.

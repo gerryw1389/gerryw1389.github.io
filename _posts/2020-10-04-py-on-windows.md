@@ -11,6 +11,7 @@ tags:
 tags:
   - NoteTaking
   - Scripting-Python
+  - VsCode
 ---
 <!--more-->
 

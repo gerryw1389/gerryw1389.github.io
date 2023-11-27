@@ -7,6 +7,7 @@ classes: wide
 permalink: /2019/08/aws-deploy-vm/
 tags:
   - WebSoftware
+  - PKI
 ---
 <!--more-->
 
