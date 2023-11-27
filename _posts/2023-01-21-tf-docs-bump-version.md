@@ -123,7 +123,7 @@ See below for more details.
                old_version="$(git tag | tr - \~ | sort -V | tr \~ -| tail -1)"
                echo "vso[task.setvariable variable=Version.Old;isreadonly=true]$old_version"
 
-               new_version="$(../src/semver bump ${{ parameters.increment }} $old_version)"
+               new_version="$(../src/semver bump ${/{ parameters.increment }} $old_version)"
                full_new_version=v$new_version
                echo "vso[task.setvariable variable=Version.New;isreadonly=true]$full_new_version"
 

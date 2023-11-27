@@ -54,14 +54,14 @@ Workflow Dispatch is a [trigger](https://docs.github.com/en/actions/using-workfl
       if: github.event.inputs.one == 'jim' && github.event.inputs.logLevel == 'warning'
       uses: gerryw1389/terraform-examples/.github/workflows/c.yml@main
       with:
-         config-path: ${{ inputs.two }}
+         config-path: ${/{ inputs.two }}
       secrets:
          token: "blah"
    call-child-d:
       if: github.event.inputs.one != 'jim'
       uses: gerryw1389/terraform-examples/.github/workflows/d.yml@main
       with:
-         config-path: ${{ inputs.two }}
+         config-path: ${/{ inputs.two }}
       secrets:
          token: "blah"
    ```
@@ -100,11 +100,11 @@ Workflow Dispatch is a [trigger](https://docs.github.com/en/actions/using-workfl
                print(q)
          shell: python 
          env:
-            SECRET: ${{ secrets.token }}
+            SECRET: ${/{ secrets.token }}
 
          - name: Display Config-Path
          run: 
-            echo ${{ inputs.config-path }}
+            echo ${/{ inputs.config-path }}
    ```
 
 1. Inside `d.yaml`, copy these contents:
@@ -140,12 +140,14 @@ Workflow Dispatch is a [trigger](https://docs.github.com/en/actions/using-workfl
                print(q)
          shell: python 
          env:
-            SECRET: ${{ secrets.token }}
+            SECRET: ${/{ secrets.token }}
 
          - name: Display Config-Path
          run: 
-            echo ${{ inputs.config-path }}
+            echo ${/{ inputs.config-path }}
    ```
+
+   - NOTE: [Jekyll Liquid Filters](https://jekyllrb.com/docs/liquid/filters/) clash with [Github Variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-contexts-to-access-variable-values) so replace all instances of `${/{` by removing the forward slash :)
 
 1. Before explaining, make sure [to read official sources](https://docs.github.com/en/actions/using-workflows/reusing-workflows#creating-a-reusable-workflow) on this to follow along. But to explain, in `parent.yaml` you can create as many [inputs](https://github.blog/changelog/2021-11-10-github-actions-input-types-for-manual-workflows/) as you want and then call child workflows based on those inputs.
 

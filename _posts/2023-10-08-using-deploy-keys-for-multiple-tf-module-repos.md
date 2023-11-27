@@ -42,13 +42,13 @@ Here I will show you how I used Deploy Keys for multiple TF Module repos.
             SSH_AUTH_SOCK: /tmp/ssh_agent.sock
          run: |
             ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-            ssh-add - <<< "${{ secrets.SSH_KEY_GITHUB_ACTIONS }}"
+            ssh-add - <<< "${/{ secrets.SSH_KEY_GITHUB_ACTIONS }}"
 
    - name: "Terraform Init"
       id: init
       run: |
          cd $GITHUB_WORKSPACE/live
-         terraform init -backend-config="access_key=${{ steps.azure-keyvault-secrets.outputs.tfstateaccesskey }}"
+         terraform init -backend-config="access_key=${/{ steps.azure-keyvault-secrets.outputs.tfstateaccesskey }}"
       env:
          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
 
@@ -71,9 +71,11 @@ Here I will show you how I used Deploy Keys for multiple TF Module repos.
             ./.github/scripts/update_ssh_agent.sh
          env:
             SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-            SSH_KEY_MODULE_RG: ${{ secrets.ssh_key_module_rg }}
-            SSH_KEY_MODULE_COSMOSDB: ${{ secrets.ssh_key_module_cosmosdb }}
+            SSH_KEY_MODULE_RG: ${/{ secrets.ssh_key_module_rg }}
+            SSH_KEY_MODULE_COSMOSDB: ${/{ secrets.ssh_key_module_cosmosdb }}
       ```
+
+   - NOTE: [Jekyll Liquid Filters](https://jekyllrb.com/docs/liquid/filters/) clash with [Github Variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-contexts-to-access-variable-values) so replace all instances of `${/{` by removing the forward slash :)
 
    - Here is the script:
 

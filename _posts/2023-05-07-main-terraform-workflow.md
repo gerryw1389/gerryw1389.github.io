@@ -50,11 +50,11 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
          hub_subscription_secret_name: "hub-nonprd-sub-id"
          secrets_akv: "my-akv"
          common_subfolder: "stage1"
-         workflow_path: ${{ github.repository }}/${{ github.workflow }}
-         actor: ${{ github.actor }}
+         workflow_path: ${/{ github.repository }}/${/{ github.workflow }}
+         actor: ${/{ github.actor }}
       secrets:
-         azure_cred: ${{ secrets.AZURE_CREDENTIALS }}
-         ssh_key_github_actions: ${{ secrets.SSH_KEY_GITHUB_ACTIONS }}
+         azure_cred: ${/{ secrets.AZURE_CREDENTIALS }}
+         ssh_key_github_actions: ${/{ secrets.SSH_KEY_GITHUB_ACTIONS }}
    ```
 
    - example `example2.yml` :
@@ -85,11 +85,11 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
             hub_subscription_secret_name: "hub-nonprd-sub-id"
             secrets_akv: "my-akv"
             common_subfolder: "stage1"
-            workflow_path: ${{ github.repository }}/${{ github.workflow }}
-            actor: ${{ github.actor }}
+            workflow_path: ${/{ github.repository }}/${/{ github.workflow }}
+            actor: ${/{ github.actor }}
          secrets:
-            azure_cred: ${{ secrets.AZURE_CREDENTIALS }}
-            ssh_key_github_actions: ${{ secrets.SSH_KEY_GITHUB_ACTIONS }}
+            azure_cred: ${/{ secrets.AZURE_CREDENTIALS }}
+            ssh_key_github_actions: ${/{ secrets.SSH_KEY_GITHUB_ACTIONS }}
       ```
 
    - Can you spot the difference? It's subtle, but `eus` is replaced by `scus` in my [file tree](https://github.com/AutomationAdmin-Com/sic.mgmt/tree/feature/config/nonprd/hub) for the paths being monitored for changes.
@@ -151,7 +151,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
       steps:
          - name: "Echo Context"
-         run: echo '${{ toJSON(github) }}'
+         run: echo '${/{ toJSON(github) }}'
 
          - name: "Checkout Sprint Branch"
          uses: actions/checkout@v3
@@ -161,8 +161,8 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
             cd $GITHUB_WORKSPACE
             echo "Copying files"
             mkdir -p ./live
-            cp ./${{ inputs.config_files_path }}/* ./live/
-            cp ./source/common/${{ inputs.common_subfolder }}/* ./live/
+            cp ./${/{ inputs.config_files_path }}/* ./live/
+            cp ./source/common/${/{ inputs.common_subfolder }}/* ./live/
             cp -R ./source/modules ./live/
             echo "File structure in root directory: "
             ls -l

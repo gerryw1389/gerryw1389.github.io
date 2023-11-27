@@ -138,9 +138,12 @@ Using that logic, I tried that in Github Actions since there is a way to store a
             ./.github/scripts/update_ssh_agent.sh
          env:
             SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-            SSH_KEY_MODULE_RG: ${{ secrets.ssh_key_module_rg }}
-            SSH_KEY_MODULE_COSMOSDB: ${{ secrets.ssh_key_module_cosmosdb }}
+            SSH_KEY_MODULE_RG: ${/{ secrets.ssh_key_module_rg }}
+            SSH_KEY_MODULE_COSMOSDB: ${/{ secrets.ssh_key_module_cosmosdb }}
    ```
+
+   - NOTE: [Jekyll Liquid Filters](https://jekyllrb.com/docs/liquid/filters/) clash with [Github Variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-contexts-to-access-variable-values) so replace all instances of `${/{` by removing the forward slash :)
+
 
    - The fix was to surround them in quotes after getting that `libcrypto` error:
 

@@ -31,7 +31,9 @@ So almost every example you will see online for connecting to Azure or Terraform
    - For Github Name you have to specify from the previous selection the selector. For example, environement has to match the Github Environment you will deploy from in your workflow, branch has to match a branch, ect. I chose `production` which I will show you shortly.
    - For name, you just give a unique name for the credential: I chose `sic-template-env-prod`.
 
-1. Next, inside my [sic.template](https://github.com/AutomationAdmin-Com/sic.template) repo, I added these 3 required secrets for the action:  `${{ secrets.CLIENT_ID }}`, `${{ secrets.TENANT_ID }}`, and `${{ secrets.SUB_ID }}` where SUB_ID is just one of my Azure Subscriptions `id` property, it doesn't matter which one.
+1. Next, inside my [sic.template](https://github.com/AutomationAdmin-Com/sic.template) repo, I added these 3 required secrets for the action:  `${/{ secrets.CLIENT_ID }}`, `${/{ secrets.TENANT_ID }}`, and `${/{ secrets.SUB_ID }}` where SUB_ID is just one of my Azure Subscriptions `id` property, it doesn't matter which one.
+
+   - NOTE: [Jekyll Liquid Filters](https://jekyllrb.com/docs/liquid/filters/) clash with [Github Variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-contexts-to-access-variable-values) so replace all instances of `${/{` by removing the forward slash :)
 
 1. Next, in my Github Actions workflow, I had to enable 2 things:
    - First, I had to set `id-token: write` [permission](https://github.com/AutomationAdmin-Com/sic.template/blob/484737f27f67780c6a35a5c7288a230efec4d5c7/.github/workflows/main.yml#L15)

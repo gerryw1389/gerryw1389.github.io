@@ -15,6 +15,9 @@ tags:
 
 One of the first things I wanted to show after [creating an organization](https://automationadmin.com/2023/08/setting-up-github-org) in Github is how to configure Azure completely via IaC, with little to no clicking in the GUI. Well the first step to do that is to create subscriptions. I was certain that you could not do that with "Pay as You Go" types, but sure enough, it's [one of the options](https://registry.terraform.io/providers/hashicorp/azurerm/3.80.0/docs/resources/subscription#example-usage---creating-a-new-alias-and-subscription-for-a-microsoft-customer-account)!
 
+Note: You can see the code for this post on [my Github repo](https://github.com/AutomationAdmin-Com/sic.mgmt).
+{: .notice--success}
+
 ### Steps
 
 1. The first thing I did was give my Service Principal rights to create subscriptions at the correct "Invoice Section" level:

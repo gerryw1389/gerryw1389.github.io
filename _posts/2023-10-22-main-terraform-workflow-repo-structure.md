@@ -75,7 +75,9 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
    - First, we create a folder called `./live` that exists on the Github Runner only during execution, it does not exist anywhere in our stored repo.
    - Next, since we are using a [matrix workflow](https://automationadmin.com/2023/05/main-terraform-workflow), this specific Github run will be running in parrallel with **all** the changes you made for this Pull Requests.
 
-   - This means we could be running one, two, or twenty parrallel exucutions but each one with a specific `${{ matrix.directories }}` value that coorelates to something like `config/nonprd/hub/east/stage2/none` or `config/prd/hub/east/stage2/none` or `config/prd/hub/scus/stage2/none` for example.
+   - This means we could be running one, two, or twenty parrallel exucutions but each one with a specific `${/{ matrix.directories }}` value that coorelates to something like `config/nonprd/hub/east/stage2/none` or `config/prd/hub/east/stage2/none` or `config/prd/hub/scus/stage2/none` for example.
+
+   - NOTE: [Jekyll Liquid Filters](https://jekyllrb.com/docs/liquid/filters/) clash with [Github Variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-contexts-to-access-variable-values) so replace all instances of `${/{` by removing the forward slash :)
 
    - Next, we have a [parse script](https://github.com/AutomationAdmin-Com/sic.template/blob/main/.github/scripts/parse.sh) that is simply a bash script that looks at those paths and creates outputs dynamically as [explained in my post here](https://automationadmin.com/2023/11/using-akv-to-get-secrets) to create outputs. We are just getting the stage number in this case.
 

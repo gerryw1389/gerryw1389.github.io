@@ -19,9 +19,12 @@ A key goal I wish to accomplish with Github Actions is to set all the secrets I 
 
 ### To Resolve:
 
-1. The only secrets needed for [OIDC Auth](https://automationadmin.com/2023/08/setting-oidc-auth) are `${{ secrets.CLIENT_ID }}`, `${{ secrets.TENANT_ID }}`, and `${{ secrets.SUB_ID }}` so I put each of these in the Repo as secrets. 
+1. The only secrets needed for [OIDC Auth](https://automationadmin.com/2023/08/setting-oidc-auth) are `${/{ secrets.CLIENT_ID }}`, `${/{ secrets.TENANT_ID }}`, and `${/{ secrets.SUB_ID }}` so I put each of these in the Repo as secrets. 
 
-   - Then I need to add `${{ secrets.REPO_BOT_PEM }}` as discussed [here](https://automationadmin.com/2023/07/create-repo-bot-for-tf-modules) for access to my module repos.
+   - NOTE: [Jekyll Liquid Filters](https://jekyllrb.com/docs/liquid/filters/) clash with [Github Variables](https://docs.github.com/en/actions/learn-github-actions/variables#using-contexts-to-access-variable-values) so replace all instances of `${/{` by removing the forward slash :)
+
+   - Then I need to add `${/{ secrets.REPO_BOT_PEM }}` as discussed [here](https://automationadmin.com/2023/07/create-repo-bot-for-tf-modules) for access to my module repos.
+
    - I would have that one come from a Key Vault, but I had issues reading secrets from AKV that are private keys as explained [here](https://automationadmin.com/2023/09/unable-to-load-priv-key-from-akv).
 
 1. Once those secrets are added, we then just need to do 2 things: Populate our AKV with all possible secrets and then add a task in our pipeline that will update the worfklow and "switch" based on the **needed** variables.
@@ -36,7 +39,7 @@ A key goal I wish to accomplish with Github Actions is to set all the secrets I 
          chmod +x ./.github/scripts/parse.sh
          ./.github/scripts/parse.sh
       env:
-         CURRENT_DIRECTORY: ${{ matrix.directories }}
+         CURRENT_DIRECTORY: ${/{ matrix.directories }}
    ```
 
    - And [here](https://github.com/AutomationAdmin-Com/sic.template/blob/main/.github/scripts/parse.sh) is the script.
@@ -48,8 +51,8 @@ A key goal I wish to accomplish with Github Actions is to set all the secrets I 
    - Second, the script mostly works by looking at the current matrix item and then setting outputs based on the value of it. Just a like a powershell switch statement but using bash.
 
 1. Lastly, after the parsing script, you just reference any output key value pair by the `key's name` in subsequent steps. For example:
-   - `TF_VAR_subscription_id: ${{ steps.azure-keyvault-secrets-spoke.outputs.spoke-subscription-id }}`
-   - `TF_VAR_hub_subscription_id: ${{ steps.azure-keyvault-secrets-hub.outputs.hub-subscription-id }}`
+   - `TF_VAR_subscription_id: ${/{ steps.azure-keyvault-secrets-spoke.outputs.spoke-subscription-id }}`
+   - `TF_VAR_hub_subscription_id: ${/{ steps.azure-keyvault-secrets-hub.outputs.hub-subscription-id }}`
    - In these examples the steps name is `azure-keyvault-secrets` as seen [here](https://github.com/AutomationAdmin-Com/sic.template/blob/484737f27f67780c6a35a5c7288a230efec4d5c7/.github/workflows/main.yml#L112) and the secrets we are setting are `spoke-subscription-id` and `hub-subscription-id` as seen in various spots of the parse script above ( look for any lines with `>>$GITHUB_OUTPUT` ).
 
 1. In the previous step we get the subscription ID and hub subscription ID needed dynamically so that we can [build providers](https://github.com/AutomationAdmin-Com/sic.mgmt/blob/4ad7fee18f3032ad14d011affb69e3fcb44c4498/config/prd/hub/scus/stage1/none/backend.tf#L61) in our calling workflows. See my [lab](https://automationadmin.com/lab/) section for how this works.
