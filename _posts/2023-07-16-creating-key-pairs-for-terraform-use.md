@@ -20,22 +20,22 @@ Sometimes, you will need to create a key pair, deploy a VM, and then add that ke
 
 1. Create keypair for a new user: 
 
-```shell
-cd c:\scripts
-mkdir keys
-cd ./keys/
-ssh-keygen -t rsa -m PEM -b 2048
-```
+   ```shell
+   cd c:\scripts
+   mkdir keys
+   cd ./keys/
+   ssh-keygen -t rsa -m PEM -b 2048
+   ```
 
 1. Take public portion and add it to your variables:
 
-```terraform
-variable "ssh_authorized_keys" {
-  type        = string
-  description = "ssh authorized key"
-  default     = "ssh-rsa AAAAB3Nza..D0RiVG6Wz7oisRN81Xu4iraxN"
-}
-```
+   ```terraform
+   variable "ssh_authorized_keys" {
+   type        = string
+   description = "ssh authorized key"
+   default     = "ssh-rsa AAAAB3Nza..D0RiVG6Wz7oisRN81Xu4iraxN"
+   }
+   ```
 
 1. Run the `terraform apply` to provision the VM.
 
