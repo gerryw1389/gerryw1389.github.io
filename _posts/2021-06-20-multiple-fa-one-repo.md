@@ -81,7 +81,7 @@ In this post I will demonstrate how to connect multiple functions apps to one re
       - name: 'Checkout GitHub Action'
          uses: actions/checkout@v2
 
-      - name: Setup Python ${{ env.PYTHON_VERSION }} Environment
+      - name: Setup Python ${/{ env.PYTHON_VERSION }} Environment
          uses: actions/setup-python@v1
          with:
          python-version: ${{ env.PYTHON_VERSION }}
@@ -89,7 +89,7 @@ In this post I will demonstrate how to connect multiple functions apps to one re
       - name: 'Resolve Project Dependencies Using Pip'
          shell: bash
          run: |
-         pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+         pushd './${/{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
          python -m pip install --upgrade pip
          pip install -r requirements.txt --target=".python_packages/lib/site-packages"
          popd
@@ -101,7 +101,7 @@ In this post I will demonstrate how to connect multiple functions apps to one re
          app-name: 'my-example-http-python-fa'
          slot-name: 'production'
          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-         publish-profile: ${{ secrets.AzureAppService_PublishProfile_684f3372 }}
+         publish-profile: ${/{ secrets.AzureAppService_PublishProfile_684f3372 }}
    ```
 
    - You then clone this and change the `branches:` to `testing` instead of `production` like I did in the [example](https://github.com/gerryw1389/python/tree/main/scripts/example-run-python-script-on-approval/.github/workflows)
