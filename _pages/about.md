@@ -9,14 +9,14 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
 
 ### My Interests Over Time:
 
-1. Cloud Systems Engineer (current) / Junior Cloud Architect :
-   - Post Tags/Categories: [**Terraform**](https://automationadmin.com/tags/#infrastructureprovisioning), [Azure](https://automationadmin.com/categories/#azure), [Azure Devops/Github Actions](https://automationadmin.com/tags/#cicd), [Git](https://automationadmin.com/tags/#versioncontrol) 
+1. Cloud Engineer:
+   - Post Tags/Categories: [**Terraform**](https://automationadmin.com/tags/#infrastructureprovisioning), [Azure](https://automationadmin.com/tags/#azure), [Azure Devops/Github Actions](https://automationadmin.com/tags/#cicd), [Git](https://automationadmin.com/tags/#versioncontrol) 
    - My most major focus has been "Deploying of all Azure Services using Azure Devops/Github Actions + Terraform". Everything is done through IaC instead of Azure Portal. Challenge mode on!
    - AKS deployment/management. Will post more on this in the future but for now just learning how to use [kubectl and k9s](https://automationadmin.com//2022/07/kubectl-k9s) for interacting with deployed clusters. Stay tuned.
    - Powershell + Python scripting to be ran by [Azure Devops Scheduled Tasks](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/scheduled-triggers?view=azure-devops&tabs=yaml)/Azure Automation/Logic Apps/Function Apps. This will never change as scripting is an [incredibly valuable skill](https://automationadmin.com/2020/02/importance-of-learning-scripting/) that can be used anywhere/anytime for automation.
 
 2. Automation Engineer:
-   - Post Tags/Categories:
+   - Post Tags:
      - [Azure-Automation](https://automationadmin.com/tags/#azure-automation)
      - [Azure-FunctionApps](https://automationadmin.com/tags/#azure-functionapps)
      - [Azure-KeyVault](https://automationadmin.com/tags/#azure-keyvault)
@@ -33,7 +33,7 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
    - Another great career changing post was [this](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/) one.
 
 3. Systems Administrator:
-   - Post Tags/Categories: [Powershell](https://automationadmin.com/tags/#scripting-powershell), [Windows Server](https://automationadmin.com/categories/#windowsserver), [Linux Server](https://automationadmin.com/tags/#linuxserver)
+   - Post Tags/Categories: [Powershell](https://automationadmin.com/tags/#scripting-powershell), [Windows Server](https://automationadmin.com/tags/#windowsserver), [Linux Server](https://automationadmin.com/tags/#linuxserver)
    - I was a Windows SysAdmin but tried at every job to use Linux instead (where it makes sense (not for Active Directory for example)):
      - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
      - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/)
@@ -50,9 +50,9 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
 1. For those that are new to the field of IT, my advice is to learn the following skills in the following order:
 
    - Foundational knowledge: Hardware, Software, Networking. These are the core of IT systems with Software being the largest. But at a minimum you should know:
-     - [Hardware](https://automationadmin.com/categories/#hardware): What components go into a computer - from disk drives, to memory sticks (RAM), to Raid Arrays and on. This may get less and less relevant as time goes on where Cloud providers extract this away but it is still important as we may shift back on-prem in the future once vendor lockin is not as strong. Currently cloud providers such as GCP, AWS, and Azure have attractive pricing to bring companies to their platform but once they capture a large enough market there is nothing stopping them from increasing their pricing because they know it will take enterprises years to migrate back on-prem. And obviously being publically traded companies they actually have to do this to increase share holder value so keep this in mind.
+     - [Hardware](https://automationadmin.com/tags/#hardware): What components go into a computer - from disk drives, to memory sticks (RAM), to Raid Arrays and on. This may get less and less relevant as time goes on where Cloud providers extract this away but it is still important as we may shift back on-prem in the future once vendor lockin is not as strong. Currently cloud providers such as GCP, AWS, and Azure have attractive pricing to bring companies to their platform but once they capture a large enough market there is nothing stopping them from increasing their pricing because they know it will take enterprises years to migrate back on-prem. And obviously being publically traded companies they actually have to do this to increase share holder value so keep this in mind.
      - Software: This goes from anything between what an Operating System is, to user installed programs, to Server Applications versus Client Applications. 
-     - [Networking](https://automationadmin.com/categories/#networking): I personally feel that every person in IT should be CCNA certified at the beginning of their career no matter what path they choose. Not because I'm a Cisco shill, quite the opposite actually, I don't care what provider but you need to know the basics: Private IP verus Public IP, NAT, Firewall Rules, ect. At a minimum, you should try to [visualize a path](https://automationadmin.com/2020/08/basic-network-troubleshooting) networking traffic takes between two devices.
+     - [Networking](https://automationadmin.com/tags/#networking): I personally feel that every person in IT should be CCNA certified at the beginning of their career no matter what path they choose. Not because I'm a Cisco shill, quite the opposite actually, I don't care what provider but you need to know the basics: Private IP verus Public IP, NAT, Firewall Rules, ect. At a minimum, you should try to [visualize a path](https://automationadmin.com/2020/08/basic-network-troubleshooting) networking traffic takes between two devices.
    - So you will never master everything in those categories as each are infinite in depth where you can spend your whole career getting deeper and deeper, so you should strive to have a SysAdmin level knowledge (hint: go for [level 50](https://www.docs.google.com/spreadsheets/d/1FBr20VIOePQH2aAH2a_6irvdB1NOTHZaD8U5e2MOMiw/pub?output=html) ) in each.
    - The best advice above all is to learn to troubleshoot. The way you troubleshoot something is you have to visualize how it works as deep as you can. Have you heard of the ["what happens when you google?"](https://github.com/alex/what-happens-when) repo? Do this but with **EVERYTHING** that you can.
 

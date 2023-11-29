@@ -1,7 +1,7 @@
 # Ref => https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0" # 4.16.5
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: dirt # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Plugins
@@ -39,7 +39,6 @@ name: "gerryw1389"
 url: "https://automationadmin.com"
 repository: "gerryw1389/gerryw1389.github.io"
 
-# Search
 search: true # true, false (default)
 search_full_content: true # true, false (default)
 search_provider: google # lunr (default), algolia, google
@@ -47,7 +46,6 @@ google:
   search_engine_id: 43ce0de971d0f4f85
   instant_search: false # false (default), true
 
-# Comments
 comments:
   provider: "utterances"
   utterances:
@@ -55,7 +53,6 @@ comments:
     issue_term: "pathname"
     label: "comment" # Optional - must be existing label.
 
-# Analytics
 analytics:
   provider: "google-gtag"
   google:
@@ -68,11 +65,10 @@ paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: "US/Central" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-# Site Author
 author:
   name: "gerryw1389"
   avatar: "/assets/images/gerryw.png"
-  bio: "Notes from a Sr. Cloud Engineer (mostly Azure)"
+  bio: "Sr. Cloud Engineer (Azure)"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
