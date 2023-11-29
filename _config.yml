@@ -33,8 +33,8 @@ kramdown:
 # Site Settings
 locale: "en-US"
 title: "Automation Admin"
-subtitle: "A blog on engineering and administering various Automation technologies"
-description: "A blog on engineering and administering various Automation technologies"
+subtitle: "Cloud engineering with Github, Azure, Terraform, Powershell and other Automation technologies"
+description: "Cloud engineering with Github, Azure, Terraform, Powershell and other Automation technologies"
 name: "gerryw1389"
 url: "https://automationadmin.com"
 repository: "gerryw1389/gerryw1389.github.io"
@@ -72,7 +72,7 @@ timezone: "US/Central" # https://en.wikipedia.org/wiki/List_of_tz_database_time_
 author:
   name: "gerryw1389"
   avatar: "/assets/images/gerryw.png"
-  bio: "Experienced Cloud Engineer"
+  bio: "Notes from a Sr. Cloud Engineer (mostly Azure)"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

@@ -4,7 +4,7 @@ date: 2023-03-26T05:24:00+00:00
 author: gerryw1389
 layout: single
 classes: wide
-permalink: /2023/03/vm-insights-for-ubuntu-22.04
+permalink: /2023/03/vm-insights-for-ubuntu-2204
 tags:
   - Azure
   - Terraform
