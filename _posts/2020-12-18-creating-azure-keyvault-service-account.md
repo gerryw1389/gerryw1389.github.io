@@ -8,9 +8,9 @@ permalink: /2020/12/creating-azure-keyvault-service-account
 tags:
   - Azure
 tags:
-  - Scripting-Python
+  - Python
   - Azure-KeyVault
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

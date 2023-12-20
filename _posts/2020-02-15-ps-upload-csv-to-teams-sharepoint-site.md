@@ -8,8 +8,8 @@ permalink: /2020/02/ps-upload-csv-to-teams-sharepoint-site
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
-  - Scripting-RestAPI
+  - Powershell
+  - RestAPI
 ---
 <!--more-->
 

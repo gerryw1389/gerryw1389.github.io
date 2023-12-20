@@ -8,7 +8,7 @@ permalink: /2017/12/ps-moving-to-modules/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Designing
   - Powershell-Modules
 ---

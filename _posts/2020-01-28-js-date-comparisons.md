@@ -8,7 +8,7 @@ permalink: /2020/01/javascript-date-comparisons/
 tags:
   - LocalSoftware
 tags:
-  - Scripting-Javascript
+  - Javascript
 ---
 <!--more-->
 

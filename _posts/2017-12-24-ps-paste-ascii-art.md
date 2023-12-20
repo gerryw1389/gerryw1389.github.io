@@ -8,7 +8,7 @@ permalink: /2017/12/ps-paste-ascii-art/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

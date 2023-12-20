@@ -10,7 +10,7 @@ tags:
 tags:
   - Azure-FunctionApps
   - Azure-StorageAccounts
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

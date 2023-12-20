@@ -9,7 +9,7 @@ tags:
   - SysAdmin
 tags:
   - OneLiners-Bash
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

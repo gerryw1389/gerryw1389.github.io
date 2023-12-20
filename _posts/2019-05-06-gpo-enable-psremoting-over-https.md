@@ -8,7 +8,7 @@ permalink: /2019/05/gpo-enable-psremoting-over-https/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - GroupPolicy
 ---
 <!--more-->

@@ -10,7 +10,7 @@ tags:
   - Github
 tags:
   - CICD
-  - Scripting-Python
+  - Python
   - Azure-ApiManagement
 ---
 <!--more-->

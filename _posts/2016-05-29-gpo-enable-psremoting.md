@@ -9,7 +9,7 @@ tags:
   - WindowsServer
 tags:
   - GroupPolicy
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

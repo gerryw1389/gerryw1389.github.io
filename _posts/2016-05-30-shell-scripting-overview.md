@@ -8,7 +8,7 @@ permalink: /2016/05/shell-scripting-overview/
 tags:
   - SysAdmin
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

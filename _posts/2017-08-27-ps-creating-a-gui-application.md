@@ -8,7 +8,7 @@ permalink: /2017/08/ps-creating-a-gui-application/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

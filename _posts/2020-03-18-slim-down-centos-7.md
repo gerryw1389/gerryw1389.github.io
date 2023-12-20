@@ -8,7 +8,7 @@ permalink: /2020/03/slim-down-centos-7
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

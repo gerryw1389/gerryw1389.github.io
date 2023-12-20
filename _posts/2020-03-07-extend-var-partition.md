@@ -8,7 +8,7 @@ permalink: /2020/03/extend-var-partition
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

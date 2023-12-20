@@ -8,7 +8,7 @@ permalink: /2018/03/plex-automount-with-virtualbox/
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
   - MediaEditing
 ---
 <!--more-->

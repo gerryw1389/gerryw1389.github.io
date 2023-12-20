@@ -8,7 +8,7 @@ permalink: /2016/05/workstation-cannot-login-to-domain/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

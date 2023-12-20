@@ -8,7 +8,7 @@ permalink: /2017/12/use-powershell-to-get-weather-using-wttr-in/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

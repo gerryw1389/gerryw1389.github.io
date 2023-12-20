@@ -8,7 +8,7 @@ permalink: /2016/05/veeam-replication-startstop-scripts/
 tags:
   - LocalSoftware
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Backup
 ---
 <!--more-->

@@ -5,13 +5,19 @@ layout: single
 classes: wide
 ---
 
-Hello, my name is Gerry and I wrote this blog to store information about lessons I have learned over time through my career from Tech Support => SysAdmin => Cloud Engineer => Eventually Cloud Architect. Can you trust the content? *Maybe*, I would just use it as one source amongst others if you are researching an issue and come across one of my posts. This blog is not meant to answer anything directly and is more scratch notes as I [move through my Devops journey](https://roadmap.sh/devops) so please don't hold me accountable for anything. See the repo's [license](https://github.com/gerryw1389/gerryw1389.github.io/blob/main/LICENSE) and [terms](https://automationadmin.com/terms/) for more legal terms. I do hold the [Azure Solutions Architect](https://www.credly.com/users/gerry-williams.5513fbdf/badges) certification and have plenty of official work experience in my field working with rather large enterprise companies so I'm not unqualified, but I also don't present or speak at conferences either. Just your average SysAdmin/Cloud Engineer looking to learn more everyday. Anyways, thank you for reading and if you wish to [donate](https://www.paypal.com/paypalme/gerryw1389) there is a link on the sidebar (for posts, not pages!) and if you wish to discuss or improve any posts just open a Github issue by commenting at the bottom of any post since I have [setup Utterances](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments). Thanks for stopping by!
+Hello, my name is Gerry and I wrote this blog to store information about lessons I have learned over time through my career from Tech Support => SysAdmin => Cloud Engineer => Eventually Cloud Architect. I'm mostly following [the standard devops path](https://roadmap.sh/devops). You will find these days it mostly covers deploying resources in Azure using Terraform with Github Actions. Every now and then I get to use my [Powershell](https://automationadmin.com/tags/#powershell) experience as well!
+
+Many people who write blogs are highly skilled in their domain and speak at conferences, travel the world to enlighten others, and are generally seen as an "authority" on their content. This blog is not that. I simply write posts that help me remember the steps I took when researching and deploying an automation solution. I take what I did on my job, sanitize it, and then publish here for me to search later. If others find it useful -- great! If not, no worries! This blog is not meant to be a main source of revenue (though I do use Google Ads - see [terms](https://automationadmin.com/terms/)). I do accept [donations](https://www.paypal.com/paypalme/gerryw1389) and I have setup [Utterances](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments) to be more engaging in the communinity, but I certainly expect that most readers will just pick up a few things from my simple to-the-point style of posting unlike most other blogs. Thanks for stopping by!
 
 ### My Interests Over Time:
 
 1. Cloud Engineer:
-   - Post Tags/Categories: [**Terraform**](https://automationadmin.com/tags/#infrastructureprovisioning), [Azure](https://automationadmin.com/tags/#azure), [Azure Devops/Github Actions](https://automationadmin.com/tags/#cicd), [Git](https://automationadmin.com/tags/#versioncontrol) 
-   - My most major focus has been "Deploying of all Azure Services using Azure Devops/Github Actions + Terraform". Everything is done through IaC instead of Azure Portal. Challenge mode on!
+   - Post Tags/Categories:
+     - [**Terraform**](https://automationadmin.com/tags/#terraform)
+     - [Azure](https://automationadmin.com/tags/#azure)
+     - [Azure Devops/Github Actions](https://automationadmin.com/tags/#cicd)
+     - [Git](https://automationadmin.com/tags/#versioncontrol) 
+   - My major focus has been "Deploying of all Azure Services using Azure Devops/Github Actions + Terraform". Everything is done through IaC instead of Azure Portal. Challenge mode on!
    - AKS deployment/management. Will post more on this in the future but for now just learning how to use [kubectl and k9s](https://automationadmin.com//2022/07/kubectl-k9s) for interacting with deployed clusters. Stay tuned.
    - Powershell + Python scripting to be ran by [Azure Devops Scheduled Tasks](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/scheduled-triggers?view=azure-devops&tabs=yaml)/Azure Automation/Logic Apps/Function Apps. This will never change as scripting is an [incredibly valuable skill](https://automationadmin.com/2020/02/importance-of-learning-scripting/) that can be used anywhere/anytime for automation.
 
@@ -24,16 +30,16 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
      - [Azure-LogicApps](https://automationadmin.com/tags/#azure-logicapps)
      - [CICD](https://automationadmin.com/tags/#cicd)
      - [ConfigManagement](https://automationadmin.com/tags/#configmanagement)
-     - [Scripting-Powershell](https://automationadmin.com/tags/#scripting-powershell)
-     - [Scripting-Python](https://automationadmin.com/tags/#scripting-python)
-     - [Scripting-RestAPI](https://automationadmin.com/tags/#scripting-restapi)
+     - [Powershell](https://automationadmin.com/tags/#powershell)
+     - [Python](https://automationadmin.com/tags/#python)
+     - [RestAPI](https://automationadmin.com/tags/#restapi)
      - [VersionControl](https://automationadmin.com/tags/#versioncontrol)
    - This position used Azure Services with a focus in Automation, but it didn't focus at all on Infrastructure as Code but instead used [serverless](https://automationadmin.com/2021/01/function-apps-with-logic-apps) automation.
    - This is where I shifted focus from on-prem automation to cloud automation specifically in Azure. Also, [this post](https://automationadmin.com/2018/11/aws-sysadmin-guide/) helped me change my mindset at that time.
    - Another great career changing post was [this](https://www.reddit.com/r/sysadmin/comments/cdlar7/psa_still_not_automating_still_at_risk/) one.
 
 3. Systems Administrator:
-   - Post Tags/Categories: [Powershell](https://automationadmin.com/tags/#scripting-powershell), [Windows Server](https://automationadmin.com/tags/#windowsserver), [Linux Server](https://automationadmin.com/tags/#linuxserver)
+   - Post Tags/Categories: [Powershell](https://automationadmin.com/tags/#powershell), [Windows Server](https://automationadmin.com/tags/#windowsserver), [Linux Server](https://automationadmin.com/tags/#linuxserver)
    - I was a Windows SysAdmin but tried at every job to use Linux instead (where it makes sense (not for Active Directory for example)):
      - [How to be a Linux SysAdmin](https://automationadmin.com/2016/05/how-to-become-a-linux-sysadmin/)  
      - [How to be a Windows SysAdmin](https://automationadmin.com/2016/06/how-to-be-a-windows-sysadmin/)
@@ -48,7 +54,6 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
 ### General Advice
 
 1. For those that are new to the field of IT, my advice is to learn the following skills in the following order:
-
    - Foundational knowledge: Hardware, Software, Networking. These are the core of IT systems with Software being the largest. But at a minimum you should know:
      - [Hardware](https://automationadmin.com/tags/#hardware): What components go into a computer - from disk drives, to memory sticks (RAM), to Raid Arrays and on. This may get less and less relevant as time goes on where Cloud providers extract this away but it is still important as we may shift back on-prem in the future once vendor lockin is not as strong. Currently cloud providers such as GCP, AWS, and Azure have attractive pricing to bring companies to their platform but once they capture a large enough market there is nothing stopping them from increasing their pricing because they know it will take enterprises years to migrate back on-prem. And obviously being publically traded companies they actually have to do this to increase share holder value so keep this in mind.
      - Software: This goes from anything between what an Operating System is, to user installed programs, to Server Applications versus Client Applications. 
@@ -60,7 +65,7 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
    - Look for a [new demanding job](https://thedailywtf.com/articles/Up-or-Out-Solving-the-IT-Turnover-Crisis) once you feel you have learned all you can and you don't see upwards mobility.
      - Make sure to [interview them](https://automationadmin.com/2016/04/interview-questions/) more than they interview you :)
      - Try to give your current position 3 years minimum, it can look bad if you jump ship too often.
-   - Try to never be the smartest person the room
+   - Try to never be the smartest person the room.
      - I'm a fan of [skills checklists](https://roadmap.sh/devops) so that I'm always learning something new, see above.
    - Be a tinker by nature:
      - When you install programs, do you modify the themes, settings, sync options, encryption options? See my [tweaks](https://automationadmin.com/tags/#tweaks) tag for example. For example, it drives me crazy that people install vscode and don't know about `settings.json` [tweaks and extensions](https://github.com/gerryw1389/misc/blob/main/vscode/settings-sync.json).
@@ -70,10 +75,16 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
          - This can be a self hosted Wordpress instance or preferably, Github Pages with many blog links pointing to your Github repos.
      - Last but not least, focus mostly on [scripting](https://automationadmin.com/2020/02/importance-of-learning-scripting/). I would do powershell for Windows and bash/python for linux servers.
        - I always explain scripting to be like legos - Super small chunks of things that you learn that build the foundation for any kind of automation you can think of. If you are interested in learning I would suggest Powershell or Python (or both)
-         - See [this post on powershell](https://automationadmin.com/2018/02/new-to-powershell/).
-         - See [this post on python](https://automationadmin.com/2020/11/new-to-python).
+         - See [this intro post on powershell](https://automationadmin.com/2018/02/new-to-powershell/).
+         - See [this intro post on python](https://automationadmin.com/2020/11/new-to-python).
        - You will never not have an in-demand job if you know how to write scripts, especially if built on a SysAdmin foundational knowledge (how to build servers, how to [picture networking](https://automationadmin.com/2020/08/basic-network-troubleshooting), how to use [orchestration tools](https://automationadmin.com/tags/#orchestration) for example)
    - Work on your [people skills](https://automationadmin.com/2016/05/people-skills/) yo!
+   - Get certifications with tech you plan to use the most, especially with cloud providers if you plan to work in cloud!
+   - Create different Github Repos for different tech that you learn. This will help conceptualize the technologies based on categories. For example my Github has:
+     - A [powershell](https://github.com/gerryw1389/powershell) repo
+     - A [python](https://github.com/gerryw1389/python) repo
+     - A couple [terraform](https://github.com/gerryw1389/terraform-examples) repos
+     - Etc.
 
 ### My Certs:
 
@@ -83,13 +94,13 @@ Hello, my name is Gerry and I wrote this blog to store information about lessons
    - 2021-08-01: Microsoft Azure Architect Technologies (AZ303) 
    - [Verify](https://www.credly.com/users/gerry-williams.5513fbdf/badges)
 
-2. 2020-05-16: Microsoft Azure Administrator (AZ103)
+1. 2020-05-16: Microsoft Azure Administrator (AZ103)
    - ![AZ103](https://automationadmin.com/assets/images/uploads/certs/az103.png){:class="img-responsive"}
 
-3. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
+1. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
    - ![CCNA](https://automationadmin.com/assets/images/uploads/certs/ccna.png){:class="img-responsive"}
 
-4. 2015-05-02: Testout Network Pro
+1. 2015-05-02: Testout Network Pro
    - ![TestOut Network Pro](https://automationadmin.com/assets/images/uploads/certs/testout.png){:class="img-responsive"}
 
 ### Archived:

@@ -8,7 +8,7 @@ permalink: /2016/05/how-to-replace-system-files/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

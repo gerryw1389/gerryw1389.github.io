@@ -8,7 +8,7 @@ permalink: /2018/03/ps-calculating-dates/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

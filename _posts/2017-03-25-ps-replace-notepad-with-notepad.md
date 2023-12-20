@@ -8,7 +8,7 @@ permalink: /2017/03/ps-replace-notepad-with-notepad/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

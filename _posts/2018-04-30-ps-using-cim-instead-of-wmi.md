@@ -8,7 +8,7 @@ permalink: /2018/04/ps-using-cim-instead-of-wmi/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

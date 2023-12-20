@@ -8,7 +8,7 @@ permalink: /2020/07/chocolatey-computer-refresh
 tags:
   - LocalSoftware
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

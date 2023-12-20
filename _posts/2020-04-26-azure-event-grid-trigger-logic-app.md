@@ -11,7 +11,7 @@ tags:
   - Orchestration
   - Azure-LogicApps
   - Azure-EventGrid
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

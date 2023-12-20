@@ -8,7 +8,7 @@ permalink: /2020/01/azure-create-ps-app/
 tags:
   - Azure
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

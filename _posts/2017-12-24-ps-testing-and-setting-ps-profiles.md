@@ -8,7 +8,7 @@ permalink: /2017/12/ps-testing-and-setting-ps-profiles/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

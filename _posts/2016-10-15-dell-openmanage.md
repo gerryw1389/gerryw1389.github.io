@@ -8,7 +8,7 @@ permalink: /2016/10/dell-openmanage/
 tags:
   - Hardware
 tags:
-  - Scripting-CMD
+  - Batch-Commands
   - Monitoring
 ---
 <!--more-->

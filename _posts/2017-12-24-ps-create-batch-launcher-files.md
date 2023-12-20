@@ -8,7 +8,7 @@ permalink: /2017/12/ps-create-batch-launcher-files/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

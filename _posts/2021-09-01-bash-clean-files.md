@@ -8,7 +8,7 @@ permalink: /2021/09/bash-clean-files
 tags:
   - LocalSoftware
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

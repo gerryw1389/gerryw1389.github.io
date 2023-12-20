@@ -8,7 +8,7 @@ permalink: /2020/11/azure-function-python-http-template
 tags:
   - Azure
 tags:
-  - Scripting-Python
+  - Python
   - Azure-FunctionApps
 ---
 <!--more-->

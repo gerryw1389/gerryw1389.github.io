@@ -8,7 +8,7 @@ permalink: /2020/02/ps-max-concurrent-shells-error
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

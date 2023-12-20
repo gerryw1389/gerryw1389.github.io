@@ -8,7 +8,7 @@ permalink: /2016/11/ps-replace-cmd/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Tweaks
 ---
 <!--more-->

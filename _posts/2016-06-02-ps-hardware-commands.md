@@ -8,7 +8,7 @@ permalink: /2016/06/ps-hardware-commands/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

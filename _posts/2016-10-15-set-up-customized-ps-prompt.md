@@ -8,7 +8,7 @@ permalink: /2016/10/set-up-customized-ps-prompt/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Tweaks
 ---
 <!--more-->

@@ -8,7 +8,7 @@ permalink: /2016/05/windows-tcpip-reset/
 tags:
   - Networking
 tags:
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

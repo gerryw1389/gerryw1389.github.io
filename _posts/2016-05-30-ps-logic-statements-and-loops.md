@@ -8,7 +8,7 @@ permalink: /2016/05/ps-logic-statements-and-loops/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

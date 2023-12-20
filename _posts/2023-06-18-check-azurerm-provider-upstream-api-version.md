@@ -9,7 +9,7 @@ tags:
   - Azure
   - Terraform
   - Azure-APIM
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

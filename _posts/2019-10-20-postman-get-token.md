@@ -8,7 +8,7 @@ permalink: /2019/10/postman-get-token/
 tags:
   - Networking
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

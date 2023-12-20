@@ -8,7 +8,7 @@ permalink: /2016/05/command-prompt-not-running-commands/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2017/09/ps-why-I-use-my-template-for-logging/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2017/08/ps-logging/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

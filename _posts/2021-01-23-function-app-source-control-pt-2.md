@@ -10,7 +10,7 @@ tags:
 tags:
   - VersionControl
   - Azure-FunctionApps
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

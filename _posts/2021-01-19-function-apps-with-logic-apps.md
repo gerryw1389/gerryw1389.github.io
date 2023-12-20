@@ -10,7 +10,7 @@ tags:
 tags:
   - Azure-LogicApps
   - Azure-FunctionApps
-  - Scripting-Python
+  - Python
   - Azure-ApiManagement
   - Azure-EventGrid
 ---

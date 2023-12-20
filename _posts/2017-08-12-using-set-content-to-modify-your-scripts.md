@@ -8,7 +8,7 @@ permalink: /2017/08/using-set-content-to-modify-your-scripts/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

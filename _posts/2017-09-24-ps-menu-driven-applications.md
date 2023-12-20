@@ -8,7 +8,7 @@ permalink: /2017/09/ps-menu-driven-applications/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

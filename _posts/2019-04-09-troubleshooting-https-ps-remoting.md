@@ -8,7 +8,7 @@ permalink: /2019/04/troubleshooting-https-ps-remoting/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2018/02/setting-up-cron-job-using-crontab/
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

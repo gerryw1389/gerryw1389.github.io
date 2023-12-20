@@ -8,9 +8,9 @@ permalink: /2020/05/ps-write-to-table-storage
 tags:
   - Azure
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Azure-StorageAccounts
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

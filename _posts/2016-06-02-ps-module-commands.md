@@ -8,7 +8,7 @@ permalink: /2016/06/ps-module-commands/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Modules
   - OneLiners-Powershell
 ---

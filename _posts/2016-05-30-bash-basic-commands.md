@@ -8,7 +8,7 @@ permalink: /2016/05/bash-basic-commands/
 tags:
   - SysAdmin
 tags:
-  - Scripting-Bash
+  - Bash
   - OneLiners-Bash
 ---
 <!--more-->

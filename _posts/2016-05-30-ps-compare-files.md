@@ -8,7 +8,7 @@ permalink: /2016/05/ps-compare-files/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

@@ -33,4 +33,4 @@ The following posts go into more details about my "test lab":
    - [Terraform: Setup New Subscription](https://automationadmin.com/2022/10/tf-new-subscription)
    - [Terraform: Template](https://automationadmin.com/2023/02/terraform-template)
 
-Lastly, I have written [tons of posts](https://automationadmin.com/tags/#infrastructureprovisioning) about terraform and how to use it with CI/CD pipelines so be sure to give those a read. Thanks!
+Lastly, I have written [tons of posts](https://automationadmin.com/tags/#terraform) about terraform and how to use it with CI/CD pipelines so be sure to give those a read. Thanks!

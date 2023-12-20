@@ -8,7 +8,7 @@ permalink: /2016/05/overview-of-batch-scripting/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

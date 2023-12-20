@@ -8,7 +8,7 @@ permalink: /2017/12/meta-creating-my-bookmarks-page/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Regex
 ---
 <!--more-->

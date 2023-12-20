@@ -8,8 +8,8 @@ permalink: /2021/01/migrating-email-sched-tasks
 tags:
   - Windows
 tags:
-  - Scripting-Python
-  - Scripting-Powershell
+  - Python
+  - Powershell
 ---
 <!--more-->
 

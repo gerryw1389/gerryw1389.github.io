@@ -9,8 +9,8 @@ tags:
   - Linux
   - Windows
 tags:
-  - Scripting-Powershell
-  - Scripting-Bash
+  - Powershell
+  - Bash
   - OneLiners-Powershell
   - OneLiners-Bash
 ---

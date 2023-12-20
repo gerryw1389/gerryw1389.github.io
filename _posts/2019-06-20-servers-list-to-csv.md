@@ -8,7 +8,7 @@ permalink: /2019/06/servers-list-to-csv/
 tags:
   - SysAdmin
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

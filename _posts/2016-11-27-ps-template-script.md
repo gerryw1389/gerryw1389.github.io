@@ -8,7 +8,7 @@ permalink: /2016/11/ps-template-script/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Designing
 ---
 <!--more-->

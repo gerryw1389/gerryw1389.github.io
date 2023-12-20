@@ -8,7 +8,7 @@ permalink: /2020/09/ps-send-email-bitcoin
 tags:
   - LocalSoftware
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

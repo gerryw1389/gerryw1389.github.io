@@ -8,7 +8,7 @@ permalink: /2016/05/basic-powershell-to-html/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

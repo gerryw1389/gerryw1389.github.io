@@ -8,7 +8,7 @@ permalink: /2022/10/ps-function-app-az-module-issue
 tags:
   - Azure
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Azure-FunctionApps
 ---
 <!--more-->

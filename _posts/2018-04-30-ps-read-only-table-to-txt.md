@@ -8,7 +8,7 @@ permalink: /2018/04/ps-read-only-table-to-txt/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

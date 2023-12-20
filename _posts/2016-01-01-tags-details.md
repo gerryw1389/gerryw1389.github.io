@@ -24,7 +24,7 @@ This post helps navigate the categories and tags on this site by giving meanings
    |--- | --- |--- |
    |Powershell-Designing|Usually designing modules|Powershell|
    |Powershell-Modules|Different module topics not related to designing|Powershell|
-   |Scripting-Powershell|Largest category - just Powershell|Powershell|
+   |Powershell|Largest category - just Powershell|Powershell|
    |OneLiners-Powershell|Posts that say To do this...|Powershell|
    |Scripting-RestAPI|Posts regarding web APIs with Postman or Powershell or an orchestration tool|Scripting|
    |Scripting-Bash|Usually just commands ran in a linux OS, not necessarily a script|Scripting|

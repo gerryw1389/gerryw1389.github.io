@@ -8,7 +8,7 @@ permalink: /2017/12/ps-find-logged-on-users/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

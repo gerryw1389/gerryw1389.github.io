@@ -8,7 +8,7 @@ permalink: 2019/11/linux-expand-filesystem-with-lvm/
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

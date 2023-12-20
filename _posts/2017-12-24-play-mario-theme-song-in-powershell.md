@@ -8,7 +8,7 @@ permalink: /2017/12/play-mario-theme-song-in-powershell/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

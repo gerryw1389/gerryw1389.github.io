@@ -8,7 +8,7 @@ permalink: /2017/12/ps-clean-temp-files/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

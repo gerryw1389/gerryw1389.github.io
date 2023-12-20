@@ -9,7 +9,7 @@ tags:
   - Azure
 tags:
   - Azure-LogicApps
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2018/03/ps-lock-computer-and-turn-off-monitors/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

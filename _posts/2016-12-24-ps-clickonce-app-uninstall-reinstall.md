@@ -8,7 +8,7 @@ permalink: /2016/12/ps-clickonce-app-uninstall-reinstall/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

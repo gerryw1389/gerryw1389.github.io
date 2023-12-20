@@ -9,7 +9,7 @@ tags:
   - Windows
 tags:
   - Tweaks
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

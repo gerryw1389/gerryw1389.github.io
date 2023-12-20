@@ -8,7 +8,7 @@ permalink: /2018/02/new-to-powershell/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 
@@ -113,4 +113,4 @@ A lot of times someone will say, "Hey Gerry I'm just now learning Powershell but
    - Various other small one-off scripts to automate manual data evaluation that would otherwise take a significant amount of time.
    - **The list is virtually unlimited.. Powershell can have a Windows system do just about anything. Be sure to check out my [Github](https://github.com/gerryw1389) for any scripts that may be useful in your environment!**
 
-4. As a shameless self promotion, [this site](https://automationadmin.com/tags/#scripting-powershell) is great for powershell examples as well!
+4. As a shameless self promotion, [this site](https://automationadmin.com/tags/#powershell) is great for powershell examples as well!

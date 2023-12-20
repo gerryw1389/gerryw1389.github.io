@@ -8,7 +8,7 @@ permalink: /2018/11/set-registry-permissions/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

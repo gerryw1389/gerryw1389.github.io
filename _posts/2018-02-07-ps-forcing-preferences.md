@@ -8,7 +8,7 @@ permalink: /2018/02/ps-forcing-preferences/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

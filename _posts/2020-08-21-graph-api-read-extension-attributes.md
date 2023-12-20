@@ -9,7 +9,7 @@ tags:
   - WebSoftware
   - Azure
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

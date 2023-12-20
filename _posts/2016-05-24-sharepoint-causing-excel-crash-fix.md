@@ -8,7 +8,7 @@ permalink: /2016/05/sharepoint-causing-excel-crash-fix/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
   - Updates
 ---
 <!--more-->

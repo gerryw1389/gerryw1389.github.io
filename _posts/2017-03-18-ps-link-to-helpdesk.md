@@ -8,7 +8,7 @@ permalink: /2017/03/ps-link-to-helpdesk/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

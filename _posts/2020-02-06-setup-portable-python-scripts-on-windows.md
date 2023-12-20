@@ -8,7 +8,7 @@ permalink: /2020/02/setup-portable-python-scripts-on-windows
 tags:
   - Windows
 tags:
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

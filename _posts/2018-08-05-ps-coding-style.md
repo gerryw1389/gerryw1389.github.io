@@ -8,7 +8,7 @@ permalink: /2018/08/ps-coding-style/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

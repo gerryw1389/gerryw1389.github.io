@@ -8,7 +8,7 @@ permalink: /2017/08/ps-configuring-ie-settings/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

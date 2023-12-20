@@ -8,7 +8,7 @@ permalink: /2018/11/common-workflow-get-email-addresses-for-all-users-on-a-share
 tags:
   - SysAdmin
 tags:
-  - Scripting-Powershell
+  - Powershell
   - ActiveDirectory
 ---
 <!--more-->

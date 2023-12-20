@@ -8,7 +8,7 @@ permalink: /2020/02/postman-to-graph-api
 tags:
   - LocalSoftware
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

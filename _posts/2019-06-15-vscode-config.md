@@ -53,7 +53,7 @@ So I have been using [Cherrytree](https://www.giuspen.com/cherrytree/) for a lon
      - Print PDFs from .md files
    - Paste Image
      - Allows you to paste from clipboard using `Ctrl+Alt+V`
-   - Scripting-Powershell
+   - Powershell
      - Auto format code using `Ctrl+Alt+F`
      - Auto linting
    - Puppet

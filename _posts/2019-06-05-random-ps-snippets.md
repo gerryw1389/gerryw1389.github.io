@@ -8,7 +8,7 @@ permalink: 2019/06/random-ps-snippets/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

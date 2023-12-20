@@ -8,7 +8,7 @@ permalink: /2016/05/powershell-modules/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Modules
 ---
 <!--more-->

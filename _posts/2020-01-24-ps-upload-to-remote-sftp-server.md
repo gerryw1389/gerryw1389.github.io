@@ -8,7 +8,7 @@ permalink: /2020/01/ps-upload-to-remote-sftp-server/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

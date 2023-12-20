@@ -8,7 +8,7 @@ permalink: 2019/12/add-ad-user-extended-properties/
 Tags:
   - Azure
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

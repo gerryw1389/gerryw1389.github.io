@@ -8,7 +8,7 @@ permalink: /2018/02/ps-send-me-my-credit-balance/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

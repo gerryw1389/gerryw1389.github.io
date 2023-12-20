@@ -8,7 +8,7 @@ permalink: /2016/12/ps-call-c-sharp-code/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

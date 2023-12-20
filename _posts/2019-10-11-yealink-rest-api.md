@@ -8,7 +8,7 @@ permalink: 2019/10/yealink-rest-api
 tags:
   - WebSoftware
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

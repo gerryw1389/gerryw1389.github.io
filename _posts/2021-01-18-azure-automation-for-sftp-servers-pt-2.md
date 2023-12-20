@@ -10,7 +10,7 @@ tags:
 tags:
   - Azure-LogicApps
   - Azure-Automation
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

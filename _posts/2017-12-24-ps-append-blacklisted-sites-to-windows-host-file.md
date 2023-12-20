@@ -8,7 +8,7 @@ permalink: /2017/12/ps-append-blacklisted-sites-to-windows-host-file/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

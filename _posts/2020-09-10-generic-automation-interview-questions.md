@@ -8,7 +8,7 @@ permalink: /2020/09/generic-automation-interview-questions
 tags:
   - SysAdmin
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2018/05/ps-build-a-path-dynamically/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

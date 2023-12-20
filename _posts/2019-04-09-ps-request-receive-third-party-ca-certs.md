@@ -9,8 +9,8 @@ tags:
   - Networking
   - Windows
 tags:
-  - Scripting-Powershell
-  - Scripting-RestAPI
+  - Powershell
+  - RestAPI
 ---
 <!--more-->
 

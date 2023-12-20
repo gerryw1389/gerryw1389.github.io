@@ -9,7 +9,7 @@ tags:
   - Azure
   - Terraform
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

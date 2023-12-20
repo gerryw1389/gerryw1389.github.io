@@ -8,7 +8,7 @@ permalink: /2018/03/ps-bulk-file-copying-and-moving/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

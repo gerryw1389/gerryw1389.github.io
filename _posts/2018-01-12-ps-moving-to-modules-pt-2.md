@@ -9,7 +9,7 @@ tags:
   - Windows
   - SysAdmin
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Designing
 ---
 <!--more-->

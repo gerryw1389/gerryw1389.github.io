@@ -8,7 +8,7 @@ permalink: /2017/08/w10-config-snippets/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

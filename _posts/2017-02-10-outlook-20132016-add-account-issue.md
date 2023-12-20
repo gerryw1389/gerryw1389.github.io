@@ -9,7 +9,7 @@ tags:
   - Windows
   - LocalSoftware
 tags:
-  - Scripting-Powershell
+  - Powershell
   - MSOffice
   - Regedit
 ---

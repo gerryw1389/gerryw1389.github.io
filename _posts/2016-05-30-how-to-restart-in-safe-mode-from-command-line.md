@@ -8,7 +8,7 @@ permalink: /2016/05/how-to-restart-in-safe-mode-from-command-line/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

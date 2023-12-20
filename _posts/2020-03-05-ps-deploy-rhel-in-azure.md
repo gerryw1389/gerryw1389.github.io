@@ -8,7 +8,7 @@ permalink: /2020/03/ps-deploy-rhel-in-azure
 tags:
   - Azure
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

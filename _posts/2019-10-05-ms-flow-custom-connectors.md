@@ -8,7 +8,7 @@ permalink: 2019/10/ms-flow-custom-connectors
 tags:
   - WebSoftware
 tags:
-  - Scripting-RestAPI
+  - RestAPI
   - Orchestration
 ---
 <!--more-->

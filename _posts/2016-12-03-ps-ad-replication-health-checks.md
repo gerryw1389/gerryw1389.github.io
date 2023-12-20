@@ -8,7 +8,7 @@ permalink: /2016/12/ps-ad-replication-health-checks/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - ActiveDirectory
 ---
 <!--more-->

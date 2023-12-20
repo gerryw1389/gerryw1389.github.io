@@ -8,7 +8,7 @@ permalink: /2022/09/disable-public-access-to-pep
 tags:
   - Azure
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

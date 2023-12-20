@@ -9,7 +9,7 @@ tags:
   - Azure
 tags:
   - VersionControl
-  - Scripting-Bash
+  - Bash
   - LinuxServer
   - NoteTaking
   - PKI

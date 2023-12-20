@@ -8,7 +8,7 @@ permalink: /2016/05/devices-and-printers-not-loading/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
   - Printing
 ---
 <!--more-->

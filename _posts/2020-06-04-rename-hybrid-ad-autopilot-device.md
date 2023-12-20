@@ -9,8 +9,8 @@ tags:
   - Azure
   - Windows
 tags:
-  - Scripting-RestAPI
-  - Scripting-Powershell
+  - RestAPI
+  - Powershell
   - Azure-Intune
 ---
 <!--more-->

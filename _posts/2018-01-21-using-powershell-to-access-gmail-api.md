@@ -8,8 +8,8 @@ permalink: /2018/01/using-powershell-to-access-gmail-api/
 tags:
   - WebSoftware
 tags:
-  - Scripting-Powershell
-  - Scripting-RestAPI
+  - Powershell
+  - RestAPI
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2016/12/ps-gui-commands/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

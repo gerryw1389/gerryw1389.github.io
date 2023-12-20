@@ -8,7 +8,7 @@ permalink: /2023/09/unable-to-load-priv-key-from-akv
 tags:
   - Azure
   - Terraform
-  - Azure-AKV
+  - Azure-KeyVault
   - PKI
 ---
 <!--more-->

@@ -8,7 +8,7 @@ permalink: /2018/11/ps-setup-a-dc-using-hyperv/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Modules
 ---
 <!--more-->

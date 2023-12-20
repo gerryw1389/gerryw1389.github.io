@@ -8,7 +8,7 @@ permalink: /2019/08/ps-multiline-inputbox/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

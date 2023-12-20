@@ -8,9 +8,9 @@ permalink: 2019/12/vro-run-jenkins-ps/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Orchestration 
-  - Scripting-RestAPI
+  - RestAPI
   - CICD
 ---
 <!--more-->

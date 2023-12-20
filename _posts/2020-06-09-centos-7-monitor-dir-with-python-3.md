@@ -8,7 +8,7 @@ permalink: 2020/06/centos-7-monitor-dir-with-python-3
 tags:
   - Linux
 tags:
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

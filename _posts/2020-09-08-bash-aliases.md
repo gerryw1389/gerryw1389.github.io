@@ -8,7 +8,7 @@ permalink: /2020/09/bash-aliases
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

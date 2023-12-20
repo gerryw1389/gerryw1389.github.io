@@ -8,7 +8,7 @@ permalink: 2019/11/create-admin-accounts/
 tags:
   - WindowsServer
 tags:
-  - Scripting-Powershell
+  - Powershell
   - ActiveDirectory
 ---
 <!--more-->

@@ -9,7 +9,7 @@ tags:
   - Linux
 tags:
   - VersionControl
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

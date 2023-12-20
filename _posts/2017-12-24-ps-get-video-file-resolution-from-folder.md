@@ -8,7 +8,7 @@ permalink: /2017/12/ps-get-video-file-resolution-from-folder/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - MediaEditing
   - FileSystem
 ---

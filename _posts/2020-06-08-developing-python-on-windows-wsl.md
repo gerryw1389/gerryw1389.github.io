@@ -8,7 +8,7 @@ permalink: 2020/06/developing-python-on-windows-wsl
 tags:
   - Linux
   - Windows
-  - Scripting-Python
+  - Python
   - NoteTaking
   - VsCode
 ---

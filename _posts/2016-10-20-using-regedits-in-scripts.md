@@ -8,7 +8,7 @@ permalink: /2016/10/using-regedits-in-scripts/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

@@ -8,7 +8,7 @@ permalink: /2020/02/idg-create-app-for-approvals
 tags:
   - LocalSoftware
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

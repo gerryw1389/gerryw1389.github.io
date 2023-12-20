@@ -8,7 +8,7 @@ permalink: /2016/06/use-ps-to-backup-to-amazon-s3/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

@@ -8,7 +8,7 @@ permalink: /2020/12/latest-ubuntu-install
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
   - VersionControl
 ---
 <!--more-->

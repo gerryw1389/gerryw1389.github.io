@@ -9,7 +9,7 @@ tags:
   - Azure
   - AzureDevops
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

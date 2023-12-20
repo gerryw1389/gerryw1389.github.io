@@ -10,7 +10,7 @@ tags:
 tags:
    - Azure-FunctionApps
    - Azure-NATGateways
-   - Scripting-Python
+   - Python
 ---
 <!--more-->
 

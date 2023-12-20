@@ -8,7 +8,7 @@ permalink: /2016/05/ps-web-access/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - WebServer
 ---
 <!--more-->

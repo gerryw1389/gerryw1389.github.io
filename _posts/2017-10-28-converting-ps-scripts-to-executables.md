@@ -8,7 +8,7 @@ permalink: /2017/10/converting-ps-scripts-to-executables/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

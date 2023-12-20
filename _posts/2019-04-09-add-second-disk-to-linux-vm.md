@@ -8,7 +8,7 @@ permalink: /2019/04/add-second-disk-to-linux-vm/
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2021/07/python-use-config
 tags:
   - LocalSoftware
 tags:
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

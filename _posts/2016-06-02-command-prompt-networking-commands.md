@@ -9,7 +9,7 @@ tags:
   - Windows
 tags:
   - OneLiners-CMD
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

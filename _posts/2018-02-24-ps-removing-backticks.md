@@ -8,7 +8,7 @@ permalink: /2018/02/ps-removing-backticks/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

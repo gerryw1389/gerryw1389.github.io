@@ -8,7 +8,7 @@ permalink: /2016/10/install-lamp-on-centos/
 tags:
   - Linux
 tags:
-  - Scripting-Bash
+  - Bash
   - LinuxServer
   - SQL
 ---

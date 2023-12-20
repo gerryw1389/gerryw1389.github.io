@@ -8,7 +8,7 @@ permalink: /2022/05/azure-connect/
 tags:
   - Azure
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

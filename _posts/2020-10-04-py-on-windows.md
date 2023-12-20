@@ -10,7 +10,7 @@ tags:
   - LocalSoftware
 tags:
   - NoteTaking
-  - Scripting-Python
+  - Python
   - VsCode
 ---
 <!--more-->

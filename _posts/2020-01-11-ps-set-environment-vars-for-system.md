@@ -9,7 +9,7 @@ tags:
   - Windows
   - Security
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

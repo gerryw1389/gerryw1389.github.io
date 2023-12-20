@@ -10,7 +10,7 @@ tags:
 tags:
   - GroupPolicy
   - ActiveDirectory
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

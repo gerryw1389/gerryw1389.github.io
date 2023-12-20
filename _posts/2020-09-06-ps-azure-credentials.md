@@ -8,7 +8,7 @@ permalink: /2020/09/ps-azure-credentials
 tags:
   - Azure
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Azure-KeyVault
   - Azure-Automation
 ---

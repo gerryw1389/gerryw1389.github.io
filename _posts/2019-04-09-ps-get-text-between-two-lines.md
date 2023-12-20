@@ -8,7 +8,7 @@ permalink: /2019/04/ps-get-text-between-two-lines/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

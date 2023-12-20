@@ -8,8 +8,8 @@ permalink: /2017/03/ps-call-ps1-with-batch/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
-  - Scripting-Powershell
+  - Batch-Commands
+  - Powershell
   - OneLiners-Powershell
 ---
 <!--more-->

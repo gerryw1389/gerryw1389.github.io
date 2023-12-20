@@ -8,7 +8,7 @@ permalink: /2018/01/ps-helper-functions/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Designing
   - Powershell-Modules
 ---

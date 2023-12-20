@@ -10,7 +10,7 @@ tags:
   - Linux
 tags:
   - LinuxServer
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

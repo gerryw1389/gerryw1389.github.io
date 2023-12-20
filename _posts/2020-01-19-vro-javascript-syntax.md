@@ -9,7 +9,7 @@ tags:
   - LocalSoftware
 tags:
   - Orchestration
-  - Scripting-Javascript
+  - Javascript
 ---
 <!--more-->
 

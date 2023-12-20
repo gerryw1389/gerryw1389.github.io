@@ -10,7 +10,7 @@ tags:
 tags:
   - Azure-KeyVault
   - Azure-FunctionApps
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2017/12/ps-adding-users-to-your-homelab-ad/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - TestLab
   - ActiveDirectory
 ---

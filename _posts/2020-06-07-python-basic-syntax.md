@@ -8,7 +8,7 @@ permalink: 2020/06/python-basic-syntax
 tags:
   - Linux
 tags:
-  - Scripting-Python
+  - Python
 ---
 <!--more-->
 

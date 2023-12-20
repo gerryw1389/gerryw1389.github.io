@@ -8,7 +8,7 @@ permalink: /2020/08/understanding-export-csv
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

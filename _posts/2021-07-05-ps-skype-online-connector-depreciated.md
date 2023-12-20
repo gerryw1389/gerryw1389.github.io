@@ -8,7 +8,7 @@ permalink: /2021/07/ps-skype-online-connector-depreciated
 tags:
   - SysAdmin
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

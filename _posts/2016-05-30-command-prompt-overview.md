@@ -8,7 +8,7 @@ permalink: /2016/05/command-prompt-overview/
 tags:
   - SysAdmin
 tags:
-  - Scripting-CMD
+  - Batch-Commands
   - OneLiners-CMD
 ---
 <!--more-->

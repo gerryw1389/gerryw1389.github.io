@@ -8,7 +8,7 @@ permalink: /2016/05/document-stuck-in-queue/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
   - Printing
 ---
 <!--more-->

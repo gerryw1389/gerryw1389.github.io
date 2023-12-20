@@ -8,7 +8,7 @@ permalink: /2016/08/create-a-bootable-usb-from-commandline/
 tags:
   - Windows
 tags:
-  - Scripting-CMD
+  - Batch-Commands
   - Pre-Boot
 ---
 <!--more-->

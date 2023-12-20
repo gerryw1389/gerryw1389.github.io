@@ -8,8 +8,8 @@ permalink: /2020/02/learning-rest-api-examples
 tags:
   - LocalSoftware
 tags:
-  - Scripting-RestAPI
-  - Scripting-Powershell
+  - RestAPI
+  - Powershell
 ---
 <!--more-->
 

@@ -11,10 +11,10 @@ tags:
 tags:
   - Setup
   - LinuxServer
-  - Scripting-Bash
+  - Bash
   - VirtualizationSoftware
-  - Scripting-Powershell
-  - Scripting-RestAPI
+  - Powershell
+  - RestAPI
 ---
 <!--more-->
 

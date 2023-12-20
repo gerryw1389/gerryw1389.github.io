@@ -8,7 +8,7 @@ permalink: /2020/02/postman-pre-request-and-tests
 tags:
   - LocalSoftware
 tags:
-  - Scripting-RestAPI
+  - RestAPI
 ---
 <!--more-->
 

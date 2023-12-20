@@ -8,7 +8,7 @@ permalink: /2016/05/resolve-hostname-from-ip-address/
 tags:
   - Networking
 tags:
-  - Scripting-CMD
+  - Batch-Commands
 ---
 <!--more-->
 

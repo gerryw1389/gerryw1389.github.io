@@ -8,7 +8,7 @@ permalink: /2018/04/ps-relaunch-script-as-admin/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

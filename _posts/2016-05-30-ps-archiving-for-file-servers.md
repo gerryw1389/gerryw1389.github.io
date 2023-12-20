@@ -8,7 +8,7 @@ permalink: /2016/05/ps-archiving-for-file-servers/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - FileSystem
 ---
 <!--more-->

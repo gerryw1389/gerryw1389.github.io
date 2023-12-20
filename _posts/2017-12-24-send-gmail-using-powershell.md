@@ -8,7 +8,7 @@ permalink: /2017/12/send-gmail-using-powershell/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

@@ -9,7 +9,7 @@ tags:
   - Windows
   - Networking
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Router
 ---
 <!--more-->

@@ -8,7 +8,7 @@ permalink: /2017/12/snake-game-in-powershell/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

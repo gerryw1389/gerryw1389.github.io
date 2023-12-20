@@ -41,10 +41,10 @@ repository: "gerryw1389/gerryw1389.github.io"
 
 search: true # true, false (default)
 search_full_content: true # true, false (default)
-search_provider: google # lunr (default), algolia, google
-google:
-  search_engine_id: 43ce0de971d0f4f85
-  instant_search: false # false (default), true
+search_provider: lunr #google # lunr (default), algolia, google
+# google:
+#   search_engine_id: 43ce0de971d0f4f85
+#   instant_search: false # false (default), true
 
 comments:
   provider: "utterances"

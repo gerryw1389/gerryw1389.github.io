@@ -10,8 +10,8 @@ tags:
 tags:
   - Tweaks
   - GroupPolicy
-  - Scripting-CMD
-  - Scripting-Powershell
+  - Batch-Commands
+  - Powershell
 ---
 <!--more-->
 

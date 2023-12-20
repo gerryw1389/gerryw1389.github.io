@@ -8,7 +8,7 @@ permalink: /2020/01/ps-time-tracker/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
 ---
 <!--more-->
 

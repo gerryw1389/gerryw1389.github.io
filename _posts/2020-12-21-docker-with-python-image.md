@@ -9,8 +9,8 @@ tags:
   - Linux
 tags:
   - VirtualizationSoftware
-  - Scripting-Bash
-  - Scripting-Python
+  - Bash
+  - Python
 ---
 <!--more-->
 

@@ -8,7 +8,7 @@ permalink: /2016/12/ps-chocolatey/
 tags:
   - Windows
 tags:
-  - Scripting-Powershell
+  - Powershell
   - Powershell-Modules
   - Setup
 ---
