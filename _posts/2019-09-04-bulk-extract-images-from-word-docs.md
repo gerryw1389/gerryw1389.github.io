@@ -27,4 +27,4 @@ Follow these steps to extract images as single files from a Word Document. This 
    - file
      - name = `remove`
 
-3. This will get you: `whatever-1.jpg`, `whatever-2.jpg`, ect.
+3. This will get you: `whatever-1.jpg`, `whatever-2.jpg`, etc.

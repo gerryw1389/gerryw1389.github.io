@@ -18,7 +18,7 @@ Many people have heard of the term &#8220;DevOps&#8221; which is essentially dev
 
 Traditionally, there has always been two sides to IT:
 
-1. Developers who code applications and scripts but know little about infrastructure, networking, ect. These guys usually have CS degrees.
+1. Developers who code applications and scripts but know little about infrastructure, networking, etc. These guys usually have CS degrees.
 
 2. IT guys who know about infrastructure, networking, and OS related issues but little about building applications. The guys usually have IS/IT degrees.
 

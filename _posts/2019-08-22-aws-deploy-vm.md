@@ -33,7 +33,7 @@ Follow this guide to deploy a VM in AWS via GUI. Pretty basic, but still noted.
 
 6.	On `Add Tags`, enter `Owner` and `$Department who owns the server`
 
-7.	For Security Groups, choose `Default` for now. We will eventually be breaking these out by groups like – Web servers, Domain Controllers, ect.
+7.	For Security Groups, choose `Default` for now. We will eventually be breaking these out by groups like – Web servers, Domain Controllers, etc.
 
 8.	Click `Review and Launch`. A screen will pop up and ask for you to use some keys. Click to `Create a new key pair` and enter your name. Now download the .pem file to your machine.
 

@@ -28,6 +28,6 @@ I once had a client that wanted to convert from their business email account to 
 
 6. You cannot add an exchange account while Outlook is open, you have to close it and Run => Control => Mail options. Here you create a new profile (I always choose &#8220;Default&#8221;) and then select the radio button that launches &#8220;Default&#8221; every time.
 
-7. So now the Exchange account is created and you just need to import your IMAP emails, calandars, ect. Go back to File => Open => Import => Import from another file or program => Outlook Data File (.pst) => yourFilename. THIS MAY TAKE A WHILE. This is a good stage, at this point => you just have to wait for your email to sync between your client and the hosted exchange servers.
+7. So now the Exchange account is created and you just need to import your IMAP emails, calandars, etc. Go back to File => Open => Import => Import from another file or program => Outlook Data File (.pst) => yourFilename. THIS MAY TAKE A WHILE. This is a good stage, at this point => you just have to wait for your email to sync between your client and the hosted exchange servers.
 
 8. Once sync is complete, you should test by loading the email on multiple computers and then creating an appointment and verifying that it shows on all workstations at the same time.

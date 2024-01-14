@@ -20,7 +20,7 @@ In this post, I will go over how I deployed a vRO appliance v8.0.1 in on-prem vC
 
 1. Login to VMWare's support site and download the `.iso` image.
 
-2. Deploy it in vCenter with the appropriate hostname, IP Address info, ect.
+2. Deploy it in vCenter with the appropriate hostname, IP Address info, etc.
 
 3. Follow [this guide](https://docs.vmware.com/en/vRealize-Orchestrator/8.0/com.vmware.vrealize.orchestrator-install-config.doc/GUID-61267B72-2963-4E22-9630-DA90AF40EC05.html) to setup vCenter SSO
 

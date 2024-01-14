@@ -14,7 +14,7 @@ In an effort to better understand Terraform, I have signed up for 4 pay-as-you-g
 
 This is a common model people use for managing cloud providers as you can search `hub and spoke model` and get hundreds of results. One of the first links is to Microsoft's [Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/hub-spoke-network-topology) which I reference often. In it, they basically say:
 
-   - In your hub subscriptions, you can have DNS zones, Express Route connections, ect. setup.
+   - In your hub subscriptions, you can have DNS zones, Express Route connections, etc. setup.
    - In your spoke subscriptions, you can reference your hub subscription resources as needed.
 
 This is a common theme you will see in my [Terraform Examples Repo](https://github.com/gerryw1389/terraform-examples) where I will be passing two subscription ID's as environmental variables ( [for example](https://github.com/gerryw1389/terraform-examples/blob/main/2023-02-27-terraform-template/yaml/spoke/release/prod-eus-linux.yaml#L79)). The key here is that those will always be used to build two providers:

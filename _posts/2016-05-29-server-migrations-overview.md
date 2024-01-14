@@ -20,7 +20,7 @@ A common task for a Systems Administrator is to migrate an older server to a new
 
 2. Copy the data or program to the new VM and ensure it works correctly.
 
-3. Rename the new original VM after you verified it's safe to remove. Remove any DNS records or DHCP reservations going to the old VM. Also ensure that all the data off the old VM is safe to be gone e.g. Scheduled Tasks, Data, Local Users, ect.
+3. Rename the new original VM after you verified it's safe to remove. Remove any DNS records or DHCP reservations going to the old VM. Also ensure that all the data off the old VM is safe to be gone e.g. Scheduled Tasks, Data, Local Users, etc.
 
 4. Rename the new VM to the old VM's hostname if necessary. 
    

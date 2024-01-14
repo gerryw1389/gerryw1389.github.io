@@ -13,7 +13,7 @@ tags:
 <!--more-->
 
 ### Description:
-VRA or Vrealize Automation is a designer software where you build a form that is called a Blueprint that users will go to and fill out. This form, once completed allows your infrastructure to deploy VM's at the push of a button. It does this by using Vrealize Orchestrator in the background to run workflows which then tie into multiple systems like Vcenter, SQL servers, IPAM, ect. If your company has a huge VMWare presence, it is fully worth investing your time into learning how this works because it can not only provision a server, but it can decom a server, rename a server, ect. This software can also connect your organization to AWS/Google Cloud/Azure so that your users can have a single form that provisions where ever you want.
+VRA or Vrealize Automation is a designer software where you build a form that is called a Blueprint that users will go to and fill out. This form, once completed allows your infrastructure to deploy VM's at the push of a button. It does this by using Vrealize Orchestrator in the background to run workflows which then tie into multiple systems like Vcenter, SQL servers, IPAM, etc. If your company has a huge VMWare presence, it is fully worth investing your time into learning how this works because it can not only provision a server, but it can decom a server, rename a server, etc. This software can also connect your organization to AWS/Google Cloud/Azure so that your users can have a single form that provisions where ever you want.
 
 This post will go over how to create a test blueprint aside from your production one that you can use to test changes without affecting production blueprints.
 

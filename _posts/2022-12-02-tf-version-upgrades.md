@@ -63,6 +63,6 @@ So a critical part of using terraform across many repositories on a team is to p
    - I then had to remove `.terraform` from my `.gitignore` so I can push lock to repo
    - Push file to repo
 
-1. OK, so after updating the terraform CLI and the AzureRM, AzureAD, ect. providers, the next thing is to run `terraform plan` pipelines and fix any errors that come up. They are usually descriptive like `attribute depreciated, please use $x`. 
+1. OK, so after updating the terraform CLI and the AzureRM, AzureAD, etc. providers, the next thing is to run `terraform plan` pipelines and fix any errors that come up. They are usually descriptive like `attribute depreciated, please use $x`. 
 
 1. If you haven't already, ensure that you bookmark the Terraform docs to the version you use everywhere in your environment. This makes it easy to see what attributes are available for all resources using your pinned version. For example, I usually bookmark the [`azurerm_storage_account`](https://registry.terraform.io/providers/hashicorp/azurerm/3.33.0/docs/resources/key_vault) resource. Notice the version in the URL? `azurerm/3.33.0/docs`?

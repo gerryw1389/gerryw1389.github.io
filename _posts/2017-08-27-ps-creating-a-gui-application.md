@@ -22,7 +22,7 @@ This will create a form like the screenshot below that will launch the form and 
 
 ### To Resolve:
 
-1. So just copy and paste this in your PS_ISE and add scriptblocks like in lines 10-29 and then assign them to click events like in lines 56,66,76, ect.
+1. So just copy and paste this in your PS_ISE and add scriptblocks like in lines 10-29 and then assign them to click events like in lines 56,66,76, etc.
 
    ```powershell
    Function Invoke-Form

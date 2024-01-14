@@ -44,7 +44,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
    - Couple things to note here:
    - We are querying both Nonprod and Prod environments as well as South Central and East regions and getting their resources at the same time.
-   - We are accessing whatever properties are available of those resources like `name`, `id`, ect. and exporting them as outputs.
+   - We are accessing whatever properties are available of those resources like `name`, `id`, etc. and exporting them as outputs.
 
 3. Ok, so now we have `module.dataLookup.law_pe_rg` and `module.dataLookup.law_pe_name`, how does that help? Well the real power of this you can use a [lookup](https://developer.hashicorp.com/terraform/language/functions/lookup) function in your module composition like [so](https://github.com/gerryw1389/terraform-modules/blob/main/data-sources/examples/common.tf) :
 

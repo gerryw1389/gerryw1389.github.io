@@ -25,7 +25,7 @@ NOTE: In this example, I wanted to move all files older than a year to another l
 
    - Create `C:\Test` on your local machine.
    - Create `C:\Test2` on your local machine.
-   - Create some random text files in `C:\Test` and change their security properties e.g. Disable inheritance => Remove default user groups => Add some => Change their permissions, ect.
+   - Create some random text files in `C:\Test` and change their security properties e.g. Disable inheritance => Remove default user groups => Add some => Change their permissions, etc.
 
 2. Open up a Powershell window and run:
 

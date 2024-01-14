@@ -25,7 +25,7 @@ Jitbit helpdesk is a ticketing system solution that, for a fee, will sell you th
 
 3. Everything is built around users so have them sign in to create an account. From here you can assign them 3 types of categories: user, tech, or admin. Tech can be thought of as a group membership, user can be like end user, and admin is keys to the castle.
 
-4. Once you have a good group of users, go to administration => ticket categories and start creating categories that end users will use to submit tickets. This can be your ERP software, General IT, accounting, ect. Adding a group is real easy and whatever you add can be easily updated on the widget end. Once you create the categories, you add the users from the previous steps as technicians.
+4. Once you have a good group of users, go to administration => ticket categories and start creating categories that end users will use to submit tickets. This can be your ERP software, General IT, accounting, etc. Adding a group is real easy and whatever you add can be easily updated on the widget end. Once you create the categories, you add the users from the previous steps as technicians.
 
    - This part is pretty straight forward. You can mirror email groups as ticket categories. For example, if I have an exchange group called &#8220;it@domain.com&#8221; with 3 people: me, Tom, and Bill => you would create a category called &#8220;IT&#8221; for IT related issues and assign those three users to the category. Jitbit will automatically turn these 3 &#8220;users&#8221; into &#8220;technicians&#8221; because you placed them in a category => pretty neat!
 

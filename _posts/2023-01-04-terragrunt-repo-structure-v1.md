@@ -99,7 +99,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
 1. So after creating the files, it is best to see what is happening by breaking them down by the directory level:
 
-   - Level 1: [global.hcl](https://github.com/gerryw1389/terraform-examples/blob/main/2023-01-04-terragrunt-repo-structure-v1/infra-config/global.hcl) => Defines some local variables that will be inherited downwards to all subscriptions, environments, regions, ect. as well as imports environmental vars.
+   - Level 1: [global.hcl](https://github.com/gerryw1389/terraform-examples/blob/main/2023-01-04-terragrunt-repo-structure-v1/infra-config/global.hcl) => Defines some local variables that will be inherited downwards to all subscriptions, environments, regions, etc. as well as imports environmental vars.
 
    - Level 1: [root.hcl](https://github.com/gerryw1389/terraform-examples/blob/main/2023-01-04-terragrunt-repo-structure-v1/infra-config/root.hcl) => currently only has a `generate` block which is a Terragrunt native command that dynamically generates a `provider.tf` at run time. I'm sure there is more to this, this just my initial version. We will import this file later in the file structure.
 

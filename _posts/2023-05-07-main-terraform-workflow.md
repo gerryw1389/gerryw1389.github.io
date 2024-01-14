@@ -20,7 +20,7 @@ Note: You can see the code for this post on [my Github repo](https://github.com/
 
 ### To Resolve:
 
-1. For a long time, the only way I knew how to set this up was to create many workflows under `./.github/workflows/example1.yml`, `./.github/workflows/example2.yml`, ect.
+1. For a long time, the only way I knew how to set this up was to create many workflows under `./.github/workflows/example1.yml`, `./.github/workflows/example2.yml`, etc.
 
 1. Each of these workflows like example1.yml looked like this:
 

@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-There are 3 main Type 2 hypervisors at this time: VMWare Workstation/Player, Oracle VirtualBox, and Windows Hyper-V. Each have their streangths and weaknesses. Type 2 Hypervisors allow VM's to run within an OS and Type 1 run directly on the hardware itself (ESXI, HyperV Server, ect.)
+There are 3 main Type 2 hypervisors at this time: VMWare Workstation/Player, Oracle VirtualBox, and Windows Hyper-V. Each have their streangths and weaknesses. Type 2 Hypervisors allow VM's to run within an OS and Type 1 run directly on the hardware itself (ESXI, HyperV Server, etc.)
 
 ### W10 Hyper-V Setup:
 

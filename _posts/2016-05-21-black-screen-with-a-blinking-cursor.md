@@ -18,7 +18,7 @@ Windows will not boot up, it will just be a black screen with a blinking cursor 
 
 ### To Resolve:
 
-1. Check to make sure you have nothing plugged in to the computer except those that are needed (monitor, mouse, keyboard, ect.)
+1. Check to make sure you have nothing plugged in to the computer except those that are needed (monitor, mouse, keyboard, etc.)
 
 2. Check the CD Tray or if an external HDD is plugged in, this screen is common if the computer is trying to boot to those.
 

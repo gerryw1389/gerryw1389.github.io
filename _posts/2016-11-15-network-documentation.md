@@ -79,8 +79,8 @@ Documentation is one of the main things you will have to do as a systems adminis
    ```escape
    Here is some examples I have seen over the years:
 
-   Password Sheet => Passwords for admin portals, client phone numbers, ect.  
-   Server sheet => Documentation on each physical server, their Windows key, OS version, VM's hosted, disk space, ect. Much of this can be pulled from your monitoring system.  
+   Password Sheet => Passwords for admin portals, client phone numbers, etc.  
+   Server sheet => Documentation on each physical server, their Windows key, OS version, VM's hosted, disk space, etc. Much of this can be pulled from your monitoring system.  
    Domain Info => Public IP's, what's being hosted on what, ports opened  
    Employee List => Sheet of office employees (not needed in bigger companies)  
    Video Conferencing Rooms => A sheet that list rooms for users.  

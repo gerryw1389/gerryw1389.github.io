@@ -18,7 +18,7 @@ Lately there have been reports of viruses that do not infect the file system exc
 
 ### To Resolve:
 
-1. Find out if you have this particular infection by running `taskmgr.msc`. Processes running will look like legitimate processes but will not be. Examples include: COM Surrogate, CTF Loader, Windows Picture Acquision Wizard, ect. (see screenshot below).
+1. Find out if you have this particular infection by running `taskmgr.msc`. Processes running will look like legitimate processes but will not be. Examples include: COM Surrogate, CTF Loader, Windows Picture Acquision Wizard, etc. (see screenshot below).
 
   <img class="alignnone size-full wp-image-624" src="https://automationadmin.com/assets/images/uploads/2016/09/com-surrogate-infection.jpg" alt="com-surrogate-infection" width="910" height="673" srcset="https://automationadmin.com/assets/images/uploads/2016/09/com-surrogate-infection.jpg 910w, https://automationadmin.com/assets/images/uploads/2016/09/com-surrogate-infection-300x222.jpg 300w, https://automationadmin.com/assets/images/uploads/2016/09/com-surrogate-infection-768x568.jpg 768w" sizes="(max-width: 910px) 100vw, 910px" />
 

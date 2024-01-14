@@ -31,7 +31,7 @@ Let me start by saying I'm not an Excel/Sheets guru by any means. This post is j
 
    `=IFS(MONTH(K17)=1,(1000), MONTH(K17)=2,(2000), MONTH(K17)=3,(3000), MONTH(K17)=4,(4000), MONTH(K17)=5,(5000), MONTH(K17)=6,(6000), MONTH(K17)=7,(7000), MONTH(K17)=8,(8000), MONTH(K17)=9,(9000), MONTH(K17)=10,(10000), MONTH(K17)=11,(11000), MONTH(K17)=12,(12000) )`
 
-   - It is basically saying, `give me the value of the month in K17 and I will set my cell to whatever the lookup is. So 1 = 1000, 3 = 3000, ect.`
+   - It is basically saying, `give me the value of the month in K17 and I will set my cell to whatever the lookup is. So 1 = 1000, 3 = 3000, etc.`
 
 1. To reference another sheets cell, you just use `=MySheet1!J16` for example.
 

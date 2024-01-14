@@ -28,7 +28,7 @@ So almost every example you will see online for connecting to Azure or Terraform
    - For organization, choose your org: `AutomationAdmin-Com` in my case
    - For repo, choose your repo: `sic.template` in my case
    - For Entity type, you have a few options like `Environment, branch, PR, Tag`, I always choose `Environment`
-   - For Github Name you have to specify from the previous selection the selector. For example, environement has to match the Github Environment you will deploy from in your workflow, branch has to match a branch, ect. I chose `production` which I will show you shortly.
+   - For Github Name you have to specify from the previous selection the selector. For example, environement has to match the Github Environment you will deploy from in your workflow, branch has to match a branch, etc. I chose `production` which I will show you shortly.
    - For name, you just give a unique name for the credential: I chose `sic-template-env-prod`.
 
 1. Next, inside my [sic.template](https://github.com/AutomationAdmin-Com/sic.template) repo, I added these 3 required secrets for the action:  `${/{ secrets.CLIENT_ID }}`, `${/{ secrets.TENANT_ID }}`, and `${/{ secrets.SUB_ID }}` where SUB_ID is just one of my Azure Subscriptions `id` property, it doesn't matter which one.

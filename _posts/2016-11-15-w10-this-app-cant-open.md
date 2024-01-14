@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-In Windows 10, you will get a pop up box when you try to open one of the store applications like Edge, Store, ect. It will say `this app can't open by the built in administrator account` even if you are a domain user with local admin rights to your machine.
+In Windows 10, you will get a pop up box when you try to open one of the store applications like Edge, Store, etc. It will say `this app can't open by the built in administrator account` even if you are a domain user with local admin rights to your machine.
 
 ### To Resolve:
 

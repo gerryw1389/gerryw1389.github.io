@@ -18,13 +18,13 @@ This is a guide on different IT Policies you can you use in your department.
 
 1. Change Management Policy => A policy for changes which should have procedures. Should include: Change authorization, testing, approval, monitoring, and segregation of incompatible duties.
 
-2. General Policies => A policy for Anti-Virus management, vendors, firewalls, ect.
+2. General Policies => A policy for Anti-Virus management, vendors, firewalls, etc.
 
 3. Password Policies => A policy for Active Directory, servers, workstations, and applications.
 
 4. Priviliged Users Policy => A policy which lists which users have administrative rights or anything above a regular user for all systems and applications.
 
-5. Access Control Policy => A policy which restricts users to their departments. Ex: Local admin accounts for support, DBA's to their Databases, ect.
+5. Access Control Policy => A policy which restricts users to their departments. Ex: Local admin accounts for support, DBA's to their Databases, etc.
 
 6. Access Authorization Policy => A policy for creation, modification, and deletion of users and a periodic review of users access rights. This should be split between departments.
 

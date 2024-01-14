@@ -33,7 +33,7 @@ Migrating a file servers is a relatively easy task. That being said, if you don'
 
 4. I then ran: `robocopy z:\ g:\ /mir /sec /secfix /v /mt:20 /log:c:robocopy.log /tee`
 
-5. Once the directories were mirrored, I then just had to check FILE for any leftover data, scheduled tasks, local users, ect. and make sure they got migrated to FILE2. Thankfully, we have plenty of specific VM's so there wasn't anything else to move over.
+5. Once the directories were mirrored, I then just had to check FILE for any leftover data, scheduled tasks, local users, etc. and make sure they got migrated to FILE2. Thankfully, we have plenty of specific VM's so there wasn't anything else to move over.
 
    - It took us a while having both servers and waiting to do the migration so I setup a scheduled task to point to the following batch file to run everyday at 2 AM:
 

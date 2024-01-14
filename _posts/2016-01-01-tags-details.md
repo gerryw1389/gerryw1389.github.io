@@ -35,7 +35,7 @@ This post helps navigate the categories and tags on this site by giving meanings
    |Backup| Veeam, robocopy| Concepts|
    |CCNA| Cisco Certified Network Associate Topics| Concepts|
    |Certificates| Anything regarding PKI infrastrucute or certs in general| Security|
-   |Cloud | AWS, Azure, Cloudflare, ect.| Concepts|
+   |Cloud | AWS, Azure, Cloudflare, etc.| Concepts|
    |ComputerImaging | Mostly Windows Deployment Services with Microsoft Deployment Tool (WDS/MDT)| Windows Roles|
    |ConfigManagement | Puppet, hopefully Ansibile soon!| Concepts|
    |FileSystem| Generic file system commands | Concepts|
@@ -64,12 +64,12 @@ This post helps navigate the categories and tags on this site by giving meanings
    |Viruses| Posts for back in the helpdesk days with Windows clients | Concepts|
    |WebServer | IIS, Apache, Nginx, Github Pages (Jekyll) | Software|
    |WindowsServer-Roles| Anything regarding Windows Server roles | Concepts|
-   |Hardware | Hardware related stuff - servers, racks, UPS units, ect.| Hardware|
+   |Hardware | Hardware related stuff - servers, racks, UPS units, etc.| Hardware|
    |Networking | Networking related stuff| Networking|
    |LocalSoftware | Anything regarding settings for a specific program|Software|
    |WebSoftware | Settings for a program that exists as a SaaS like Sharepoint Online or Office 365|Software|
    |SysAdmin | Catch all category for references, learning, or general posts|Concepts|
-   |Security | Usually posts with protocols, hardening systems, ect.|Concepts|
+   |Security | Usually posts with protocols, hardening systems, etc.|Concepts|
    |Linux | Linux related posts|Operating Systems|
    |Unix | Unux related posts|Operating Systems|
    |Windows | Windows related posts|Operating Systems|

@@ -38,7 +38,7 @@ After installing Linux Mint with the KDE desktop I did a couple things after ins
 2. To Install Cinnamon Along Side KDE:
 
    - First, get familiar with these 3 packages:  
-     - kWIN => desktop manager => wobbly windows/ ect.  
+     - kWIN => desktop manager => wobbly windows/ etc.  
      - Compiz => Desktop manager  
      - Fusion => For multiple desktop environments, you can switch between them.
 

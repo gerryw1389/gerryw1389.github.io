@@ -14,7 +14,7 @@ tags:
 
 ### Description:
 
-Many times administrators will want to monitor servers, switches, ect. Aside from simple ping tests, WMI queries, ect. you may find yourself wanting to use SNMP. SNMP is a chatty protocol that you can learn about my just googling the phrase. Essentially, V3 is recommended but I have only really seen V2 with a custom community string configured.
+Many times administrators will want to monitor servers, switches, etc. Aside from simple ping tests, WMI queries, etc. you may find yourself wanting to use SNMP. SNMP is a chatty protocol that you can learn about my just googling the phrase. Essentially, V3 is recommended but I have only really seen V2 with a custom community string configured.
 
 ### To Resolve:
 

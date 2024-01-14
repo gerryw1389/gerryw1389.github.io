@@ -16,7 +16,7 @@ This post is an archived version of the about me page on my site.
 
 The way I learned IT was the same as learning any other subject, you start with broad categories and narrow your way down as your career progresses. In general, the majority of IT can fit into a combination of 3 categories:
 
-Hardware - The physical devices themselves. This is routers, switches, servers, workstations, ect.
+Hardware - The physical devices themselves. This is routers, switches, servers, workstations, etc.
 
 Software - This is the code that runs on the hardware. By far the broadest category.
 
@@ -24,7 +24,7 @@ Networking - How these devices "talk" to one another. Mainly learning protocols 
 
 Early in your career it is best to learn how to troubleshoot properly. This may seem like an easy skill to acquire, but it usually takes people over two years of solid experience to get this down correctly, and some go their whole careers not learning. Troubleshooting falls into a category of "break/fix" where you have an issue at hand and you fix it, nothing really beyond that (such as preventing the issue from happening again or implementing a solution that would negate the issue altogether).
 
-Next is administration. This is a "background" side of IT where you are more of a decision maker than a break/fix type of person. Here, IT professionals layout policies for the network, what software is to be installed on what machine, which ports are to be open on which servers/switches/routers, ect. This is point where you control the network on the highest level.
+Next is administration. This is a "background" side of IT where you are more of a decision maker than a break/fix type of person. Here, IT professionals layout policies for the network, what software is to be installed on what machine, which ports are to be open on which servers/switches/routers, etc. This is point where you control the network on the highest level.
 
 Feel free to browse whichever posts interest you, but I would suggest starting with:
 

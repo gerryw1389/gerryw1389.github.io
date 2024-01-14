@@ -27,11 +27,11 @@ Follow this guide to use a public cloud service (Google Drive in this example) a
    - Z:Google\Programs => usually portable programs like WizTree, VSCode, and some others  
    - Z:Google\Docs => work documents that I don't care if Google sees  
    - Z:\Google\&#8230;. => Here you can have as many Google folders and files as you want. They should be treated as &#8220;public&#8221; even if they are not. This is information that you don't mind if Google mines to sell advertisements to you. Should limit to only information that is &#8220;public&#8221;.  
-  - Z:\Data => This is the parent folder for 99% of my files that are stored elsewhere, i.e. my &#8220;private&#8221; files. These are family photos, documents, ect. that I **DON'T** want Google to mine.
+  - Z:\Data => This is the parent folder for 99% of my files that are stored elsewhere, i.e. my &#8220;private&#8221; files. These are family photos, documents, etc. that I **DON'T** want Google to mine.
 
    - When I add Google Drive to another computer, I sync all directories except Google\Data. This allows me to have a portable Google folder for use in multiple places, but only one place with my important stuff being synced. I can always grab files from my &#8220;private&#8221; stash as explained later.
 
-3. Now we get to CryptSync. What you do is set CryptSync to sync Z:\Data to Z:\google\data and you will get the same folder structure as you normally would (my-docs, my-pics, ect.), but all the files will be automatically encrypted with a password of your choosing. You then just set CryptSync to run on Windows startup and it will always make sure your data is encrypted that you send to Google. Since it uses 7zip, you can always restore by using 7zip to unzip the folder with your password to unencrypt a folder or file.
+3. Now we get to CryptSync. What you do is set CryptSync to sync Z:\Data to Z:\google\data and you will get the same folder structure as you normally would (my-docs, my-pics, etc.), but all the files will be automatically encrypted with a password of your choosing. You then just set CryptSync to run on Windows startup and it will always make sure your data is encrypted that you send to Google. Since it uses 7zip, you can always restore by using 7zip to unzip the folder with your password to unencrypt a folder or file.
 
 4. On the S:\, I have one main subfolder: S:\google-backup
 

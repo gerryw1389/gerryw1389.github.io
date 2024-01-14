@@ -12,7 +12,7 @@ tags:
 
 ### Description:
 
-Working for a SMB you will wear many hats: Systems admin, help desk admin, network admin, security admin, ect. One thing that helps with such diverse roles is to have a good IT Policy that you follow and update regularly. This post is the types of documentation most environments should have.
+Working for a SMB you will wear many hats: Systems admin, help desk admin, network admin, security admin, etc. One thing that helps with such diverse roles is to have a good IT Policy that you follow and update regularly. This post is the types of documentation most environments should have.
 
 ### To Resolve:
 

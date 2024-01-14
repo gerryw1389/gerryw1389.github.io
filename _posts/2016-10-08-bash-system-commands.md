@@ -15,7 +15,7 @@ tags:
 
 ### Description:
 
-These commands have to do with system resources, user accounts, permissions, ect.
+These commands have to do with system resources, user accounts, permissions, etc.
 
 ### User commands
 

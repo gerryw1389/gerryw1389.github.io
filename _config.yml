@@ -39,6 +39,8 @@ name: "gerryw1389"
 url: "https://automationadmin.com"
 repository: "gerryw1389/gerryw1389.github.io"
 
+excerpt_separator: <!--more-->
+
 search: true # true, false (default)
 search_full_content: true # true, false (default)
 search_provider: lunr #google # lunr (default), algolia, google

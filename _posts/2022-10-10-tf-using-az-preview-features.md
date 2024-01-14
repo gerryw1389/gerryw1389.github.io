@@ -68,5 +68,5 @@ Follow this post to use features not yet available in Terraform but are availabl
 1. For example, [storage account create version 2022-05-01 will have these features](https://learn.microsoft.com/en-us/rest/api/storagerp/storage-accounts/create?tabs=HTTP)
    - The URI params will require multiple strings
    - The Request Body will require multiple properties being passed.
-   - The response object received back will be of type [Storage Account](https://learn.microsoft.com/en-us/rest/api/storagerp/storage-accounts/create?tabs=HTTP#storageaccount) which has its own properties like `id`, `kind`, ect.
+   - The response object received back will be of type [Storage Account](https://learn.microsoft.com/en-us/rest/api/storagerp/storage-accounts/create?tabs=HTTP#storageaccount) which has its own properties like `id`, `kind`, etc.
    - Try switching between the different code sets in the [example](https://learn.microsoft.com/en-us/rest/api/storagerp/storage-accounts/create?tabs=HTTP#storageaccountcreate). Does it make sense now that you can interact with Azure in multiple different ways but they all translate to a Rest API operation in the background? This was incredibly insightful when I first found this out.

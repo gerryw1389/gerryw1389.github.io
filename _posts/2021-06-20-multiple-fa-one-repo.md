@@ -52,7 +52,7 @@ In this post I will demonstrate how to connect multiple functions apps to one re
    # on branch testing
    ```
 
-2. Inside the testing branch, add your code of the Function App while referencing Test systems, variables, ect.
+2. Inside the testing branch, add your code of the Function App while referencing Test systems, variables, etc.
 
 3. Now, just configure Github actions to target a specific push for a specific branch like seen in my [examples](https://github.com/gerryw1389/python/tree/main/scripts/example-run-python-script-on-approval/.github/workflows)
 

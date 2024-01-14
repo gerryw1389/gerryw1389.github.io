@@ -16,7 +16,7 @@ tags:
 
 ### Description:
 
-AutoRun's are actions that Windows does as soon as you plug a device in via USB, CD Tray, ect. These can be highly annoying, try these steps to disable them. First, just go to Run => control => Use the search and search for &#8220;Auto&#8221; and then select &#8220;Choose what to do for Media Devices&#8221; and customize it there.
+AutoRun's are actions that Windows does as soon as you plug a device in via USB, CD Tray, etc. These can be highly annoying, try these steps to disable them. First, just go to Run => control => Use the search and search for &#8220;Auto&#8221; and then select &#8220;Choose what to do for Media Devices&#8221; and customize it there.
 
 ### To Resolve: If On A Domain
 

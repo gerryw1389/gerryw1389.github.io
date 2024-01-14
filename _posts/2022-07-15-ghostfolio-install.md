@@ -145,7 +145,7 @@ So I needed an excuse to follow the `Rocky verus Alma` debate that has been goin
 
 1. Now from another machine on the network, open up a browser and go to the URLs and you should see the two containers running on different ports: `http://192.168.10.10:8000/a.html` and `http://192.168.10.10:8005/a.html`
 
-1. So after this what I did was practice different docker commands by spinning up containers and deleting them, viewing them, stopping them, ect.
+1. So after this what I did was practice different docker commands by spinning up containers and deleting them, viewing them, stopping them, etc.
 
    - First, to view containers that are running, run: `docker ps`
    - To see all containers regardless of status: `docker ps -a`. This is important because you CANNOT reuse a container name or image name so you have to delete container or image if you want to use them again.

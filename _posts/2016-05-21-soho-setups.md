@@ -32,7 +32,7 @@ I use the following guide when doing SOHO (small office/home office) set ups.
 
 5. I almost always setup one computer to be a &#8220;server&#8221;. This computer will be the center computer in the office and can share a drive out for others to connect to. This serve's multiple purposes, but mainly allows for a free online backup for SOHO's, here's how:
 
-   - Download an online sync client to your computer with a free account (or paid obviously) GoogleDrive, OneDrive, DropBox, ect. When installing, choose a path to a folder on the root of the `C:` instead of the default (they usually try and install in `%userprofile%\MyDocuments`).
+   - Download an online sync client to your computer with a free account (or paid obviously) GoogleDrive, OneDrive, DropBox, etc. When installing, choose a path to a folder on the root of the `C:` instead of the default (they usually try and install in `%userprofile%\MyDocuments`).
 
    - Create a folder inside of the root of the sync service and call it &#8220;Data&#8221; and share it out. Right click => Properties => Sharing => Add: Everyone => give them read/write permissions.
 
