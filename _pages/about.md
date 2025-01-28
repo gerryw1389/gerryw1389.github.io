@@ -92,10 +92,11 @@ Many people who write blogs are highly skilled in their domain and speak at conf
    - ![Solutions Architect](https://automationadmin.com/assets/images/uploads/certs/az303-az304.png){:class="img-responsive"}
    - 2021-10-02: Microsoft Azure Architect Design (AZ304)
    - 2021-08-01: Microsoft Azure Architect Technologies (AZ303) 
-   - [Verify](https://www.credly.com/users/gerry-williams.5513fbdf/badges)
+   - [Verify](https://learn.microsoft.com/api/credentials/share/en-us/gerryw1389/B5DCB300D654DA75?sharingId=2FE55661222C38FD)
 
 1. 2020-05-16: Microsoft Azure Administrator (AZ103)
    - ![AZ103](https://automationadmin.com/assets/images/uploads/certs/az103.png){:class="img-responsive"}
+   - [Verify](https://learn.microsoft.com/api/credentials/share/en-us/gerryw1389/C9927E497853FBAE?sharingId=2FE55661222C38FD)
 
 1. 2016-06-17: Cisco Certified Network Associate: Routing and Switching (CCNA R&S)
    - ![CCNA](https://automationadmin.com/assets/images/uploads/certs/ccna.png){:class="img-responsive"}
