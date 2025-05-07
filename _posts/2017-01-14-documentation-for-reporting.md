@@ -60,4 +60,4 @@ A big part of systems administration is producing reports for your management te
 
 ### References:
 
-["3. Does the team record monthly metrics?"](http://www.opsreportcard.com/section/3)
+["3. Does the team record monthly metrics?"](https://www.stitchflow.com/tools/opsreportcard)

@@ -82,13 +82,13 @@ tags:
 - [HIPAA Compliance Policies](https://github.com/catalyzeio/policies)
 - [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
 - [ITS - IT Policies](http://www.k-state.edu/its/policies/)
-- [Ops Report Card](http://www.opsreportcard.com/)
+- [Ops Report Card](https://www.stitchflow.com/tools/opsreportcard)
 - [What is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 - [(back to top)](https://automationadmin.com/2016/02/bookmarks/#page-title)
 
 ### Best Practices
 
-- [Ops Report Card](http://www.opsreportcard.com/)
+- [Ops Report Card](https://www.stitchflow.com/tools/opsreportcard)
 - [Ops School Curriculum](https://www.opsschool.org/)
 - [(back to top)](https://automationadmin.com/2016/02/bookmarks/#page-title)
 
